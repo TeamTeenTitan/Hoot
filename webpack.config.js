@@ -5,8 +5,13 @@ module.exports = {
   entry: './client/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'bundle.js',
+    // Added these two 4/14
+    // filename: '[name].[contenthash].js',
+    // assetModuleFilename: '[name][ext]',
+    filename: 'bundle.js', // removed 4/14
+    // clean: true, // Fixed a few errors
   },
+  devtool: 'inline-source-map', // added 4/14 fixed mapping errors
   devServer: {
     static: {
       directory: path.join(__dirname, './client'),

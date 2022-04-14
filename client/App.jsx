@@ -30,19 +30,33 @@ export default function App() {
 
   const headers=["Left", "Left Leaning", "Center", "Right Leaning", "Right"]
   const [columns, setColumns] = useState(null);
+  const [test, setTest] = useState([])
 
-  useEffect(()=>{
-    axios.get("/api")
-    .then((response) => {
-      setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
-    .catch(err => {console.log(err)});
-  }, [])
+  // useEffect(()=>{
+  //   axios.get("/api")
+  //   .then((response) => {
+  //     setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
+  //   .catch(err => {console.log(err)});
+  // }, [])
 
   // useEffect(()=>{
    
-  //   setColumns(sampleData.map((el,i) => <Home articles={el} bias={headers[i]}/>));
+  //   setColumns(sampleData.map((el,i) => <Home key='i' articles={el} bias={headers[i]}/>));
    
   // }, [])
+
+  useEffect(() => {
+    fetchNews();
+  }, [])
+
+  const fetchNews =  () => {
+    try {
+      const { data } =  axios.get('/api', {test});
+      setTest(data)
+    } catch (error) {
+      console.error('error reported by fetchNews on App.jsx', error)
+    }
+  }
 
 
   return (
