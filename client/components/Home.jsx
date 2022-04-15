@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { styled } from '@mui/material/styles';
+
 import Box from "@mui/material/Box";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
@@ -17,6 +19,14 @@ import LoadingButton from '@mui/lab/LoadingButton';
 import SaveIcon from '@mui/icons-material/Save';
 import Stack from '@mui/material/Stack';
 import PropTypes from 'prop-types';
+import Collapse from '@mui/material/Collapse';
+import Avatar from '@mui/material/Avatar';
+import { red } from '@mui/material/colors';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ShareIcon from '@mui/icons-material/Share';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
+import CardHeader from '@mui/material/CardHeader';
 
 
 import IconButton from '@mui/material/IconButton';
@@ -27,116 +37,77 @@ import BookmarksIcon from '@mui/icons-material/Bookmarks';
 
 
 export default function VirtualizedList(props) {
+
+  
   const { articles } = props;
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleExpandClick = () => {
+    setExpanded(!expanded);
+  };
 
 
 
   function renderRow(props) {
+
+    const [expanded, setExpanded] = React.useState(false);
+
+    const handleExpandClick = () => {
+      setExpanded(!expanded);
+    };
     const { index, style } = props;
 
     return (
-      <ListItem sx={{m: 0}} style={style} key={index} component="div" disablePadding alignItems="center">
+      <ListItem className="zoom" sx={{marginLeft:"-1", borderColor: "white"}} style={style} key={index} component="div" disablePadding alignItems="center">
         
-        <ListItemButton onClick={()=>window.open(articles[index].link)}>
-        
-          <Card sx={{ 
-            display: 'grid',
-            gap: 1,
-            gridTemplateColumns: ' 40px 80px 70px 28px ',
-            gridTemplateRows: '40px 33px 12px 78px ',
-
-
-            backgroundColor: "common.light",
-            borderColor:"secondary.main",
-            boxShadow: 8,
-            border:1,
-            borderRadius:5,
-            minWidth: 220,
-            maxWidth: 220,
-            maxHeight: 200,
-            minHeight: 200 }}
-            display= "inline block">
-           
-           
-           <Box
-        component="img"
-        sx={{
-          marginTop: 1.5,
-         marginLeft: 1,
-          height: 30,
-          width: 30,
-          gridColumnStart: 1,
-          gridColumnEnd: "span 1",
-          gridRowStart: 1,
-          gridRowEnd: 'span 1',
-                }}
-        alt="The house from the offer."
-        src={articles[index].source.favicon}
-      />
-
-<Typography sx={{
-   marginTop: 1.5,
-  fontSize:12,
-  gridColumnStart: 2,
-  gridColumnEnd: "span 1",
-  gridRowStart: 1,
-  gridRowEnd: 'span 1',
-  }}
-  variant="h1" component="div">
-{articles[index].source.title}               
- </Typography>
-              
-        
-              <CardActions sx={{
-   marginLeft: -5,
-  gridColumnStart: 4,
-  gridColumnEnd: "span 1",
-  gridRowStart: 1,
-  gridRowEnd: 'span 1',
-  }}>
-                <IconButton  size="small" variant="outlined"><BookmarksIcon/></IconButton>
-              </CardActions>
-      
-    
+        <ListItemButton onClick={()=>window.open(articles[index].link)} sx={{'&:hover': {
           
-  
-              <CardContent sx={{
-   marginTop: -1.5,
-   marginLeft: -1,
-  fontSize:12,
-  gridColumnStart: 1,
-  gridColumnEnd: "span 4",
-  gridRowStart: 2,
-  gridRowEnd: 'span 1',
-  }}>
-                <Typography sx={{fontSize:10}}variant="h6" component="div">
-                  {articles[index].title.slice(0,100) + "..."}
-                </Typography>
-              </CardContent>
+          backgroundColor: 'transparent !important'      } }}>
+        
+        <Card sx={{ maxWidth: 190, maxHeight: 180, borderRadius: 5 }}>
+          <Box sx={{display: "flex"}}>
+      <CardHeader  
+        avatar={
+          <CardMedia
+          component="img"
+          height="20"
+          image= {articles[index].source.favicon }
+          alt="none"
+          
+        />
+        }
 
-              
-
-              <Box
-        component="img"
-        sx={{
-          borderRadius: 1,
-          marginLeft: -2.5,
-         width: 150,
-         height: 80,
-        justifySelf: 'center',
-          gridColumnStart: 1,
-          gridColumnEnd: "span 4",
-          gridRowStart: 4,
-          gridRowEnd: 'span 1',
-                }}
-        alt="The house from the offer."
-        src={articles[index].thumbnail} 
       />
-
-         
+      <Typography  sx={{fontSize:15, marginRight:10, minWidth:120, mt: 1.5}}>
+        
+            {articles[index].source.title.length > 20 ? articles[index].source.title.slice(0,20)+"..." : articles[index].source.title}
+          </Typography>
+       </Box>
+      <CardMedia
+        component="img"
+        height="70"
+        image={articles[index].thumbnail} 
+        alt="Paella dish"
+        />
   
-       
-          </Card>
+      <CardContent sx={{marginTop:"-10px"}}>
+        <Typography sx={{ fontSize:10}} variant="body2" color="black">
+         {articles[index].title}
+        </Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton aria-label="add to favorites">
+          <FavoriteIcon />
+        </IconButton>
+        <IconButton aria-label="share">
+          <ShareIcon />
+        </IconButton>
+      
+  
+      </CardActions>
+  
+    </Card>
+        
         </ListItemButton>
       </ListItem>
     );
@@ -145,10 +116,14 @@ export default function VirtualizedList(props) {
 
   return (
     <div>
-      <Typography sx={{
-        color: "white",
-        fontSize:40,
-        textAlign: 'center'
+      <Typography className="headers" sx={{
+      
+        fontSize:30,
+        textAlign: 'center',
+        color: 'black',
+        fontFamily: "Palatino, URW Palladio L, serif",
+        fontWeight: 50,
+    
         }}
         variant="h6"
         component="div">
@@ -162,20 +137,21 @@ export default function VirtualizedList(props) {
           borderRadius: 5,
           color: "#1769aa",
           boxShadow: 10,
+          
           mt: 2,
           mr:2,
           border: 1,
           width: "100%",
-          height: 590,
-          maxWidth: 250,
-          backgroundColor: "secondary.main",
+          height: 480,
+          maxWidth: 220,
+          backgroundColor: "#f1f2f5",
           borderColor:"white"
         }}
         >
         <FixedSizeList
-          height={580}
+          height={470}
           width={250}
-          itemSize={215}
+          itemSize={200}
           itemCount={articles.length-1}
           overscanCount={5}
         >

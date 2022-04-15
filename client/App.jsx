@@ -12,52 +12,48 @@ import { sampleData } from "./assets/sampleData.js"
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#2B2012",
-      darker: "#053e85",
+      main: "#8f24bd",
     },
     secondary: {
-      main: "#D67747",
-      light: "#462210",
-    },
-    common: {
-      main: '#E8CFC1',
-      light: '#f1e2da'
+      main: "#f1f2f5"
     }
+  
   },
 });
 
 export default function App() {
 
-  const headers=["Left", "Left Leaning", "Center", "Right Leaning", "Right"]
+  const headers=["Left", "Lean-Left", "Center", "Lean-Right", "Right"]
   const [columns, setColumns] = useState(null);
 
-  useEffect(()=>{
-    axios.get("/api")
-    .then((response) => {
-      setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
-    .catch(err => {console.log(err)});
-  }, [])
-
   // useEffect(()=>{
-   
-  //   setColumns(sampleData.map((el,i) => <Home articles={el} bias={headers[i]}/>));
-   
+  //   axios.get("/api")
+  //   .then((response) => {
+  //     setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
+  //   .catch(err => {console.log(err)});
   // }, [])
+
+  useEffect(()=>{
+   
+    setColumns(sampleData.map((el,i) => <Home articles={el} bias={headers[i]}/>));
+   
+  }, [])
 
 
   return (
 
     <ThemeProvider theme={theme}>
-
+      <div>
+<HeaderIcons/>
       <div className="main">
-      <HeaderIcons />
         <Search setColumns={setColumns}/>
        
         <div className="cardWrap">
           {columns}
         </div>
-      </div>
 
+      </div>
+</div>
     </ThemeProvider>
   );
 }
