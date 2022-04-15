@@ -49,14 +49,16 @@ export default function App() {
     fetchNews();
   }, [])
 
-  const fetchNews =  () => {
+  const fetchNews = async () => {
     try {
-      const { data } =  axios.get('/api', {test});
+      const { data } =  await axios.get('/api');
       setTest(data)
     } catch (error) {
       console.error('error reported by fetchNews on App.jsx', error)
     }
   }
+
+  // console.log('this is my result', test)
 
 
   return (

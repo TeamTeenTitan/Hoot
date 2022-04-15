@@ -3,6 +3,7 @@ const express = require('express');
 const server = express();
 const cookieParser = require('cookie-parser');
 const PORT = 8000;
+// const cors = require('cors'); 
 
 const apiRouter = require('./routes/api');
 const authRouter = require('./routes/auth');
@@ -11,22 +12,24 @@ server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 server.use(cookieParser());
 
-server.use('/build', express.static(path.join(__dirname, '../build')));
+// server.use('/build', express.static(path.join(__dirname, '../build')));
 
-// app.get('/', (req, res) => {
-//   const fileName = path.resolve(__dirname, '../client/index.html');
-//   res.sendFile(fileName, (err) => {
-//     if (err) {
-//       console.log(err);
-//     }
-//     console.log('sent');
-//   });
-// });
-server.get('/api', (req, res) => {
-  res.send('Test')
-})
+server.get('/', (req, res) => {
+  const fileName = path.resolve(__dirname, '../client/index.html');
+  res.sendFile(fileName, (err) => {
+    if (err) {
+      console.log(err);
+    }
+    console.log('sent');
+  });
+});
 
-// server.use('/api', apiRouter);
+// server.get('/api', (req, res) => {
+//   console.log('This is my get request on server.js')
+//   res.send('Test')
+// })
+
+server.use('/api', apiRouter);
 server.use('/auth', authRouter);
 
 server.use((req, res) => res.status(404).send('This is not the page you\'re looking for...'));
