@@ -1,5 +1,4 @@
 const express = require('express');
-
 const newsController = require('../controllers/newsController');
 const testController = require('../controllers/testController');
 

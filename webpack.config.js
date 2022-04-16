@@ -3,9 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const regeneratorRuntime = require("regenerator-runtime");
 
 module.exports = {
-  // entry: './client/index.js', // removed 4/14, replaced with:
   mode: 'development',
-  entry: { 
+  entry: {
     main: ["regenerator-runtime/runtime.js", path.resolve(__dirname, 'client/index.js')],
   },
   output: {
@@ -18,19 +17,33 @@ module.exports = {
   },
   devtool: 'eval-source-map', // added 4/14 fixed mapping errors
   devServer: {
+    host: 'localhost',
     static: {
-      directory: path.join(__dirname, './client'),
       publicPath: '/',
+      directory: path.join(__dirname, './client'),
     },
     port: 3000,
     open: true,
     hot: true,
     proxy: {
-      '/api': 'http://localhost:8000',
-      '/search': 'http://localhost:8000',
-      '/auth': 'http://localhost:8000',
+      '/api/*': {
+        'target': 'http://localhost:8000',
+        'secure': false,
+        'changeOrigin': true,
+      },
+      '/search/*': {
+        'target': 'http://localhost:8000',
+        'secure': false,
+        'changeOrigin': true,
+      },
+      '/auth/*': {
+        'target': 'http://localhost:8000',
+        'secure': false,
+        'changeOrigin': true,
+      },
     },
   },
+
   plugins: [
     new HtmlWebpackPlugin({
       // this injects a script tag in the html
@@ -40,11 +53,12 @@ module.exports = {
       template: path.resolve(__dirname, 'client/index.html'),
     }),
   ],
+  
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: path.resolve(__dirname, 'node_modules'),
+        exclude: /node_modules/,
         use: {
           loader: "babel-loader",
           options: {
