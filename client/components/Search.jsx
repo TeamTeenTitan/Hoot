@@ -65,6 +65,7 @@ const handleOnChange = event => {
         fontSize: 100,
         textAlign: 'center',
         fontFamily: "Palatino, URW Palladio L, serif",
+        mt: 4,
    
         
         }}

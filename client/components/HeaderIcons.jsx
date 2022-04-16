@@ -37,12 +37,10 @@ export default function ButtonAppBar() {
     <Box >
       <AppBar position="fixed" sx={{ boxShadow: 0, color: "white",  backgroundColor: 'white',height: 0,
         '&:hover': {
-          backgroundColor: 'primary.main',
+          backgroundColor: 'common.main',
           boxShadow: 10,
           opacity: .9,
-          color: "common.main",
-           
-          
+          color: "primary.main",
           height: 45} }} >
         <Toolbar sx={{display: "flex", alignItems: "flex-start", justifyContent: 'space-between', }}>
           <IconButton

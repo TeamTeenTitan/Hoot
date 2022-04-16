@@ -50,11 +50,6 @@ export default function VirtualizedList(props) {
 
   function renderRow(props) {
 
-    const [expanded, setExpanded] = React.useState(false);
-
-    const handleExpandClick = () => {
-      setExpanded(!expanded);
-    };
     const { index, style } = props;
 
     return (
@@ -64,7 +59,33 @@ export default function VirtualizedList(props) {
           
           backgroundColor: 'transparent !important'      } }}>
         
-        <Card sx={{ maxWidth: 190, maxHeight: 180, borderRadius: 5 }}>
+        <Card sx={{ maxWidth: 190, maxHeight: 170, borderRaidus:5 }}>
+
+
+      <CardMedia
+        component="img"
+        alt="green iguana"
+        height="70"
+        image={articles[index].thumbnail} 
+      />
+      <CardContent>
+     <IconButton>
+        {articles[index].source.favicon }
+      </IconButton>
+        <Typography gutterBottom variant="h5" component="div">
+          Lizard
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Lizards are a widespread group of squamate reptiles, with over 6,000
+          species, ranging across all continents except Antarctica
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Share</Button>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
+        {/* <Card sx={{ maxWidth: 190, maxHeight: 180, borderRadius: 5 }}>
           <Box sx={{display: "flex"}}>
       <CardHeader  
         avatar={
@@ -106,7 +127,7 @@ export default function VirtualizedList(props) {
   
       </CardActions>
   
-    </Card>
+    </Card> */}
         
         </ListItemButton>
       </ListItem>
@@ -152,7 +173,7 @@ export default function VirtualizedList(props) {
           height={470}
           width={250}
           itemSize={200}
-          itemCount={articles.length-1}
+          itemCount={articles.length}
           overscanCount={5}
         >
           {renderRow}
