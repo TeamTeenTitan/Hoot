@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="616a8015-c58c-49e2-9582-1cdcf7976446" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/build/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bundle.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/allSidesData/allsides.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/allSidesData/allsides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/newsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/newsController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +39,16 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "16.13.0",
     "javascript.nodejs.core.library.typings.version": "16.11.26",
-    "last_opened_file_path": "C:/Users/Filoramo/Documents/Software Engineering/Projects - JavaScript/Codesmith Work/Codesmith Curriculum Projects/hack-hour-ptri-6/challenges/reverse-array.js",
+    "last_opened_file_path": "C:/Users/Filoramo/Documents/Software Engineering/Projects - JavaScript/Codesmith Work/Codesmith Iteration Project/Hoot/server/controllers",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "C:\\Program Files (x86)\\JetBrains\\WebStorm 2021.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Filoramo\Documents\Software Engineering\Projects - JavaScript\Codesmith Work\Codesmith Iteration Project\Hoot\server\controllers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Filoramo\Documents\Software Engineering\Projects - JavaScript\Codesmith Work\Codesmith Iteration Project\Hoot\test-env" />
     </key>
@@ -98,7 +89,7 @@
       <workItem from="1649853737019" duration="19861000" />
       <workItem from="1649944524309" duration="2487000" />
       <workItem from="1649947629353" duration="15903000" />
-      <workItem from="1650038115788" duration="11999000" />
+      <workItem from="1650038115788" duration="12798000" />
     </task>
     <servers />
   </component>

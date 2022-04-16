@@ -16,6 +16,17 @@ app.use(cookieParser());
 /** HANDLE REQUESTS FOR STATIC FILES **/
 app.use('/build', express.static(path.join(__dirname, '../build')));
 
+// SERVE INDEX.HTML TO CLIENT UPON SERVER STARTUP (ANTIQUATED)
+// app.get('/', (req, res) => {
+//   const fileName = path.resolve(__dirname, '../client/index.html');
+//   res.sendFile(fileName, (err) => {
+//     if (err) {
+//       console.log(err);
+//     }
+//     console.log('sent');
+//   });
+// });
+
 /** DEFINE ROUTE HANDLERS **/
 app.use('/api', apiRouter);
 app.use('/auth', authRouter);
