@@ -14,25 +14,31 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 /** HANDLE REQUESTS FOR STATIC FILES **/
-app.use('/build', express.static(path.join(__dirname, '../build')));
+app.use('/build', express.static(path.join(__dirname, '../build')))
 
-// SERVE INDEX.HTML TO CLIENT UPON SERVER STARTUP (ANTIQUATED)
+/** SERVE INDEX.HTML TO CLIENT UPON SERVER STARTUP (ANTIQUATED) **/
 // app.get('/', (req, res) => {
 //   const fileName = path.resolve(__dirname, '../client/index.html');
 //   res.sendFile(fileName, (err) => {
-//     if (err) {
-//       console.log(err);
-//     }
+//     if (err) console.log(err);
 //     console.log('sent');
-//   });
-// });
+//   })
+// })
+
+/** TESTING CONNECTION BETWEEN FRONTEND/BACKEND **/
+// server.get('/api', (req, res) => {
+//   console.log('This is my get request on server.js')
+//   res.send('Test')
+// })
 
 /** DEFINE ROUTE HANDLERS **/
 app.use('/api', apiRouter);
 app.use('/auth', authRouter);
 
 /** CATCH-ALL ROUTE HANDLER FOR ANY REQUESTS TO AN UNKNOWN ROUTE **/
-app.use((req, res) => res.status(404).send('This is not the page you\'re looking for...'));
+app.use((req, res) => {
+  res.status(404).send('This is not the page you\'re looking for...')
+});
 
 /** CONFIGURE EXPRESS GLOBAL ERROR HANDLER **/
 app.use((err, req, res, next) => {

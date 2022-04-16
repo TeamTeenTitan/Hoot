@@ -30,17 +30,36 @@ export default function App() {
 
   const headers=["Left", "Left Leaning", "Center", "Right Leaning", "Right"]
   const [columns, setColumns] = useState(null);
+  const [test, setTest] = useState([])
 
-  // useEffect(()=>{
-  //   axios.get("/api")
-  //   .then((response) => {
-  //     setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
-  //   .catch(err => {console.log(err)});
-  // }, [])
+
+/** CALL TO GOOGLE API FOR NEWS FETCH (ANTIQUATED) **/
+// useEffect(()=>{
+//   axios.get("/api")
+//   .then((response) => {
+//     setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
+//   .catch(err => {console.log(err)});
+// }, [])
 
   useEffect(()=>{
     setColumns(sampleData.map((el,i) => <Home articles={el} bias={headers[i]}/>));
   }, [])
+
+  /** CALL THE BACKEND FROM THE FRONTEND **/
+  useEffect(() => {
+    fetchNews();
+  }, [])
+
+  const fetchNews = async () => {
+    try {
+      const { data } =  await axios.get('/api');
+      setTest(data)
+    } catch (error) {
+      console.error('error reported by fetchNews on App.jsx', error)
+    }
+  }
+
+  // console.log('this is my result', test)
 
 
   return (

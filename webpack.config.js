@@ -1,19 +1,21 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const regeneratorRuntime = require("regenerator-runtime");
 
 module.exports = {
-  entry: './client/index.js',
-  
+  mode: 'development',
+  entry: {
+    main: ["regenerator-runtime/runtime.js", path.resolve(__dirname, 'client/index.js')],
+  },
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'bundle.js',
-    clean: true,
+    // Added these two 4/14
+    // filename: '[name].[contenthash].js',
+    // assetModuleFilename: '[name][ext]',
+    filename: 'bundle.js', // removed 4/14
+    clean: true, // Fixed a few errors
   },
-  
-  devtool: "inline-source-map",
-  
-  mode: "development",
-  
+  devtool: 'eval-source-map', // added 4/14 fixed mapping errors
   devServer: {
     host: 'localhost',
     static: {
@@ -41,7 +43,7 @@ module.exports = {
       },
     },
   },
-  
+
   plugins: [
     new HtmlWebpackPlugin({
       // this injects a script tag in the html
