@@ -1,11 +1,11 @@
 const express = require('express');
 const newsController = require('../controllers/newsController');
-const testController = require('../controllers/testController');
+const contextApiController = require('../controllers/contextApiController');
 
 const router = express.Router();
 
 // fetch top breaking news, order them, send back
-router.get('/', testController.getNews, (req, res, next) => {
+router.get('/', contextApiController.getTrendingNews, (req, res, next) => {
   res.status(200).json(res.locals.articles)
   // console.log('This is my get request on server.js')
   // res.send('Test')

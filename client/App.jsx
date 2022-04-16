@@ -41,9 +41,9 @@ export default function App() {
 //   .catch(err => {console.log(err)});
 // }, [])
 
-  useEffect(()=>{
-    setColumns(sampleData.map((el,i) => <Home articles={el} bias={headers[i]}/>));
-  }, [])
+  // useEffect(()=>{
+  //   setColumns(sampleData.map((el,i) => <Home articles={el} bias={headers[i]}/>));
+  // }, [])
 
   /** CALL THE BACKEND FROM THE FRONTEND **/
   useEffect(() => {
