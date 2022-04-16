@@ -3,24 +3,45 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './client/index.js',
+  
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
+    clean: true,
   },
+  
+  devtool: "inline-source-map",
+  
+  mode: "development",
+  
   devServer: {
+    host: 'localhost',
     static: {
-      directory: path.join(__dirname, './client'),
       publicPath: '/',
+      directory: path.join(__dirname, './client'),
     },
     port: 3000,
     open: true,
     hot: true,
     proxy: {
-      '/api': 'http://localhost:8000',
-      '/search': 'http://localhost:8000',
-      '/auth': 'http://localhost:8000',
+      '/api/*': {
+        'target': 'http://localhost:8000',
+        'secure': false,
+        'changeOrigin': true,
+      },
+      '/search/*': {
+        'target': 'http://localhost:8000',
+        'secure': false,
+        'changeOrigin': true,
+      },
+      '/auth/*': {
+        'target': 'http://localhost:8000',
+        'secure': false,
+        'changeOrigin': true,
+      },
     },
   },
+  
   plugins: [
     new HtmlWebpackPlugin({
       // this injects a script tag in the html
@@ -30,11 +51,12 @@ module.exports = {
       template: path.resolve(__dirname, 'client/index.html'),
     }),
   ],
+  
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: path.resolve(__dirname, 'node_modules'),
+        exclude: /node_modules/,
         use: {
           loader: "babel-loader",
           options: {

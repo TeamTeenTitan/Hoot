@@ -1,34 +1,30 @@
 const path = require('path');
 const express = require('express');
-const server = express();
+const app = express();
 const cookieParser = require('cookie-parser');
 const PORT = 8000;
 
+/** REQUIRE ROUTERS **/
 const apiRouter = require('./routes/api');
 const authRouter = require('./routes/auth');
 
-server.use(express.json());
-server.use(express.urlencoded({ extended: true }));
-server.use(cookieParser());
+/** HANDLE PARSING REQUEST BODY FOR JSON, URL AND COOKIES **/
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
 
-server.use('/build', express.static(path.join(__dirname, '../build')));
+/** HANDLE REQUESTS FOR STATIC FILES **/
+app.use('/build', express.static(path.join(__dirname, '../build')));
 
-// app.get('/', (req, res) => {
-//   const fileName = path.resolve(__dirname, '../client/index.html');
-//   res.sendFile(fileName, (err) => {
-//     if (err) {
-//       console.log(err);
-//     }
-//     console.log('sent');
-//   });
-// });
+/** DEFINE ROUTE HANDLERS **/
+app.use('/api', apiRouter);
+app.use('/auth', authRouter);
 
-server.use('/api', apiRouter);
-server.use('/auth', authRouter);
+/** CATCH-ALL ROUTE HANDLER FOR ANY REQUESTS TO AN UNKNOWN ROUTE **/
+app.use((req, res) => res.status(404).send('This is not the page you\'re looking for...'));
 
-server.use((req, res) => res.status(404).send('This is not the page you\'re looking for...'));
-
-server.use((err, req, res, next) => {
+/** CONFIGURE EXPRESS GLOBAL ERROR HANDLER **/
+app.use((err, req, res, next) => {
     const defaultErr = {
       log: 'Express error handler caught unknown middleware error',
       status: 500,
@@ -39,8 +35,10 @@ server.use((err, req, res, next) => {
     return res.status(errorObj.status).json(errorObj.message);
   });
 
-  server.listen(PORT, () => {
-    console.log(`Server listening on port: ${PORT}...`);
-  });
+/** START THE SERVER AND LISTEN FOR CLIENT REQUESTS **/
+app.listen(PORT, () => {
+  console.log(`Server listening on port: ${PORT}...`);
+});
   
-  module.exports = server;
+
+module.exports = app;

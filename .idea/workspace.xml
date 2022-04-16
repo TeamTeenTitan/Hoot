@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="616a8015-c58c-49e2-9582-1cdcf7976446" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bundle.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/allSidesData/allsides.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/allSidesData/allsides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/newsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/newsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Codesmith Scratch Project/Dev-Helpr/server/server-old.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Codesmith Scratch Project/Dev-Helpr/webpack.config.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27k8dQNkTCRnzbpcwDO56JEza6a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.13.0",
+    "javascript.nodejs.core.library.typings.version": "16.11.26",
+    "last_opened_file_path": "C:/Users/Filoramo/Documents/Software Engineering/Projects - JavaScript/Codesmith Work/Codesmith Curriculum Projects/hack-hour-ptri-6/challenges/reverse-array.js",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files (x86)\\JetBrains\\WebStorm 2021.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Filoramo\Documents\Software Engineering\Projects - JavaScript\Codesmith Work\Codesmith Iteration Project\Hoot\test-env" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.dummy-env.js">
+    <configuration name="dummy-data.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test-env/dummy-data.js" working-dir="$PROJECT_DIR$/test-env">
+      <method v="2" />
+    </configuration>
+    <configuration name="dummy-env.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test-env/dummy-env.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="newsController.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/controllers/newsController.js" working-dir="$PROJECT_DIR$/server/controllers">
+      <method v="2" />
+    </configuration>
+    <configuration name="op.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test-env/op.js" working-dir="$PROJECT_DIR$/test-env">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.dummy-env.js" />
+        <item itemvalue="Node.js.op.js" />
+        <item itemvalue="Node.js.dummy-data.js" />
+        <item itemvalue="Node.js.newsController.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="616a8015-c58c-49e2-9582-1cdcf7976446" name="Changes" comment="" />
+      <created>1649852809553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649852809553</updated>
+      <workItem from="1649852810738" duration="148000" />
+      <workItem from="1649852959709" duration="730000" />
+      <workItem from="1649853714903" duration="20000" />
+      <workItem from="1649853737019" duration="19861000" />
+      <workItem from="1649944524309" duration="2487000" />
+      <workItem from="1649947629353" duration="15903000" />
+      <workItem from="1650038115788" duration="11999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

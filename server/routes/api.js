@@ -1,7 +1,5 @@
 const express = require('express');
-
 const newsController = require('../controllers/newsController');
-
 const router = express.Router();
 
 //fetch top breaking news, order them, send back
