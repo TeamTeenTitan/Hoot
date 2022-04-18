@@ -22,17 +22,17 @@ const options = {
 };
 
 /** USE AXIOS TO SENT A GET REQUEST VIA THE API TO FETCH NEWS ARTICLES **/
-axios.request(options)
-  .then(response => {
-       /** INSPECT THE ENTIRE OBJECT WITH ALL PROPERTIES LOGGED **/
+axios
+  .request(options)
+  .then((response) => {
     console.log(util.inspect(response.data.value, {
       showHidden: false,
       depth: null,
       colors: true
     }))})
-  .catch(err => {
-  console.error(err);
-});
+  .catch(function (error) {
+    console.error('Error with GET request to contextAPI on contextApiController.js', error);
+  });
 
 
 /** INSPECT THE ENTIRE OBJECT WITH COMPACTED PROPERTIES **/

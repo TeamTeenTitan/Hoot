@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="616a8015-c58c-49e2-9582-1cdcf7976446" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/testController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-env/dummy-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-env/dummy-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-env/dummy-env.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-env/dummy-env.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.13.0",
-    "javascript.nodejs.core.library.typings.version": "16.11.26",
-    "last_opened_file_path": "C:/Users/Filoramo/Documents/Software Engineering/Projects - JavaScript/Codesmith Work/Codesmith Iteration Project/Hoot/server/controllers",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files (x86)\\JetBrains\\WebStorm 2021.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.13.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.11.26&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Filoramo/Documents/Software Engineering/Projects - JavaScript/Codesmith Work/Codesmith Iteration Project/Hoot/server/controllers&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files (x86)\\JetBrains\\WebStorm 2021.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Filoramo\Documents\Software Engineering\Projects - JavaScript\Codesmith Work\Codesmith Iteration Project\Hoot\server\controllers" />
@@ -61,7 +55,7 @@
       <recent name="C:\Users\Filoramo\Documents\Software Engineering\Projects - JavaScript\Codesmith Work\Codesmith Iteration Project\Hoot\test-env" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.dummy-env.js">
+  <component name="RunManager" selected="Node.js.test.js">
     <configuration name="dummy-data.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test-env/dummy-data.js" working-dir="$PROJECT_DIR$/test-env">
       <method v="2" />
     </configuration>
@@ -74,11 +68,15 @@
     <configuration name="op.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test-env/op.js" working-dir="$PROJECT_DIR$/test-env">
       <method v="2" />
     </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test-env/test.js" working-dir="$PROJECT_DIR$/test-env">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.dummy-data.js" />
         <item itemvalue="Node.js.dummy-env.js" />
         <item itemvalue="Node.js.op.js" />
-        <item itemvalue="Node.js.dummy-data.js" />
         <item itemvalue="Node.js.newsController.js" />
       </list>
     </recent_temporary>
@@ -97,7 +95,8 @@
       <workItem from="1649853737019" duration="19861000" />
       <workItem from="1649944524309" duration="2487000" />
       <workItem from="1649947629353" duration="15903000" />
-      <workItem from="1650038115788" duration="14063000" />
+      <workItem from="1650038115788" duration="20817000" />
+      <workItem from="1650306061860" duration="593000" />
     </task>
     <servers />
   </component>
