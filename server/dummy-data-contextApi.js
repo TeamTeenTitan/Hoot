@@ -392,11 +392,5 @@ const dummyData = {
   ],
 };
 
-const articles = [];
-
-for (let i = 0; i < dummyData.value.length; i++) {
-  articles.push(dummyData.value[i].title);
-}
-console.log(article);
 
 module.exports = dummyData;
