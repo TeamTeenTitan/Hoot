@@ -7,7 +7,7 @@ const options = {
   params: {
     pageNumber: "1",
     pageSize: "50",
-    withThumbnails: "false",
+    withThumbnails: "true",
     location: "us",
   },
   headers: {
@@ -23,18 +23,23 @@ const options = {
 const contextApiController = {};
 
 contextApiController.getTrendingNews = (req, res, next) => {
-  axios
-    .request(options)
-    .then(response => {
-      res.locals.articles = response.data.value[0].title;
-      return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
-    })
-    .catch((error) => {
-      console.error(
-        "Error with GET request to contextAPI on contextApiController.js",
-        error
-      );
-    });
+
+  res.locals.articles = dummyData;
+  return next();
+
+  /** AXIOS REQUEST COMMENTED OUT FOR dummyData USAGE **/
+  // axios
+  //   .request(options)
+  //   .then(response => {
+  //     res.locals.articles = response.data.value[0].title;
+  //     return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
+  //   })
+  //   .catch((error) => {
+  //     console.error(
+  //       "Error with GET request to contextAPI on contextApiController.js",
+  //       error
+  //     );
+  //   });
 };
 
 module.exports = contextApiController;

@@ -1,45 +1,25 @@
-const axios = require("axios");
+const dummyData = require('../server/dummy-data-contextApi')
 
-const options = {
-  method: "GET",
-  url: "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/TrendingNewsAPI",
-  params: {
-    pageNumber: "1",
-    pageSize: "50",
-    withThumbnails: "false",
-    location: "us",
-  },
-  headers: {
-    "X-RapidAPI-Host": "contextualwebsearch-websearch-v1.p.rapidapi.com",
-    "X-RapidAPI-Key": "ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146",
-  },
-};
+const article = dummyData.value[0]
 
-const contextApiController = {};
+// const months = ['Jan ', 'Feb ', 'Mar ', 'Apr ', 'Jun ', 'Jul ', 'Aug ', 'Sep ', 'Oct ', 'Nov ', 'Dec '];
+// let textDate = '';
 
-// contextApiController.getTrendingNews = (req, res, next) => {
-//   console.log("This is my get request on contextApiController.js");
-//   res.send("Test");
+// CONVERT MONTH FROM NUMERIC TO TEXT
+// textDate += months[parseInt(article.datePublished.slice(5, 7)) - 1];
 
-//   axios
-//     .request(options)
-//     .then((response) => {
-//       console.log(response.data);
-//     })
-//     .catch(function (error) {
-//       console.error('Error with GET request to contextAPI on contextApiController.js', error);
-//     });
+// CONVERT DAY AND YEAR FROM NUMERIC TO TEXT
+textDate += (article.datePublished.slice(8, 10) + ', ' + article.datePublished.slice(0, 4));
 
-//   return next();
-// };
+// ASSIGN NEWLY CONVERTED TEXT DATE TO ARTICLE AS datePublished PROPERTY
+article.datePublished = textDate;
 
-axios
-  .request(options)
-  .then((response) => {
-    console.log(response.data.value);
-  })
-  .catch(function (error) {
-    console.error('Error with GET request to contextAPI on contextApiController.js', error);
-  });
+console.log(textDate);
 
-module.exports = contextApiController;
+
+/*
+DAY: slice(8, 10)
+MONTH: slice(5, 7)
+YEAR: slice(0, 4)
+TIME: slice(11, 16)
+*/

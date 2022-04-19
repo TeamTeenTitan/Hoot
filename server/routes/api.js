@@ -5,12 +5,12 @@ const contextApiController = require("../controllers/contextApiController");
 
 const router = express.Router();
 
-// fetch top breaking news, order them, send back
+/** FETCH TRENDING NEWS, SORT THE ARTICLES, SEND BACK TO CLIENT **/
 router.get("/", contextApiController.getTrendingNews, (req, res, next) => {
-  console.log(res.locals.articles);
   res.status(200).json(res.locals);
 });
 
+// fetch top breaking news, order them, send back
 // router.get('/',
 //   newsController.breakingNews,
 //   // newsController.sortNews,
