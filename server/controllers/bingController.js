@@ -3,16 +3,34 @@ const axios = require('axios')
 
 const db = require('../models/newsModel');
 const biasData = require('../allSidesData/allsides');
+const util = require("util");
 // const { search } = require('../server');
 
 
 const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
-		'X-RapidAPI-Key': '28c1914233msh9110de4ee73575cp1dca2cjsnfffcc805fe3d'
-	}
+  method: 'GET',
+  url: 'https://bing-news-search1.p.rapidapi.com/news/search',
+  params: {
+    q: 'ukraine',
+    count: '100',
+    freshness: 'Day',
+    textFormat: 'Raw',
+    safeSearch: 'Off'
+  },
+  headers: {
+    'X-BingApis-SDK': 'true',
+    'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com',
+    'X-RapidAPI-Key': 'ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146'
+  },
 };
+
+// const options = {
+// 	method: 'GET',
+// 	headers: {
+// 		'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
+// 		'X-RapidAPI-Key': '28c1914233msh9110de4ee73575cp1dca2cjsnfffcc805fe3d'
+// 	}
+// };
 
 const defaultSearchOptions = {
   method: 'GET',
@@ -24,7 +42,7 @@ const defaultSearchOptions = {
     before: '',
     limit: '50',
     when: '30d',
-    media: 'true'
+    media: 'true',
   },
   headers: {
     'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
@@ -147,6 +165,24 @@ function filterArticle(article){
 
 //   runFetch(optionsBreaking);
 // };
+
+newsController.breakingNewsUpdated = (req, res, next) => {
+  const articlesArrayUpdated = [];
+
+  /** USE AXIOS TO SENT A GET REQUEST VIA THE API TO FETCH NEWS ARTICLES **/
+  axios.request(options)
+    .then(response => {
+      for (let i = 0; i < response.data.value.length; i++) {
+        articlesArrayUpdated.push(response.data.value[i]);
+      }
+      res.locals.articles = articlesArrayUpdated;
+      console.log('Articles container updated...')
+      return next();
+    })
+    .catch(err => {
+      console.error(err);
+    });
+}
 
 newsController.breakingNews = (req, res, next) => {
   let articlesArray = [];
