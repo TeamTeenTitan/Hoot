@@ -52,14 +52,15 @@ export default function App() {
 
   const fetchNews = async () => {
     try {
-      const { data } =  await axios.get('/api');
-      setTest(data)
+      const { data } =  await axios.get('/api', {test});
+      setTest(data);
+      console.log('fetchNews is being invoked...', data);
     } catch (error) {
       console.error('error reported by fetchNews on App.jsx', error)
     }
   }
 
-  // console.log('this is my result', test)
+  console.log('this is my result', test)
 
 
   return (
@@ -73,6 +74,11 @@ export default function App() {
         <div className="cardWrap">
           {columns}
         </div>
+        {/* <div>
+          {test.map((el, i) => {
+            p
+          })}
+        </div> */}
       </div>
 
     </ThemeProvider>
