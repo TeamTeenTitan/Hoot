@@ -893,8 +893,8 @@ const dummyData = {
   ]
 };
 
-for (let i = 0; i < dummyData.value.length; i++) {
-  console.log(dummyData.value[i].provider.name)
-}
+// for (let i = 0; i < dummyData.value.length; i++) {
+//   console.log(dummyData.value[i].provider.name)
+// }
 
 module.exports = dummyData;
