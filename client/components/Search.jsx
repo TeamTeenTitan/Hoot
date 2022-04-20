@@ -74,7 +74,7 @@ const handleOnChange = event => {
       </Typography>
       <Box sx={{display: "flex"}}>
 
-      <img className="owl" src={"https://c.tenor.com/r5YDafn04RoAAAAi/littlest-friends-owlbert.gif"} alt="hi"/>
+      {/* <img className="owl" src={"https://c.tenor.com/r5YDafn04RoAAAAi/littlest-friends-owlbert.gif"} alt="hi"/> */}
       <TextField sx={{ }} onKeyDown={handleOnSearch} onChange={handleOnChange} fullWidth label="search" id="fullWidth" />
       </Box>
     </Box>

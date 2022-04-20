@@ -25,6 +25,7 @@ export default function App() {
 
   const headers=["Left", "Lean-Left", "Center", "Lean-Right", "Right"]
   const [columns, setColumns] = useState(null);
+  console.log(sampleData.length)
 
   // useEffect(()=>{
   //   axios.get("/api")

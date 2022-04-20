@@ -1,25 +1,9 @@
 import  React, {useState} from "react";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
-import AccountCircle from "@mui/icons-material/AccountCircle";
-import Button from "@material-ui/core/Button";
-import Modal from "@material-ui/core/Modal";
-import TextField from "@mui/material/TextField";
-import CloseIcon from "@mui/icons-material/Close";
-import axios from "axios";
-import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import InputBase from '@mui/material/InputBase';
-import Badge from '@mui/material/Badge';
-import MenuItem from '@mui/material/MenuItem';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import SearchIcon from '@mui/icons-material/Search';
-import MailIcon from '@mui/icons-material/Mail';
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import MoreIcon from '@mui/icons-material/MoreVert';
 import SportsFootballIcon from '@mui/icons-material/SportsFootball';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import PublicIcon from '@mui/icons-material/Public';
@@ -29,9 +13,28 @@ import ListIcon from '@mui/icons-material/List';
 import ScienceIcon from '@mui/icons-material/Science';
 import PaidIcon from '@mui/icons-material/Paid';
 import LocalPoliceIcon from '@mui/icons-material/LocalPolice';
-
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
 
 export default function ButtonAppBar() {
+
+  const [menu, setMenu]= useState(false)
+
+ function AlignItemsList() {
+   menu === false ? setMenu(true) : setMenu(false)
+
+
+}
+
+const [anchorEl, setAnchorEl] = React.useState(null);
+const open = Boolean(anchorEl);
+const handleClick = (event) => {
+  setAnchorEl(event.currentTarget);
+};
+const handleClose = () => {
+  setAnchorEl(null);
+};
+
   return (
 
     <Box >
@@ -48,10 +51,25 @@ export default function ButtonAppBar() {
             edge="start"
             color="inherit"
             aria-label="menu"
+            onClick={handleClick}
             sx={{  transform: "scale(1.5)" }}
           >
             <AccountCircleIcon />
           </IconButton>
+          <Menu
+            id="basic-menu"
+            anchorEl={anchorEl}
+            open={open}
+            onClose={handleClose}
+            
+            MenuListProps={{
+              'aria-labelledby': 'basic-button',
+            }}
+          >
+            <MenuItem onClick={handleClose}>Profile</MenuItem>
+            <MenuItem onClick={handleClose}>My account</MenuItem>
+            <MenuItem onClick={handleClose}>Logout</MenuItem>
+          </Menu>
           <Box sx={{flexGrow: .8}}>
             <Box sx={{display: "flex", gap: 3}}>
           <IconButton
@@ -125,11 +143,19 @@ export default function ButtonAppBar() {
             edge="end"            
             color="inherit"
             aria-label="menu"
+         
             sx={{transform: "scale(1.25)" }}
-          >
+        
+        >
             <ListIcon/>
           </IconButton>
+
+          
+       
+          
         </Toolbar>
+
+
 
 
 

@@ -37,7 +37,7 @@ body {
   grid-template-rows: 25% ;
   background-color: white;
   gap: 1px;
-  justify-items: center; 
+  justify-items: center;
   
 }
 
@@ -79,3 +79,30 @@ body {
   transform: scale(2.5);
   justify-content: center;
 }
+
+.cardImage {
+  position: relative;
+  width: 19px;
+  height: auto;
+  margin-left: 170px;
+}
+
+.text{
+  color: black
+}
+
+.modalCard {
+  width: 50%;
+  display: flex;
+  height: auto;
+
+}
+
+/* .modalCard {
+  width: 100%;
+  display: flex;
+  min-height: 400px;
+
+  max-height: 400px;
+ 
+} */

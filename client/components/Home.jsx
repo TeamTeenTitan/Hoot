@@ -41,93 +41,137 @@ export default function VirtualizedList(props) {
   
   const { articles } = props;
   const [expanded, setExpanded] = React.useState(false);
+  
 
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
-
-
+  
 
   function renderRow(props) {
 
+    
+    const [newNum, setNewNum] = useState(0);
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+      console.log(4)
+    }, [newNum])
+    const style2 = {
+      position: 'absolute',
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
+      width: 800,
+      height: 700,
+      bgcolor: 'secondary.main',
+      borderRadius:2,
+      boxShadow: 24,
+      p: 4,
+      overflow:'scroll',
+    };
     const { index, style } = props;
+    const [open, setOpen] = React.useState(false);
+    const handleOpen = () => setOpen(true);
+    const handleClose = () => setOpen(false);
+  
+  
+    function dualClick (){
+  handleOpen()
+  open === false ? setNewNum(index) : newNum<articles.length -1 ? setNewNum(newNum+1): null;
+  }
+
+
+
+  const nextArticle = event => {
+
+if (event.key=="ArrowRight" && newNum< articles.length-1){
+ setNewNum(newNum+1);
+}
+
+if (event.key=="ArrowLeft" && newNum>0){
+
+  setNewNum(newNum-1);
+ }
+
+ 
+
+
+  };
 
     return (
-      <ListItem className="zoom" sx={{marginLeft:"-1", borderColor: "white"}} style={style} key={index} component="div" disablePadding alignItems="center">
-        
-        <ListItemButton onClick={()=>window.open(articles[index].link)} sx={{'&:hover': {
+      <ListItem className="zoom" sx={{marginLeft:"-5.5px", borderColor: "white"}} style={style} key={index} component="div" disablePadding alignItems="center">
+     <ListItemButton onClick={dualClick} sx={{'&:hover': {
           
           backgroundColor: 'transparent !important'      } }}>
+              <Modal
+              
+        open={open}
+        onClose={handleClose}
+        onKeyDown={nextArticle} 
+        // onClick={nextArticle}
         
-        <Card sx={{ maxWidth: 190, maxHeight: 170, borderRaidus:5 }}>
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        
+        <Box sx={style2}>
+         
+          <Typography sx={{mb:3, fontFamily: "Franklin,Arial,Helvetica,sans-serif;", fontSize: 30, fontWeight: 600, letterSpacing: 0}} id="modal-modal-title" variant="h6" component="h2">
+          {articles[newNum].title}  
+                    </Typography>
+                    <Typography sx={{ fontSize:12, color:"#9d9d9d" }} id="modal-modal-title" variant="h6" component="h2">
+          April 5th, 2022   
+                    </Typography>
+                    <Box sx={{display: "flex", justifyContent: "space-between"}} >
+                    <img className="modalCard" src={articles[newNum].image.url} alt=""/>
+
+                      <Typography sx={{width: 300, mr: 5, textAlign: "center", fontWeight: 600, fontFamily:  "Helvetica Neue,Helvetica,Arial,Utkal,sans-serif"}}>"{articles[newNum].snippet}"</Typography>
+                    </Box>
+                    <Typography sx={{mb:3, fontSize: 15,}} id="modal-modal-title" variant="h6" component="h2">
+          {articles[newNum].provider.name}  
+                    </Typography>
+              
+          <Typography  id="modal-modal-description" sx={{ mt: 5, fontFamily: "Helvetica Neue,Helvetica,Arial,Utkal,sans-serif", fontWeight: 380 }}>
+           { articles[newNum].body}          </Typography>
+        </Box>
+      </Modal>
+        
+        <Card sx={{ maxWidth: 200, maxHeight: 170, minHeight: 170 }}>
 
 
       <CardMedia
         component="img"
-        alt="green iguana"
-        height="70"
-        image={articles[index].thumbnail} 
+        alt="no news"
+        height="90"
+        image={articles[index].image.thumbnail} 
+      
       />
       <CardContent>
-     <IconButton>
-        {articles[index].source.favicon }
-      </IconButton>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
+    <Box sx={{minHeight: 30, maxHeight:25}}>
+        <Typography sx={{fontSize: 12, fontWeight: 400, color: "black", marginTop: "-10px"}}>
+          {articles[index].title.length > 50 ? articles[index].title.slice(0,70) + "..." : articles[index].title + ":"}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
+      
+    
+        </Box>
       </CardContent>
+      
+      <Box sx={{maxHeight:2,}}> 
+      
+
+        <img
+      
+      src='https://static.guim.co.uk/images/favicon-32x32.ico' alt="Hi"
+      className="cardImage"
+       
+     />
+
+      </Box>
+    {/* <Box sx={{marginTop:"-15px"}}>
       <CardActions>
         <Button size="small">Share</Button>
         <Button size="small">Learn More</Button>
       </CardActions>
+      </Box> */}
     </Card>
-        {/* <Card sx={{ maxWidth: 190, maxHeight: 180, borderRadius: 5 }}>
-          <Box sx={{display: "flex"}}>
-      <CardHeader  
-        avatar={
-          <CardMedia
-          component="img"
-          height="20"
-          image= {articles[index].source.favicon }
-          alt="none"
-          
-        />
-        }
-
-      />
-      <Typography  sx={{fontSize:15, marginRight:10, minWidth:120, mt: 1.5}}>
-        
-            {articles[index].source.title.length > 20 ? articles[index].source.title.slice(0,20)+"..." : articles[index].source.title}
-          </Typography>
-       </Box>
-      <CardMedia
-        component="img"
-        height="70"
-        image={articles[index].thumbnail} 
-        alt="Paella dish"
-        />
-  
-      <CardContent sx={{marginTop:"-10px"}}>
-        <Typography sx={{ fontSize:10}} variant="body2" color="black">
-         {articles[index].title}
-        </Typography>
-      </CardContent>
-      <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
-      
-  
-      </CardActions>
-  
-    </Card> */}
         
         </ListItemButton>
       </ListItem>
@@ -143,8 +187,7 @@ export default function VirtualizedList(props) {
         textAlign: 'center',
         color: 'black',
         fontFamily: "Palatino, URW Palladio L, serif",
-        fontWeight: 50,
-    
+        fontWeight: 50
         }}
         variant="h6"
         component="div">
@@ -158,12 +201,11 @@ export default function VirtualizedList(props) {
           borderRadius: 5,
           color: "#1769aa",
           boxShadow: 10,
-          
           mt: 2,
           mr:2,
           border: 1,
           width: "100%",
-          height: 480,
+          height: 500,
           maxWidth: 220,
           backgroundColor: "#f1f2f5",
           borderColor:"white"
@@ -172,7 +214,7 @@ export default function VirtualizedList(props) {
         <FixedSizeList
           height={470}
           width={250}
-          itemSize={200}
+          itemSize={195}
           itemCount={articles.length}
           overscanCount={5}
         >
