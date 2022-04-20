@@ -35,16 +35,16 @@ export default function App() {
 
 
 /** CALL TO GOOGLE API FOR NEWS FETCH (ANTIQUATED) **/
-useEffect(()=>{
-  axios.get("/api")
-  .then((response) => {
-    setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
-  .catch(err => {console.log(err)});
-}, [])
-
-  useEffect(()=>{
-    setColumns(dummyData.value.map((el,i) => <Home articles={el} bias={headers[i]}/>));
-  }, [])
+// useEffect(()=>{
+//   axios.get("/api")
+//   .then((response) => {
+//     setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
+//   .catch(err => {console.log(err)});
+// }, [])
+//
+//   useEffect(() => {
+//     setColumns(dummyData.value.map((el,i) => <Home articles={el} bias={headers[i]}/>));
+//   }, [])
 
   /** CALL THE BACKEND FROM THE FRONTEND **/
   useEffect(() => {
@@ -61,27 +61,15 @@ useEffect(()=>{
     }
   }
 
-  console.log('this is my result', test)
-
-
   return (
-
     <ThemeProvider theme={theme}>
-
       <div className="main">
-      <HeaderIcons />
-        <Search setColumns={setColumns}/>
-       
-        <div className="cardWrap">
-          {columns}
-        </div>
-        {/* <div>
-          {test.map((el, i) => {
-            p
-          })}
-        </div> */}
+        <HeaderIcons />
+          <Search setColumns={setColumns}/>
+            <div className="cardWrap">
+              {columns}
+            </div>
       </div>
-
     </ThemeProvider>
   );
 }

@@ -120,23 +120,23 @@ const filterArticle = (article) => {
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
   // POPULATE RES.LOCALS.ARTICLES WITH THE ARRAY OF ARTICLES (OBJECTS)
-  // res.locals.articles = dummyData.value; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES
-  // return next();
+  res.locals.articles = dummyData.value; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES
+  return next();
 
   /** AXIOS REQUEST COMMENTED OUT FOR dummyData USAGE **/
   // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
-  axios
-    .request(optionsNewsSearch)
-    .then(response => {
-      res.locals.articles = response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
-      return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
-    })
-    .catch((error) => {
-      console.error(
-        "Error with GET request to contextAPI on contextApiController.js",
-        error
-      );
-    });
+  // axios
+  //   .request(optionsNewsSearch)
+  //   .then(response => {
+  //     res.locals.articles = response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
+  //     return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
+  //   })
+  //   .catch((error) => {
+  //     console.error(
+  //       "Error with GET request to contextAPI on contextApiController.js",
+  //       error
+  //     );
+  //   });
   // axios
   //   .request(optionsNewsSearch)
   //   .then(response => {
@@ -309,10 +309,9 @@ newsController.searchNews = (req, res, next) => {
         results.push(art.data.articles);
       }
 
-      console.log('results -->',results);
       res.locals.articles = results.flat();
       // res.locals.articles = results.data.articles;
-      console.log(res.locals.articles);
+      // console.log(res.locals.articles);
       return next();
     } catch (error) {
       console.log(error);
