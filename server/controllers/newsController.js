@@ -3,47 +3,37 @@ const axios = require('axios')
 
 const db = require('../models/newsModel');
 const biasData = require('../allSidesData/allsides');
-const dummyData = require("../dummy-data-contextApi");
-const wsApiConverter = require('../../utils/wsApiConverter');
+const dummyArticles = require('../../test-env/dummyData/dummyArticles');
+const dummyExtraction = require('../../test-env/dummyData/dummyArtExtraction');
 
 const newsController = {};
-
-/** CLIENT REQUEST OPTIONS FOR QUERYING TRENDING NEWS FROM WEB SEARCH API **/
-const optionsTrendingNews = {
-  method: "GET",
-  url: "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/TrendingNewsAPI",
-  params: {
-    pageNumber: "1",
-    pageSize: "50",
-    withThumbnails: "true",
-    location: "us",
-  },
-  headers: {
-    "X-RapidAPI-Host": "contextualwebsearch-websearch-v1.p.rapidapi.com",
-    "X-RapidAPI-Key": "17f0cf7f02mshb9e0b4e8b9ea0abp1ebce6jsn889c43680174",
-    // Patrick's key: 89e47335f5msh4d7997067bc1babp1d3444jsn4a9af4c9af9c
-    // Michael's key: ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146 -- used up 4/16
-    // Matt's Key: a65e262fb5msh06c38f045ca319ap1d473fjsn6801c08d9a5a
-    // Mike's Key: 17f0cf7f02mshb9e0b4e8b9ea0abp1ebce6jsn889c43680174
-  },
-}
 
 /** CLIENT REQUEST OPTIONS FOR QUERYING GENERAL NEWS FROM WEB SEARCH API **/
 const optionsNewsSearch = {
   method: 'GET',
-  url: 'https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI',
+  url: 'https://google-news1.p.rapidapi.com/search',
   params: {
-    q: 'world',
-    pageNumber: '1',
-    pageSize: '50',
-    autoCorrect: 'true',
-    withThumbnails: 'true',
-    fromPublishedDate: 'null',
-    toPublishedDate: 'null'
+    q: 'ukraine',
+    country: 'US',
+    lang: 'en',
+    limit: '50',
+    when: '30d'},
+  headers: {
+    'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
+    'X-RapidAPI-Key': '28c1914233msh9110de4ee73575cp1dca2cjsnfffcc805fe3d'
+  }
+};
+
+/** CLIENT REQUEST OPTIONS FOR EXTRACTING NEWS PAGES USING EXTRACT NEWS API **/
+const optionsNewsExt = {
+  method: 'GET',
+  url: 'https://extract-news.p.rapidapi.com/v0/article',
+  params: {
+    url: '' // MAKE SEPARATE API CALLS FOR EACH ARTICLE FETCHED WITH GOOGLE NEWS API
   },
   headers: {
-    'X-RapidAPI-Host': 'contextualwebsearch-websearch-v1.p.rapidapi.com',
-    'X-RapidAPI-Key': '17f0cf7f02mshb9e0b4e8b9ea0abp1ebce6jsn889c43680174'
+    'X-RapidAPI-Host': 'extract-news.p.rapidapi.com',
+    'X-RapidAPI-Key': 'ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146'
   }
 };
 
@@ -120,7 +110,7 @@ const filterArticle = (article) => {
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
   // POPULATE RES.LOCALS.ARTICLES WITH THE ARRAY OF ARTICLES (OBJECTS)
-  res.locals.articles = dummyData.value; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES
+  res.locals.articles = dummyArticles; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES
   return next();
 
   /** AXIOS REQUEST COMMENTED OUT FOR dummyData USAGE **/
@@ -128,19 +118,8 @@ newsController.getTrendingNews = (req, res, next) => {
   // axios
   //   .request(optionsNewsSearch)
   //   .then(response => {
-  //     res.locals.articles = response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
-  //     return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
-  //   })
-  //   .catch((error) => {
-  //     console.error(
-  //       "Error with GET request to contextAPI on contextApiController.js",
-  //       error
-  //     );
-  //   });
-  // axios
-  //   .request(optionsNewsSearch)
-  //   .then(response => {
-  //     res.locals.articles += response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
+  //     res.locals.articles = response.data.articles; // <-- THIS IS THE ARRAY OF ARTICLES
+  //     console.log(res.locals.articles)
   //     return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
   //   })
   //   .catch((error) => {
@@ -209,15 +188,36 @@ newsController.getTrendingNews = (req, res, next) => {
 //   })
 // };
 
+/** USE EXTRACT NEWS API TO GIVE EACH ARTICLE A BODY **/
+newsController.getArticleBody = (req, res, next) => {
+  for (let i = 0; i < res.locals.articles.length; i++) {
+
+    // ENABLED: LEVERAGE THE DUMMY DATA TO FETCH AND ASSIGN THE ARTICLE'S BODY
+    const article = res.locals.articles[i];
+    article.body = dummyExtraction.article.text;
+
+    // DISABLED: LEVERAGE NEWS EXTRACTION API TO FETCH AND ASSIGN THE ARTICLE'S BODY
+    // optionsNewsExt.params.url = article.link;
+    // axios.request(optionsNewsExt)
+    //   .then((response) => {
+    //     article.body = response.data.article.text;
+    //     return next();
+    // })
+    //   .catch((error) => {
+    //   console.error(error);
+    // });
+  }
+
+    return next();
+}
+
 /** CREATE FIVE COLUMNS TO RESPECTIVELY SORT FETCHED ARTICLES BASED ON POLITICAL LEANING (LEVERAGING ALLSIDES) **/
 newsController.sortNews = (req, res, next) => {
-  const returnArray = [[], [], [], [], []];
-
-  res.locals.articles = res.locals.articles.filter((article) => wsApiConverter[article.provider.name])
+  const returnArray = [ [], [], [], [], [] ];
 
   for (let i = 0; i < res.locals.articles.length; i++) {
     const article = res.locals.articles[i];
-    const publication = wsApiConverter[article.provider.name];
+    const publication = article.source.title;
 
     for (let i = 0; i < biasData.length; i++) {
       if (biasData[i].name === publication) {
@@ -253,6 +253,7 @@ newsController.sortNews = (req, res, next) => {
     Right-Center Articles Length: ${returnArray[3].length},
     Right Articles Length: ${returnArray[4].length}
   `);
+
   res.locals.articles = returnArray;
   return next();
 }

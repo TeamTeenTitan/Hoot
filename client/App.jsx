@@ -5,7 +5,6 @@ import Checkbox from "@mui/material/Checkbox";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import axios from "axios";
 import HeaderIcons from "./components/HeaderIcons.jsx";
-import dummyData from '../server/dummy-data-contextApi'
 
 
 import { sampleData } from "./assets/sampleData.js"
