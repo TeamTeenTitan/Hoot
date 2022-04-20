@@ -5,6 +5,8 @@ const db = require('../models/newsModel');
 const biasData = require('../allSidesData/allsides');
 const dummyData = require("../dummy-data-contextApi");
 
+const newsController = {};
+
 /** CLIENT REQUEST OPTIONS FOR QUERYING TRENDING NEWS FROM WEB SEARCH API **/
 const optionsTrendingNews = {
   method: "GET",
@@ -44,7 +46,6 @@ const optionsNewsSearch = {
   }
 };
 
-const newsController = {};
 
 /** GET CURRENT DATE OF CLIENT REQUEST **/
 const retrieveDate = (i) => {
@@ -122,8 +123,9 @@ newsController.getTrendingNews = (req, res, next) => {
   return next();
 
   /** AXIOS REQUEST COMMENTED OUT FOR dummyData USAGE **/
+  // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
 //   axios
-//     .request(options)
+//     .request(optionsTrendingNews)
 //     .then(response => {
 //       res.locals.articles = response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
 //       return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
@@ -247,8 +249,26 @@ newsController.sortNews = (req, res, next) => {
   // }
 }
 
+/** SEARCH GENERAL NEWS USING THE WEB SEARCH API AND QUERYING USING CLIENT INPUT **/
 newsController.searchNews = (req, res, next) => {
-  // ADD LOGIC TO DIFFERENTIATE BETWEEN TRENDING NEWS SEARCH AND GENERAL NEWS
+  // SET SEARCH QUERY BASED ON CLIENT INPUT ON FRONTEND
+  optionsNewsSearch.q = req.body.query;
+
+  // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
+  axios
+    .request(optionsNewsSearch)
+    .then(response => {
+      res.locals.articles = response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
+      return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
+    })
+    .catch((error) => {
+      console.error(
+        "Error with GET request to contextAPI on contextApiController.js",
+        error
+      );
+    });
+
+  // TODO: ADD LOGIC TO DIFFERENTIATE BETWEEN TRENDING NEWS SEARCH AND GENERAL NEWS
   console.log(req.body.query);
   const searchArray = [0, 1, 2, 3].map((el, i) => {
     const searchOptions = {}
