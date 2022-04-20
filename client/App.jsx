@@ -5,6 +5,7 @@ import Checkbox from "@mui/material/Checkbox";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import axios from "axios";
 import HeaderIcons from "./components/HeaderIcons.jsx";
+import dummyData from '../server/dummy-data-contextApi'
 
 
 import { sampleData } from "./assets/sampleData.js"
@@ -34,16 +35,16 @@ export default function App() {
 
 
 /** CALL TO GOOGLE API FOR NEWS FETCH (ANTIQUATED) **/
-// useEffect(()=>{
-//   axios.get("/api")
-//   .then((response) => {
-//     setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
-//   .catch(err => {console.log(err)});
-// }, [])
+useEffect(()=>{
+  axios.get("/api")
+  .then((response) => {
+    setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
+  .catch(err => {console.log(err)});
+}, [])
 
-  // useEffect(()=>{
-  //   setColumns(sampleData.map((el,i) => <Home articles={el} bias={headers[i]}/>));
-  // }, [])
+  useEffect(()=>{
+    setColumns(dummyData.value.map((el,i) => <Home articles={el} bias={headers[i]}/>));
+  }, [])
 
   /** CALL THE BACKEND FROM THE FRONTEND **/
   useEffect(() => {

@@ -8,7 +8,7 @@ const router = express.Router();
 /** FETCH TRENDING NEWS, SORT THE ARTICLES, SEND BACK TO CLIENT **/
 router.get("/",
   newsController.getTrendingNews,
-  // newsController.sortNews,
+  newsController.sortNews,
   (req, res) => {
     res.status(200).json(res.locals);
   }
@@ -19,7 +19,7 @@ router.post('/search',
   // newsController.searchNews,
   // newsController.sortNews,
   (req, res) => {
-    res.status(200).json(res.locals.articles)
+    res.status(200).json(res.locals.articles);
   }
 );
 module.exports = router;

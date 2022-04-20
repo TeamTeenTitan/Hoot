@@ -4,6 +4,7 @@ const axios = require('axios')
 const db = require('../models/newsModel');
 const biasData = require('../allSidesData/allsides');
 const dummyData = require("../dummy-data-contextApi");
+const wsApiConverter = require('../../utils/wsApiConverter');
 
 const newsController = {};
 
@@ -19,7 +20,7 @@ const optionsTrendingNews = {
   },
   headers: {
     "X-RapidAPI-Host": "contextualwebsearch-websearch-v1.p.rapidapi.com",
-    "X-RapidAPI-Key": "ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146",
+    "X-RapidAPI-Key": "17f0cf7f02mshb9e0b4e8b9ea0abp1ebce6jsn889c43680174",
     // Patrick's key: 89e47335f5msh4d7997067bc1babp1d3444jsn4a9af4c9af9c
     // Michael's key: ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146 -- used up 4/16
     // Matt's Key: a65e262fb5msh06c38f045ca319ap1d473fjsn6801c08d9a5a
@@ -32,7 +33,7 @@ const optionsNewsSearch = {
   method: 'GET',
   url: 'https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI',
   params: {
-    q: '',
+    q: 'world',
     pageNumber: '1',
     pageSize: '50',
     autoCorrect: 'true',
@@ -42,7 +43,7 @@ const optionsNewsSearch = {
   },
   headers: {
     'X-RapidAPI-Host': 'contextualwebsearch-websearch-v1.p.rapidapi.com',
-    'X-RapidAPI-Key': 'ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146'
+    'X-RapidAPI-Key': '17f0cf7f02mshb9e0b4e8b9ea0abp1ebce6jsn889c43680174'
   }
 };
 
@@ -119,23 +120,35 @@ const filterArticle = (article) => {
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
   // POPULATE RES.LOCALS.ARTICLES WITH THE ARRAY OF ARTICLES (OBJECTS)
-  res.locals.articles = dummyData.value; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES
-  return next();
+  // res.locals.articles = dummyData.value; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES
+  // return next();
 
   /** AXIOS REQUEST COMMENTED OUT FOR dummyData USAGE **/
   // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
-//   axios
-//     .request(optionsTrendingNews)
-//     .then(response => {
-//       res.locals.articles = response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
-//       return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
-//     })
-//     .catch((error) => {
-//       console.error(
-//         "Error with GET request to contextAPI on contextApiController.js",
-//         error
-//       );
-//     });
+  axios
+    .request(optionsNewsSearch)
+    .then(response => {
+      res.locals.articles = response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
+      return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
+    })
+    .catch((error) => {
+      console.error(
+        "Error with GET request to contextAPI on contextApiController.js",
+        error
+      );
+    });
+  // axios
+  //   .request(optionsNewsSearch)
+  //   .then(response => {
+  //     res.locals.articles += response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
+  //     return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
+  //   })
+  //   .catch((error) => {
+  //     console.error(
+  //       "Error with GET request to contextAPI on contextApiController.js",
+  //       error
+  //     );
+  //   });
 };
 
 /** ANTIQUATED: ASYNCHRONOUSLY FETCH DATA WITH INTERCHANGEABLE API REQUEST OPTIONS **/
@@ -198,55 +211,50 @@ newsController.getTrendingNews = (req, res, next) => {
 
 /** CREATE FIVE COLUMNS TO RESPECTIVELY SORT FETCHED ARTICLES BASED ON POLITICAL LEANING (LEVERAGING ALLSIDES) **/
 newsController.sortNews = (req, res, next) => {
-  const returnArray = [[],[],[],[],[]];
-  res.locals.articles.forEach((article, i, arr) => {
-    
-    let publication;
-    article.provider.name.startsWith('The ') ?
-      publication = article.provider.name.slice(4).toLowerCase() :
-      publication = article.provider.name.toLowerCase();
+  const returnArray = [[], [], [], [], []];
 
-    for (let i = 0; i <= biasData.length; i++) {
-      if (i < biasData.length) {
-    
-        if (biasData[i].name.toLowerCase().includes(publication)) {
+  res.locals.articles = res.locals.articles.filter((article) => wsApiConverter[article.provider.name])
 
+  for (let i = 0; i < res.locals.articles.length; i++) {
+    const article = res.locals.articles[i];
+    const publication = wsApiConverter[article.provider.name];
+
+    for (let i = 0; i < biasData.length; i++) {
+      if (biasData[i].name === publication) {
         switch (biasData[i].bias) {
           case 'left':
-            // console.log('left -->', publication)
-            returnArray[0].push(filterArticle(article));
+            returnArray[0].push((article));
             break;
           case 'left-center':
-            // console.log('left-center -->', publication)  
-            returnArray[1].push(filterArticle(article));
+            returnArray[1].push((article));
             break;
           case 'center':
-            // console.log('center -->', publication)  
-            returnArray[2].push(filterArticle(article));
+            returnArray[2].push((article));
             break;
           case 'right-center':
-            // console.log('right-center -->', publication)  
-            returnArray[3].push(filterArticle(article));
+            returnArray[3].push((article));
             break;
           case 'right':
-          //  console.log('right -->', publication)
-            returnArray[4].push(filterArticle(article));
+            returnArray[4].push((article));
+            break;
+          default:
+            console.log('Error: Unable to find bias');
             break;
         }
         break;
-      }} 
-      // else {
-      //   console.log('NO BIAS FOUND -->', publication)
-      // }
+      }
     }
-  });
-  // console.log(returnArray[0].length, returnArray[1].length, returnArray[2].length, returnArray[3].length, returnArray[4].length);
-  // for(let i = 0; i < returnArray.length; i++){
-    res.locals.articles = returnArray;
-    console.log(res.locals.articles.map(el => `${el.length} articles`));
-    // console.log('Left articles --> ', res.locals.articles[0]);
-    return next();
-  // }
+  }
+
+  console.log(`
+    Left Articles Length: ${returnArray[0].length},
+    Left-Center Articles Length: ${returnArray[1].length},
+    Center Articles Length: ${returnArray[2].length},
+    Right-Center Articles Length: ${returnArray[3].length},
+    Right Articles Length: ${returnArray[4].length}
+  `);
+  res.locals.articles = returnArray;
+  return next();
 }
 
 /** SEARCH GENERAL NEWS USING THE WEB SEARCH API AND QUERYING USING CLIENT INPUT **/

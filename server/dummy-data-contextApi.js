@@ -1,44 +1,103 @@
 const dummyData = {
   "_type": "news",
   "didUMean": "",
-  "totalCount": 26,
+  "totalCount": 28,
   "relatedSearch": [],
   "value": [
     {
-      "id": "1968564148938648860",
-
-      "title": "Russia mounts waves of attacks in eastern Ukraine",
-
-      "url": "https://www.latimes.com/world-nation/story/2022-04-19/russia-mounts-concerted-attacks-on-ukraines-eastern-front",
-
-      "description": "Ukraine says the decisive fight for country's east has begun as Russia mounts wave of attacks in the Donbas region. Biden to confer with allies.",
-
-      "body": "Moscow again on Tuesday demanded the surrender of holdout Ukrainian forces in the besieged southern port of Mariupol and bombardment boomed across the countrys east in what Russia and Ukraine are calling a major new phase of the ferocious nearly 8-week-old war. Although Ukraine says Russia has begun its long-expected all-out assault in the east  and Moscows top diplomat confirmed Tuesday the struggle has entered its next stage -- some Western military officials and analysts suggest the current attacks are only a prelude to a larger and potentially far more brutal offensive. President Biden was to confer Tuesday with key allies about the next phase of the war and how the West will respond. Ukrainian authorities, meanwhile, implored civilians to get out of the eastern battle zone by any means possible, but acknowledged that for a third straight day there had been no agreement reached with Russia to set up humanitarian corridors those fleeing the fighting could use for safe passage. The latest Russian ultimatum to the Ukrainian forces in Mariupol came in a statement by the defense ministry in Moscow promising that those who lay down their arms are guaranteed to remain alive. But as happened over the weekend, the surrender deadline came and went without any sign of a Ukrainian pullback from a sprawling steelworks plant where fighters and hundreds of civilians are holed up in a network of tunnels. A Ukrainian commander says Russia has been using bunker-buster bombs to try to dislodge the defenders. Mariupols capture would likely be hailed by Russia as a pivotal triumph in a war that has yielded few of those for Moscow. It would free up more brigades for the eastern fight, as well as enable the creation of a strategically important land corridor between Russian-controlled areas and the annexed Crimean Peninsula. Moscow was initially silent on Monday night when Zelensky declared that the war for Ukraines industrial east, known as the Donbas, had begun. The area is made up of two large regions, Luhansk and Donetsk, parts of which are already controlled by Russia-backed separatists. We will fight, the Ukrainian leader vowed in his nightly video address. We will defend ourselves. Russian appeared to confirm the wider offensives start when Foreign Minister Sergei Lavrov said in an interview broadcast Tuesday that another stage of this operation is beginning. I am sure this will be a very important moment of this entire special operation, Lavrov told Indian television. Russia refers to Europes biggest land war since World War II as a special military operation. Ukraines military said Tuesday that Russias apparent aim was to seize full control of the Donbas. Its general staff said in a statement that overnight and early Tuesday, the occupiers made an attempt to break through our defenses along nearly the entire frontline, a distance of more than 300 miles. All along the battlefront, Russian forces were probing for sensitive spots in Ukraines defense, presidential adviser Oleksiy Arestovych said. But speaking on national television, he predicted the offensive would fail because the Russians simply do not have enough strength. Even so, civilian casualties were mounting. Luhansk regional governor Serhiy Haidai said on Ukrainian television that the town of Kreminna came under heavy artillery fire overnight, setting residential buildings ablaze. The Ukrainians retreated in order to regroup, giving Russia control of the town, because it simply makes no sense to stand in one place, to die without prospects for inflicting any real harm on the invaders, he said. In the northeasterncity of Kharkiv, hammered by near-constant bombardment, five people had been killed by shelling in the last 24 hours, the regional governor said Tuesday. For many in the battle zone, theres no clear distinction between a much-heralded new phase of fighting and what has already occurred during the nearly two months since Russia invaded its smaller neighbor. In Avdiivka, less than two miles away from the separatist-controlled city of Donetsk, shelling had been a constant backdrop, with many forced to live their lives largely underground. In one school, some 200 people took shelter in the dank confines of the basement level, sleeping on mattresses laid over desks. They shared one bathroom, on the ground level. A month ago, an artillery round smashed the fourth-floor apartment of the head of Avdiivka's utility company, who gave only his first name, Rostislav, for reasons of privacy. His family  a wife and three children, the youngest seven months old -- found safety in the Black Sea city of Odessa. But the shelling stole away a home whose purchase had cost him all he had. Im 37, and I have nothing, he said. Standing in front of the ruined apartment building, he pointed out where the shell had hit, debris now in an organized pile on the side of the street. Nearby were gouges and craters in the sidewalk where other artillery rounds had fallen. Despite Avdiivkas proximity to the front lines of the eight-year war between Russian-backed separatists and Ukrainian forces, Rostislav described a community that flourished before the Feb. 24 invasion. There was work, money and happiness, he said. Now, like so many other cities across the Donbas, it was virtually a ghost town. Asked if he planned to leave, he sighed a deep sigh. Not today, he said. Bulos reported from Avdiivka, Ukraine and King from Berlin.",
-
-      "snippet": "Ukraine says the decisive fight for country's east has begun as Russia mounts wave of attacks in the Donbas region.\nBiden to confer with allies.",
-
+      "id": "7596471385017095264",
+      "title": "Russia's Chernobyl seizure seen as nuclear risk 'nightmare'",
+      "url": "https://www.boston.com/news/russia-ukraine/2022/04/20/russias-chernobyl-seizure-seen-as-nuclear-risk-nightmare/",
+      "description": "Russias invasion marks the first time that occupying a nuclear plant was part of a nation's war strategy. Read more at Boston.com.",
+      "body": "Email\nAdvertisement:\nCHERNOBYL, Ukraine (AP)  Here in the dirt of one of the worlds most radioactive places, Russian soldiers dug trenches. Ukrainian officials worry they were, in effect, digging their own graves.\nAdvertisement:\nAdvertisement:\nAdvertisement:\nThousands of tanks and troops rumbled into the forested Chernobyl exclusion zone in the earliest hours of Russias invasion of Ukraine in February, churning up highly contaminated soil from the site of the 1986 accident that was the worlds worst nuclear disaster.\nAdvertisement:\nAdvertisement:\nFor more than a month, some Russian soldiers bunked in the earth within sight of the massive structure built to contain radiation from the damaged Chernobyl nuclear reactor. A close inspection of their trenches was impossible because even walking on the dirt is discouraged.\nAs the 36th anniversary of the April 26, 1986, disaster approaches and Russias invasion continues, its clear that Chernobyl  a relic of the Cold War  was never prepared for this.\nWith scientists and others watching in disbelief from afar, Russian forces flew over the long-closed plant, ignoring the restricted airspace around it. They held personnel still working at the plant at gunpoint during a marathon shift of more than a month, with employees sleeping on tabletops and eating just twice a day.\nEven now, weeks after the Russians left, I need to calm down, the plants main security engineer, Valerii Semenov, told The Associated Press. He worked 35 days straight, sleeping only three hours a night, rationing cigarettes and staying on even after the Russians allowed a shift change.\nI was afraid they would install something and damage the system, he said in an interview.\nWorkers kept the Russians from the most dangerous areas, but in what Semenov called the worst situation he has seen in his 30 years at Chernobyl, the plant was without electricity, relying on diesel generators to support the critical work of circulating water for cooling the spent fuel rods.\nIt was very dangerous to act in this way, said Maksym Shevchuck, the deputy head of the state agency managing the exclusion zone. He was scared by it all.\nRussias invasion marks the first time that occupying a nuclear plant was part of a nations war strategy, said Rebecca Harms, former president of the Greens group in the European Parliament, who has visited Chernobyl several times. She called it a nightmare scenario in which every nuclear plant can be used like a pre-installed nuclear bomb.\nA visit to the exclusion zone, more desolate than usual, found that the invasion risked a catastrophe worse than the original explosion and fire at Chernobyl that sent radioactive material into the atmosphere and became a symbol of the Soviet Unions stumbling final years. Billions of dollars were spent by the international community, including Russia, to stabilize and secure the area.\nNow authorities are working with Ukraines defense ministry on ways to protect Chernobyls most critical places. At the top of the list are anti-drone systems and anti-tank barriers, along with a system to protect against warplanes and helicopters.\nNone of it will matter much if Russian President Vladimir Putin resorts to nuclear weapons, which Shevchuck says he cant rule out anymore.\nI understand they can use any kind of weapon and they can do any awful thing, he said.\nChernobyl needs special international protection with a robust U.N. mandate, Harms said. As with the original disaster, the risks are not only to Ukraine but to nearby Belarus and beyond.\nIt depends from where the wind blows, she said.\nAfter watching thousands of Soviet soldiers work to contain the effects of the 1986 accident, sometimes with no protection, Harms and others were shocked at the Russian soldiers disregard for safety, or their ignorance, in the recent invasion.\nSome soldiers even stole highly radioactive materials as souvenirs or possibly to sell.\nI think from movies they have the imagination that all dangerous small things are very valuable, Shevchuck said.\nHe believes hundreds or thousands of soldiers damaged their health, likely with little idea of the consequences, despite plant workers warnings to their commanders.\nMost of the soldiers were around 20 years old, he said. All these actions proves that their management, and in Russia in general, human life equals like zero.\nThe full extent of Russias activities in the Chernobyl exclusion zone is still unknown, especially because the troops scattered mines that the Ukrainian military is still searching for. Some have detonated, further disturbing the radioactive ground. The Russians also set several forest fires, which have been put out.\nUkrainian authorities cant monitor radiation levels across the zone because Russian soldiers stole the main server for the system, severing the connection on March 2. The International Atomic Energy Agency said Saturday it still wasnt receiving remote data from its monitoring systems. The Russians even took Chernobyl staffers personal radiation monitors.\nIn the communications center, one of the buildings in the zone not overgrown by nature, the Russians looted and left a carpet of shattered glass. The building felt deeply of the 1980s, with a map on a wall still showing the Soviet Union. Someone at some point had taken a pink marker and traced Ukraines border.\nIn normal times, about 6,000 people work in the zone, about half of them at the nuclear plant. When the Russians invaded, most workers were told to evacuate immediately. Now about 100 are left at the nuclear plant and 100 are elsewhere.\nSemenov, the security engineer, recalled the Russians checking the remaining workers for what they called radicals.\nWe said, Look at our documents, 90% of us are originally from Russia, he said. But were patriots of our country, meaning Ukraine.\nWhen the Russians hurriedly departed March 31 as part of a withdrawal from the region that left behind scorched tanks and traumatized communities, they took more than 150 Ukrainian national guard members into Belarus. Shevchuck fears theyre now in Russia.\nIn their rush, the Russians gave nuclear plant managers a choice: Sign a document saying the soldiers had protected the site and there were no complaints, or be taken into Belarus. The managers signed.\nOne protective measure the Russians did appear to take was leaving open a line routing communications from the nuclear plant through the workers town of Slavutych and on to authorities in Ukraines capital, Kyiv. It was used several times, Shevchuck said.\nI think they understood it should be for their safety, he said. The IAEA said Tuesday the plant is now able to contact Ukraines nuclear regulator directly.\nAnother Ukrainian nuclear plant, at Zaporizhzhia in southeastern Ukraine, remains under Russian control. It is the largest in Europe.\nShevchuck, like other Ukrainians, has had it with Putin.\nWere inviting him inside the new safe confinement shelter, he said. Then we will close it.\nBe ",
+      "snippet": "Russias invasion marks the first time that occupying a nuclear plant was part of a nation's war strategy.\nRead more at Boston.com.",
       "keywords": "",
-
       "language": "en",
-
       "isSafe": true,
-
-      "datePublished": "2022-04-19T12:18:25",
-
+      "datePublished": "2022-04-20T11:57:06",
+      "provider": {
+        "name": "boston",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://www.boston.com/wp-content/uploads/2022/04/Russia_Ukraine_War_Chernobyl_97792-625fa6d6cb5a5-scaled.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "boston",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.boston.com/news/russia-ukraine/2022/04/20/russias-chernobyl-seizure-seen-as-nuclear-risk-nightmare/"
+      }
+    },
+    {
+      "id": "1098687342061318339",
+      "title": "Netflix aims to curtail password sharing, considers ads",
+      "url": "https://www.boston.com/news/business/2022/04/20/netflix-aims-to-curtail-password-sharing-considers-ads/",
+      "description": "An unexpected drop in subscribers has Netflix considering changes like ads and minimizing password sharing. Learn more at Boston.com.",
+      "body": "Email\nAdvertisement:\nSAN FRANCISCO (AP)  An unexpectedly sharp drop in subscribers has Netflix considering changes it has long resisted: Minimizing password sharing and creating a low-cost subscription supported by advertising.\nAdvertisement:\nAdvertisement:\nAdvertisement:\nLooming changes announced late Tuesday are designed to help Netflix regain momentum lost over the past year. Pandemic-driven lockdowns that drove binge-watching have lifted, while deep-pocketed rivals such as Apple and Walt Disney have begun to chip away at its vast audience with their own streaming services.\nAdvertisement:\nAdvertisement:\nNetflixs customer base fell by 200,000 subscribers during the January-March quarter, the first contraction the streaming service has seen since it became available throughout most of the world other than China six years ago. The drop stemmed in part from Netflixs decision to withdraw from Russia to protest the war against Ukraine, resulting in a loss of 700,000 subscribers. Netflix projected a loss of another 2 million subscribers in the current April-June quarter.\nThe erosion, coming off a year of progressively slower growth, has rattled Netflix investors. Shares plunged by more than 25% in extended trading after Netflix revealed its disappointing performance. If the stock drop extends into Wednesdays regular trading session, Netflix shares will have lost more than half of their value so far this year  wiping out about $150 billion in shareholder wealth in less than four months.\nThe Los Gatos, California, company estimated that about 100 million households worldwide are watching its service for free by using the account of a friend or another family member, including 30 million in the U.S. and Canada.\nThose are over 100 million households already are choosing to view Netflix, Netflix CEO Reed Hastings said. Weve just got to get paid at some degree for them.\nTo prod more people to pay for their own accounts, Netflix indicated it will expand a trial program it has been running in three Latin American countries  Chile, Costa Rica and Peru. In these locations, subscribers can extend service to another household for a discounted price. In Costa Rica, for instance, Netflix plan prices range from $9 to $15 a month but subscribers can openly share their servicewith another household for $3.\nNetflix offered no additional information about how a cheaper ad-supported service tier would work or how much it would cost. Another rival, Hulu, has long offered an ad-supported tier.\nWhile Netflix clearly believes these changes will help it build upon its current 221.6 million worldwide subscribers, the moves also risk alienating customers to the point they cancel.\nNetflix was previously stung by a customer backlash in 2011 when it unveiled plans to begin charging for its then-nascent streaming service, which had been bundled for free with its traditional DVD-by-mail service before its international expansion. In the months after that change, Netflix lost 800,000 subscribers, prompting an apology from Hastings for botching the execution of the spin-off.\nTuesdays announcement was a sobering comedown for a company that was buoyed two years ago when millions of consumers corralled at home were desperately seeking diversions  a void Netflix was happy to fill. Netflix added 36 million subscribers during 2020, by far the largest annual growth since its video streaming services debut in 2007.\nBut Hastings now believes those outsized gains may have blinded management. COVID created a lot of noise on how to read the situation, he said in a video conference Tuesday.\nNetflix began heading in a new direction last year when its service added video gamesat no additional charge in an attempt to give people another reason to subscribe.\nEscalating inflation over the past year has also squeezed household budgets, leading more consumers to rein in their spending on discretionary items. Despite that pressure, Netflix recently raised prices in the U.S., where it has its greatest household penetration  and where its had the most trouble finding more subscribers.\nIn the most recent quarter, Netflix lost 640,000 subscribers in the U.S. and Canada, prompting management to point out that most of its future growth will come in international markets. Netflix ended March with 74.6 million subscribers in the U.S. and Canada.\nBe civil.  Be kind.",
+      "snippet": "An unexpected drop in subscribers has Netflix considering changes like ads and minimizing password sharing.\nLearn more at Boston.com.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-20T11:49:07",
+      "provider": {
+        "name": "boston",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://www.boston.com/wp-content/uploads/2022/04/Netflix_Sharing_Crackdown_98351-625f9ba23b0b7-scaled.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "boston",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.boston.com/news/business/2022/04/20/netflix-aims-to-curtail-password-sharing-considers-ads/"
+      }
+    },
+    {
+      "id": "4434646632216739915",
+      "title": "Widespread protests grip Sri Lanka after police shooting",
+      "url": "https://www.latimes.com/world-nation/story/2022-04-20/widespread-protests-sri-lanka-police-shooting",
+      "description": "Thousands of Sri Lankans take to the streets a day after police opened fire at demonstrators amid the countrys worst economic crisis in decades.",
+      "body": "Thousands of people across Sri Lanka took to the streets Wednesday after police opened fire at demonstrators the day before in a crackdown that killed one person, injured 13 others and reignited widespread protests over the countrys worst economic crisis in decades. Protesters used vehicles to block key roads in many parts of the country as they demonstrated against the shooting as well as rising fuel prices and the governments failure to resolve the deepening economic problems. The shooting was the first by Sri Lankan security forces during weeks of protests. The violence occurred Tuesday in Rambukkana, 55 miles northeast of Colombo, the capital. Fifteen police officers were also admitted to a hospital with minor injuries after clashes with protesters. Police said the demonstrators had blocked railroad tracks and roads and ignored warnings to disperse. Police also said protesters threw rocks at them. Also Wednesday, thousands of bank, port, health and other state employees demonstrated in front of the main railway station in Colombo, condemning the police shooting and demanding that President Gotabaya Rajapaksa resign. They marched on the main road in front of the station shouting slogans and displaying placards that read Bring down the cost of living, Bow down to the people's verdict and Gota go home. Gota is a shortened version of Rajapaksa's first name. Rajapaksa has resisted calls to resign. Much of the anger expressed in weeks of growing protests has been directed at Rajapaksa and his elder brother, Prime Minister Mahinda Rajapaksa, who head an influential clan that has been in power for most of the past two decades. Five other family members are lawmakers, three of whom resigned as ministers two weeks ago. Sri Lanka is on the brink of bankruptcy, with nearly $7 billion of its total $25 billion in foreign debt due for repayment this year. A severe shortage of foreign exchange means the country lacks money to buy imported goods. U.S. Ambassador Julie Chung and United Nations Resident Coordinator Hanaa Singer-Hamdy urged restraint from all sides and called on the authorities to ensure peoples right to peaceful protest. Chung also called for an independent investigation into the shooting. Sri Lankans have endured months of shortages of essentials such as food, cooking gas, fuel and medicine, lining up for hours to buy the limited stocks available. Fuel prices have risen several times in recent months, resulting in sharp increases in transport costs and prices of other goods. There was another round of increases earlier this week. Thousands of protesters continued to occupy the entrance to the presidents office for a 12th day Wednesday, blaming him for the economic crisis. Mahinda Rajapaksa said Tuesday that the constitution would be changed to clip presidential powers and empower Sri Lanka's Parliament. The prime minister said the power shift was a quick step that could be taken to stabilize the country politically and help talks with the International Monetary Fund over an economic recovery plan. Gotabaya Rajapaksa concentrated power in the presidency after being elected in 2019. The Rajapaksa brothers are likely to retain their grip on power even if the constitution is amended, since they hold the highest offices. Both the president and prime minister have refused to step down, resulting in a political impasse. Opposition parties have rejected the presidents proposal of a unity government but have been unable to put together a majority in Parliament and form a new government.",
+      "snippet": "Thousands of Sri Lankans take to the streets a day after police opened fire at demonstrators amid the countrys worst economic crisis in decades.\nThousands of people across Sri Lanka took to the streets Wednesday after police opened fire at demonstrators the day before in a crackdown that killed one person, injured 13 others and reignited widespread protests over the countrys worst economic crisis in decades.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-20T09:19:20.644",
       "provider": {
         "name": "latimes",
         "favIcon": "",
         "favIconBase64Encoding": ""
       },
-
       "image": {
-        "url": "https://ca-times.brightspotcdn.com/dims4/default/d1e9e8a/2147483647/strip/true/crop/6149x3228+0+460/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F67%2Fac%2Fcb7a507c44db9df3da0a0edf3b34%2F943095-la-fg-russian-invasion-ukraine-71-cmc.jpg",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=8344475835072965813",
-        "thumbnailHeight": 117,
-        "thumbnailWidth": 222,
-        "base64Encoding": null,
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/1d84366/2147483647/strip/true/crop/5308x2787+0+376/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F8d%2F09%2F901d0e42eaa90659515bf60bd34f%2F5e1292d5ac884334ba7c6f7950c143e1",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
@@ -47,33 +106,33 @@ const dummyData = {
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.latimes.com/world-nation/story/2022-04-19/russia-mounts-concerted-attacks-on-ukraines-eastern-front"
+        "webpageUrl": "https://www.latimes.com/world-nation/story/2022-04-20/widespread-protests-sri-lanka-police-shooting"
       }
     },
     {
-      "id": "971952173901634871",
-      "title": "The Sports Report: Why the Rams signed linebacker Bobby Wagner",
-      "url": "https://www.latimes.com/sports/newsletter/2022-04-19/freddie-freeman-dodgers-braves-sports-report",
-      "description": "Freddie Freeman homers in his first at-bat against the Atlanta Braves and the Dodgers go on to win, 7-4.",
-      "body": "Howdy, Im your host, Houston Mitchell. Lets get right to the news. From Jack Harris: Before first pitch Monday night, Dodgers fans gave their former closer a standing ovation. By the bottom of the first inning, their new first baseman had them in a raucous uproar. On a night the Dodgers and Atlanta Braves renewed their budding rivalry, it was each teams newest star member  and the others former franchise favorite  who commanded the brightest spotlight. Kenley Jansen returned to Chavez Ravine for the first time since signing with the Braves this offseason, receiving a warm reception during a pregame ceremony. Freddie Freeman faced the Braves for the first time since coming to the Dodgers in the spring, hitting a home run in his first-ever at-bat against his old club in the Dodgers eventual 7-4 win. The adrenaline is definitely up today, Jansen said pregame. Emotions are all over the place, echoed Freeman. Those sentiments had been building throughout the afternoon. When Jansen showed up to the ballpark, he had to ask a Braves staffer how to get to the away clubhouse. After 350 saves, three All-Star selections and a World Series championship with the Dodgers, it was his first time being a visitor at Chavez Ravine. [Its] weird, man said Jansen, who signed a one-year, $16 million contract as a free agent with the Braves this offseason. The only thing I knew was being a Dodger.  Freddie Freeman expresses himself with hugs and a homer in first game vs. Braves From Ben Bolch: With three words, another season could be played. With three words, a new ending could be written. With three words, a fan base could rejoice. Im coming back, Jaime Jaquez Jr. said, uttering the three words that could also change the trajectory of a program. The UCLA junior guard made his announcement near the end of a video heralding his return for one more college season Monday, taking his jersey out of his locker and slipping it over his shoulders. With his decision, Jaquez prioritized the letters on the front of that jersey over those on the back, reaffirming his devotion to his school. When I committed here, Jaquez said in the nearly 2-minute video released on Twitter and Instagram, I wanted to get this program back on the national stage, back where it belongs among the nations elite. Im proud of what we accomplished the last three years, but theres some unfinished business. I came to UCLA to win a national championship; shouldnt that be the goal? I want to hang banner No. 12 in Pauley Pavilion. Two adults and two juveniles were injured when shots were fired after an argument at a house party, North Las Vegas police Sgt. Vince Booker said Monday. The Las Vegas Review-Journal, citing unnamed sources, identified the most seriously injured person as Aaliyah Gayles, an 18-year-old basketball star at Spring Valley High in Las Vegas who was a McDonalds All-American. Gayles is originally from the Los Angeles area. She recommitted to USC after originally decommitting because of changes on the Trojans coaching staff. Aaliyah is one of the strongest, most resilient young people I have ever known, USC coach Lindsay Gottlieb said. I have no doubt she will continue to face this unfathomable situation with courage and resolve. We will continue to support her and her parents in every way that we possibly can. Yordan Alvarez homered twice with four RBIs in his return after missing five games because of COVID-19 health and safety protocols to lead the Houston Astros to an 8-3 win over the Angels in their home opener Monday night. But the Astros lost Jose Altuve in the eighth inning with a strained left hamstring in the eighth inning. He fell to the ground after legging out an infield single. Max Stassi hit a solo homer for the Angels, who were without star Mike Trout. He sat with a bruised left hand after being hit by a pitch Sunday. Angels team trainer Mike Frostad said an MRI on Monday was negative for a fracture and that Trout has a bruise. Frostad added Trouts return to the lineup will depend on pain tolerance. From Jeff Miller: He changed teams and conferences but not languages, Troy Reeders new job still allowing him to speak Staley. Familiarity has been a theme of this offseason rebuild for head coach Brandon Staley and his Chargers defense, the addition of Reeder just the latest move. The linebacker reunited with his former defensive coordinator with the Rams by signing as a free agent last week, Reeder joining the Chargers already comfortable with the verbiage, concepts and techniques of Staleys system. He arrived after the Chargers added two other former Staley defenders: edge rusher Khalil Mack in a trade with Chicago and tackle Sebastian Joseph-Day via free agency from the Rams. Youre kind of looking for some familiarity, Reeder said Monday of shopping for a new team. Theres always a comfort aspect to it. 1897  John J. McDermott wins the first Boston Marathon in 2 hours, 55 minutes, 10 seconds. 1930  Clarence DeMar wins the Boston Marathon for a record seventh time, in 2:34:48.2. 1947  The Toronto Maple Leafs post a 2-1 victory over the Montreal Canadiens to take the NHL Stanley Cup in six games. 1948  Gerard Cote of Canada wins his fourth Boston Marathon with a time of 2:31:02. 1950  Nineteen-year-old Ham Kee Yong becomes the youngest to win the Boston Marathon with a 2:32:39 clocking. 1965  The Boston Celtics have five players score 20 or more points in a 129-123 victory over the Lakers in Game 2 of the NBA Finals. Its the first time in Finals history there are five 20-point scorers on one team. John Havlicek leads Boston with 24 points, Tom Sanders and Bill Russell each score 23, Tommy Heinsohn adds 22 and Sam Jones finished with 20. Jerry West leads the Lakers with 45. 1986  Michael Spinks wins a split decision against Larry Holmes to retain the world heavyweight title in Las Vegas. 1991  Evander Holyfield retains the heavyweight title with a unanimous 12-round decision over 42-year-old challenger George Foreman in Atlantic City, N.J. 1992  Michael Jordan of the Chicago Bulls wins his sixth straight NBA scoring title with a 30.1 average. 1998  San Antonio beats Denver 96-82 to set an NBA record for the largest single-season turnaround. The Spurs improve by 36 games from 20 wins in 1997. 1998  Chicagos Michael Jordan scores 44 points to lead the Bulls over the Knicks, 111-109, in the final game of the regular season, securing his record 10th NBA scoring title with a 28.7-point average. 2009  Rafael Nadal becomes the first player to win five straight Monte Carlo Masters titles by beating Novak Djokovic 6-3, 2-6, 6-1. The top-ranked Spaniard, however, loses a set at the clay court tournament for the first time since the 2006 final against Roger Federer. 2010  Kenyas Robert Kiprono Cheruiyot wins the Boston Marathon, breaking the course record with a time of 2:05:52. Ethiopias Teyba Erkesso wins the womens race in a time of 2:26:11, outsprinting Russias Tatyana Pushkareva to win by thr",
-      "snippet": "Freddie Freeman homers in his first at-bat against the Atlanta Braves and the Dodgers go on to win, 7-4.\nHowdy, Im your host, Houston Mitchell.",
+      "id": "5571908286035215794",
+      "title": "Shanghai allows 4 million out of homes as COVID rules ease",
+      "url": "https://www.latimes.com/world-nation/story/2022-04-20/shanghai-allows-4-million-out-coronavirus-rules-ease",
+      "description": "As Shanghai allowed more residents outdoors amid a COVID-19 outbreak, the International Monetary Fund cut its forecast of Chinese economic growth.",
+      "body": "Shanghai allowed 4 million more people out of their homes Wednesday as anti-coronavirus controls that shut down China's biggest city eased, while the International Monetary Fund cut its forecast of Chinese economic growth and warned that the global flow of industrial goods might be disrupted. A total of nearly 12 million people in the city of 25 million are now allowed outdoors following the first round of easing of restrictions last week, health official Wu Ganyu told news conference. Wu said the virus was under effective control for the first time in some parts of the city. Under the latest changes, more than 4 million people are included in areas where the status shifted from \"closed\" to \"controlled,\" said Wu. He said some are not allowed to leave their neighborhoods, and large gatherings are prohibited. Meanwhile, the IMF reduced its forecast of Chinese growth this year to 4.4% from 4.8% because of the shutdowns of Shanghai and other industrial centers. That is down by almost half from last year's 8.1% growth and below the ruling Communist Party's 5.5% target. Chinas case numbers in its latest infection surge are relatively low, but the ruling party is enforcing a zero-tolerance COVID strategy that has shut down major cities to contain even the smallest of outbreaks. On Wednesday, the government reported 19,927 new cases on the Chinese mainland, all but 2,761 of which had no symptoms. Shanghai accounted for 95% of the total, or 18,902 cases, of which 2,495 had symptoms. The Shanghai city health agency reported that seven people who had COVID-19 died Tuesday but said the deaths were due to cancer, heart disease and other ailments. All but two were over 60. Shanghai shut down businesses and confined most residents to their homes starting March 28 after a spike in infections. That led to complaints about lack of access to supplies of food and medicine. People in Shanghai who test positive but have no symptoms have been ordered into quarantine centers set up in exhibition halls and other public buildings. Official data this week showed economic growth in the first three months of this year declined compared with the final quarter of 2021. The lockdowns in China \"will likely compound supply disruptions elsewhere and might add to pressure for inflation to rise, the IMF said in a report. The ruling party has promised tax refunds and other aid to businesses but is avoiding large-scale stimulus spending. Economists say that the strategy will take longer to show results and that Beijing might need to spend more or cut interest rates. Chinese leaders have promised to try to reduce the human and economic cost of anti-disease controls by shifting to a dynamic clearing strategy that isolates neighborhoods and other smaller areas instead of whole cities. However, many areas appear to be enforcing more stringent controls after Shanghai officials were criticized for not acting aggressively enough. Also Wednesday, the Ministry of Agriculture ordered local officials to avoid any measures that might interfere with spring planting by the farmers who help feed China's 1.4 billion people. The order followed warnings that production of wheat and other crops might be disrupted, which would boost demand for imports and push up already-high global prices. The government reported that 26,760 people who tested positive but had no symptoms were released Wednesday from observation. That included 25,411 in Shanghai, where some residents of quarantine centers have complained that they are unsanitary. Other industrial and trading centers, including Changchun, Jilin and Shenyang in the northeast; the port of Tianjin, east of Beijing; and Shenzhen and Guangzhou in the south have closed businesses, imposed travel restrictions or told told residents to stay home. Global automakers and other manufacturers reduced or stopped production because suppliers couldnt deliver. This week, Volkswagen announced that its Changchun factory had resumed production and that it was considering when its Shanghai facility would reopen. BMW said its factory in Shenyang reopened. While some cities were easing controls, the government of Harbin, a city of 5.3 million in the northeast, suspended bus and subway service Wednesday and barred people from moving between districts.",
+      "snippet": "As Shanghai allowed more residents outdoors amid a COVID-19 outbreak, the International Monetary Fund cut its forecast of Chinese economic growth.\nShanghai allowed 4 million more people out of their homes Wednesday as anti-coronavirus controls that shut down China's biggest city eased, while the International Monetary Fund cut its forecast of Chinese economic growth and warned that the global flow of industrial goods might be disrupted.",
       "keywords": "",
       "language": "en",
       "isSafe": true,
-      "datePublished": "2022-04-19T11:30:14.146",
+      "datePublished": "2022-04-20T08:28:59.083",
       "provider": {
         "name": "latimes",
         "favIcon": "",
         "favIconBase64Encoding": ""
       },
       "image": {
-        "url": "https://ca-times.brightspotcdn.com/dims4/default/f16a0b5/2147483647/strip/true/crop/4131x2169+0+293/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F6f%2F74%2Ff738597543ab9f02532726ae4a2f%2Fbraves-dodgers-baseball-92742.jpg",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=5417217469490866108",
-        "thumbnailHeight": 117,
-        "thumbnailWidth": 222,
-        "base64Encoding": null,
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/c58f474/2147483647/strip/true/crop/6000x3150+0+529/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7c%2Ffb%2F821a76f089c78e515af725418284%2F0e3dc557b475463abc6a92feb916ebb8",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
@@ -82,20 +141,335 @@ const dummyData = {
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.latimes.com/sports/newsletter/2022-04-19/freddie-freeman-dodgers-braves-sports-report"
+        "webpageUrl": "https://www.latimes.com/world-nation/story/2022-04-20/shanghai-allows-4-million-out-coronavirus-rules-ease"
       }
     },
     {
-      "id": "7309469516461415551",
-      "title": "Alex Jones' Infowars files for bankruptcy after Sandy Hood defamation lawsuits :",
-      "url": "https://www.npr.org/2022/04/18/1093380853/alex-jones-infowars-files-for-bankruptcy-after-sandy-hood-defamation-lawsuits?ft=nprml&f=",
-      "description": "Infowars has filed for bankruptcy. The move postpones founder Alex Jones' civil trial that had been scheduled to begin next week.",
-      "body": "Ethics\nAlex Jones' Infowars files for bankruptcy after Sandy Hood defamation lawsuits\nInfowars has filed for bankruptcy. The move postpones founder Alex Jones' civil trial that had been scheduled to begin next week.\nBusiness\nAlex Jones' Infowars files for bankruptcy after Sandy Hood defamation lawsuits\nFacebook",
-      "snippet": "Infowars has filed for bankruptcy.\nThe move postpones founder Alex Jones' civil trial that had been scheduled to begin next week.",
+      "id": "7254012290647610206",
+      "title": "Netflix loses subscribers after it pulls out of Russia",
+      "url": "https://www.washingtonpost.com/world/2022/04/20/netflix-loses-subscribers-russia/",
+      "description": "For the first time in a decade, Netflix said that it had lost more paying viewers than it added, even as its revenue grew, pushing its stock price down by more than 20 percent in after-hours trading.",
+      "body": "ArrowRight\nIt lost 700,000 viewers in Russia, although it added 500,000 viewers elsewhere globally.\nThe drop comes amid a larger trend of shrinking viewership, with the streaming service projecting that it will lose a further 2 million subscribers in the next three-month quarter ending in June.\nIt still said revenue would grow to almost $8 billion in that period, a 10 percent increase from the same time last year. The company also retains a paying audience of over 220 million, more than double what it had five years ago.\nAdvertisement\nBut the unexpected drop in paying viewers  the company had said in January it expected paying customers to increase by 2.5 million  reflects a steady slowdown in business. The company cited increased competition and a fizzling of the pandemic-triggered growth in paying viewers, which pushed more people toward at-home entertainment options.\nTo address the slump, Netflix said it would seek to monetize the millions of nonpaying viewers who have benefited from account-sharing. The company estimates that 100 million households, including over 30 million in the United States and Canada, are sharing accounts.\n[Account sharing]s not a new thing, said Reed Hastings, Netflix co-chief executive, speaking to investors via video. Were working on how to monetize sharing, he said. Remember, these are 100 million households that already are choosing to view Netflix. They love the service. We just got to get paid.\nAdvertisement\nThe company is experimenting with two paid sharing features in Chile, Costa Rica, and Peru that are aimed at persuading existing account sharers to start paying small sums of up to $3.\nWhat Zelenskys TV show Servant of the People reveals about him, and Ukraine\nHastings also acknowledged robust competition. We got great competition. Theyve got some very good shows and films, he said without naming specific rivals or movies. What we got to do is take it up a notch. In its letter, Netflix listed Disney Plus as one of the traditional entertainment companies to realize streaming is the future.\nOver the long run, Netflix said it sees growth to mostly come from outside the United States. It will double down on producing content that can be made anywhere and loved everywhere, Netflix said, pointing to non-English language hits produced outside America such as South Koreas Squid Game, All of Us Are Dead, and Spains Money Heist.\nThe company recorded $1.6 billion in net income during the January-March period, up from $607 million reported in the October-December 2021 quarter, but roughly a 6 percent drop from last years first quarter. Its revenue was nearly $7.9 billion, a 10 percent jump from the same period last year.\nWar in Ukraine: What you need to know\nThe latest:",
+      "snippet": "For the first time in a decade, Netflix said that it had lost more paying viewers than it added, even as its revenue grew, pushing its stock price down by more than 20 percent in after-hours trading.",
       "keywords": "",
       "language": "en",
       "isSafe": true,
-      "datePublished": "2022-04-18T20:26:42",
+      "datePublished": "2022-04-20T08:18:30.065",
+      "provider": {
+        "name": "washingtonpost",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/04-20-2022/t_27ee8baddb5141099e3d57538db51085_name_netflix.png&amp;w=1440",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "washingtonpost",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.washingtonpost.com/world/2022/04/20/netflix-loses-subscribers-russia/"
+      }
+    },
+    {
+      "id": "8187580894980564329",
+      "title": "Dodgers' struggle against Braves' pitching in 3-1 loss",
+      "url": "https://www.latimes.com/sports/dodgers/story/2022-04-19/dodgers-struggle-against-braves-pitching-in-3-1-loss",
+      "description": "The Dodgers were held to just two hits in the 3-1 loss to the Atlanta Braves on Tuesday at Dodger Stadium.",
+      "body": "Copied!\nPrint\nSome fans cheered. Others booed. But when Kenley Jansenmade his return to the Dodger Stadium mound, toeing the rubber at Chavez Ravine in another teams uniform for the first time in his career, everyone in attendance Tuesday night was on their feet.\nThe\nDodgers\n longtime closer had returned to Los Angeles and was back in his element.\nAnd Jansen earned the save against his former team in the Atlanta Braves 3-1 win ending the game with a flyout by former Braves star Freddie Freeman.\nAfter 12 seasons with the Dodgers, Jansen signed with the Braves as a free agent in the offseason, joining the defending World Series champions on a one-year, $16-million contract.\nBefore Mondays series opener, Jansen talked to reporters about the difficulty of the transition and the emotions that came with his exodus from Los Angeles. He greeted old teammates in the clubhouse in the afternoon. Then, on the field, he was warmly received during a pregame ceremony, joined on the field by Dodgers manager Dave Roberts, third baseman Justin Turner and president of baseball operations Andrew Friedman.\nAdvertisement\nJust to see the reception he got from the fans, it really was great, Roberts said. You could see him getting a little bit emotional.\nDodgers\nHernndez: Clayton Kershaws competitive fire rages even as Dodger fans show him love\nClayton Kershaw had difficulty appreciating a standing ovation at Dodger Stadium after the Atlanta Braves knocked him out in the sixth inning of a win.\nRoberts had hoped it would be the last the Dodgers saw of Jansen this week, and the closer didnt stir in Mondays 7-4 loss to L.A.\nBut with the Braves leading by two going into the bottom of the ninth Tuesday, Jansen came trotting out of the right-field bullpen at Dodger Stadium for the first time in his career.\nAfter getting Will Smith to fly out and Mookie Betts to swing through a trademark cutter for a strikeout, Jansen fittingly faced Freeman  who is facing the Braves this week for the first time since signing with the Dodgers this spring. The All-Star slugger homered Monday in his first at-bat against his old team.\nFreeman, 0 for 4 Tuesday, got a hold of a sinker down the middle but watched the ball die in left-center field for the final out. He walked back to the Dodgers dugout. Jansen celebrated on the mound with his new team.\nThe Dodgers had been frustrated long before their former closer ended the game.\nFacing Braves ace Max Fried, the Dodgers star-studded lineup was kept silent for most of the night, managing just two hits against the former Studio City Harvard-Westlake standout.\nFried retired the first 15 Dodgers, carrying a perfect game into the sixth inning before Hanser Alberto lined a single to right. After that inning ended with a double-play, Fried didnt face more than the minimum until the seventh, when he stranded an infield single by Trea Turner with three strikeouts  giving him eight on the night.\nThe Dodgers also had their ace pitching. But in a five-inning, three-run start, Walker Buehler still struggled to capture his normal, dominant form to start the season.\nAtlanta Braves Eddie Rosario, right, scores on a double by Orlando Arcia as Dodgers catcher Austin Barnes takes a late throw during the fourth inning on Tuesday at Dodger Stadium.\n(Mark J. Terrill / Associated Press)\nSeveral times, the frustration showed.\nWhen Travis dArnaud went deep in the second inning, hammering a first-pitch fastball over the middle of the plate to open the scoring with a solo home run, Buehler appeared annoyed, fidgeting with a new ball while the Braves catcher rounded the bases.\nWhen Eddie Rosario lined a two-strike single to right to begin the fourth inning, setting him up to later score on an RBI double from Orlando Arcia, Buehler looked irritated, stomping into his landing spot on the mound.\nAnd even after he limited damage in the fifth inning, getting a deep flyout to strand a runner at second an at-bat after Austin Riley drove in a run with a check-swing single, Buehler seemed discontent, trudging off the field for the final time.\nIn all, Buehler gave up eight hits (his most in an outing since September 2019), struck out just two batters (his fewest in a Dodger Stadium start since September 2019) and finished the game with a 4.02 earned-run average through three starts (higher than he had at any point last year).\nThe Dodgers scratched across one run in the eighth, after Chris Taylor drew a walk, advanced to third on a wild pitch, then scored on an Alberto ground ball.\nBut that was all they could muster. In the ninth, they faced what so many of their opponents had for a dozen years, becoming the victims of Jansens 186th career save at Dodger Stadium  and first to be completed in the bottom of the ninth.\nDodgers\nBaseball reveres Jackie Robinson, but Robinson didnt revere baseball. Heres why\nIn 1972, 25 years after he broke MLBs color barrier, Robinson reflected on the ongoing fight for equality. Former Times sportswriter Ron Rapoport recounts that interview just months before Robinsons death.\nInjury updates\nGavin Lux was scratched from the lineup after experiencing back tightness before the game. The Dodgers didnt immediately indicate the severity of Luxs injury.\nReliever Blake Treinen also was unavailable, as he continues to nurse an arm injury. Treinen will throw off a mound Wednesday, in hopes of returning to game action as soon as Friday.\nDodgers",
+      "snippet": "The Dodgers were held to just two hits in the 3-1 loss to the Atlanta Braves on Tuesday at Dodger Stadium.\nSome fans cheered.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-20T05:53:51",
+      "provider": {
+        "name": "latimes",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/876a0da/2147483647/strip/true/crop/3065x1609+0+217/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F6d%2F04%2F27cd875348d19cf4b787ff54e128%2Fbraves-dodgers-baseball-53666.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "latimes",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.latimes.com/sports/dodgers/story/2022-04-19/dodgers-struggle-against-braves-pitching-in-3-1-loss"
+      }
+    },
+    {
+      "id": "1088362946961005102",
+      "title": "Red Sox edge Blue Jays 2-1 at Fenway with just 3 hits",
+      "url": "https://www.boston.com/sports/boston-red-sox/2022/04/19/red-sox-edge-blue-jays-2-1-at-fenway-with-just-3-hits/",
+      "description": "BOSTON (AP)  Connor Wong drove in the tiebreaking run with a sacrifice fly in the seventh inning and the Boston Red Sox beat the Toronto Blue Jays 2-1 on Tuesday night despit",
+      "body": "Email\nAdvertisement:\nBOSTON (AP)  Connor Wong drove in the tiebreaking run with a sacrifice fly in the seventh inning and the Boston Red Sox beat the Toronto Blue Jays 2-1 on Tuesday night despite getting held to three hits.\nAdvertisement:\nIt seemed like a playoff game, right? And I managed it like a playoff game, said Boston manager Alex Cora, who used five pitchers. I went for the win.\nAdvertisement:\nWe will be better. We want more than two runs, obviously, but today it was enough to win the game.\nAdvertisement:\nKik Hernndez and Trevor Story had back-to-back doubles in the third for Boston.\nAdvertisement:\nZack Collins homered for the Blue Jays off starter Nathan Eovaldi.\nAdvertisement:\nWong was called up from the minors Monday to replace catcher Kevin Plawecki, who went on the COVID-19 injured list.\nI think its a good opportunity, but the main objective is just to win, win as many games as we can, and while Im here thats what Im going to do, Wong said. If I perform well and we win, its even better.\nBatting ninth and facing right-hander Yimi Garcia (0-1), Wong lofted a fly ball to right field that scored Bobby Dalbec, who opened the inning by reaching on an error by shortstop Bo Bichette.\nIt was Bichettes second error of the game, his first two this season.\nCollins home run leading off the second gave Toronto an early lead. Boston tied it the next inning on doubles by Hernndez and Story off Yusei Kikuchi.\nHansel Robles (1-0) threw 1 2/3 hitless innings in relief for the win. Garrett Whitlock pitched a perfect ninth for his first save of the season.\nKikuchi went five innings, giving up one run on three hits with three walks and a strikeout. Eovaldi was lifted with two outs in the fifth. He allowed a run on seven hits with six strikeouts.\nTRAINERS ROOM\nBlue Jays: RHP Nate Pearson, sidelined with mononucleosis, threw 36 pitches over two simulated innings in a bullpen session at Torontos spring training complex as the Blue Jays stretch him out to be a starter. He is expected to return by the middle of May.  LHP Hyun Jin Ryu, on the injured list with left forearm inflammation, Teoscar Hernandez (left oblique strain) and C Danny Jansen (left oblique strain) all stayed in Toronto to continue their rehab programs.  RHP Julian Merryweather is experiencing right knee discomfort. He will continue to pitch but will wear a knee brace.\nRed Sox: Boston added C Christian Vazquez and INF Jonathan Arauz to the COVID-19 injured list. RHP Tyler Danish and OF Rob Refsnyder were called up to take their spots on the roster.\nOTHER MOVES\nRed Sox LHP Rich Hill, whose father died Friday, was placed on the bereavement list. C Ronaldo Hernandez was called up to replace Hill on the roster.\nUP NEXT\nBlue Jays: Although RHP Jose Berrios (0-0, 11.81 ERA) is without a decision, Toronto has won each of his first two starts. In seven career games against the Red Sox, he is 0-5 with a 4.43 ERA. In three career games at Fenway Park, he is 0-3 with a 7.31 ERA. His lone appearance against Boston while with the Blue Jays came last Aug. 7 in Toronto, when he went six innings, allowing one run with six strikeouts and no walks.\nRed Sox: Nick Pivetta (0-2, 9.39) has had a rough start to the season, with Cora saying he would like to see improved mechanics from the right-hander. In seven career games against Toronto, Pivetta is 1-2 with a 5.77 ERA. He faced the Blue Jays five times in 2021, going 1-1 with a 5.93 ERA.\n___\nMore AP MLB: https://apnews.com/hub/mlb and https://twitter.com/AP_Sports\nBe civil.  Be kind.",
+      "snippet": "BOSTON (AP)  Connor Wong drove in the tiebreaking run with a sacrifice fly in the seventh inning and the Boston Red Sox beat the Toronto Blue Jays 2-1 on Tuesday night despit.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-20T03:11:37",
+      "provider": {
+        "name": "boston",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://bdc2020.o0bc.com/wp-content/uploads/2021/06/BDC_Logo_2020_256x256-60d0abc34135e.png",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "boston",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.boston.com/sports/boston-red-sox/2022/04/19/red-sox-edge-blue-jays-2-1-at-fenway-with-just-3-hits/"
+      }
+    },
+    {
+      "id": "7526888927013872762",
+      "title": "Actor Ezra Miller arrested again on Hawaii's Big Island",
+      "url": "https://www.boston.com/news/entertainment/2022/04/19/actor-ezra-miller-arrested-again-on-hawaiis-big-island/",
+      "description": "Ezra Miller was arrested on suspicion of assault Tuesday, the second time for the actor known for playing the Flash in Justice League.\"",
+      "body": "Entertainment\nActor Ezra Miller arrested again on Hawaiis Big Island\nMiller became irate after being asked to leave a get-together at a Big Island home and threw a chair, hitting a woman in the forehead.\nIn this image taken from Hawaii State Judiciary video, Ezra Miller appears via Zoom for a court hearing on Tuesday, April 19, 2022, in Hilo, Hawaii. Miller, an actor known for playing the Flash in \"Justice League\" films, pleaded no contest to disorderly conduct stemming from an arrest last month at a Hawaii karaoke bar. Hawaii State Judiciary via AP\nBy JENNIFER SINCO KELLEHER, Associated Press\nApril 19, 2022\nEmail\nAdvertisement:\nHONOLULU (AP)  Ezra Miller was arrested on suspicion of assault early Tuesday, the second time the actor known for playing the Flash in Justice League films has been arrested in Hawaii in recent weeks.\nAdvertisement:\nAdvertisement:\nAdvertisement:\nMiller became irate after being asked to leave a get-together at a Big Island home and threw a chair, hitting a woman in the forehead, according to a news release from the Hawaii Police Department.\nAdvertisement:\nAdvertisement:\nThe woman refused treatment for a half-inch (1.3-centimeter) cut on her forehead, police said.\nMiller, described by police as a 29-year-old visitor from Vermont, was arrested during a traffic stop and released pending further investigation.\nAbout twelve hours after Millers arrest, the actor appeared via Zoom for a court hearing for an arrest last month at a Big Island karaoke bar.\nMiller pleaded no contest to disorderly conduct and was ordered to pay a $500 fine and stay away from Margarita Village in Hilo.\nMiller was also charged with harassment after police said the actor grabbed a mic from a singing woman and lunged at a man playing darts.\nMiller was aggravated by a rendition of the Lady Gaga and Bradley Cooper ballad Shallow, Hawaii Police Assistant Chief Kenneth Quiocho said.\nAs part of a plea deal, prosecutors dropped the harassment charge, along with an unrelated traffic charge.\nMiller received a traffic citation after police were called to a dispute in downtown Hilo last month where Miller was uncooperative, refused to leave the area and obstructed a sidewalk, Quiocho said.\nMillers Hawaii attorney didnt immediately return a message seeking comment on the latest arrest. Another lawyer and a Miller representative also didnt immediately respond to messages requesting comment.\nThere was no mention of the latest arrest during the court hearing.\nBig Island attorney Francis Alcain had requested Tuesdays court hearing, previously scheduled for next week, be moved up. Alcain said in a court filing his client has various time sensitive work obligations in California and/or New York, and needs an earlier hearing to resolve this matter.\nThe day after Miller was released on $500 bail for the karaoke bar arrest, a Big Island couple filed a petition for a temporary restraining order, claiming the actor burst into their bedroom and threatened them. A judge dismissed the case last week after an attorney for the couple requested it.\nWilliam Dean, an attorney for the couple, declined to say why his clients no longer wanted to pursue a restraining order against Miller.\nJudge M. Kanani Laubach applied Millers bail to the $500 fine, leaving a $30 fee to pay.\nMiller also has a key role in the third installment of the Harry Potter spinoff Fantastic Beasts: The Secrets of Dumbledore.\nBoston.com Today",
+      "snippet": "Ezra Miller was arrested on suspicion of assault Tuesday, the second time for the actor known for playing the Flash in Justice League.\".\nActor Ezra Miller arrested again on Hawaiis Big Island.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-20T02:15:00",
+      "provider": {
+        "name": "boston",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://www.boston.com/wp-content/uploads/2022/04/K6JKES5DR2C3YARRNB6UNQNOOY-625f6e5fdf17c-scaled.jpeg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "boston",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.boston.com/news/entertainment/2022/04/19/actor-ezra-miller-arrested-again-on-hawaiis-big-island/"
+      }
+    },
+    {
+      "id": "3408094054042729052",
+      "title": "Tech stocks rally after an early loss, leading market higher",
+      "url": "https://www.latimes.com/business/story/2022-04-19/tech-stocks-rally-after-an-early-loss-leading-market-higher",
+      "description": "Stocks overcame a weak start and finished broadly higher Tuesday, giving the major indexes on Wall Street their best day in nearly five weeks.",
+      "body": "Stocks overcame a weak start and finished broadly higher Tuesday, giving the major indexes on Wall Street their best day in nearly five weeks. The Standard & Poor's 500 rose 1.6%, enough to recoup almost all of its losses from last week. The Dow Jones industrial average rose 1.5% and the Nasdaq composite gained 2.2%. The last time the indexes mounted a bigger rally was March 16. The S&P 500 and Nasdaq came into this week with two straight weekly losses, while the Dow has fallen three weeks in a row. Stocks have mostly struggled this year amid uncertainty over how the economy and corporate America will be affected as the Federal Reserve moves to reverse low-interest rate policies that helped markets soar in recent years. Were just getting a little bit of a bounce back from whats been a tough couple of weeks, said Bill Northey, senior investment director at U.S. Bank Wealth Management. The S&P 500 rose 70.52 points to 4,462.21. The Dow recovered from a 17-point drop and climbed 499.51 points to 34,911.20. The Nasdaq gained 287.30 points to 13,619.66. Nearly 90% of the stocks in the benchmark S&P 500 rose. Technology stocks helped power the broad gains. Pricey valuations for many of the bigger technology companies give them more sway in directing the broader market higher or lower. Microsoft rose 1.7%. Retailers and healthcare companies also helped lift the market. Amazon rose 3.5%. Johnson & Johnson rose 3.1% after reporting surprisingly good earnings while also raising its dividend. Banks gained ground along with rising Treasury yields, which allow them to charge higher interest rates on loans. The yield on the 10-year Treasury rose to 2.94% from 2.85% late Monday. Bank of America rose 1.9%. Smaller company stocks outpaced the broader market in a sign of confidence about economic growth. The Russell 2000 rose 40.63 points, or 2%, to 2,030.77. Energy stocks were the only laggard. U.S. crude oil prices fell 5.2% and natural gas prices slumped 8.2%. Wall Street is increasingly focusing on the latest round of corporate report cards as more big companies release their earnings. Signature Bank jumped 8.1% after beating analysts' expectations. Dental products maker Dentsply Sirona slumped 13.4% after firing its chief executive without giving a reason, along with issuing a profit forecast for the current quarter that was far below analysts estimates. Netflix sank 25% in after-hours trading after the video streaming giant reported its first loss in worldwide subscribers in more than a decade. Netflix said it was bracing for things to get even worse with a projected loss of an additional 2 million subscribers during the April-June period. As of Tuesday's close, Netflix had already lost half its value since hitting an all-time high in November. Railroad giant CSX will report earnings on Wednesday, along with Tesla. American Airlines and Union Pacific will report their results on Thursday. The latest round of earnings comes as investors try to gauge how companies and consumers are dealing with rising inflation that has made everything from food to clothing to gas more expensive. The conflict in Ukraine has added to those price pressures. The International Monetary Fund on Tuesday downgraded the outlook for the world economy this year and next, blaming Russias war in Ukraine for disrupting global commerce, pushing up oil prices, threatening food supplies and increasing uncertainty already heightened by the coronavirus and its variants. Rising prices have prompted the Federal Reserve and other central banks to raise interest rates in order to help temper the effect of inflation. The Fed has already announced a quarter-percentage point rate hike and Wall Street expects a half-percentage rate increase at its next meeting. Currently, investors expect the rising rate to push the benchmark interest rate between 2.5% and 2.75% by the end of the year, according to CME Group's FedWatch tool. It's going to be interesting to see how fast they hike rates from one meeting to the other, said Shawn Cruz, head trading strategist at TD Ameritrade. How we get to the end of the year is going to be something that will have a lingering effect of driving uncertainty in the market and continuing to drive volatility. Bond yields have been rising as Wall Street prepares for higher interest rates. The yield on the 10-year Treasury is the highest it's been since late in 2018. Rising yields have also been raising pressure on an already tight housing market as mortgages rates rise and make borrowing more expensive. Wall Street will get more details on that outcome when the National Assn. of Realtors releases its home sales report for March on Wednesday.",
+      "snippet": "Stocks overcame a weak start and finished broadly higher Tuesday, giving the major indexes on Wall Street their best day in nearly five weeks.\nStocks overcame a weak start and finished broadly higher Tuesday, giving the major indexes on Wall Street their best day in nearly five weeks.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-19T23:08:03.027",
+      "provider": {
+        "name": "latimes",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/a54dece/2147483647/strip/true/crop/5400x2835+0+383/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff0%2F7c%2Fec2e01db4fdb828bb57918fd874e%2Ffinancial-markets-wall-street-48717.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "latimes",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.latimes.com/business/story/2022-04-19/tech-stocks-rally-after-an-early-loss-leading-market-higher"
+      }
+    },
+    {
+      "id": "5007635501251040933",
+      "title": "Irving vs fans in spotlight as Celtics Nets meet in Game 2",
+      "url": "https://www.washingtonpost.com/sports/nba/irving-vs-fans-in-spotlight-as-celtics-nets-meet-in-game-2/2022/04/19/d61592da-c02a-11ec-b5df-1fba61a66c75_story.html",
+      "description": "Kyrie Irving and the Nets can expect more of the same from Boston -- on and off the court  in Game 2 when the Celtics look to build on their buzzer-beating win in the series opener",
+      "body": "Today at\n5:51 p.m. EDT\nBrooklyn Nets guard Kyrie Irving, center, looks for an opening around Boston Celtics center Al Horford (42) and forward Jayson Tatum (0) in the second half of Game 1 of an NBA basketball first-round Eastern Conference playoff series, Sunday, April 17, 2022, in Boston. The Celtics won 115-114. (AP Photo/Steven Senne)\nPlaceholder while article actions load\nKyrie Irving and the Nets are expecting more of the same from Boston  on and off the court  in Tuesdays Game 2 when the Celtics look to build on their buzzer-beating win in the series opener.\nJayson Tatums spinning layup in the lane over Irving as time expired sent the TD Garden crowd into a frenzy as Tatums final buck capped a 31-point performance that punctuated Bostons victory.\nArrowRight\nIt came on a night in which some of those same fans seemed to get under Irvings skin  or at the very least knew they had his attention.\nAn evening of relentless boos and jeers from the Celtic faithful was enough for Irving to flash his middle finger and hurl profane language back at them. It earned him a $50,000 fine from the league on Tuesday.\nIrving, who had a game-high 39 points, defended his actions afterward saying fans crossed the line with obscenities directed at him. Teammate Kevin Durant said Tuesday that the team has no issue with how Irving reacted.\nAdvertisement\nKyries reaction was his reaction. We all stood behind that. I feel him  exactly what he said, Durant said. The same energy theyre giving off to him hes gonna give it right back. He played that way. I think its all in the game. They come for their experience of watching the game and might have to get something back from one of the players if you say something. Thats just the nature of the beast now.\nIt overshadowed a game in which Boston was able contain both Irving and Durant for most of the showdown.\nOne of the architects of that pressure, point guard Marcus Smart, was named defensive player of the year on Monday\nBoston coach Ime Udoka said Smart getting the award feels like an honor for the entire team, which entered the postseason with the NBAs top defensive rating.\nIts a great honor for us, Udoka said. I think everyone relishes the fact that hes being recognized for what hes done his whole career and the team is, obviously, No. 1 which reflects well on him.\nAdvertisement\nHere is a look at Wednesday nights games:\nNETS AT CELTICS\nCeltics lead 1-0. Game 2, 7:30 p.m. EDT, ESPN\nNEED TO KNOW: The Celtics pulled out a 115-114 win on Tatums buzzer-beating layup. It helped Boston survive after surrendering a 15-point lead in the second half. Boston played great defense, but Irving got loose late, scoring 18 points in the fourth quarter.\nKEEP AN EYE ON: The crowd and its effect on Irving, who nearly had the last word in Game 1. But his comments after the series opener will almost certainly ratchet up the level of disdain he hears from Celtics fans going forward.\nINJURY WATCH: Nets point guard Ben Simmons is continuing to go through more basketball-related activity as he recovers from the back issues that have delayed his debut since being traded from Philadelphia. But theres still no clarity on when, or if, he will play in this series. Coach Steve Nash said Monday was his first day of going through some contact drills with teammates. Hes making progress, but theres no real update, Nash said. Well just see how he responds and see if hes able to do more contact tomorrow.\nAdvertisement\nPRESSURE IS ON: Durant. Boston showed the All-Star various looks in Game 1, contributing to him shooting just 9 of 24 from the field, with four turnovers. He managed 23 points, but he will have to be more efficient if the Nets hope to even the series.\nBULLS AT BUCKS\nMilwaukee leads 1-0. Game 2, 9:30 p.m. EDT, TNT\nNEED TO KNOW: The Bucks have won 17 of their last 18 matchups with the Bulls, including a 93-86 Game 1 victory on Sunday. Giannis Antetokounmpo had 27 points  but none in the fourth quarter  and 16 rebounds as the Bucks won the opening game despite blowing an early 16-point lead. The Bucks didnt pull ahead for good until 5:03 remained in the game. The Bulls posted the lowest single-game point total of any Bucks opponent all season, shot a season-low 32.3% and went 7 of 37 from 3-point range. The Bucks won despite committing 21 turnovers.\nAdvertisement\nKEEP AN EYE ON: Bucks forward Khris Middleton. His career playoff production has been up and down, but the three-time All-Star was dominant at times during the Bucks 2021 title run. After shooting 4 of 13 and committing seven turnovers in Game 1, Middleton is due for a bounce-back performance.\nINJURY WATCH: Bucks reserve guard George Hill (abdominal strain) and forward Jordan Nwora (back soreness) missed Game 1. Jevon Carter filled Hills spot in the rotation and scored three points in 10 minutes.\nPRESSURE IS ON: Chicagos DeMar DeRozan, Zach LaVine and Nikola Vucevic. The Bulls top three players combined for 60 points but shot 29.6% (21 of 71) in Game 1. They were a combined 4 of 22 on 3-point attempts., with LaVine and Vucevic each going 2 of 10 from beyond the arc. They must shoot better. DeRozan vows that they will. I guarantee you that me, Zach and Vooch arent going to miss that many shots again, DeRozan said after Game 1.\nAdvertisement\n76ERS AT TORONTO\n76ers lead 2-0. Game 3, 8 p.m. EDT, NBATV\nNEED TO KNOW: Raptors coach Nick Nurse has worked the officials all series, trying to get them to call more fouls on the 76ers. So far, Joel Embiid has taken advantage of his time at the free-throw line. He made 12 of 14 free throws in Game 2. The Raptors only made 10 of 12 as a team. The Sixers took a total of 30 free throws in Game 2.\nKEEP AN EYE ON: Off the court, will 76ers super fan Meek Mill reignite his beef with Drake? On the court, the 76ers have gotten quiet production from Tobias Harris. Embiid and Tyrese Maxey stole the show the first two games. But Harris has 46 points and 16 rebounds through two games and steadied the Sixers with big shots when the Raptors seemed to close to making a run. He also had a playoff career-high three blocks in Game 2. Im in a great rhythm, great groove right now, he said.\nAdvertisement\nINJURY WATCH: The Raptors are banged-up. Raptors forward Scottie Barnes sat out Game 2 with a sprained left ankle and needed a walking boot. Gary Trent Jr. has a non-COVID illness and did not play in the second half. The Sixers will play the next two games without defensive ace Matisse Thybulle. Thybulle is barred from entering Canada because he is not fully vaccinated.\nPRESSURE IS ON: Toronto. Yes, the Raptors are headed home. But the 76ers have won 18 of 19 playoff series in franchise history when up 2-0.\n___\nMore AP NBA: https://apnews.com/tag/NBA and https://twitter.com/AP_Sports\nComment",
+      "snippet": "Kyrie Irving and the Nets can expect more of the same from Boston -- on and off the court  in Game 2 when the Celtics look to build on their buzzer-beating win in the series opener.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-19T21:51:16",
+      "provider": {
+        "name": "washingtonpost",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MGAUO3V6UYI6ZNO7D65GDJTMOU.jpg&w=1200",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "washingtonpost",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.washingtonpost.com/sports/nba/irving-vs-fans-in-spotlight-as-celtics-nets-meet-in-game-2/2022/04/19/d61592da-c02a-11ec-b5df-1fba61a66c75_story.html"
+      }
+    },
+    {
+      "id": "4901153935402666365",
+      "title": "Gun safety activists decry inaction as US shootings surge",
+      "url": "https://www.boston.com/news/politics/2022/04/19/gun-safety-activists-decry-inaction-as-us-shootings-surge/",
+      "description": "White House aides insist that Biden is doing all he can to keep the issue of gun violence front and center. Read more at Boston.com.",
+      "body": "April 18, 2022\nDemocrats frustration around gun violence prevention is not new.\nAfter the Sandy Hook shooting, President Barack Obama tried and failed to convince Congress to enact popular gun safety measures like universal background checks and an assault weapon ban.\nTheres little sign now that the Democrats who control Congress will send gun safety measures to Bidens desk anytime soon.\nThe House passed legislation last year to expand background checks to include private and online sales, including at gun shows. But Senate Democratic leaders havent yet scheduled their version of the legislation for a vote. And facing near-unanimous GOP opposition, Democrats would need support from at least 10 Republicans in a 50-50 Senate to overcome any filibuster.\nSen. Chris Murphy, D-Conn., tried to bring the background check bill up for a Senate vote in December, but that effort failed when Republicans objected. Democratic Sen. Joe Manchin of West Virginia also opposes the House bill.\nAsked whether Senate Majority Leader Chuck Schumer would bring gun safety legislation up for a vote, an aide pointed to comments the New York Democrat made in February.\nSen. Murphy had been trying to work with Republicans to get 60 votes. He hasnt given up on those efforts, although theyve not gotten that far. But were going to keep pursuing background checks. I believe in that very, very strongly, Schumer said at the time.\nIn the meantime, more Americans are dying from gun-related injuries than ever before.\nIn 2020, the most recent year for which federal data is available, 19,384 people were killed in gun homicides  a 35% increase from the previous year and the largest one-year increase in gun homicides on record.\nAdvertisement:\nRepublicans have overwhelmingly opposed gun control measures, casting any tightening of current law as a threat to the constitutionally protected right to bear arms. The GOP has instead called for stronger policing and more gun ownership to combat the crime surge.\nAt the same time, Republicans have seized on the spike in violent crime under the broad umbrella of public safety as a wedge issue to reshape how voters view gun violence. Republicans did well across Virginia, New York, New Jersey and Pennsylvania in last falls off-year elections with public safety as one of their primary talking points.\nAnd the gun lobby is convinced that public safety concerns will help its Republican allies retake the House, if not the Senate, this fall.\nWe see a lot of opportunity heading into the midterms, said National Rifle Association spokesperson Andrew Arulanandam. Whether the gun control lobby realizes it or not, theres an increased appreciation and realization in this country that gun control does not make people safer.\nThe NRA has already celebrated sweeping successes at the state level in its push to allow people to carry concealed weapons without a license. Republican lawmakers in nine states enacted such laws since Democrats came to power in Washington in 2021. Overall, 25 states no longer require gun owners to have a permit to carry a concealed weapon in public.\nGuns remain an incredibly divisive issue in American politics, though polling suggests the issue has been overshadowed over the last year by other events.\nIn an AP-NORC poll last December, 24% named gun laws in an open-ended question as one of five top issues for the government to work on in 2022. That ranked below other issues, like the economy, COVID-19 and even immigration, but the percentage prioritizing gun laws for 2022 grew from 5% for 2021 and 12% for 2020. The poll was conducted the weekend after a shooting at Oxford High School in Michigan killed four and injured seven.\nAdvertisement:\nForty-one percent of Democrats named gun laws as a government priority in 2022, compared to just 6% of Republicans.\nMeanwhile, gun safety groups like March For Our Livesare ratcheting up pressure on Democrats to take action. The group for the first time is backing primary challenges this spring and summer to Democratic incumbents who havent prioritized the issue.\nWhile Senator Schumer and the rest of Congress are on holiday break, gun violence is not.\nWere outside Schumers NYC office RIGHT NOW demanding he bring Background Checks to a vote.",
+      "snippet": "White House aides insist that Biden is doing all he can to keep the issue of gun violence front and center.\nRead more at Boston.com.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-19T18:14:09",
+      "provider": {
+        "name": "boston",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://www.boston.com/wp-content/uploads/2022/04/photos_activist-625ef822c83da-scaled.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "boston",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.boston.com/news/politics/2022/04/19/gun-safety-activists-decry-inaction-as-us-shootings-surge/"
+      }
+    },
+    {
+      "id": "3807716887309128161",
+      "title": "CDC launches new forecasting center for infectious diseases",
+      "url": "https://www.latimes.com/science/story/2022-04-19/cdc-launches-new-forecasting-center-for-infectious-diseases",
+      "description": "A new U.S. government center aims to become the National Weather Service for infectious diseases.",
+      "body": "A new U.S. government center aims to become the National Weather Service for infectious diseases  an early warning system to help guide the response to COVID-19 and future pandemics. The new Center for Forecasting and Outbreak Analytics launched Tuesday. Its leaders say predicting the course of the COVID-19 pandemic in the U.S. has been hampered by data-collection problems. In contrast, the United Kingdom uses regular population sampling with swab tests and blood draws to get a clearer picture of who's been infected, said Marc Lipsitch, the new centers science director. He said similar sampling should be considered in the U.S. And the Centers for Disease Control and Prevention needs to have better access to data from state governments and hospitals, said Caitlin Rivers, the center's associate director. CDC has been granted temporary authority for COVID-19 data collection, but the agency broadly relies on voluntary reporting and complex data agreements with states, Rivers said. The center is housed at the CDC. Its initial $200 million in funding came from the 2021 coronavirus relief package. The center has awarded $21 million to academic institutions to develop modeling and forecasting methods.",
+      "snippet": "A new U.<b>S</b>.\ngovernment center aims to become the National Weather <b>S</b>ervice for infectious diseases.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-19T18:09:20.06",
+      "provider": {
+        "name": "latimes",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/85a39b2/2147483647/strip/true/crop/3000x1575+0+240/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe8%2Ffb%2F3b4a6ed9d12e472337cc992dd641%2Fd709bd1483074f3bb2fa53051d5ee47f",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "latimes",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.latimes.com/science/story/2022-04-19/cdc-launches-new-forecasting-center-for-infectious-diseases"
+      }
+    },
+    {
+      "id": "1842892452882823390",
+      "title": "Yandex VK Kaspersky: Russian Internet companies that ran afoul of Putin",
+      "url": "https://www.washingtonpost.com/technology/2022/04/20/yandex-vk-russian-internet/",
+      "description": "An onslaught of laws, regulations and back-channel demands the Kremlin imposed now has reduced once promising tech giants to shadows of what they could have been.",
+      "body": "7:00 a.m. EDT\nLoading...\nA courier for the food delivery service Yandex Eda, operated by Yandex, on the job in Moscow. (Andrey Rudakov/Bloomberg)\nPlaceholder while article actions load\nWhen the Kremlin wanted to compete with the West economically and in the contest for skilled workers more than a decade ago, its well-educated officials helped nurture homegrown answers to Google, Facebook and tech-security companies such as Symantec.\nArrowRight\nThe top Russian search engine, Yandex, sold shares on Nasdaq. The big social network VKontakte got a major investment from an oligarchs company as that firm sold stock, and the antivirus maker Kaspersky Lab expanded rapidly in other countries to become one of the best-known Russian exports.\nBut the very success of those companies unnerved top bureaucrats, who worried that such thriving Internet businesses would allow a new generation of Russians to glean uncensored information from around the world and to organize political movements beyond the governments control.\nAdvertisement\nThe resulting onslaught of laws, regulations and back-channel demands that the Kremlin imposed has reduced those once-promising tech giants to shadows of what they could have been  while wrecking what the companies founders had hoped would be hedges against government domination.\nThis has been a total disaster for the Russian economy, and the tech industry was adding a lot of value, said Esther Dyson, an American and early investor in Yandex who left the search engines board shortly after Russia invaded Ukraine. Even before they started waging war on Ukraine, they were waging war on the truth.\nRussian-language Yandex, which draws 4 billion visits a month and remains the most visited website in Russia, is the clearest example of Russian techs downfall. The majority of its stock is held by Western or global institutions and its headquarters is in the Netherlands, but neither fact has been enough to keep it from having to bend to Kremlin demands that it block search results for opposition leader Alexei Navalny or\ncensor news about the war\nin Ukraine.\nYandexs slow collapse, detailed here for the first time, shows how even the most advanced companies couldnt be safe with their core operations in Russia, underscoring why entrepreneurs and investors predict that it will be years, if not decades, before theyll be willing to reengage there again.\nAdvertisement\nEven if the stock is elsewhere, even if they have a foreign board of directors, it does nothing, said Ilya Ponomarev, a well-connected Russian technology entrepreneur and investor who fled to Ukraine in 2014 after casting the lone vote in Russias lower house\nagainst the annexation of Ukraines Crimean Peninsula.\nThey cannot escape, because they are irrevocably linked to a Russian audience.\nYandex was founded by Arkady Volozh, who is its chief executive, and the late Ilya Segalovich, who was its chief technology officer. The companys name is a contraction of Yet Another Index. Both founders admired the success of Yahoo.\nWhen the company sold shares on Nasdaq in 2011, Yandexs executives knew the Russian government would be sensitive about control slipping across its borders. So the founders kept shares with a majority of the vote, and Yandex issued one special share, held for years by a government bank, that could veto any one shareholders amassing more than 25 percent of the regular stock.\nPutins prewar moves against U.S. tech giants laid groundwork for crackdown on free expression\nStill, Yandex executives found themselves bargaining directly with regulators and overseers in the office of President Vladimir Putin, arguing that publicly traded stock was the key to retaining talent that would otherwise move abroad and that excessive restrictions would drive users to Western competitors, according to participants and those advised of the talks as they happened.\nAdvertisement\nThe industry was doing well, Dyson recalls of those years.\nPrivately, the executives hoped that the logic they presented would get them real freedom to operate, and for many years, it seemed that it did. But as the companies grew more important, Kremlin officials supported laws banning sites, directing others not to link to those sites and, in 2017, requiring that any media carried by major aggregation sites, including Yandexs, be licensed by the Russian government\n.\nSome companies paid an earlier price for becoming important. The early victims included VKontakte, Russias biggest social networking site, which operates much like Facebook. From humble beginnings among university students, VKontakte grew with general Internet use in Russia and became the most popular social site in 2008.\nThe Russian-government-friendly Internet conglomerate Mail.ru took an early stake and in turn sold a minority stake of itself to the public in London in 2010. Mail.ru was controlled by billionaire oligarch Alisher Usmanov, who was sanctioned this year by the United States. But VKontakte founder Pavel Durov held voting control until 2014, when he sold shares to a Mail.ru ally.\nMonths later, he was forced out of the company. In a post on his VKontakte account, Durov said the FSB, Russias federal security agency, forced him to sell after he refused to turn over personal information on members of a group supporting Ukrainian protests against Russian-allied President Viktor Yanukovych before his 2014 resignation.\nAdvertisement\nThe Kremlin won more direct control\nof VKontakte this past December when voting control went to affiliates of the state-controlled energy company Gazprom. After the passage of a law in March allowing sentences of up to 15 years in prison for describing Russias actions in Ukraine as a war, the site now heavily censors posts about the invasion.\nKaspersky Lab, the security firm that became one of the most globally recognized Russian technology companies, had planned to go public but dropped the idea in 2012. Instead, it pursued a major business expansion in other countries, giving it brand recognition and an argument that it should not do anything that cost it trust in the United States and elsewhere, employees said.\nBut that was less leverage than it needed when laws required tech companies to hand over data to the government on demand.\nAdvertisement\nConsumer security software typically has a great deal of power to act inside customer machines, and U.S. officials had been concerned for years that Kaspersky was seeking sensitive U.S. documents. In\n2017, the Department of Homeland Security\nordered federal agencies\nto remove Kaspersky software from their networks. That same year, Kaspersky admitted that its antivirus software had uploaded classified information from a U.S. intelligence workers home computer, although the company said it soon destroyed the information.\nBut Russian intelligence agencies had already made clear who was in charge when they charged Kaspersky cybercrime investigator Ruslan Stoyanov with treason in 2016 after he shared information with U.",
+      "snippet": "An onslaught of laws, regulations and back-channel demands the Kremlin imposed now has reduced once promising tech giants to shadows of what they could have been.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-20T11:00:39.995",
+      "provider": {
+        "name": "washingtonpost",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EE5WDFAKFEI6ZJ6IMG5XWO7WFA.jpg&amp;w=1440",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "washingtonpost",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.washingtonpost.com/technology/2022/04/20/yandex-vk-russian-internet/"
+      }
+    },
+    {
+      "id": "9167464927683456570",
+      "title": "Decades after the USSR collapsed Eurasian countries struggle to maintain democracy :",
+      "url": "https://www.npr.org/2022/04/20/1093698130/decades-after-the-ussr-collapsed-eurasian-countries-struggle-to-maintain-democra?ft=nprml&f=",
+      "description": "NPR's Steve Inskeep talks to Michael Abramowitz of Freedom House about the state of democracy in 29 formerly communist nations of Central Europe and Central Asia after Russia invaded Ukraine.",
+      "body": "Ethics\nDecades after the USSR collapsed, Eurasian countries struggle to maintain democracy\nNPR's Steve Inskeep talks to Michael Abramowitz of Freedom House about the state of democracy in 29 formerly communist nations of Central Europe and Central Asia after Russia invaded Ukraine.\nDecades after the USSR collapsed, Eurasian countries struggle to maintain democracy\nFacebook\nDecades after the USSR collapsed, Eurasian countries struggle to maintain democracy\nAudio will be available later today.\nNPR's Steve Inskeep talks to Michael Abramowitz of Freedom House about the state of democracy in 29 formerly communist nations of Central Europe and Central Asia after Russia invaded Ukraine.\nFacebook",
+      "snippet": "NPR'<b>s</b> Steve In<b>s</b>keep talk<b>s</b> to Michael Abramowitz of Freedom Hou<b>s</b>e about the <b>s</b>tate of democracy in 29 formerly communi<b>s</b>t nation<b>s</b> of Central Europe and Central A<b>s</b>ia after Ru<b>s</b><b>s</b>ia invaded Ukraine.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-20T09:10:01",
       "provider": {
         "name": "npr",
         "favIcon": "",
@@ -103,12 +477,12 @@ const dummyData = {
       },
       "image": {
         "url": "https://media.npr.org/include/images/facebook-default-wide.jpg",
-        "height": 1688,
-        "width": 3000,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=8605725295977770955",
-        "thumbnailHeight": 211,
-        "thumbnailWidth": 375,
-        "base64Encoding": null,
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
@@ -117,173 +491,33 @@ const dummyData = {
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.npr.org/2022/04/18/1093380853/alex-jones-infowars-files-for-bankruptcy-after-sandy-hood-defamation-lawsuits?ft=nprml&f="
+        "webpageUrl": "https://www.npr.org/2022/04/20/1093698130/decades-after-the-ussr-collapsed-eurasian-countries-struggle-to-maintain-democra?ft=nprml&f="
       }
     },
     {
-      "id": "1377102244194269673",
-      "title": "Cheers fear as judge strikes down U.S. transit mask mandate",
-      "url": "https://www.washingtonpost.com/politics/cheers-fear-as-judge-strikes-down-us-transit-mask-mandate/2022/04/19/cfb02550-bfa7-11ec-b5df-1fba61a66c75_story.html",
-      "description": "A federal judges decision to strike down a national mask mandate was met with cheers on some airplanes but also concern about whether its really time to end the order sparked by the COVID-19 pandemic",
-      "body": "Today at\n2:23 a.m. EDT\nFILE - Travelers walk through Seattle-Tacoma International Airport on Friday, April 1, 2022 in Seattle. On Monday, April 18, 2022, a federal judge in Florida voided the national mask mandate covering airplanes and other public transportation saying it exceeded the authority of U.S. health officials. (AP Photo/Ted S. Warren, File) (Ted Warren/AP)\nPlaceholder while article actions load\nST. PETERSBURG, Fla.  A federal judges decision to strike down a national mask mandate was met with cheers on some airplanes but also concern about whether its really time to end one of the most visible vestiges of the COVID-19 pandemic.\nArrowRight\nThe major airlines and many of the busiest airports rushed to drop their requirements on Monday after the Transportation Security Administration announced it wouldnt enforce a January 2021 security directive that applied to airplanes, airports, taxis and other mass transit.\nBut the ruling still gave those entities the option to keep their mask rules in place, resulting in directives that could vary from city to city.\nPassengers on an United Airlines flight from Houston to New York, for instance, could ditch their masks at their departing airport and on the plane, but have to put them back on once they land at Kennedy Airport or take a subway.\nAdvertisement\nIn a 59-page lawsuit ruling, U.S. District Judge Kathryn Kimball Mizelle in Tampa said the U.S. Centers for Disease Control and Prevention overstepped its authority in issuing the original health order on which the TSA directive was based. She also said the order was fatally flawed because the CDC didnt follow proper rulemaking procedures.\nMizelle, an appointee of former President Donald Trump, said the only remedy was to throw out the mandate for the entire country because it would be impossible to end it only for the people who objected in the lawsuit.\nThe White House said the mask order is not in effect at this time and called the court decision disappointing.\nThe Justice Department declined to comment on whether it would seek an emergency stay to block the judges order. The CDC also declined to comment.\nAdvertisement\nUnited Airlines, Delta Air Lines and Alaska Airlines all quickly announced they were yanking the mask requirement for domestic and some international flights. So did American Airlines, Southwest Airlines and JetBlue Airways.\nSleepy passengers on a Delta flight between Atlanta and Barcelona, Spain, cheered, whistled and applauded when a flight attendant announced the news mid-flight over the ocean.\nNo ones any happier than we are, the attendant says in a video posted by Dillon Thomas, a CBS Denver reporter, who was on the flight. She added that people who wanted to keep on their masks were encouraged to do so.\nBut were ready to give m up, she added. So thank you and happy unmasking day!\nMajor airports dropped their requirements but sided with the CDC in recommending that people be voluntarily masked. They included Los Angeles International Airport, the worlds fifth-busiest by passenger volume, and Salt Lake City International Airport, which announced it would hand out masks to anyone requesting them.\nAdvertisement\nNew York Citys public transit system planned to keep its mask requirement in place. The Washington Metropolitan Area Transit Authority said it would make masks optional for riders on its buses and trains.\nThe websites of ride sharing companies Lyft and Uber as of Monday evening still said masks were required.\nThe CDC had recently extended the mask mandate, which was set to expire Monday, until May 3 to allow more time to study the BA.2 omicron subvariant of the coronavirus now responsible for the vast majority of cases in the U.S. But the court ruling puts that decision on hold.\nSince the pandemic began two years ago, many state or local governments had issued various orders requiring masks to be worn inside schools, restaurants, stores or elsewhere. The rules were largely rolled back as the deadliest, most infectious months of the pandemic eased.\nAdvertisement\nBut the national rule for travelers remained and was arguably the most widespread, visible and irksome measure of its kind.\nThe wearing of masks aboard airplanes sparked online flame throwing between those who felt they were crucial to protecting people and those who saw it as an unnecessary inconvenience or even government overkill.\nSome flight attendants found themselves cursed and even attacked by passengers who refused to comply.\nThe lawsuit was filed in July 2021 by two plaintiffs and the Health Freedom Defense Fund, described in the judges order as a nonprofit group that opposes laws and regulations that force individuals to submit to the administration of medical products, procedures and devices against their will.\nRepublicans in Congress waged a running battle to kill the mandate.\nFlorida Gov. Ron DeSantis, who was not directly involved in the case but has battled against many government coronavirus requirements, praised the ruling.\nBoth airline employees and passengers deserve to have this misery end, DeSantis tweeted.\n___\nAssociated Press writers David Koenig in Dallas, Michael Balsamo and Will Weissert in Washington, and Karen Matthews in New York contributed to this story.\nComment",
-      "snippet": "A federal judges decision to strike down a national mask mandate was met with cheers on some airplanes but also concern about whether its really time to end the order sparked by the COVID-19 pandemic.",
+      "id": "3494730724459839595",
+      "title": "Feds will appeal ruling on mask mandate if CDC believes its still needed",
+      "url": "https://www.boston.com/news/politics/2022/04/19/biden-administration-says-it-will-appeal-ruling-on-mask-mandate-if-cdc-believes-its-still-needed/",
+      "description": "The Justice Department said it will not appeal a ruling that ended the mandate on public transit unless the CDC finds it is still necessary.",
+      "body": "Email\nAdvertisement:\nThe Justice Department said Tuesday it will not appeal a federal district judges ruling that ended the nations federal mask mandate on public transit unless the Centers for Disease Control and Prevention believes the requirement is still necessary.\nAdvertisement:\nAdvertisement:\nAdvertisement:\nIn a statement released a day after a Florida judge ended the sweeping mandate, which required face coverings on planes and trains and in transit hubs, Justice Department spokesman Anthony Coley said officials believe that the federal mask order was a valid exercise of the authority Congress has given CDC to protect the public health. He said it was an important authority the Department will continue to work to preserve.\nAdvertisement:\nAdvertisement:\nColey said the CDC had said it would continue to assess public health conditions, and if the agency determined a mandate was necessary for public health, the Justice Department would file an appeal.\nAs of Tuesday, the agency hadnt made a determination, officials said.\nThe federal judges ruling did away with the last major vestige of federal pandemic rules and led to a mishmash of new locally created rules that reflected the nations ongoing divisions over how to battle the virus.\nMajor airlines and airports in places like Dallas, Atlanta, Los Angeles and Salt Lake City quickly switched to a mask-optional policy. Los Angeles County dropped its mandate for mass transit and a train conductor in New Jersey told commuters of their masks Tuesday: Feel free to burn them at will.\nNew York City, Chicago and Connecticut, however, continued to require masks for travelers.\nThe ride-sharing companies Lyft and Uber announced on their websites Tuesday that masks will now be optional while riding or driving.\nEven Walt Disney World in Florida on Tuesday announced it was lifting its mask requirement for its monorail, buses and sky gondola.\nFor many, the news was welcome. A video showed some passengers on a Delta Air Lines flight cheering and applauding as they removed masks upon hearing the announcement they were now optional. One man happily twirled his mask on his finger.\nHowever Brooke Tansley, a television producer and former Broadway performer, was incensed after boarding a flight with her 4-year-old and 8-month-old baby neither old enough to be vaccinated  only to learn the mask mandate had ended mid-flight.\nVery very angry about this, she said in a tweet, noting her baby was too young to wear a mask.\nPresident Joe Biden went all-in on flexibility Tuesday when asked if Americans should mask up on planes.\nThats up to them, Biden declared during a visit to Portsmouth, New Hampshire. But the White House continues to require face coverings for those traveling with him on Air Force One, citing CDC guidance.\nIn Portland, Oregon, transit employees immediately began taking down mask required announcements and signs, but said it would likely take several days to remove everything.\nThe city joined Atlanta, Boston, Philadelphia, Washington, D.C., Kansas City, Missouri, and two of Alaskas largest cities, Anchorage and Juneau, in making masking optional on mass transit.\nSome passengers at Chicagos Union Station said the rules were confusing. Amtrak dropped its requirement. The Chicago Transit Authority and Metra, the regional commuter rail service, kept the requirement at first but dropped it late Tuesday.\nIts like this patchwork of different rules and enforcement of it, said Erik Abderhalden, who wore a mask as he waited for a Metra train to his home in suburban Naperville. I mean, its like Swiss cheese  theres no uniformity and it seems pretty laissez-faire.\nSubway rider Cooper Klinges was pleased that New York Citys public transit system wasnt following the trend and planned to keep its mask requirement in place. As he waited at a Brooklyn train station, he said he canceled a flight earlier this year over concerns about the virus.\nI dont think we are out of the woods yet, said Klinges, a teacher, citing concerns about the BA.2 omicron subvariant of the coronavirus. It is still around. We have to still stick it out.\nThe CDC had recently extended the mask mandate, which was set to expire Monday, until May 3 to allow more time to study the subvariant, which is now responsible for the vast majority of U.S. cases. But the court ruling puts that decision on hold.\nAfter a winter surge fueled by the omicron variant that prompted record hospitalizations, the U.S. has seen a significant drop in virus spread in recent months that led most states and cities to drop mask mandates.\nBut several Northeast cities have seen a rise in hospitalizations in recent weeks, leading Philadelphia to bring back its mask mandate.\nHollingsworth reported from Mission, Kansas, and Crawford from Chicago. Associated Press writers David Koenig in Dallas, Michael Balsamo and Will Weissert in Washington and Karen Matthews in New York contributed to this report.\nBoston.com Today\nGet news delivered to your inbox each morning.\nSubmit your email",
+      "snippet": "The Justice Department said it will not appeal a ruling that ended the mandate on public transit unless the CDC finds it is still necessary.\nThe Justice Department said Tuesday it will not appeal a federal district judges ruling that ended the nations federal mask mandate on public transit unless the Centers for Disease Control and Prevention believes the requirement is still necessary.",
       "keywords": "",
       "language": "en",
       "isSafe": true,
-      "datePublished": "2022-04-19T06:13:21",
-      "provider": {
-        "name": "washingtonpost",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YGLWQPF7IAI6ZNO7D65GDJTMOU.jpg&w=1200",
-        "height": 900,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=364225241819003002",
-        "thumbnailHeight": 225,
-        "thumbnailWidth": 300,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "washingtonpost",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.washingtonpost.com/politics/cheers-fear-as-judge-strikes-down-us-transit-mask-mandate/2022/04/19/cfb02550-bfa7-11ec-b5df-1fba61a66c75_story.html"
-      }
-    },
-    {
-      "id": "3694369465209486058",
-      "title": "Mike Trout out of Angels' lineup after negative MRI on injured hand",
-      "url": "https://www.latimes.com/sports/angels/story/2022-04-18/mike-trout-injury-mri-angels-houston-astros-mlb",
-      "description": "Mike Trout sat out Monday's game between the Angels and Houston Astros a day after he was hit in the hand with a pitch.",
-      "body": "Angels\nAngels reliever Ryan Tepera doesnt expect a warm Houston homecoming\nRyan Tepera is from the Houston area, but he isnt a local favorite ever since he accused the Astros of possibly stealing signs in last falls ALDS.\nTrout said Sunday that when he first was hit, he thought he broke the hand. He had trouble seeing Spencer Pattons pitch in the shadows at Texas and lowered his hands into the path of the ball to protect his midsection.\nAdvertisement\nThe three-time American League MVP is batting .222 with no homers and one RBI in eight games this season.\nAngels",
-      "snippet": "Mike Trout sat out Monday's game between the Angels and Houston Astros a day after he was hit in the hand with a pitch.\nAngels reliever Ryan Tepera doesnt expect a warm Houston homecoming.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-19T00:40:02.504",
-      "provider": {
-        "name": "latimes",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://ca-times.brightspotcdn.com/dims4/default/0f746cc/2147483647/strip/true/crop/3916x2056+1+110/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fcd%2F65%2F755bbf2b49fb91848fbf18c8e25e%2Fangels-rangers-baseball-03715.jpg",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=9122851313637953114",
-        "thumbnailHeight": 117,
-        "thumbnailWidth": 222,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "latimes",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.latimes.com/sports/angels/story/2022-04-18/mike-trout-injury-mri-angels-houston-astros-mlb"
-      }
-    },
-    {
-      "id": "5973734177924760487",
-      "title": "Cristiano Ronaldo says one of his newborn twins has died",
-      "url": "https://www.latimes.com/sports/story/2022-04-18/cristiano-ronaldo-says-one-of-his-newborn-twins-has-died",
-      "description": "Cristiano Ronaldo has taken to social media to say one of his newborn twins has died",
-      "body": "Cristiano Ronaldo took to social media on Monday to say one of his newborn twins has died. It is with our deepest sadness we have to announce that our baby boy has passed away, the Manchester United striker wrote in a post also signed by his partner, Georgina Rodriguez. It is the greatest pain that any parents can feel. Ronaldo announced last year that the couple was expecting twins. Only the birth of our baby girl gives us the strength to live this moment with some hope and happiness,\" he wrote on the social-media post. We are all devastated at this loss, the post added, and we kindly ask for privacy at this very difficult time. Our baby boy, you are our angel. We will always love you. Ronaldo already had four children.",
-      "snippet": "Cristiano Ronaldo has taken to social media to say one of his newborn twins has died.\nCristiano Ronaldo took to social media on Monday to say one of his newborn twins has died.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-18T23:51:14.039",
-      "provider": {
-        "name": "latimes",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://ca-times.brightspotcdn.com/dims4/default/c09b4f8/2147483647/strip/true/crop/5252x2757+0+372/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff1%2Ff5%2Fb2af2e75db694ec9d1b0ad721eda%2F50c8e6b652354e678ddaea1577099297",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=1001128432797797581",
-        "thumbnailHeight": 157,
-        "thumbnailWidth": 299,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "latimes",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.latimes.com/sports/story/2022-04-18/cristiano-ronaldo-says-one-of-his-newborn-twins-has-died"
-      }
-    },
-    {
-      "id": "330281925172427392",
-      "title": "DJ Kay Slay dies at 55: Hip-hop's Drama King had covid-19",
-      "url": "https://www.washingtonpost.com/obituaries/2022/04/18/dj-kay-slay-dead/",
-      "description": "He was a swaggering graffiti artist, record executive and radio host who helped shape four decades of New York hip-hop.",
-      "body": "ArrowRight\nHis family confirmed the death in a statement released by the New York radio station Hot 97, where he hosted a weekly hip-hop show, The Drama Hour. Additional details were not immediately available, but he had reportedly been hospitalized for four months with covid-19, the disease caused by the coronavirus.\nAs a teenager in Harlem, Kay Slay  born Keith Grayson  turned subway cars into his canvas, using as many as 40 spray-paint cans a night to execute elaborate, multicolored pieces on the 1 and 3 lines that rumbled through the city. Creating a graffiti piece was like telling the world something: I am somebody, Im an artist, he said in an interview for Style Wars, an acclaimed 1983 documentary that aired on PBS. But they dont recognize it as art. A lot of people recognize it as vandalism, and its not.\nAdvertisement\nBy the early 2000s, he had traded his spray paint for turntables, creating mix tapes that were sold at specialty stores and on street corners, helping listeners keep tabs on the latest hits and up-and-coming artists. The tapes also served as a platform for established rappers to experiment  and, increasingly, to take on their rivals in diss tracks like Ether, a 2001 song in which Nas went on the attack against Jay-Z.\nThe track first appeared on a mix tape by Kay Slay, helping to secure his reputation as a DJ who championed and even encouraged feuds, sometimes including a diss track and a rejoinder back-to-back on his mixes. Hes like the Jerry Springer of rap, said DJ Goldfinger, the host of a weekly hip-hop party in Manhattan, in a 2003 interview with the New York Times. All the fights happen on his show.\nAfter the East Coast-West Coast rap rivalry culminated in the killings of the Notorious B.I.G. and Tupac Shakur, diss songs had receded somewhat from mainstream hip-hop. But Kay Slay was credited with helping to bring them back to the fore, and became a favorite of rappers in part because of his willingness to embrace a diss song, no matter how ruthless. Cats know its no holds barred with me, he told the Times. They know that Im not going to edit anything. Its going out the way you gave it to me.\nAdvertisement\nHis tapes served as a venue for diss songs exchanged between 50 Cent and Ja Rule, as well as between Ja Rule and Eminem. They also helped launch his own career as a recording artist: In 2003, he made his major-label debut with The Streetsweeper Vol. 1, which featured guests including 50 Cent, Mobb Deep, Nas and Eminem. The album peaked at No. 4 on Billboards rap and R&B chart, and a follow-up in the Streetsweeper series also reached the Top 10 the next year.\nThe game was boring until I came around, he said shortly before making his major-label debut. Everybody was too busy being fake, acting like they got along and talking about each other behind their backs. I brought the controversy back. I brought the game back to life.\nBorn in New York City on Aug. 14, 1966, Kay Slay grew up living with his grandparents at a public housing project in Harlem. His father was an R&B DJ in Manhattan, and his parents separated by the time he was 5, according to a Vibe magazine profile.\nAdvertisement\nBy age 12, he had started doing graffiti, later adopting the tag Dez because he liked the shape of the letters and the brevity of the name. I wanted a nice small name that I could get up everywhere, and do it quick without getting grabbed, he said in the Style Wars interview. When he was caught the first time, the cop scribbled on my face with a marker and had him call his parents.\nAs he rose to prominence through graffiti, he also got caught up in the negative side of life, as he put it, committing small-time robberies and developing addictions to PCP and cocaine. He was arrested in 1989 on charges of drug possession with intent to sell and spent a year in jail, according to the Times.\nUpon his release, he sought drug counseling and became sober, landing a job at a support center in the Bronx for people with HIV and AIDS. He later worked as a security guard and office assistant and made extra money selling T-shirts, jeans and socks from a shopping cart, using the proceeds to buy music equipment and stage a comeback in hip-hop. Beginning in 1994, he started releasing mix tapes, sometimes putting out one or two a month.\nAdvertisement\nWith the success of his Streetsweeper series, he started working as a record executive, heading A&R for basketball star Shaquille ONeals label Deja 34. He later became a mentor to rappers including Papoose, helping them land record deals while also running a hip-hop magazine, Straight Stuntin', and continuing to release his own music, collaborating with artists including Lil Wayne, Queen Latifah and Kendrick Lamar.\nMany of his albums referenced his tumultuous early years, he noted in a 2003 interview with Spin magazine. Every record plays like a part of my life, he said. This is the life I live  this is how I came up. So if you see me acting a certain way, dont judge me  you aint walk in my shoes.\nGiftOutline",
-      "snippet": "He was a swaggering graffiti artist, record executive and radio host who helped shape four decades of New York hip-hop.\nHis family confirmed the death in a statement released by the New York radio station Hot 97, where he hosted a weekly hip-hop show, The Drama Hour.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-18T21:38:29.443",
-      "provider": {
-        "name": "washingtonpost",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OJRKG7V7GMI6ZNO7D65GDJTMOU.jpg&amp;w=1440",
-        "height": 962,
-        "width": 1440,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=8558558536649058469",
-        "thumbnailHeight": 134,
-        "thumbnailWidth": 202,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "washingtonpost",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.washingtonpost.com/obituaries/2022/04/18/dj-kay-slay-dead/"
-      }
-    },
-    {
-      "id": "2205259432196327003",
-      "title": "FDA investigating whether Lucky Charms is making people sick",
-      "url": "https://www.boston.com/news/health/2022/04/18/fda-investigating-whether-lucky-charms-is-making-people-sick/",
-      "description": "Many reports came from worried parents and grandparents. Learn more at Boston.com.",
-      "body": "Email\nThe U.S. Food and Drug Administration is investigating scores of reports from consumers who say they fell ill after consuming Lucky Charms.\nThe FDA said it has received more than 100 reports since the start of the year from people alleging the popular breakfast cereal caused nausea, vomiting and diarrhea. A food safety website has separately documented thousands of similar complaints dating back to at least 2021.\nThe FDA takes seriously any reports of possible adulteration of a food that may also cause illnesses or injury, FDA told The Post in an emailed statement, noting that isolated incidents and complaints of a less serious nature are monitored and may be used during a future inspection of a company to help the FDA identify problem areas in a production plant.\nAdvertisement:\nWe now have reports of over 3,000 sick citing Lucky Charms, from every state in the US.\nIwaspoisoned.com\n, a real-time consumer reporting platform for food safety issues, meanwhile, shows that Lucky Charms complaints have been trending since late 2021. But theyve surged in recent weeks, with reports surpassing 3,000. Complaints have come from every U.S. state and Canada.\nFood safety is our top priority. We take the consumer concerns reported via a third-party website very seriously. Through our continuing internal investigations, we have not found any evidence of consumer illness linked to the consumption of Lucky Charms, Andrea Williamson, General Mills spokesperson, told The Post in an email. We encourage consumers to please share any concerns directly with General Mills to ensure they can be appropriately addressed.\nThe Minneapolis-based maker of Cheerios, Pillsbury, Yoplait and other top food brands reported net sales of more than $18 billion in 2021 and has a market cap of nearly $42.7 billion.\nThe stream of reports on iwaspoisoned.com is remarkably consistent, with consumers from coast to coast complaining of severe stomach issues. Many reports came from worried parents and grandparents.\nMy daughter became very sick. 102.7 temp, vomiting, stomach pain and chills. She isnt able to keep sips of water down. I asked her about everything she had eaten and drank in the past 24 hours and couldnt figure it out until I saw the news report, one consumer from Grand Forks, N.D., posted over the weekend.\nAdvertisement:\nNausea, vomiting, diarrhea and horrible belching with an awful taste, almost chemical. Household of 4 all experienced the same thing, a consumer from Defiance, Ohio, reported.\nI bought Lucky charms for my son and grandson. They both had nausea and stomach pains. We all ate the same except the Lucky Charms. They ate it several days in a row as a afternoon snack and would get these symptoms, another consumer from Blairsville, Ga., said. No more Lucky Charms and they are both ok now.\nBe civil.  Be kind.",
-      "snippet": "Many reports came from worried parents and grandparents.\nLearn more at Boston.com.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-18T16:49:49",
+      "datePublished": "2022-04-19T23:58:00",
       "provider": {
         "name": "boston",
         "favIcon": "",
         "favIconBase64Encoding": ""
       },
       "image": {
-        "url": "https://www.boston.com/wp-content/uploads/2022/04/AP22106807424553-625c620742e33.jpg",
-        "height": 684,
-        "width": 1024,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=6464828468118420817",
-        "thumbnailHeight": 128,
-        "thumbnailWidth": 191,
-        "base64Encoding": null,
+        "url": "https://www.boston.com/wp-content/uploads/2022/04/airport-625f4bfd8ae89-scaled.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
@@ -292,33 +526,33 @@ const dummyData = {
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.boston.com/news/health/2022/04/18/fda-investigating-whether-lucky-charms-is-making-people-sick/"
+        "webpageUrl": "https://www.boston.com/news/politics/2022/04/19/biden-administration-says-it-will-appeal-ruling-on-mask-mandate-if-cdc-believes-its-still-needed/"
       }
     },
     {
-      "id": "6242763315953118383",
-      "title": "Large alligator saunters through Florida neighborhood",
-      "url": "https://www.washingtonpost.com/lifestyle/large-alligator-saunters-through-florida-neighborhood/2022/04/18/3a5868fc-bf2d-11ec-b5df-1fba61a66c75_story.html",
-      "description": "Sheriffs deputies captured video of a large alligator crawling through a front yard in Florida before making its way into a community lake",
-      "body": "ArrowRight\nDeputies estimated the gator to be about 10 feet long (3 meters).\nThe sheriffs office notified the Florida Fish and Wildlife Conservation Commission. They also warned neighbors to be on alert because the alligator sauntered down to Harrington Lake to take an Easter morning swim.\nVenice is south of Tampa on Floridas Gulf Coast.\nComment",
-      "snippet": "Sheriffs deputies captured video of a large alligator crawling through a front yard in Florida before making its way into a community lake.\nDeputies estimated the gator to be about 10 feet long (3 meters).",
+      "id": "7774999755486394505",
+      "title": "Biden's urgent moves on gas prices colliding with lofty climate goals",
+      "url": "https://www.washingtonpost.com/politics/2022/04/20/biden-climate-gas-prices/",
+      "description": "Biden took office determined to shift the nation's course on climate change. Now that legacy could be threatened by the political urgency to cut gas prices.",
+      "body": "ArrowRight\nBut over the past few weeks, he has authorized a historically large release from the Strategic Petroleum Reserve, resumed selling leases to drill on federal land and announced he is waiving an environmental restriction to allow summer sales of ethanol-based gasoline  all moves that are anathema to climate activists.\nSome advocates are increasingly frustrated over the discordant approach, arguing that Biden is sacrificing some of his long-term goal of combating climate change  and a presidential legacy of helping steer the nation away from fossil fuels  in exchange for the short-term aim of lowering prices at the pump.\nAdvertisement\nBeyond that, some contend the moves will barely affect gas prices.\nThe administration is in a tough place, but none of those moves are going to do much in the short term to reduce prices  and they will have a long-term impact on our climate, said Bill McKibben, the author and environmentalist who co-founded 350.org, a global grass-roots climate group. It would be a lot better for our climate, and a lot smarter politically, if Biden clearly placed the blame for prices where it really rests  on Big Oil  and used this moment to help the country break free from fossil fuels.\nThe collision between lofty aspirations and political pressures comes to a head Friday when Biden visits Seattle to celebrate Earth Day, where he probably will be joined by Democratic Gov. Jay Inslee, who has built his political career on fighting climate change. Protesters are expected to rally in front of the White House on Saturday to demand that Congress pass new climate legislation.\nAdvertisement\nBidens supporters say the focus on gas prices and helping Europe through an energy crisis has made it harder for the administration to tout the steps it has taken to protect the environment, including new rules cracking down on greenhouse gas emissions from cars and trucks and policies to cut methane emissions from oil and gas operations across the United States.\nOn Tuesday, the White House announced it is reversing former president Donald Trumps action weakening a landmark environmental law on the construction of pipelines, highways and other projects. The new rule will restore a requirement that federal agencies scrutinize the climate impact of major infrastructure projects.\nAdministration officials say the recent maneuvers to increase the fuel supply are meant to address the immediate price shocks created by the Russian President Vladimir Putins invasion of Ukraine and the inflationary pressure that preceded it. They remain committed, they say, to combating climate change and reducing the nations reliance on fossil fuels over the long term.\nAdvertisement\nIn an interview Tuesday, Ali Zaidi, the deputy White House national climate adviser, pushed back on the notion that the administration had shifted its approach to climate change. The presidents commitment and his policy positions on these key issues have been unwavering and unchanged, Zaidi said.\nBut Biden also recognizes that people need help in the short term, he added. His policy has always been to meet folks where they are, Zaidi said. And what that means in this context is addressing the emergency challenges precipitated by Putins aggression, while literally at the same time doing everything we can to accelerate the affordability and accessibility of technologies and tools that will help the American people achieve lasting energy security.\nYet there is little doubt that recent days have produced the jarring image of a president who vowed to curb reliance on oil and gas instead trying to find fresh ways to increase its supply.\nAdvertisement\nHes in a pickle, said Samantha Gross, a fellow specializing in climate and energy at the Brookings Institution, a Washington-based think tank. His arguments have had to change because of the changing conditions, and the situation has gotten a lot harder for him politically.  The politics were always going to be hard for him, but the level of difficulty just went way up. Its a tough hand to play.\nJamal Raad, executive director of Evergreen Action, a climate advocacy group, said the Biden administration  and the climate community  are in the midst of a fundamental shift in how they present their case to the public. They have long emphasized the jobs to be created by a green economy, he said, but in response to soaring inflation and a war in Ukraine, they are now emphasizing the savings Americans would see in a system less reliant on fossil fuels.\nIts a whole different world as far as communicating around clean energy and climate, Raad said. Its about lowering gas prices, and its about stopping petrol dictators like Vladimir Putin.\nAdvertisement\nClimate activists are also pushing the Senate to approve a House-passed bill that includes $555 billion in clean energy investments, which has stalled because of opposition from Sen. Joe Manchin III (D-W.Va.). That is far more important than the concerns over Bidens recent moves to ramp up oil supply, they say.\nThat is the ballgame  the rest of this is small potatoes compared to that, Raad said. I think that is where most of the frustration should lie, rather than some of these short-term announcements.\nSome environmental groups are urging patience with the administrations attempts to bring down gas prices, saying Biden needs to address political reality in an effort to offset potential losses in the midterm elections that could derail the Democrats sweeping plans on climate.\nIf some of the short-term steps theyre taking to alleviate the pain Americans are feeling at the pump and how theyre feeling squeezed are the price we have to pay to get 50 votes in the U.S. Senate for a transformative clean energy deal, I think its a price worth paying, said David Kieve, president of EDF Action, the advocacy arm of the Environmental Defense Fund.\nAdvertisement\nIn the 15 months since Biden took office, the administration had largely focused on convincing Americans that the United States needs to pivot away from oil, gas and coal.\nBiden campaigned on a pledge to reach net-zero emissions in the United States by 2050, a goal more ambitious than that of former president Barack Obama. Biden envisioned eliminating fossil fuels from the electricity sector by 2035 and increasing renewable energy production on federal lands and waters.\nFrom inside a newly created White House Climate Policy Office, national climate adviser Gina McCarthy branded the administrations climate agenda as a form of economic stimulus that would create millions of jobs building solar farms, wind turbines and battery storage. Even as the administrations climate policies stalled in Congress and were threatened by the Supreme Court, Biden continued to make it a centerpiece of his agenda.\nAdvertisement\nThis week, the Biden administration said it will spend $6 billion to keep threatened nuclear power plants open, since they provide energy without contributing to climate change.\nBut",
+      "snippet": "Biden took office determined to shift the nation's course on climate change.\nNow that legacy could be threatened by the political urgency to cut gas prices.",
       "keywords": "",
       "language": "en",
       "isSafe": true,
-      "datePublished": "2022-04-18T15:35:52",
+      "datePublished": "2022-04-20T09:00:56.26",
       "provider": {
         "name": "washingtonpost",
         "favIcon": "",
         "favIconBase64Encoding": ""
       },
       "image": {
-        "url": "https://www.washingtonpost.com/resizer/2CjPNwqvXHPS_2RpuRTKY-p3eVo=/1484x0/www.washingtonpost.com/pb/resources/img/twp-social-share.png",
-        "height": 779,
-        "width": 1484,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=1673088960582388936",
-        "thumbnailHeight": 291,
-        "thumbnailWidth": 554,
-        "base64Encoding": null,
+        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZHJVT4WAC4I6ZNO7D65GDJTMOU.jpg&amp;w=1440",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
@@ -327,33 +561,33 @@ const dummyData = {
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.washingtonpost.com/lifestyle/large-alligator-saunters-through-florida-neighborhood/2022/04/18/3a5868fc-bf2d-11ec-b5df-1fba61a66c75_story.html"
+        "webpageUrl": "https://www.washingtonpost.com/politics/2022/04/20/biden-climate-gas-prices/"
       }
     },
     {
-      "id": "3451996861277351427",
-      "title": "Ukrainian's detention shows how immigration process changed",
-      "url": "https://www.latimes.com/california/story/2022-04-19/ukrainian-women-immigration-detention",
-      "description": "Family and attorneys recall the difficulty of finding and communicating with people in immigration custody.",
-      "body": "Copied!\nPrint\nKateryna, a 22-year-old Ukrainian, experienced first-hand how quickly the U.S. government can change the way it processes people who are fleeing for their lives when there is the political will to do so.\nShe was in Mexico performing with Nikolas Constantine, her boyfriend and ballroom dance partner, when Russia invaded her country. The couple realized that Kateryna could not return to Ukraine. Constantine is a U.S. citizen, so they decided to head for his home in the Los Angeles area.\nThis story is for subscribers\nWe offer subscribers exclusive access to our best journalism.\nThank you for your support.\nBut when the pair, along with Constantines mother, on March 3 tried to cross north in a car from Tijuana at the Otay Mesa Port of Entry to present Kateryna to U.S. officers and request asylum for her, Customs and Border Protection took her into custody. They threatened to charge Constantine and his mother with smuggling. Eventually, Kateryna was sent to a detention facility across the country, in the custody of Immigration and Customs Enforcement.\nAdvertisement\nYou dont know whats going to happen next, Kateryna recalled of the experience. Its just horrible.\nShe asked not have her full name published because her family is still in Ukraine.\nHow Kateryna and other Ukrainians who arrived in the first weeks of the war were treated stands in stark contrast with how asylum-seekers are being received now.\nFor Subscribers\nUkrainians only: Racial disparities in U.S. border policies grow more obvious\nU.S. border officials use Title 42, a pandemic border policy, in ways that allow some to seek asylum while keeping others out.\nWhat happened to the earlier arrivals illustrates how the system usually functions if someone is able to reach U.S. soil and request asylum without being expelled. Once federal officials decided to treat Ukrainians differently from other migrants fleeing potentially deadly situations in their home countries, the entry process for them became quick, with no time in custody before being released into the United States to reunite with loved ones.\nNeither CBP nor ICE responded to requests for comment about what happened to Kateryna.\nAdvertisement\nWeeks detained\nAfter Kateryna was taken into custody at the border, CBP put her in a little room at the Otay Mesa Port of Entry and questioned her, she recalled.\nMeanwhile, Constantine said, he and his mother were held in what he referred to as a cage for what felt like hours. He isnt sure how much time passed, he said, because their phones were taken from them while CBP searched his mothers car.\nAll these women cops were coming up to us and saying we just committed a felony, were going to prison: This is going to be a permanent record. You guys are in so much trouble. Were towing your car away,  Constantine recalled. Finally, out of nowhere, like three hours later, two cops came over and gave us our passports and said we were free to go.\nIts like they can make their own rules, Constantine added. When you dont have a phone and arent able to speak to your lawyer, they have full range of power over you.\nCBP placed Kateryna in five-point shackles  connecting her wrists, ankles and waist  and sent her to the San Ysidro Port of Entry, she said. There, she was kept in a basement holding cell for weeks and permitted to call Constantine only after more than a week in custody. She said she was never allowed to contact her attorney.\nAlong with roughly 24 other people  mostly Ukrainian and Russian  she had to sleep on the floor of the cell, Kateryna recalled. She was given a thin, metallic blanket that did not keep her warm in the notoriously cold cell. Spanish-speaking asylum seekers have long called such cells\nhielera\n(ice chest).\nKateryna, of Ukraine, and boyfriend Nikolas Constantine described her ordeal trying to request protection in the U.S., which included a brief stay in a Louisiana immigration detention center. You dont know whats going to happen next, she said.\n(Wally Skalij / Los Angeles Times)\nIt was so cold there that after the second day, people started getting sick, Kateryna said through a friend, who translated from Russian. Everybody was asking them to at least turn off the air conditioner, and their response was, We cannot turn it off, because we keep it cold to kill the bacteria in the air. \nThe food portions were small, she said. She recalled one Ukrainian woman in her 60s who had a heart condition but wasnt given her medication while in custody.\nConstantine and his mother frantically tried to find out where Kateryna was and what would happen to her. His mother reached out to her congresswoman, Julia Brownley (D-Westlake Village) and to the San Diego Union-Tribune. A reporter began sending inquiries to CBP about the case.\nIve never seen him so distraught in his life,  friend Matteo Laudati said of Constantine.\nAdvertisement\nAfter two weeks in the port of entry holding cell, Kateryna was transferred  handcuffed on a several-hour flight  to a long-term detention facility in Louisiana in the custody of ICE. She met dozens of other Ukrainian and Russian women there.\nShe tried to mentally prepare herself to stay in the facility for months, but after arriving at the South Louisiana ICE Processing Center, she was released the next day. Constantine and his mother say it was because of Brownleys efforts that Kateryna wasnt held longer.\nBrownleys office confirmed that the congresswoman had quickly reached out to the White House about the case.\nAs a democracy under siege, Ukraine and the Ukrainian people deserve our utmost support and aid  that includes helping Ukrainians fleeing their war-torn country settle in the United States, Brownley said in a statement.\nNo officer assigned\nRelatives of other early arrivals described a torturous process while they waited to hear from Ukrainians who had been taken into custody.\nMaksym Armash spent a week waiting to find out what happened to his fiancee when she crossed the border to San Diego.\n(Maksym Armash )\nMaksym Armash, 22, spent a week waiting to find out what happened to his fiancee when she crossed the border to San Diego.\nArmash, who lives in Virginia, is originally from Ukraine but has had a green card for years. He and his fiancee had an appointment scheduled for April with the U.S. Embassy in Ukraine to get her a visa to join him in the United States, but that was canceled after Russia invaded.\nAs the couple tried to figure out how to keep her safe, she suggested trying to get to Armash and the United States through Mexico and requesting asylum.\nOn her fourth try, the fiancee and two other Ukrainian asylum-seekers managed to drive in the San Ysidro car lanes onto U.S. soil, where they were taken into CBP custody.\nAdvertisement\nFor Subscribers\nCBP staffs up San Diego border line as Russians, others try to drive across to reach asylum in U.S.\nPorts of entry are still not processing asylum seekers who arrive on foot, so some have resorted to driving onto U.S.",
-      "snippet": "Family and attorneys recall the difficulty of finding and communicating with people in immigration custody.\nKateryna, a 22-year-old Ukrainian, experienced first-hand how quickly the U.S.",
+      "id": "5859813719193301122",
+      "title": "Religious leaders supporting war and genocide is nothing new",
+      "url": "https://www.latimes.com/opinion/letters-to-the-editor/story/2022-04-20/religious-leaders-supporting-war-and-genocide",
+      "description": "The Russian Orthodox leadership's blessing of Vladimir Putin's attack on Ukraine sadly has ample precedent in history.",
+      "body": "To the editor: Amid outrage over events in Ukraine, Randall Balmer objects particularly to the blessing given to Vladimir Putin's invasion by the Russian Orthodox Church. He's on to something here. Any international relations graduate student could sketch out a serviceable, even pragmatic, rationale for any irredentist claim a nation might make against a neighbor. Conflict is not abhorrent. Genocide is. The secret sauce in this war  and perhaps all wars of conquest  is the quiescence of a citizenry, first in the mission itself, and then in what inevitably becomes justification of flagrantly disproportionate means in pursuit of elusive ends. Popular support for brazen aggression is usually manufactured by asserting a religious claim or an animating mythic idea. Wars of annexation, dehumanizing labor systems and even ethnic cleansing have all been given godly sanction. We would all be wise to consider Adam Smith's admonition: \"Virtue is more to be feared than vice, because its excesses are not subject to the regulation of conscience.\" David DiLeo, San Clemente The writer is a professor emeritus of history and humanities at Saddleback College. .. To the editor: Balmer should know that his statement, \"Those who claim to be Christians have been complicit in violence and evil,\" is a \"no true Scotsman\" fallacy. As an Episcopal priest, he should also know that anyone who claims to be a Christian is a Christian, regardless of their behavior. Simply put, this \"appeal to purity\" is an insidious cop-out, shirking collective responsibility by questioning the faithfulness of another of the same religion. Religiosity that is focused on the behavior of others instead of ourselves is doomed to sectarian dehumanization and tragic failure. The solution is to set a positive example by making mundane, common-sense arguments that overlap with one's religious convictions. Then, if we express our moral convictions based on the knowledge that our beliefs are strongly integrated with our emotional coherence, we are in a better position to examine the weaknesses in our own position, and thus more effectively address the positions of others. Arthur D. Wahl, Port Hueneme",
+      "snippet": "The Russian Orthodox leadership's blessing of Vladimir Putin's attack on Ukraine sadly has ample precedent in history.\nTo the editor: Amid outrage over events in Ukraine, Randall Balmer objects particularly to the blessing given to Vladimir Putin's invasion by the Russian Orthodox Church.",
       "keywords": "",
       "language": "en",
       "isSafe": true,
-      "datePublished": "2022-04-19T12:30:23.207",
+      "datePublished": "2022-04-20T10:00:32.934",
       "provider": {
         "name": "latimes",
         "favIcon": "",
         "favIconBase64Encoding": ""
       },
       "image": {
-        "url": "https://ca-times.brightspotcdn.com/dims4/default/def5d94/2147483647/strip/true/crop/8016x4208+0+552/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa0%2Fdb%2F967d7a09452b8300becd4135f2b9%2F941326-me-0406-ukrainian-detention1-wjs.jpg",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=373007179289214471",
-        "thumbnailHeight": 157,
-        "thumbnailWidth": 299,
-        "base64Encoding": null,
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/6f71c69/2147483647/strip/true/crop/3286x1725+0+365/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F5b%2F01%2F78b59ddb42a185d9788f94176aa8%2Frussia-patriarch-79190.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
@@ -362,173 +596,33 @@ const dummyData = {
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.latimes.com/california/story/2022-04-19/ukrainian-women-immigration-detention"
+        "webpageUrl": "https://www.latimes.com/opinion/letters-to-the-editor/story/2022-04-20/religious-leaders-supporting-war-and-genocide"
       }
     },
     {
-      "id": "9052274303398693423",
-      "title": "Court ruling creates mishmash of transportation mask rules",
-      "url": "https://www.washingtonpost.com/business/court-ruling-creates-mishmash-of-transportation-mask-rules/2022/04/19/0e665722-bfa0-11ec-b5df-1fba61a66c75_story.html",
-      "description": "A decision by a federal judge in Florida to throw out a national mask mandate in public transportation across the U.S. created a patchwork of rules Monday that vary by city and mode of transit",
-      "body": "ArrowRight\nThe ruling gives airports, mass transit systems, airlines and ride-hailing services the option to keep mask rules or ditch them entirely, resulting in rules that vary by city and mode of transportation.\nPassengers on an United Airlines flight from Houston to Kennedy Airport, for instance, could ditch their masks at their departing airport and on the plane, but have to put them back on once they land in New York or take a subway.\nThe U.S. Centers for Disease Control and Prevention had recently  extended the mandate until May 3 to allow more time to study the BA.2 omicron subvariant of the coronavirus now responsible for the vast majority of U.S. cases. But the court decision put the mandate on hold.\nAdvertisement\nHeres a look at how U.S. transportation centers and providers are responding:\nAIRLINES\nMajor airlines were some of the first to update their rules after the court decision. United, Southwest, American, Alaska, Delta and JetBlue announced that, effective immediately, masks would no longer be required on domestic flights.\nWhile this means that our employees are no longer required to wear a mask  and no longer have to enforce a mask requirement for most of the flying public  they will be able to wear masks if they choose to do so, as the CDC continues to strongly recommend wearing a mask on public transit, United Airlines said.\nThe Association of Flight Attendants, the nations largest union of cabin crews, has recently taken a neutral position on the mask rule because its members are divided about the issue. On Monday, the unions president appealed for calm on planes and in airports.\nAdvertisement\nAlaska Airlines said some passengers who were banned for violating the mask policy will remain banned.\nAIRPORTS\nAirports werent as fast to do away with masks, with several expressing uncertainty about the ruling and taking a wait-and-see approach.\nBut others, including the two main airports in Houston, did away with mask requirements soon after the Transportation Security Administration said it would no longer enforce the mask mandate. Los Angeles International and Phoenix Sky Harbor also eliminated their mask requirements. San Francisco International Airport said it was waiting for further guidance from TSA.\nThe New York City airports appeared to keep the mandate intact.\nTRAINS AND BUSES\nThe rules for train and bus passengers vary by city and transit agency.\nIn New York, Metropolitan Transportation Authority communications director Tim Minton said the system was keeping the mask mandate, meaning face coverings are still required on the subway, buses and commuter rail lines, as they have since early in the pandemic.\nAdvertisement\nBut the regional train system serving the Washington, D.C., area said Monday that masks will be now optional for its customers and employees going forward.\nOur mask mandate has been based on federal guidance, said Paul J. Wiedefeld, general manager and CEO of the Washington Metropolitan Area Transit Authority. We will continue to monitor this situation as it unfolds, but masks will be optional on Metro property until further notice.\nAmtrak also said it was making masks optional.\n___\nRIDE SHARING\nThe websites of ride sharing companies Lyft and Uber as of Monday evening still said masks were required.\nComment",
-      "snippet": "A decision by a federal judge in Florida to throw out a national mask mandate in public transportation across the U.S.\ncreated a patchwork of rules Monday that vary by city and mode of transit.",
+      "id": "2767200312932832237",
+      "title": "Hockey is making inroads in Mexico. Yes, Mexico",
+      "url": "https://www.latimes.com/sports/story/2022-04-20/hockey-nhl-mexico-los-angeles-kings",
+      "description": "The L.A. Kings and other hockey teams see a chance to develop a fan base south of the border, with the hope of playing an NHL game in Mexico before long.",
+      "body": "Ian Tarazonas black helmet is so big it looks like an upside-down satellite dish, and his oversized hockey sweater hangs to his knees. But dont let appearances fool you. Ian is a terror on the ice. At one point during a recent practice, Ian skated up to another player, pulled his stick back and cracked him over the head. And that player was a teammate. It didnt qualify as assault because Ian is only 3 years old and the player he whacked, who was unhurt, is 5. But it did serve as proof that it can be a challenge introducing little kids to any sport. And when the sport is hockey and the location is a shopping mall in Mexico City, that challenge only grows. Luis Gonzlez often has to suppress laughter while coaching four dozen kids, the oldest of which are 7. Obviously the little kids are harder because you just have to keep them focused, he said. In between coaching sessions, Gonzlez, who answers to Oso or \"Bear,\" a childhood nickname he cant fully explain, plays for Mexicos national ice hockey team. If you didnt know Mexico had a national ice hockey team, dont feel bad. Aside from the 22 players and their families, few others know either. But the sport is gaining a foothold, or at least a toehold, in Mexico. According to the Mexico Ice Hockey Federation  theres one of those too  2,690 players participate in the sport in Mexico, 1,600 of whom are junior players like the ones Gonzlez coaches. It's a small number  and certainly an underestimate  but it still has drawn the attention of several NHL teams, which see a chance to grow the game and develop a new fan base with the hope of playing an NHL game in Mexico in the near future. I dont see any reason for us to wait, Kings President Luc Robitaille said. Its more important for us to go out of our way and to make it available. Theres enough kids we know like to play. Many of them play at an ice rink tucked into a dark corner of a Mexico City shopping mall, between a Dairy Queen and a Carls Jr. and below a Sears. The Centro Santa Fe, Mexico's second-largest shopping mall, sprawls along a major boulevard in a tony neighborhood of skyscrapers and gated apartment buildings on the western edge of the capital. Roberto Arriaga, whose three boys all play hockey, makes the three-hour round trip there from Toluca as many as five nights a week, spending almost as much time in the chilly bleachers overlooking the ice as he does running his business in aftermarket car sales. A lot of friends tell me that Im crazy, said Arriaga, who discovered hockey almost by accident. After introducing his eldest son, Beto, to more traditional sports such as soccer without success, on a whim he put the boy in skates and hockey gear at age 6. Nine years later, Beto is still playing, as are brothers Mateo, a speedy 12-year-old defenseman, and Paulo, a skinny 10-year-old goalie so small he can fit inside the net without having to duck his helmeted head. The two younger boys say they want to play in the NHL someday, something no Mexican has done. Arriaga chuckles when he hears that. At that age, he said its very good to have a dream. That dream isnt what motivates the four coaches at the rink, who work with more than 140 players in six divisions, ranging in age from 3 years old through high school. Nor is producing professional players what has led the Kings to partner with the rink, offering in-person and virtual clinics as well as material assistance. Banners touting the relationship with the L.A. team hang throughout the mall while many of the tiny players take the ice wearing black or gray Kings sweaters with a Mexican flag sewn on one shoulder. The goal, the Kings insist, is simply to introduce the kids to hockey, teach them how to play (and sometimes to even skate) and to fuel a passion for the sport. Its just a totally different vibe over there, said Derek Armstrong, who spent six seasons playing for the Kings and is now the teams community and hockey development specialist. \"We want to bring hockey to Mexico, but we also want them to embrace it themselves and put their own little twist on it, their own little culture on it. That seems to be taking hold at the Santa Fe rink, where rushes up and down the ice take place at breakneck speed, with few passes and even fewer checks  physical defensive moves intended to disrupt play. In that way, Mexican hockey can sometimes look like soccer on skates. Instructions and encouragement  vmonos! vmonos! dle! dle!  ring out in Spanish, although most of the hockey terms, like stick and puck, go untranslated. What the Kings want to create, then, is hockey with a Mexican accent and Latin sensibility. Theyre not looking to import a sport wholesale but rather to create a hybrid. What they want are players such as 15-year-old Paula Martnez, one of two girls in the bantam age group  and one 270 girls playing hockey nationwide, according to the federation. She started skating at 3 and has been playing hockey with boys almost as long, tucking as much of her long brown hair inside her helmet as she can, then letting the rest spill down to her shoulders. Her friends, she said, dont understand the game  or why she plays it. Every time you say you play hockey, theyre amazed. So you have to explain what it is. They think its only fighting, and its really not just that, Paula said, flipping through cellphone photos of a trip to the University of Wisconsin, where she skated with members of the schools womens team. If I had to choose a sport again, she said, I would still choose hockey. Many in Mexico dont have that choice. Cost and access to an ice rink are major obstacles to hockeys growth in Mexico. Players in Guillermo Dazs program at the Santa Fe rink pay a $125 annual registration fee and $146 a month for instruction and ice time. That doesnt include the brightly colored composite sticks, durable skates and other equipment such as pads and helmets, which can easily top $1,000 combined  more for goalies. Thats well beyond the reach of most families in a country where the typical salary hovers around $17,000 a year. And while Mexico City has four rinks, there are just 14 in the rest of the country, according to the national ice hockey federation. The level of play at the Santa Fe rink varies widely depending on the age group. On a recent Monday night, the peewees game, for kids 11 and 12, was so quick and well-played, dozens of shoppers stopped to peer down from the malls upper floors and watch. For the youngest players, meanwhile, simply staying upright and focused is the goal, which is why Daz spent most of an hourlong practice simply trying to herd his toddler students into a straight line. During one drill, the players, many of whom wore blue COVID facemasks beneath their helmets, set off after the puck only to forget what they were supposed to do with it once they got it. Kids pulled back their sticks, which were often bigger than they are, then shot at the wrong net, while others simply wandered",
+      "snippet": "The L.A.\nKings and other hockey teams see a chance to develop a fan base south of the border, with the hope of playing an NHL game in Mexico before long.",
       "keywords": "",
       "language": "en",
       "isSafe": true,
-      "datePublished": "2022-04-19T05:17:50",
-      "provider": {
-        "name": "washingtonpost",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YGLWQPF7IAI6ZNO7D65GDJTMOU.jpg&w=1200",
-        "height": 900,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=364225241819003002",
-        "thumbnailHeight": 225,
-        "thumbnailWidth": 300,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "washingtonpost",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.washingtonpost.com/business/court-ruling-creates-mishmash-of-transportation-mask-rules/2022/04/19/0e665722-bfa0-11ec-b5df-1fba61a66c75_story.html"
-      }
-    },
-    {
-      "id": "7544993077719302399",
-      "title": "Democrats have found a line of attack against the GOP. Its a start.",
-      "url": "https://www.washingtonpost.com/opinions/2022/04/19/democrats-found-attack-line-gop-republicans-taxes/",
-      "description": "Democrats need a broader overarching narrative. The good news is they have one.",
-      "body": "ArrowRight\nSince Monday was tax day, Democrats naturally focused on the tax hike aspect of his plan. The White House put out a statement, declaring, The President is fighting for tax cuts for the middle class and to ensure that the super wealthy and large corporations pay their fair share, while congressional Republicans, led by Senator Scott, are proposing big tax increases on middle-class families. The White House stressed that one study found Scotts plan would raise taxes on around 75 million American families  96 percent of them making less than $100,000, who would pay an average of $1,480 more in taxes each year.\nFollow\nFollow\nAdd\nThe White House also noted that the plan doesnt raise a single penny in taxes from the wealthiest Americans or profitable corporations. It might have added that the GOP doesnt want to increase funding for the Internal Revenue Service so it that can go after rich tax cheats. By contrast, President Bidens budget request would add a new tax on billionaires, raise taxes on big corporations and those making more than $400,000 while maintaining cuts such as the child tax credit first enacted in the American Rescue Plan.\nAdvertisement\nBiden was not the only Democrat highlighting Scotts tax-the-not-rich plan. Democrats such as Rep. Tom Malinowski (D-N.J.), who is in a tough reelection race, tweeted: congressional Republicans are running on a platform in 2022 that calls for increasing taxes on middle class Americans while letting all federal laws, including Social Security, expire every 5 years.\nDemocrats will need to pound away at the radical agenda if they are to hold back the Republicans midterm onslaught. But pointing to a tax plan none of them actually have voted for, and some will renounce, will not be sufficient. Democrats would be smart to make a larger argument against a party masquerading as populist but aimed to protect themselves and their wealthy donors.\nDemocrats might want to remind voters that Republicans opposed raising any taxes on corporations, even on those that pay zero dollars in federal taxes; passing a $35 cap on insulin and a plan to allow Medicare to negotiate prescription drugs prices; funding to allow schools to reopen quickly and safely; and shoring up state financing to keep cops, firefighters and other state and local personnel on the payroll. Plus, most Republicans  including\nmembers and 30 senators  opposed the hugely popular infrastructure package. In short, they are willing to help the super-rich and big corporations but virtually no one else.\nAdvertisement\nMeanwhile, Democrats may want to point out that Republicans want to insulate themselves from accountability (e.g., they opposed an independent commission to investigate the Jan. 6 insurrection and favor measures to make voting harder). Republicans also prefer to waste time on extreme schemes to solve fake issues instead of focusing on real problems. Wheres their inflation plan? Their energy plan? Their crime plan? Their education plan? Instead, theyre passing legislation to allow concealed gun possession without a license, harassing businesses and families, attempting to ban math books, and\nexcising\ncivil rights history from the classroom.\nSo while Democrats are sorely in need of an overarching message, the good news is they have one: Republicans cater to the rich and the radicals. Democrats are for making your life easier. And it has the benefit of being true.\nComment",
-      "snippet": "Democrats need a broader overarching narrative.\nThe good news is they have one.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-19T11:45:00.105",
-      "provider": {
-        "name": "washingtonpost",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DIOLODVP3YI6ZHN5BVDATVCMDQ.jpg&amp;w=1440",
-        "height": 960,
-        "width": 1440,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=5403117772967660351",
-        "thumbnailHeight": 240,
-        "thumbnailWidth": 360,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "washingtonpost",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.washingtonpost.com/opinions/2022/04/19/democrats-found-attack-line-gop-republicans-taxes/"
-      }
-    },
-    {
-      "id": "904648389923354739",
-      "title": "Why do Arizona Republicans want to divide Maricopa County into four counties?",
-      "url": "https://www.washingtonpost.com/politics/2022/04/19/arizona-maricopa-voter-suppression-latinos/",
-      "description": "After Reconstruction, state legislatures manipulated more than 1,300 county borders. That helped Southern white supremacists suppress and erase the Black vote, my research finds.",
-      "body": "ArrowRight\nCounties oversee the administration of presidential elections, and elect their own important officials such as sheriffs, school superintendents and election administrators. That makes them critical units of political organization. As The Washington Post reported, critics of the push to divide Maricopa County see this as an attempt to undermine the legitimacy of elections, which are administered at the county level. The new counties, Republicans must calculate, will either vote for Republicans legitimately, or be more likely to be run by election officials who will support attempts to paint future elections as fraudulent.\nIn my research\n, Ive analyzed the history of county division during the Jim Crow era. There Ive found that newly created counties, like those proposed in Arizona, were more likely to administer fraudulent elections. I also find that these new counties hurt Black voters and Black officeholders the most.\nAdvertisement\nHow I did my research\nFrom 1865 to 1920, the period from the Civil War through the early 20th century, state legislatures created more than 300 counties and significantly adjusted the borders of 1,000 existing ones. This geographic manipulation happened during the same period that the federal government ceased enforcing Reconstruction, enabling the former Confederate states to abandon democratic elections and voting rights for African Americans. During this time, new counties were created to target Black voters and officeholders, helping the then-white-supremacist-aligned Democratic Party solidify control over the South and institute Jim Crow rule.\nI used the Newberry Librarys online atlas of historical county boundaries, which has data on the historical boundaries of every county in the United States, to detect changes to county boundaries and track the emergence of new counties from 1865 through 1920. Of the roughly 1,500 total counties that existed as this period ends, about 300 were established in the South during the Jim Crow era. Then, using historical election and demographic data, I compared new counties created in the South and counties targeted for manipulation with other counties in the South to see whether they had been targeted for political or racial reasons. By comparing the demographics, turnout, and partisanship of newly created counties and the counties from which their land was taken, I can determine whether the geographic changes were made with racial and political factors in mind. I also looked at whether these changes benefited the party that controlled that states legislature.\nThe party of Jim Crow changed county lines to disadvantage Black voters\nAdvertisement\nOver the years leading up to and during Jim Crow in the South, I find that Democratic state legislatures disproportionately ``packed Black voters into new counties, thus reducing their voting power statewide by concentrating their electoral influence in fewer political units.\nNew counties had a much higher proportion of Black residents than the counties that were divided or adjusted to allow the new county to be created. While most counties in the South had only small concentrations of Black residents, making up from zero to roughly 20 percent, most new counties had between 20 and 75 percent Black residents  leaving the old counties disproportionately White.\nPutting all of a minority group into a single county or district, which scholars of congressional gerrymandering call packing, served several purposes  just as it would in Arizona today. First, the new counties that are more likely to vote in line with the political goals of the state legislature  Democrats in the Jim Crow South, Republicans in contemporary Arizona  would elect more like-minded political officers and would certify election results favorable to the state legislature. Second, the new counties packed with non-White residents can be policed in ways that discourage voting or have the results manipulated for fraudulent outcomes.\nNew counties were a hotbed of election fraud\nAdvertisement\nAs expected, when I examined the new counties created in the Jim Crow South, I found that the new counties voted in larger proportions for Democrats than you would expect based on their residents past voting behavior. Given the high Black population of the new counties, my analysis predicted that Democrats would win only a low proportion of the vote, from zero to 50 percent. Not only do Republican-supporting regions report huge support for Democrats (60 to 100 percent) after being moved into new counties, but they also do so at rates unlikely to be produced by legitimate elections.\nNevertheless, new counties voted almost entirely for Democrats. While having one party win 100 percent of the vote in a county is an obvious sign of fraud, so is winning just under 100 percent, pointing to a lack of legitimate political competition. That these results occurred in locations disproportionately inhabited by Black Americans and Republican voters signals that the counties were changed to make it easier to suppress Black voting and otherwise conduct severe political manipulation and fraud.\nOver this half-century, Democratic state legislatures in the South oversaw hundreds of these county changes. Of the new counties drawn by Democratically controlled state legislatures, only about 8 percent saw a Republican win an election in the next electoral cycle. Further, when Black officeholders were moved into new counties, they lost their offices at a faster rate than Black officeholders who were not targeted by geographic manipulation.\nAdvertisement\nBreaking up Maricopa County uses the Jim Crow playbook\nThe plan to divide Maricopa County is an old trick in the playbook of American anti-democratic movements. While the number of new counties created by state legislatures plummeted in the late 20th century, states still have the power to redraw their internal borders. As national political figures pressure states to provide illegitimate election returns, more and more state legislatures may consider creating new counties.",
-      "snippet": "After Reconstruction, state legislatures manipulated more than 1,300 county borders.\nThat helped Southern white supremacists suppress and erase the Black vote, my research finds.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-19T11:00:12.961",
-      "provider": {
-        "name": "washingtonpost",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GSNY2MU6H4I6XN5IAFFRJLVZ4Q.jpg&amp;w=1440",
-        "height": 960,
-        "width": 1440,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=2696352473995773144",
-        "thumbnailHeight": 180,
-        "thumbnailWidth": 270,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "washingtonpost",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.washingtonpost.com/politics/2022/04/19/arizona-maricopa-voter-suppression-latinos/"
-      }
-    },
-    {
-      "id": "7568918777650087914",
-      "title": "Who is the real Elvira Nabiullina? : Planet Money :",
-      "url": "https://www.npr.org/sections/money/2022/04/19/1093339972/who-is-the-real-elvira-nabiullina",
-      "description": "Russian central bank chief Elvira Nabiullina has cultivated the image of a nerdy, opera-loving technocrat, trapped in place by Putin's decision to go to war in Ukraine. It's not that simple.",
-      "body": "AFP/AFP via Getty Images\nAFP/AFP via Getty Images\nA few weeks ago, I edited an edition of this newsletter that introduced you to Elvira Nabiullina, the head of Russia's central bank. During her tenure as Russia's top banker, Nabiullina has managed to charm the West  or its bankers, at least  and cultivated the image of a firmly professional technocrat who likes opera and has been blindsided by the war in Ukraine.\nNabiullina also appears to have bewitched much of the press, who love the idea that every time she appears in public she could be signaling her unspoken thoughts about the economy ... via her clothing choices. As we reported in our newsletter, on her first public appearance after the invasion of Ukraine, she wore all black, a choice that was interpreted by many as a gesture of mourning (For Russia? For Ukraine? For integrity in central banking?) And, like the late Madeleine Albright, Nabiullina likes to wear brooches that telegraph her opinions about the state of the economy. In other words, Nabiullina is one of the very few Russian officials to have retained the respect, if not admiration, of the West.\nBut who is the real Elvira Nabiullina?\nA Putin Protege\nNabiullina graduated from Moscow State University in 1986. Over the next twelve years, she worked her way up through the USSR Science and Industry Union and its successor, the Russian Union of Industrialists and Entrepreneurs, and then through the ministry for economic development and trade. She worked for a bank for a couple of years, and then it was back to the ministry in 2000 as first deputy, after Vladimir Putin became prime minister the previous year.\nFrom then on, Nabiullina would remain close to Putin. When he became president, later in 2000, Putin appointed Nabiullina minister of economic development and trade. When he was elected president for a third term, in 2012, he brought her into the Kremlin, and made her his advisor on economic affairs. The next year, Putin made her governor of the central bank of Russia. He nominated her to a third term as governor on March 18 of this year.\nNabiullina impressed the global banking community right out of the gate. Bankers feted her for taking a strong position on the Russian banking sector between 2013 and 2017, when she withdrew more than 300 banking licenses from institutions that were either chronically weak or unscrupulously led   amounting to one-third of Russia's credit institutions. They lauded her for taking a robust position on inflation, cutting the base rate to a record low of 2.18 percent in February of 2018. And they praised her for allowing the ruble to float in 2014, rather than controlling the exchange rate, which the CBR had done in the past.\nWindow Dressing\nThe accolades flooded in. In 2015, Euromoney magazine named Nabiullina Central Bank Governor of the Year. In 2017, The Banker named her Central Banker of the Year, Europe. The following year, the International Monetary Fund invited her to give its prestigious annual Michel Camdessus lecture.\nBut critics have pointed out that a lot of her achievements are merely camouflage for the Putin regime. The banks she closed down between 2013 and 2017 were consolidated by other institutions, three of which  Bank Otkritie, B&N Bank & Promsvyazbank   later failed, had to be bailed out, and ended up costing the CBR two trillion rubles.  Those three banks were owned by Kremlin-connected oligarchs Igor Finogenov, Mikhail Gutseriev, and the brothers Dmitry and Alexei Ananyev, respectively. Observers at the time accused the banks of mismanagement and even corruption: at the time of the bailouts, the CBR said later, Bank Otkrytie's capital was largely fictitious.\nThe Indicator from Planet Money recently spoke with Maximilian Hess, a fellow at the Foreign Policy Research Institute in London and a long-time Russia watcher. He says the signs that Nabiullina is a complicit member of Putin's inner circle were there for all to see from the moment she took on the role of governor of the CBR. A year into the role, she had to field an appeal from Russian oil flagship Rosneft. Russia had just invaded Crimea and the West had imposed sanctions on a raft of companies, including Rosneft. The company found itself squeezed by sanctions and falling prices on one side, and a combined $21 billion in upcoming debt payments on the other. It needed help.\nNabiullina was there. She engineered Rosneft's issue of 625 billion rubles ($10.2 billion) in local debt, which Hess says were pushed into the market without any kind of notice. She then added those notes to the CBR's Lombard credit list of securities that can be used as collateral for hard currency. Next, she made billions of dollars in loans to Rosneft, using the company's own notes as collateral.\nIt was a neat financial magic trick that amounted to a $15 billion bailout of the oil giant. It also hammered the ruble, which fell 20 percent against the dollar. Nabiullina tried to save the day by pumping interest rates up to 17 percent from 10.5 percent, but to no avail.\n\"So effectively what Nabiullina did was to bail out perhaps the most Kremlin-connected company.\" Hess says. \"She not only destroyed Russian savings, but she made the cost of investment for them a lot higher. The Russian central bank says it has a mandate of protecting the economy and keeping price stability in check as with most central banks, but really Nabiullina only has one mandate and that is to protect the Kremlin and the Kremlin regime.\"\nHess says that nothing has changed since then. Nabiullina remains a key member of Putin's inner circle, despite rumors that she asked to resign in March, after the invasion of Ukraine. Other critics go further, saying she assisted in the plan for the invasion of Ukraine by building up Russia's foreign currency reserves on the one hand, while squeezing the Russian people with austerity measures on the other. Some even compare her to Albert Speer, Hitler's minister of armaments and war production, who was jailed for war crimes.\nIt's hard to know exactly who Elvira Nabiullina is, and what motivates her. She does, after all, work in the Kremlin, which is hardly a bastion of transparency. She started her career as a supposedly liberal technocrat, but her proximity to Vladimir Putin over the years appears to have eroded her willingness to remain politically aloof. It may be that Putin's decision to invade Ukraine was too much for her to stomach, and that she did attempt to resign, but the fact is that she is still in place, doing Putin's bidding, as she has for the last 22 years. Bankers and journalists in the West may hope that, in her heart, Nabiullina is still something of a liberal, committed to the principles of sound, non-partisan macroeconomics. It would be a mistake, however, to expect her to behave that way.",
-      "snippet": "Russian central bank chief Elvira Nabiullina has cultivated the image of a nerdy, opera-loving technocrat, trapped in place by Putin's decision to go to war in Ukraine.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-19T10:30:43",
-      "provider": {
-        "name": "npr",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://media.npr.org/assets/img/2022/04/18/gettyimages-83353692-dd2790e684016b5c805864ec29269ac2a5c70328.jpg",
-        "height": 2216,
-        "width": 2956,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=8206737705333366329",
-        "thumbnailHeight": 206,
-        "thumbnailWidth": 276,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "npr",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.npr.org/sections/money/2022/04/19/1093339972/who-is-the-real-elvira-nabiullina"
-      }
-    },
-    {
-      "id": "694113842383890472",
-      "title": "How \"The Twilight Zone\" predicted the Kardashians",
-      "url": "https://www.latimes.com/opinion/letters-to-the-editor/story/2022-04-19/twilight-zone-predicted-the-kardashians",
-      "description": "Does the physical transformation of the Kardashian sisters presage a dystopia of \"perfect\" but indistinguishable people?",
-      "body": "Print\nTo the editor:\nI couldnt agree more with columnist Robin Abcarians assessment of the Kardashian enterpriseand its strange place in our culture.\nWhen I see how much they apparently rely on cosmetic surgery, especially the changed face of Khloe Kardashian, I am reminded of a Twilight Zone episode entitled Number 12 Looks Just Like You.\nIn this shows dystopian future, when young people become adults, they must go through a transformation by choosing a perfect body from a catalogue of faces. In so doing, they lose any unique characteristics or traits that lend individuality to the person and endear them to others, and they must wear a name tag to state who they are.\nAre we (almost) there yet?\nMary Clumeck, Santa Ana\nTo the editor:\nAbcarian watches The Kardashians?\nI admire Abcarian, I have looked forward to her columns for years, I even spoke to her on some radio show about 20 years ago. Now I find out she watches that superficial, ubiquitous power family?\nAdvertisement\nMy friend for 50 years, now a retired therapist, also watches. Actually, knowing her, that really doesnt surprise me.\nI read something on the Kardashians celebrating 20 years on TV in which someone wrote that they were proud to say they had never seen one episode. I second that  not one!\nBut Abcarian? It will take me some time to get over this.\nVicki Stern, Thousand Oaks\n..\nTo the editor:\nIm impressed and encouraged by the keen observation of Abcarians 12-year-old niece that the Kardashians look plastic.\nThe reality is that the cultural force of the Kardashians is predicated solely on their prodigious narcissism. But what is most disturbing is the superficiality that they represent is emulated and followed by a group as equally self-absorbed. Celebrities proudly and relentlessly displaying photos of their sculpted bodies are a manifestation of this obsessive narcissism.\nLet us not denigrate the Greek mythological Narcissus, who only fell in love with his own reflection, but did not desire the approbation of his peers  unlike the Kardashians, who require constant attention.\nWe cannot condemn the Kardashians; theyre just selling their product. We must, however, be demoralized by the people who obsess over what the Kardashians represent, which is actually too much of nothing.\nGiuseppe Mirelli, Los Angeles",
-      "snippet": "Does the physical transformation of the Kardashian sisters presage a dystopia of \"perfect\" but indistinguishable people?.\nI couldnt agree more with columnist Robin Abcarians assessment of the Kardashian enterpriseand its strange place in our culture.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-19T10:00:31",
+      "datePublished": "2022-04-20T12:00:35",
       "provider": {
         "name": "latimes",
         "favIcon": "",
         "favIconBase64Encoding": ""
       },
       "image": {
-        "url": "https://ca-times.brightspotcdn.com/dims4/default/afbba38/2147483647/strip/true/crop/1885x990+0+45/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fba%2F85%2Ff37e6183471ebf4029e121777175%2Fscreengrab-4rt.jpg",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=2153127393813080917",
-        "thumbnailHeight": 157,
-        "thumbnailWidth": 299,
-        "base64Encoding": null,
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/edca8c8/2147483647/strip/true/crop/5844x3068+0+414/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe2%2F23%2F465045ec49688a5e22fbe2acb45d%2F923819-fg-sp-hockey-mexico-gxc-2347.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
@@ -537,33 +631,33 @@ const dummyData = {
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.latimes.com/opinion/letters-to-the-editor/story/2022-04-19/twilight-zone-predicted-the-kardashians"
+        "webpageUrl": "https://www.latimes.com/sports/story/2022-04-20/hockey-nhl-mexico-los-angeles-kings"
       }
     },
     {
-      "id": "3477209755581627179",
-      "title": "Devils land a blow to Vegas' playoff hopes with 3-2 win",
-      "url": "https://www.washingtonpost.com/sports/nhl/devils-land-a-blow-to-vegas-playoff-hopes-with-3-2-win/2022/04/19/e2f01b54-bf9b-11ec-b5df-1fba61a66c75_story.html",
-      "description": "Nathan Bastian had a goal and an assist, and the New Jersey Devils beat the Vegas Golden Knights 3-2",
-      "body": "Today at\n12:47 a.m. EDT\nNew Jersey Devils center Dawson Mercer (18) gathers the puck against Vegas Golden Knights left wing Max Pacioretty (67) during the second period of an NHL hockey game Monday, April 18, 2022, in Las Vegas. (AP Photo/Joe Buglewicz)\nPlaceholder while article actions load\nLAS VEGAS  Nathan Bastian had a goal and an assist, and the New Jersey Devils beat the Vegas Golden Knights 3-2 on Monday night.\nThe Golden Knights blew their chance to gain ground on the Los Angeles Kings in the Pacific Division, and their playoff hopes lessened severely with just five games left to play. Vegas is three points back of Los Angeles in the division and four points back of Dallas and Nashville for a wild-card berth.\nArrowRight\nIn a rare win for the Devils  their 13th in their last 40 games  Andreas Johnsson and Jesper Boqvist also scored, while Andrew Hammond made 42 saves. It was Hammonds first win as a Devil; hes playing with his third organization this season and made just his eighth NHL appearance of the season.\nKeegan Kolesar and Chandler Stephenson scored for Vegas and Robin Lehner stopped 25 shots.\nAdvertisement\nTaking advantage of a Vegas turnover in its own zone, Devils center Michael McLeod fired a slap shot that Lehner stopped, but Bastian skated by at the right time to tap home the rebound and give New Jersey an early lead in the opening period.\nThe Golden Knights got the equalizer late in the second period from the unlikeliest of candidates, as Kolesar skated down the right side and sent the puck across the slot, then off New Jersey defenseman P.K. Subbans skate and past Hammond.\nVegas offensive flame was quickly extinguished early in the third, when Johnsson grabbed a rebound on the right side of the goal and sent it top shelf over Lehners glove to put New Jersey back in front by a goal.\nBoqvist essentially sealed things midway through the third, when he drove in and around Alex Pietrangelo and slid the puck into the net. It appeared Lehner never even saw the attempt, as he watched Boqvist skate into the corner for at least two seconds before realizing the puck was in the net.\nWith Lehner pulled for a man advantage, Stephenson made it a one-goal game with 1:14 left in the game, but Vegas couldnt tie it.\nUP NEXT\nNew Jersey: Hosts Buffalo on Thursday.\nVegas: Hosts Washington on Wednesday.\n__\nMore AP NHL: https://apnews.com/hub/NHL and https://twitter.com/AP_Sports\nComment",
-      "snippet": "Nathan Bastian had a goal and an assist, and the New Jersey Devils beat the Vegas Golden Knights 3-2.\nNew Jersey Devils center Dawson Mercer (18) gathers the puck against Vegas Golden Knights left wing Max Pacioretty (67) during the second period of an NHL hockey game Monday, April 18, 2022, in Las Vegas.",
+      "id": "362862561063953606",
+      "title": "Tesla earnings: Will Elon Musk address Shanghai Gigafactory closure amid Twitter takeover bid?",
+      "url": "https://www.washingtonpost.com/technology/2022/04/20/tesla-elon-musk/",
+      "description": "Elon Musk is trying to take over Twitter. Meanwhile, Tesla's China production lines have been halted.",
+      "body": "Meanwhile, Musk has been consumed in recent weeks with a surprise push to take over the social media platform he uses for company announcements and communicating with his more than 82 million followers.\nAdvertisement\nAnalysts and investors have expressed concern that Musk is stretched too thin  not only by the demands of Tesla, which has opened multiple new factories in recent weeks, but other responsibilities as CEO of rocket builder SpaceX and several smaller companies. If he succeeds in his bid to buy Twitter, Musk will have a historic, and largely unprecedented, catalogue of tech companies under his helm even after questioning last year how long he could keep up with overflowing demands.\nMusk and Tesla did not respond to requests for comment. Musk praised Teslas performance despite the challenges in a tweet this month.\nThis was an *exceptionally* difficult quarter due to supply chain interruptions & China zero Covid policy, he wrote. Outstanding work by Tesla team & key suppliers saved the day.\nAdvertisement\nTesla said at the time that it delivered more than 300,000 vehicles in the quarter, the first of 2022, positioning its numbers as a strong result despite ongoing supply chain challenges and factory shutdowns.\nAnalysts expect Tesla to report strong first quarter numbers, but those will largely be a footnote as the company faces questions over how the China closure will affect its year. Tesla has called the Shanghai factory its main export hub, making it a critical site for the carmaker that is largely credited with ushering in the era of electric vehicles.\nOver the course of a decade, Tesla went from a niche automaker delivering tens of thousands of vehicles to more than 936,000 in 2021. Along the way, it has faced profitability concerns, regulatory fights and production challenges that posed massive hurdles for Musk.\nAdvertisement\nAlready Tesla buyers are waiting in some places for more than six months to get their new vehicles, analysts said. Those wait times could remain as the China closure could cut into Teslas production by as many as 50,000 vehicles in the next quarter.\nreported\na day earlier that a reopening would initially be in a limited capacity with one shift  and workers would have to live on-site.\nMusk has historically been sensitive to government-mandated factory shutdowns, lashing out in 2020 in response to shelter-in-place orders that required the closure of Teslas main Fremont, Calif. plant. He called the measures fascist and urged the government give people back their g--d--- freedom.\nGene Munster, managing partner with Loup Ventures, said Teslas China factory closure signaled potential further complications.\nAdvertisement\nThe bigger factor is: Is China adopting a different posture toward working with U.S. companies over the long haul? he asked. The answer is: They are.\nBeyond the stalled production lines, there are other indicators that Tesla is feeling the strain of the coronavirus pandemic  in the form of supply chain woes.\nThe company recently announced it would not be including charging cables with its new cars, prompting an outcry from even Musks most fervent supporters. Eagle-eyed followers of the company noted that the $400 component was axed from new car purchases and could not be bought on Teslas website because it was sold out.\nThe cable enables owners to charge their vehicles using a simple wall outlet, although it is considered more of a stopgap\nit charges slowly. Still, they can serve owners in a pinch when first taking ownership of the car, visiting relatives or in a location without charging infrastructure.\nAdvertisement\nStill, the component, known as a mobile connector, is considered a lesser option than installing a wall connector, which the company recommends. That charger is typically wired to the home electrical system and a charging cable extends from the base, which is mounted to the wall.\nA wall charger is not included and",
+      "snippet": "Elon Musk is trying to take over Twitter.\nMeanwhile, Tesla's China production lines have been halted.",
       "keywords": "",
       "language": "en",
       "isSafe": true,
-      "datePublished": "2022-04-19T04:47:59",
+      "datePublished": "2022-04-20T10:00:59.163",
       "provider": {
         "name": "washingtonpost",
         "favIcon": "",
         "favIconBase64Encoding": ""
       },
       "image": {
-        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4A6JZVF7TMI6ZNO7D65GDJTMOU.jpg&amp;w=1440",
-        "height": 960,
-        "width": 1440,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=9072552936506000391",
-        "thumbnailHeight": 120,
-        "thumbnailWidth": 180,
-        "base64Encoding": null,
+        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RADAK6ZSGRCCNARVXJLNRFNMGU.jpg&amp;w=1440",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
@@ -572,68 +666,33 @@ const dummyData = {
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.washingtonpost.com/sports/nhl/devils-land-a-blow-to-vegas-playoff-hopes-with-3-2-win/2022/04/19/e2f01b54-bf9b-11ec-b5df-1fba61a66c75_story.html"
+        "webpageUrl": "https://www.washingtonpost.com/technology/2022/04/20/tesla-elon-musk/"
       }
     },
     {
-      "id": "6681634575594443978",
-      "title": "Carolyn Hax: How to manage severe job-interview anxiety",
-      "url": "https://www.washingtonpost.com/advice/2022/04/19/carolyn-hax-manage-job-interview-anxiety/",
-      "description": "After a bombed job interview and then wallowing in self-hatred, a job seeker wants to know how to overcome severe anxiety in interviews.",
-      "body": " Anxious\nAnxious:\nOh no, dont be angry at you. You arent doing this to yourself on purpose  and you dont stay angry at people who do things to you that are clearly by accident, do you?\nPresumably your question is, How do I fix this?\nI'll give you the start of an answer, by advising you to find a career coach or useful friend who can give you some mock interviews. Practice makes calm. Consider talking to your doctor about your anxiety, too, to see if treatment makes sense.\nAdvertisement\nThe rest is collective wisdom from readers:\n Ive hired several people who gave lousy interviews, when they were exceptionally strong candidates. Note that lousy here doesnt mean hostile, clueless, or clearly lying about their qualifications  just nervous. Bonus points for a self-aware introduction like, I know I dont give the strongest interviews, but Im a very strong employee who could help your organization by [specifics]. An interview should only be one part of the equation.\n My approach is to always be applying for new jobs, with the goal of having about one interview a quarter, so Im not out of practice when it matters. I tell my supervisors Im doing this so they dont freak out when they find out.\n My local community college has a whole department for helping their students and community members. You can do practice interviews, get help with your rsum, network, do aptitude testing.\nAdvertisement\n Reach out to the bombed interviewer: That didnt go as well as I would have hoped. Would like to clear up my reply on the question of X/Y. Thanks for your time, its a very interesting position and Id  appreciate being able to flex my skills in Z.\n Im terrible at interviews. In the most recent one they asked the typical, Anything else you want us to know? And I just said it: Im bad at interviews. But, Im really good at my job. I got that job.\n Interviews were pure agony, until the time I realized I didnt want to work for the person interviewing me. He was not pleasant. I felt a shift in the balance of power and I relaxed. Now I have internalized that I am interviewing the employer as much as they are interviewing me.\n Alison Green has really good tips on interviews and applying for jobs.\nAdvertisement\n I wear black to avoid having to be concerned about visible sweat stains.\n I take charge and ask a lot of questions instead of sitting there and trying not to say something dumb.\n Next time you get nervous (or self loathy), remember my college professor. He had the same issue  terrible sweating in job interviews. He was bald, so he would bring a handkerchief with him to dab his head. One time he wiped his whole dome and after a while realized he wasnt sweating. He walked out thinking he nailed the interview and things were changing  turns out he grabbed the handkerchief he had recently used to wax his bowling ball. No sweating, but a very shiny interview.",
-      "snippet": "After a bombed job interview and then wallowing in self-hatred, a job seeker wants to know how to overcome severe anxiety in interviews.\nOh no, dont be angry at you.",
+      "id": "3150010467193928",
+      "title": "'Wall of fire' forces evacuations near Flagstaff, Ariz.",
+      "url": "https://www.latimes.com/world-nation/story/2022-04-20/fire-forces-evacuations-flagstaff-arizona",
+      "description": "Winds kicked up a towering wall of flames in rural northern Arizona, tearing through two dozen structures and forcing the evacuation of 700 homes.",
+      "body": "Print\nFLAGSTAFF, Ariz.\nHeavy winds kicked up a towering wall of flames outside a northern Arizona tourist town Tuesday, ripping through two dozen structures and sending residents of more than 700 homes scrambling to flee.\nFlames as high as 100 feet raced through an area of scattered homes, dry grass and Ponderosa pine trees on the outskirts of Flagstaff as wind gusts of up to 50 mph pushed the blaze over a major highway.\nCoconino County officials said during an evening news conference that 766 homes and 1,000 animals had been evacuated. About 250 structures remained threatened in the area, which is popular with hikers and off-road vehicle users and where astronauts have trained amid volcanic cinder pits.\nThe county declared an emergency after the wildfire ballooned from 100 acres Tuesday morning to over nine square miles by evening, and ash rained from the sky. The fire was moving northeast away from the more heavily populated areas of Flagstaff, home to Northern Arizona University, and toward Sunset Crater Volcano National Monument, said Coconino National Forest spokesman Brady Smith.\nIts good in that its not headed toward a very populated area, and its headed toward less fuel, Smith said. But depending on the intensity of the fire, fire can still move across cinders.\nAdvertisement\nAuthorities wont be able to determine whether anyone was injured in the wildfire until the flames subside. Firefighters and law-enforcement officers went door to door telling people to evacuate but had to pull out to avoid getting boxed in, said Coconino County Sheriff Jim Driscoll.\nCalifornia\nPG&E to pay more than $55 million to avoid criminal prosecution for starting two wildfires\nPG&E Corp. has reached a deal with prosecutors over starting two major California wildfires and will avoid criminal prosecution.\nHe said his office got a call about a man who was trapped inside his house, but firefighters couldnt get to him.\nWe dont know if he made it out or not, Driscoll said.\nVarious organizations worked to set up shelters for evacuees and animals, including goats and horses.\nThe scene was all too familiar for residents who recalled rushing to pack their bags and flee a dozen years ago when a much larger wildfire burned in the same area.\nCalifornia\nClimate change is now the main driver of increasing wildfire weather, study finds\nNew study says climate change is essentially two-thirds to 88% responsible for the conditions driving wildfire woes in the western United States.\nThis time was different, right there in your backyard, said resident Kathy Vollmer.\nShe said she and her husband grabbed their three dogs but left a couple of cats behind as they faced what she described as a wall of fire.\nWe just hope they are going to be OK, she said.\nEarlier in the day, the wildfire shut down U.S. 89, the main route between Flagstaff and far northern Arizona, and communities on the Navajo Nation. The high winds grounded aircraft that could drop water and fire retardant on the blaze.\nNewsletter\nRecord heat. Raging fires. What are the solutions?\nGet Boiling Point, our newsletter about climate change, the environment and building a more sustainable California.\nEnter email address\nSign Me Up\nYou may occasionally receive promotional content from the Los Angeles Times.\nArizona Public Service Co., the states largest utility, shut off power to about 625 customers to keep firefighters safe, a spokeswoman said.\nAbout 200 firefighters were battling the flames, but more are expected as a top-level national management team takes over later this week.\nThe fire started Sunday afternoon 14 miles northeast of Flagstaff. Investigators dont know yet what caused it and have yet to corral any part of the blaze.\nThe wind is expected to be a challenge the rest of the week, along with warmer-than-average weather and low humidity, the National Weather Service said.",
+      "snippet": "Winds kicked up a towering wall of flames in rural northern Arizona, tearing through two dozen structures and forcing the evacuation of 700 homes.\nHeavy winds kicked up a towering wall of flames outside a northern Arizona tourist town Tuesday, ripping through two dozen structures and sending residents of more than 700 homes scrambling to flee.",
       "keywords": "",
       "language": "en",
       "isSafe": true,
-      "datePublished": "2022-04-19T04:00:16.641",
-      "provider": {
-        "name": "washingtonpost",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AO2MNCV7GAI6ZNO7D65GDJTMOU.jpg&w=1200",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=662422594915494098",
-        "thumbnailHeight": 78,
-        "thumbnailWidth": 148,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "washingtonpost",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.washingtonpost.com/advice/2022/04/19/carolyn-hax-manage-job-interview-anxiety/"
-      }
-    },
-    {
-      "id": "2589042723422606483",
-      "title": "Vice President Kamala Harris says the U.S. will halt tests of anti-satellite missiles",
-      "url": "https://www.latimes.com/politics/story/2022-04-18/harris-visits-los-angeles",
-      "description": "Vice President Kamala Harris says the U.S. will halt tests of anti-satellite missiles. The move follows a Russian test in November that blew up a satellite and polluted low-Earth orbit with more than 1,000 pieces of debris.",
-      "body": "Vice President Kamala Harris kicked off a weeklong trip home to California on Monday with a stop at Vandenberg Space Force Base, where she said the U.S. would halt testing of satellite-killing missiles to reduce the threat posed by space debris. The self-imposed ban comes amid rising tensions with Russia over its invasion of Ukraine and Moscow's decision in November to test a missile that blew up one of its own satellites. That explosion polluted low-Earth orbit with more than 1,500 pieces of dangerous debris, forcing the crew of the International Space Station to take shelter. Even a tiny bit of such space junk could damage or destroy a satellite, space station or spacecraft. The U.S. and its allies have sharply criticized the Kremlin over the test, with Harris in December calling it \"an irresponsible act.\" China used a missile in 2007 to destroy one of its satellites, a blast that continues to litter space with nearly 3,000 pieces of debris. \"These tests are dangerous, and we will not conduct them,\" Harris said in a speech to the base's military personnel, noting how the resulting debris can endanger the lives of astronauts and imperil satellites that provide \"the daily weather forecast, GPS driving directions, and even your favorite television station.\" Harris said she hoped the U.S. action would spur other countries to join in halting such tests. \"The United States is committed to lead the way and to lead by example,\" she said. The U.S. appears in 2008 to have last used a missile to destroy a satellite that was malfunctioning. U.S. officials said that within a week all the resulting debris had left the orbit. The invasion of Ukraine escalated tensions between Washington and Moscow over how the countries intend to explore space. It also resulted in the halting of direct talks between Washington and Moscow over international rules on space-based missile defenses. Russian President Vladimir Putin has signaled he intends to expand Moscow's space weapons program. The U.S. has imposed a raft of harsh economic sanctions, including some aimed at the Russian space industry. It is not clear how the invasion will affect operations of the International Space Station, which is operated jointly by the U.S., Russia and other countries. The station, which has been in operation for more than two decades, has been heralded as an example of post-Cold War cooperation. The Trump and Biden administrations have ramped up efforts to counter competition from Russia and China in space. Trump created the Space Force as a new branch of the military, while Biden has continued to invest in its existence. The White House budget request unveiled last month included $24.5 billion for the Space Force, a nearly 40% bump over the previous year and nearly the $26 billion Biden requested for NASA. Before delivering her remarks at Vandenberg, Harris received a briefing from military personnel on U.S. efforts in space and the dangers posed by anti-satellite missiles. She was next to fly to Los Angeles, where she was scheduled to appear at a Democratic fundraiser Monday night. Harris, who has a home in Brentwood and served as one of California's two U.S. senators before ascending to the vice presidency, is scheduled to deliver a speech in San Francisco on maternal health on Thursday before returning to Washington on Monday.",
-      "snippet": "Vice President Kamala Harris says the U.S.\nwill halt tests of anti-satellite missiles.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-19T01:42:48",
+      "datePublished": "2022-04-20T08:49:12.125",
       "provider": {
         "name": "latimes",
         "favIcon": "",
         "favIconBase64Encoding": ""
       },
       "image": {
-        "url": "https://ca-times.brightspotcdn.com/dims4/default/f83bef5/2147483647/strip/true/crop/5246x2754+0+371/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd3%2F5c%2F9dd254ed4e85b702aead58cdb8ce%2F947026-na-pol-0418-vp-cali-trip-kkn-0020.jpg",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=5852652755586570072",
-        "thumbnailHeight": 157,
-        "thumbnailWidth": 299,
-        "base64Encoding": null,
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/dfc99f3/2147483647/strip/true/crop/1866x980+0+132/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F66%2Fc2%2Fa3803cd42a90192bf8d36c06c7db%2F81f55ce30b184055a6a30275851a3e80",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
@@ -642,208 +701,33 @@ const dummyData = {
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.latimes.com/politics/story/2022-04-18/harris-visits-los-angeles"
+        "webpageUrl": "https://www.latimes.com/world-nation/story/2022-04-20/fire-forces-evacuations-flagstaff-arizona"
       }
     },
     {
-      "id": "8013428047198771014",
-      "title": "Jaime Jaquez Jr. announces he'll be back with UCLA next season",
-      "url": "https://www.latimes.com/sports/ucla/story/2022-04-18/jaime-jaquez-announces-he-will-return-ucla-basketball",
-      "description": "UCLA's Jaime Jaquez, who played a pivotal role in the Bruins' NCAA tournament runs the last two seasons, announces he will return for the 2022-23 season.",
-      "body": "With three words, another season could be played.\nWith three words, a new ending could be written.\nWith three words, a fan base could rejoice.\nIm coming back, Jaime Jaquez Jr. said, uttering the three words that could also change the trajectory of a program.\nThe UCLA junior guard made his announcement near the end of a video heralding his return for one more college season Monday, taking his jersey out of his locker and slipping it over his shoulders.\nWith his decision, Jaquez prioritized the letters on the front of that jersey over those on the back, reaffirming his devotion to his school.\nApril 18, 2022\nWhen I committed here, Jaquez said in the nearly 2-minute video released on Twitter and Instagram, I wanted to get this program back on the national stage, back where it belongs among the nations elite. Im proud of what we accomplished the last three years, but theres some unfinished business. I came to UCLA to win a national championship; shouldnt that be the goal? I want to hang banner No. 12 in Pauley Pavilion.\nThe Bruins prospects for their first national title since 1995 are greatly enhanced by the return of their grittiest and best all-around player who became a two-way force last season despite playing most of it on two bad ankles.\nOn the way to becoming a first-team All-Pac-12 player who also held the distinction of making the conferences all-defensive team for a second consecutive season, Jaquez averaged 13.9 points and 5.7 rebounds per game. He was especially effective while unleashing a slew of effective low-post moves late in the season, averaging 19.3 points over his final eight games as the Bruins reached the Sweet 16 before losing to North Carolina.\nAdvertisement\nHis decision wasnt wholly unexpected considering Jaquezs affinity for his teammates and coaches, not to mention the sister who will arrive on campus next fall. Gabriela Jaquez, the record-setting senior guard at Camarillo High, will join Jaime as the first basketball brother-sister combination at UCLA since Dave and Ann Meyers in the 1970s. The siblings have already secured at least one name, image and likeness deal alongside their younger brother, Marcos.\nJaime Jaquez is the first of the teams starters to publicly commit to coming back next season; Cody Riley and Jules Bernard were honored during senior day but have remaining eligibility and juniors Johnny Juzang and Tyger Campbell have not announced their plans.\nUCLA Sports\nOnce homeless, UCLAs Zaylon Thomas makes his mark on the track\nUCLA track and field athlete Zaylon Thomas battled homelessness in middle and high school. Hes now critical to the Bruins sprint and jumping teams.\nLong a fan favorite for his relentlessness, Jaquezs return ensures that the Bruins will keep a prominent part of the core that helped them reach the Final Four a year ago. Freshman guard Peyton Watson recently announced he was entering the NBA draft and junior guard Jake Kyman said he was transferring to Wyoming.\nJaquez will enter his senior season ranked No. 49 on the schools all-time scoring list (1,143 career points), having become one of 59 players in program history to tally 1,000 points.\nJaime has been a tremendous and tenacious player in our program for three years, and we are thrilled that he will come back for his senior season in Westwood, UCLA coach Mick Cronin said in a statement. Jaime has a chance to go down with so many other great Bruins in UCLA history who have played four seasons in front of the Pauley Pavilion faithful.\nJaquez moved into the starting lineup just eight games into his freshman season after challenging his teammates to be tougher, a standard he had already begun to uphold. Adding to his own legacy of resilience this season, Jaquez quickly returned from hitting his head on the Pauley Pavilion hardwood and getting accidentally elbowed in the face by teammate Myles Johnson. He repeatedly rolled his ankles and also dealt with inflammation, necessitating protective ankle braces for the seasons final six weeks.",
-      "snippet": "UCLA'<b>s</b> Jaime Jaquez, who played a pivotal role in the Bruin<b>s</b>' NCAA tournament run<b>s</b> the la<b>s</b>t two <b>s</b>ea<b>s</b>on<b>s</b>, announce<b>s</b> he will return for the 2022-23 <b>s</b>ea<b>s</b>on.",
+      "id": "3637655931346174839",
+      "title": "Boost now? Boost later? Tricky calculation for a 4th coronavirus shot.",
+      "url": "https://www.boston.com/news/coronavirus/2022/04/20/boost-now-boost-later-tricky-calculation-for-a-4th-coronavirus-shot/",
+      "description": "A second booster shot is authorized for people over 50 and immunocompromised people over 12. Learn more at Boston.com.",
+      "body": "Email\nAdvertisement:\nBill and Rudi Weissinger remain covid-cautious. Theyve had three shots of the Moderna coronavirusvaccine. They wear masks at the grocery store and avoid large gatherings. When Bill recently offered a friend a fist-bump rather than a handshake, the friend said, Oh, still? Yes is the answer, and most of their friends in Friday Harbor, Wash.  an island community  are similarly vigilant.\nAdvertisement:\nAdvertisement:\nAdvertisement:\nThe Weissingers want to get another booster shot. Theyre in their mid-70s and eligible. But they also plan to travel to France later this year. Boost now? Boost later?\nAdvertisement:\nAdvertisement:\nOur fear is if we get the booster now, it will have faded by then, Bill says.\nWe definitely believe in the boosters. We are not anti-vaxxers. Give me any shot you can, Rudi says.\nMost Americans arent trying to time their next booster for an overseas vacation, and many people in low-wage jobs and crowded multigenerational households are far more exposed than the Weissingers are. But their uncertainty about a fourth shot reflects the widespread confusion about boosters who exactly should get them, and when, and why  that has dogged the governments vaccination campaign.\nEven highly informed consumers of pandemic news may struggle to sift through the latest government guidance and newest scientific studies. And even at this stage in the crisis, they may be unclear on what additional boosters can and cant do.\nPublic health officials who authorized a second booster shot last monthfor people 50 and older and for immunocompromised people 12 and older have insisted its a stopgap, aimed primarily at keeping the most vulnerable people out of the hospital or the cemetery. A second booster appears to add to protection against severe illness in people 60 and older but offers only a modest, temporary shield against infection.\nThe booster issue reveals some tension between public health priorities and individual interests. The disease experts worry about epidemic waves that can overwhelm the health-care system. To a doctor, a vaccine has worked fine if it keeps a person out of the hospital, with just a mild to moderate case which can mean anything from a few sniffles to a miserable week in bed utterly flattened by the virus. Many people, though, dont want that bad week  with the attendant risk of long covid  and will do anything to keep it off their calendar.\nI think the expectations [from] the first performance of the vaccines is that it is possible to be completely protected against infection or any small cough even, Hanneke Schuitemaker, head of viral vaccine development and translational medicine at Janssen, a division of Johnson & Johnson, said at a recent forum held by the New York Academy of Sciences.\nThe reality is that a person who is up to date on vaccination is very unlikely to wind up in the hospital, although the virus may still be able to break through the initial line of immune defense and generate sickness.\nYou may have sort of a common cold, but your immune system will deal with it and prevent severe disease, Schuitemaker said.\nEven as many people rush to get a fourth shot, many others still havent received their third second or first. Despite clear evidence that a third shot can save lives and better protect people, more than 90 million eligible people in the United States havent rolled up their sleeves for their first booster. Booster uptake has been higher among white peoplethan in communities of color\nMedical advisers to the federal government have debated the necessity and ethics of a fourth shotgiven that there are higher public health priorities, including reaching unvaccinated communities and ensuring wider global access to vaccines. But in their late March authorization, federal agencies said people 50 and oldercould get an additional booster it they are at least four months past their previous shot.\nStrikingly, the agencies did not clearly recommend that booster for everyone who is eligible, and federal officials advice varies.\nRochelle Walensky, director of the Centers for Disease Control and Prevention, said people 65 and older and those 50 and older with underlying medical conditionsare most likely to benefit. Ashish Jha White House covid-19 response coordinator, told \nFox News Sunday\n the data were pretty compelling for people older than 60 to get a second booster. Anthony Fauci, director of the National Institute of Allergy and Infectious Diseases, said on MSNBCthat people older than 50 should get a fourth shot.\nData from Israel, which offered fourth shots to people 60 and older during the omicron surge, show that the additional shot increases protection against severe illness and death compared with a third shot. But against infections  most of which are officially deemed mild  a fourth shot provided only a modest and brief increase in protection, peaking at four weeks after the booster dose and dropping back to the baseline after eight weeks.\n[T]hese findings suggest that protection against confirmed infection wanes quickly, the researchers concluded.\nI was shocked, said Robert M. Wachter, chair of the department of medicine at the University of California at San Francisco. He said he thought the additional protection against infection from the fourth shot would mirror that of the third rather than be so brief.\nIf the fourth shot offers a relatively brief window of higher protection, he said, timing that booster according to plans  a wedding, a family reunion, visiting an elderly relative, a vacation  seems reasonable. But its not an easy calculation, he said, because there are so many factors in the equation.\nTheres no perfect plan. Youre weighing risks, benefits, uncertainties, your own personal circumstance, Wachter said. I do this for a living, and I get a headache when I try to think this through.\nRisk analysis is not the strong suit of most people. Guidance from the CDC about the risk of infection has not always been clarifying. The risk on any given day depends a great deal on the current level of community transmission, but that data may not be easily found or interpreted and could be out of date.\nAnd the virus itself is not a fixed entity. The omicron variant is more transmissible than earlier forms of the virus, and there is now a growing roster of omicron subvariants, including BA.2, which are more transmissible yet. As it mutates, the virus has become more evasive of the human immune system.\nThe result is that an individuals risk analysis  is it safe, on this day, with this level of community transmission of this latest omicron subvarianton the prowl, to dine indoors at a restaurant?  is thoroughly contaminated with guesswork, wishful thinking and/or fear.\nThere is no simple test of an individuals protection. There isnt a line in the sand  what experts call a correlate of immunity  that means someone is immune or not immune, or is or isnt likely to end up in a hospital bed.\nAntibodies may h",
+      "snippet": "A second booster shot is authorized for people over 50 and immunocompromised people over 12.\nLearn more at Boston.com.",
       "keywords": "",
       "language": "en",
       "isSafe": true,
-      "datePublished": "2022-04-19T01:38:09.41",
-      "provider": {
-        "name": "latimes",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://ca-times.brightspotcdn.com/dims4/default/9bea132/2147483647/strip/true/crop/3694x1939+0+0/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F70%2F5b%2F7844d6ad41fc8e3c6962b79be1d3%2Fncaa-ucla-basketball-46502.jpg",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=9219875075277283843",
-        "thumbnailHeight": 157,
-        "thumbnailWidth": 299,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "latimes",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.latimes.com/sports/ucla/story/2022-04-18/jaime-jaquez-announces-he-will-return-ucla-basketball"
-      }
-    },
-    {
-      "id": "8802389006042910258",
-      "title": "Twitter gains as board plots defense strategy",
-      "url": "https://www.latimes.com/business/technology/story/2022-04-18/twitter-gains-as-board-plots-defense-strategy",
-      "description": "With Elon Musk pushing a plan to take the company private, Twitter shares gained Monday amid speculation its board of directors will strike a deal that is more palatable to shareholders.",
-      "body": "Twitter Inc. shares posted their biggest gain in two weeks Monday after the social media company launched a poison pill defense to thwart an unsolicited bid by Elon Musk to take the company private at $54.20 a share. A securities filing Monday confirmed the defense strategy Twitter outlined last week, which would allow the company to issue new stock that all shareholders except Musk could buy at a discounted price. It imposes a significant penalty on any person or entity that would acquire more than 15% of the company without board approval, according to the filing. Musk currently owns just over 9% of Twitter shares. The board adopted the rights agreement to protect stockholders from coercive or otherwise unfair takeover tactics, according to the filing. Twitter shares rose 7.5% to $48.45 on Monday, their biggest jump since April 4. Twitter is using the poison pill defense to buy time to come up with a plan that would be in the best interests of its shareholders, according to a person familiar with the company. The shares are rising amid speculation that Twitter will strike a deal that is more palatable to shareholders. The company has been fielding takeover interest from other parties, including technology-focused private equity firm Thoma Bravo, according to a person familiar with the matter. Private equity firm Silver Lake, which already owns a significant stake in Twitter, also would make sense as a partner because it has an existing relationship with Musk as well, but its unclear whether it's interested. Meanwhile, Musk may partner with Oracle Corp. and a private equity consortium that includes Thoma Bravo to thwart Twitters poison pill, according to Bloomberg Intelligence analysts, while raising the bid 10-15% to about $50 billion. Musk, for his part, has said that any rejection of his bid, valuing Twitter at $43 billion, would cause him to reevaluate his stake. Over the weekend, Musk said that the economic interests of Twitters board arent aligned with shareholders. He was responding to a tweet about board members stock holdings, saying that with the impending departure of co-founder Jack Dorsey, the board collectively owns almost no shares. In a tweet Monday, Musk, who is chief executive of Tesla Inc. and SpaceX, said that if his Twitter bid succeeds, board members would not be given a salary. Tesla has paid its own directors an annual cash retainer of about $20,000 plus certain additional fees in recent years, but they also each receive stock option grants every few years  meaning they stand to make tens of millions of dollars or more with Teslas stock price gains. Since making the Twitter offer last week, Musk has been actively posting on his Twitter account in what appears to be a social media campaign to sway public opinion in favor of his bid. The billionaire entrepreneur floated a cryptic tweet with the word tender, a likely wink-and-nod reference to a potential tender offer. If Musk is serious about pushing ahead with his takeover offer for Twitter, he should launch a tender offer to acquire the shares in the company he doesnt already own despite the poison pill, said Andrew Freedman, co-chair of the shareholder activism practice at law firm Olshan Frome Wolosky. Even though Musk wouldnt be able to close his tender offer, even with a majority of shares tendered, given the poison pill and other impediments, its a put your money where your mouth is type move and shows he really wants to buy this company, Freedman said. Musk could simultaneously launch a proxy contest in which he would ask shareholders to withhold their votes for the two directors who will stand for reelection at this years annual meeting, which is slated for May 25, Freedman said. That would serve as a referendum on his offer and allow him to solicit votes for an amendment to the companys charter to declassify the board, meaning that all directors, not just a few, would stand for election each year, he said. Last year, a similar proposal almost achieved the 80% vote threshold required to change the companys bylaws, he said. If Musk doesnt act in the next few months, he wont be able to do much at Twitter until next years annual general meeting because the company doesnt allow shareholders to call a special meeting or act by written consent. Freedman said that both Twitter Chief Executive Parag Agrawal and Chairman Bret Taylor will stand for reelection next year. Dorsey is scheduled to leave the board once his term expires at the next shareholder meeting. If Musk can get fairly widespread support this year, it also could force the companys hand to negotiate with Musk earlier than they would like to or announce and run a sale process. All to avoid facing the music next year, he said. Bloomberg writer Sean O'Kane contributed to this report.",
-      "snippet": "With Elon Musk pushing a plan to take the company private, Twitter shares gained Monday amid speculation its board of directors will strike a deal that is more palatable to shareholders.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-19T00:05:47.193",
-      "provider": {
-        "name": "latimes",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://ca-times.brightspotcdn.com/dims4/default/626dea7/2147483647/strip/true/crop/3903x2049+0+244/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F44%2F95%2F3890363e4cd7b01c66dcaa87c49d%2Fapphoto-earns-twitter.JPG",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=833004075829864803",
-        "thumbnailHeight": 157,
-        "thumbnailWidth": 299,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "latimes",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.latimes.com/business/technology/story/2022-04-18/twitter-gains-as-board-plots-defense-strategy"
-      }
-    },
-    {
-      "id": "696035480391613186",
-      "title": "USC basketball commit Aaliyah Gayles reportedly shot at party",
-      "url": "https://www.latimes.com/sports/usc/story/2022-04-18/usc-womens-basketball-commit-aaliyah-gayles-shot",
-      "description": "USC women's basketball commit Aaliyah Gayles was shot at a house party in Las Vegas on Saturday night, the Las Vegas Review-Journal reported.",
-      "body": "Two adults and two juveniles were injured when shots were fired after an argument at a house party, North Las Vegas police Sgt. Vince Booker said Monday. The Las Vegas Review-Journal, citing unnamed sources, identified the most seriously injured person as Aaliyah Gayles, an 18-year-old basketball star at Spring Valley High in Las Vegas who was a McDonalds All-American. Gayles is originally from the Los Angeles area. She recommitted to USC after originally decommitting because of changes on the Trojans' coaching staff. Aaliyah is one of the strongest, most resilient young people I have ever known, USC coach Lindsay Gottlieb said. I have no doubt she will continue to face this unfathomable situation with courage and resolve. We will continue to support her and her parents in every way that we possibly can. One female adult victim received multiple gunshot wounds to her lower extremities and was hospitalized in serious condition, Booker said in a statement. The other three victims were reported to be in stable condition, he said. A large group of people left the area before police arrived Saturday night, and a suspect in the shooting was not immediately identified. Booker said no arrests were immediately made.",
-      "snippet": "USC women's basketball commit Aaliyah Gayles was shot at a house party in Las Vegas on Saturday night, the Las Vegas Review-Journal reported.\nTwo adults and two juveniles were injured when shots were fired after an argument at a house party, North Las Vegas police Sgt.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-18T23:52:39.324",
-      "provider": {
-        "name": "latimes",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://ca-times.brightspotcdn.com/dims4/default/9146f35/2147483647/strip/true/crop/4457x2340+0+0/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc1%2F0b%2F21241cfb46009a78ed06a0691580%2Fmcdonalds-all-american-girls-basketball-39033.jpg",
-        "height": 630,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=3789297608729430923",
-        "thumbnailHeight": 117,
-        "thumbnailWidth": 222,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "latimes",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.latimes.com/sports/usc/story/2022-04-18/usc-womens-basketball-commit-aaliyah-gayles-shot"
-      }
-    },
-    {
-      "id": "8858356620788057944",
-      "title": "15-year-old girl stabbed to death at California high school",
-      "url": "https://www.washingtonpost.com/national/15-year-old-girl-stabbed-to-death-at-california-high-school/2022/04/18/25fe0ef6-bf6f-11ec-b5df-1fba61a66c75_story.html",
-      "description": "Authorities say a 15-year-old girl has been stabbed to death on a high school campus by a man who had targeted her for the attack",
-      "body": "Her name wasnt immediately released.\nThe attacker, a man in his 40s, was quickly detained. His name was not released.\nThe man drove to the school and went through a campus gate, police said.\nHe attacked before security and staff could stop him, Ramirez said.\nWe definitely will be re-evaluating campus security, he said.\nThe school was placed on lockdown after the stabbing.\nThe teenager was targeted, school district officials said, but there was no immediate word on how the man knew the teen.\nA motive for the killing remains under investigation, police said.\nComment",
-      "snippet": "Authorities say a 15-year-old girl has been stabbed to death on a high school campus by a man who had targeted her for the attack.\nHer name wasnt immediately released.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-18T23:27:44",
-      "provider": {
-        "name": "washingtonpost",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://www.washingtonpost.com/resizer/2CjPNwqvXHPS_2RpuRTKY-p3eVo=/1484x0/www.washingtonpost.com/pb/resources/img/twp-social-share.png",
-        "height": 779,
-        "width": 1484,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=1673088960582388936",
-        "thumbnailHeight": 291,
-        "thumbnailWidth": 554,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "washingtonpost",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.washingtonpost.com/national/15-year-old-girl-stabbed-to-death-at-california-high-school/2022/04/18/25fe0ef6-bf6f-11ec-b5df-1fba61a66c75_story.html"
-      }
-    },
-    {
-      "id": "8324807051035890326",
-      "title": "Zelensky says Russia has launched offensive in eastern Ukraine",
-      "url": "https://www.washingtonpost.com/national-security/2022/04/18/zelensky-says-russia-has-launched-offensive-eastern-ukraine/",
-      "description": "A barrage of missile strikes across the country also hit the city of Lviv in western Ukraine.",
-      "body": "7:05 p.m. EDT\nLoading...\nFirefighters work to extinguish a fire after an airstrike hit a tire shop in Lviv, Ukraine, on April 18. (Mykola Tys/AP)\nPlaceholder while article actions load\nLVIV, Ukraine  Russia appeared on Monday to launch its anticipated ground offensive in eastern Ukraine as Moscow stepped up missile and artillery strikes across the country in some of the broadest attacks in recent weeks.\nArrowRight\nNow we can state that the Russian forces have started the battle for the Donbas that they have been getting ready for a long time, President Volodymyr Zelensky said in a video message, referring to the contested eastern region that many analysts expect will see some of the bloodiest fighting of the war. A very large part of the entire Russian army is now focused on this offensive.\nOleksiy Danilov, secretary of Ukraines national security and defense council, said Russian forces attacked along nearly the entire front line in Donbas and Kharkiv, breaking through in two small cities. Fortunately, our military is holding on, Danilov said.\nAdvertisement\nThe Pentagon did not contradict the Ukrainian assessment but took a more cautious approach, with spokesman John Kirby saying the Russians are shaping and setting the conditions for future offensive operations with hundreds of missile strikes and artillery barrages.\nAt the same time, the relative calm that western Ukraine has largely enjoyed after more than 50 days of war was shattered when Russian missiles struck the city of Lviv, killing at least seven people and injuring 11, including a child. Regional officials said they were the first deaths recorded inside the limits of the city, which has been a safe haven for displaced Ukrainians and foreign diplomats, as well as aid workers and journalists.\nIn Bucha, the story of one mans body left on a Russian killing field\nA preliminary assessment indicated the strikes were launched from airplanes that came from the direction of the Caspian Sea, the regional governor, Maksym Kozytskyi, said at a news conference. Officials said the Russian forces hit a military warehouse as well as a commercial service station where local drivers go for tire repairs and carwashes. The warehouse was not being used by the military when it was hit, Kozytskyi said.\nAdvertisement\nIn a hotel next to the service station, 32-year-old Kostiantyn Pospelov said he prepared to run when he heard explosions but only had time to pull on his jacket and one sock before another blast blew out the windows and shook the hotel. Pospelov was staying there with roughly 80 other guests who had arrived in the last month from hard-hit cities in the south and east.\nDozens of families sought shelter in the hotel, Volodymyr Tereshko, the manager, recounted. Curtains fluttered out of gaping holes that had been windows of guest rooms.\nNo military! Civilian people! Children! Fathers, mothers, Tereshko said, insisting on English so that people in the West understood who was paying the price for Russias onslaught.\nWhy Russia gave up on urban war in Kyiv and turned to big battles in the east\nMondays attack punctured that bubble of normal life. Residents who said they often shrug off air raid sirens filed into underground bunkers, where they traded Telegram messages in search of information about the blasts. Lviv Mayor Andriy Sadovyi said on social media that the entire country was vulnerable to Russian assault: Today in Ukraine there are no safe and unsafe cities.\nAdvertisement\nAt the scene of the auto shop strike, firefighters doused flames and emergency crews picked through the rubble of the two-story building, its roof now ripped off. Smaller buildings on the site were also badly damaged. The smell of burning rubber wafted through the air; charred tires sat in piles.\nEvgenii Laziuk, 49, who lives in the area, shook his head as he looked at the ruins of what he called a fully civilian target. He said the shop owner is well-known in the community, a father of five whose extended family is involved in the business.\nIts like having a big wallet and throwing it away, Laziuk said. He was feeding his family with it, and now hes been left with nothing.\nDespite the strike on a civilian structure, the Pentagon said the attacks on Monday seemed to be aimed at military targets and did not signal that Russia was expanding its war into the west of Ukraine. A senior U.S. defense official, speaking on the condition of anonymity under terms set by the Pentagon, denied that the Russian attacks struck any weapons shipments from the United States or Ukraines other allies.\nAdvertisement\nTo the south, Russian forces continued their devastating assault on the strategic port city of Mariupol, focusing on a sprawling industrial complex that houses the Azovstal steel plant. Moscow had imposed a deadline for Ukrainian forces to surrender, but as of Monday, they had refused.\nHow a Mariupol steel plant became a holdout for the citys resistance\nA Ukrainian commander who is still fighting alongside soldiers in the city made a desperate plea to Western leaders, including President Biden, for help to evacuate civilians hiding in military bunkers.\nWe beg the world for help in evacuating the wounded, children, women and the bodies of the dead, said Maj. Serhiy Volyna, with the 36th Separate Marine Brigade in a letter posted on his Facebook page. The brigade is one of the groups holed up at the steel plant, the last line of Ukraines defense preventing Russia from taking over the city.\nAdvertisement\nWe call on world politicians, public and religious figures not to be indifferent to people who have fallen into the trap of Mariupol against their will, Volyna wrote in the letter also shared on\nTwitter\nby a city official from Kyiv.\nUkraines prime minister, Denys Shmyhal, said Sunday that the last forces in Mariupol will fight till the end.\nIn the eastern region of Luhansk, leaders urged citizens to urgently evacuate amid a fresh Russian push that killed at least six people.\nThe Pentagon says Russian forces are learning from their failed assault on Kyiv as they shift to Donbas, in an attempt to avoid a repeat of earlier mistakes.\nThey are moving in heavy artillery, they are moving in command-and-control enablers, they are moving in aviation, the senior defense official said. It appears they are trying to learn from the lessons of the North, where they didnt have proper sustainment capabilities.\nAdvertisement\nStill, Russias efforts to buttress its war machine with repair and resupply capabilities is unlikely to solve its overarching problems with preparedness, the official said. Sanctions have affected the Russian forces restocking efforts particularly in the realm of components, the official said. A lack of parts, the official said, is affecting the viability of several Russian weapons systems, including precision-guided munitions.\nThey have already faced an issue in terms of replenishing their inventory because of components of some of these systems, the official",
-      "snippet": "A barrage of missile strikes across the country also hit the city of Lviv in western Ukraine.\nFirefighters work to extinguish a fire after an airstrike hit a tire shop in Lviv, Ukraine, on April 18.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-18T23:05:49.257",
-      "provider": {
-        "name": "washingtonpost",
-        "favIcon": "",
-        "favIconBase64Encoding": ""
-      },
-      "image": {
-        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5FZ6QDF7KUI6ZNO7D65GDJTMOU.jpg&w=1200",
-        "height": 798,
-        "width": 1200,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=5096379125668792032",
-        "thumbnailHeight": 149,
-        "thumbnailWidth": 224,
-        "base64Encoding": null,
-        "name": null,
-        "title": null,
-        "provider": {
-          "name": "washingtonpost",
-          "favIcon": "",
-          "favIconBase64Encoding": ""
-        },
-        "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.washingtonpost.com/national-security/2022/04/18/zelensky-says-russia-has-launched-offensive-eastern-ukraine/"
-      }
-    },
-    {
-      "id": "4853347563289161952",
-      "title": "26 photos of absolutely triumphant Boston Marathon finishes",
-      "url": "https://www.boston.com/sports/boston-marathon/2022/04/18/26-photos-triumphant-boston-marathon-finishes-2022/",
-      "description": "Boylston Street played host to thousands of powerful finishes this Marathon Monday. Read more on Boston.com.",
-      "body": "Email\nThe 2022 Boston Marathondrew 25,314 athletes from 120 countries and all 50 U.S. states, and many of them were full of emotion when they finally crossed the famous finish line.\nWhether they sprinted, walked, or crawled over the line, they all have one thing in common: They are all 2022 Boston Marathon finishers.\nAhead, check out this collection of photos showing athletes completing the 26.2-mile race.\nChristian Castiblanco Orozco celebrates finishing the race by putting his arms in the air and kissing his shoes.\n Photo by Joseph Prezioso / AFP\nA runner reaches out to fans in the stands after finishing the race.\n Photo by Joseph Prezioso / AFP\nTeam Hoyt crossing the finish line.\n Matthew J. Lee / The Boston Globe\nRunners display a range of emotions after crossing the finish line.\n Jessica Rinaldi / The Boston Globe\nMirian Cristina Tavares Rodrigues, of Brazil, dropped to her knees after crossing the finish line.\n Jessica Rinaldi / The Boston Globe\nRunners fill the road as they make their way down Boylston Street.\n Photo by Joseph Prezioso / AFP\nStanley Bazile just before crossing the finish line.\n Matthew J. Lee / The Boston Globe\nMelissa Blume crosses the finish line with her guide.\n Matthew J. Lee / The Boston Globe\nMckenna Bush crossing the finish line.\n Matthew J. Lee / The Boston Globe\nYun Gao crossing the finish line as Joseph Rubio Palau gives it a kiss.\n Matthew J. Lee / The Boston Globe\nA runner stretches out after crossing the finish line.\n Jessica Rinaldi / The Boston Globe\nClaudio Guther, of Brazil, drops to his knees to celebrate.\n Jessica Rinaldi / The Boston Globe\nShalane Flanagan, left, and Adrianne Haslet after crossing the finish line. Haslet became a Boston Marathon finisher nine years after losing her leg in the 2013 marathon bombings.\n Matthew J. Lee / The Boston Globe\nAlex Chiu crosses the finish line.\n Matthew J. Lee / The Boston Globe\nEduardo Moreno Morales, of Mexico, does push-ups after crossing the finish line.\n Winslow Townson / The Associated Press\nA runner collapses on the finish line.\n Joseph Prezioso / AFP\nPatrick Long, of Massachusetts, with a little help crossing the finish line.\n Matthew J. Lee / The Boston Globe\nRunners embrace at the finish line.\n Photo by Joseph Prezioso / AFP\nIgor Krytsak carries a Ukrainian flag as he makes his way across the finish line.\n Joseph Prezioso / AFP\nRunners cross the finish line.\n Maddie Meyer / Getty Images\nRunners embrace after crossing the finish line.\n Jessica Rinaldi / The Boston Globe\nDaniel Romanchuk wins the 2022 Boston Marathon mens wheelchair title.\nManuela Schr of Switzerland crossed the finish line as she won the womens wheelchair title.\nEvans Chebet, of Kenya, hits the tape to win the 126th Boston Marathon.\n The Associated Press\nPeres Jepchirchir, of Kenya, breaks the tape to win the womens division of the Boston Marathon. AP Photo/Charles Krupa\n AP Photo/Charles Krupa\nStay up to date on all the latest news from Boston.com\nSubmit your email",
-      "snippet": "Boylston Street played host to thousands of powerful finishes this Marathon Monday.\nRead more on Boston.com.",
-      "keywords": "",
-      "language": "en",
-      "isSafe": true,
-      "datePublished": "2022-04-18T22:08:55",
+      "datePublished": "2022-04-20T12:23:44",
       "provider": {
         "name": "boston",
         "favIcon": "",
         "favIconBase64Encoding": ""
       },
       "image": {
-        "url": "https://www.boston.com/wp-content/uploads/2022/04/henry-richard-625dcc768012b-scaled.jpg",
-        "height": 1749,
-        "width": 2560,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=8124363853169179569",
-        "thumbnailHeight": 218,
-        "thumbnailWidth": 319,
-        "base64Encoding": null,
+        "url": "https://www.boston.com/wp-content/uploads/2022/04/vaccine-625ff7564d146.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
@@ -852,46 +736,256 @@ const dummyData = {
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.boston.com/sports/boston-marathon/2022/04/18/26-photos-triumphant-boston-marathon-finishes-2022/"
+        "webpageUrl": "https://www.boston.com/news/coronavirus/2022/04/20/boost-now-boost-later-tricky-calculation-for-a-4th-coronavirus-shot/"
       }
     },
     {
-      "id": "7280485131946771757",
-      "title": "Red Sox fall to Twins 8-3 in annual Patriots Day game at Fenway",
-      "url": "https://www.boston.com/sports/sports/2022/04/18/red-sox-fall-to-twins-8-3-in-annual-patriots-day-game-at-fenway/",
-      "description": "Jorge Polanco and Kyle Garlick hit early two-run homers over the Green Monster to back Dylan Bundy. Read more on Boston.com.",
-      "body": "Email\nBOSTON (AP)  Jorge Polanco and Kyle Garlick hit early two-run homers over the Green Monster to back Dylan Bundy, carrying the Minnesota Twins past the Red Sox 8-3 in Bostons annual Patriots Day game on Monday.\nThe game started at 11:11 a.m. EDT, played in conjunction with the 126th Boston Marathon, which ended about one mile from Fenway Park.\nPolanco added a two-run single in a four-run eighth inning and Gio Urshela had three singles for the Twins, who won the series finale for a four-game split.\nChristian Vzquez hit a solo homer and Xander Bogaerts had three hits with an RBI for the Red Sox.\nAdvertisement:\nBundy (2-0) gave up one run and five hits in 5 1/3 innings with six strikeouts and no walks. In his Twins debut, he pitched five shutout innings after signing a $4 million, one-year deal as a free agent on December 1.\nA few minutes after fans were turning on the back of the Monster attempting to get a glimpse at the mens leaders of the race heading toward nearby Kenmore Square, Polanco hit his drive into the second row of seats off starter Rich Hill (0-1) that made it 4-0 in the third.\nHill was pitching three days after his 94-year-old father, Lloyd Sr., passed away. His dad ran 37 Boston Marathons.\nWe want to send our thoughts to Rich across the way, Twins manager Rocco Baldelli said before the game. Im sure itll be an emotional and very meaningful day for him.\nHill gave up four runs and six hits in 4 2/3 innings.\nGarlicks homer made it 2-0 in the first.\nNEIGHBORHOOD PLAY\nThe Red Sox have been scheduled on Patriots Day every year since 1959 but it was the first time since 2019 they played on the day of the marathon. The 2020 baseball season was delayed and that years marathon held virtually because of the COVID-19 pandemic, and the 2021 marathon was moved to October.\nAdvertisement:\nTRIBUTE\nThe Red Sox wore their traditional white home uniforms, but with red lettering that read Boston across the front, a tribute that started nine years ago in the first game after two bombs went off near the finish line, killing three people and injuring more than 260 others.\nTRAINERS ROOM\nTwins: Baldelli met with OF Byron Buxton, who left the series opener after aggravating his right knee on a hard slide. Hes very optimistic about how hes feeling right now, Baldelli said. I think were going to get to the point in the next day or two where were going to talk about a specific plan about getting him back. Buxton had an MRI on Saturday that didnt reveal any structural issues.\nRed Sox: INF Trevor Story had the day off.  C Kevin Plawecki was placed on the COVID-19 related injured list, and C Connor Wong was recalled from Triple-A Worcester.\nUP NEXT\nTwins: Begin a three-game series in Kansas City on Tuesday. RHP Chris Archer (0-0, 0.00 ERA) is scheduled to make his second start after pitching four scoreless innings last week. RHP Carlos Hernndez (0-0, 8.31) is in line for the Royals.\nRed Sox: Open a three-game series against the Blue Jays in their first night game of the season at Fenway Park Tuesday. RHP Nathan Eovaldi (1-0, 4.50) is slated to face Toronto LHP Yusei Kikuchi (0-1, 5.40).\nAdvertisement:",
-      "snippet": "Jorge Polanco and Kyle Garlick hit early two-run homers over the Green Monster to back Dylan Bundy.\nRead more on Boston.com.",
+      "id": "7204408875392478565",
+      "title": "New mask-optional phase of the pandemic fuels fears, and some cheers",
+      "url": "https://www.latimes.com/california/story/2022-04-20/the-new-mask-optional-phase-of-the-pandemic-fuels-fears-along-with-some-cheers",
+      "description": "Welcome to the mask-optional phase of the pandemic. It brings freedoms and risks",
+      "body": "A new mask-optional phase of the pandemic is arriving, sparking concern from some experts that the shift is occurring too soon. For months, local officials have been easing mask rules in public places, such as supermarkets and shopping malls. But a federal court ruling Monday striking down the federal mask-wearing order on public transportation systems accelerated the trend, with Uber, Lyft, many airlines and transit agencies making face coverings optional. In one section of Los Angeles International Airport on Tuesday morning, an estimated 30% to 40% of travelers were not wearing masks. \"It's about time,\" tweeted Rep. Mike Garcia (R-Santa Clarita). But parents of young children who cannot get vaccinated and as well as advocates for people with compromised immune systems are alarmed. While new COVID-19 hospitalizations are at among their lowest levels nationally, cases are rising slowly  from 25,000 to 37,000 a day over the past two weeks. Nearly 400 people in the U.S. are dying of COVID-19 daily. It's unclear, for now, whether the lifting of the mask order on public transit will dramatically worsen the pandemic, given relatively high levels of immunity due to vaccinations and widespread infections of the Omicron variant over the winter. There has been some optimism that California and the U.S. can avoid a significant spring surge. While some European countries (such as Britain) have suffered a second big Omicron surge, others (such as Spain) have avoided one. But making masks optional too soon on transit could create more vulnerabilities if another variant comes along, or the latest Omicron subvariant circulating in New York ends up becoming particularly troublesome. \"It's just premature to have had it lifted,\" UCLA epidemiologist Dr. Robert Kim-Farley said of the ending of mask requirements on airlines, airports, buses and trains nationwide, which followed the order of Florida U.S. District Judge Kathryn Kimball Mizelle in Tampa striking down the federal mask-wearing order on public transportation systems. The U.S. Department of Justice said it will appeal the the judge's order if the Centers for Disease Control and Prevention concludes a mask-wearing order for transportation is still needed for public health. The Justice Department said it believes the CDC has the authority to issue a mask-wearing order on public transit, which has been in effect for about 15 months. A previous directive, issued by the Transportation Security Administration at the CDC's recommendation, was initially expected to expire on Monday. Last week, the CDC said the mask order would continue so scientists could study the potential impact of rising coronavirus cases, and TSA extended mask-wearing rules through May 3. Scientists at the CDC \"had asked for 15 days to make a more data-driven durable decision,\" tweeted White House COVID-19 Response Coordinator Dr. Ashish Jha, and \"we should have given it to them.\" President Biden, when asked by a reporter Tuesday if people should be wearing masks on planes, replied: \"That's up to them.\" The CDC and a number of public health experts have urged people to still wear masks on public transit, given the rise in transmission and the appearance of the Omicron subvariant BA.2.12.1  believed to be 25% more contagious than its parent subvariant, BA.2, which has dominated the nation. BA.2.12.1 now is estimated to make up 19% of cases nationwide, including more than half of the cases in the New York and New Jersey area. \"I really don't think it's a smart decision,\" said Yifang Zhu, an aerosol scientist and professor in the department of environmental health sciences at the UCLA Fielding School of Public Health, of lifting the mask requirement for transit. \"If someone has contracted COVID and the virus gets released into the cabin air ... it's going to be distributed across the whole cabin. There is no physical distancing that you can keep in such a confined environment,\" she said. Air filtration systems do help, but \"the air doesn't get immediately filtered out at the point that it gets out of people's mouths,\" Zhu said. Buses and subways, in turn, can be more or less risky depending on the air flow and how crowded they are, she said. Immunocompromised people and others worried about the virus can get some protection by wearing an N95 or KN95 mask, but masks are especially effective as a method of \"source control\"  a way to prevent someone who is contagious from spreading the virus, she said. If you had only one mask for two people  one infected, one not  you would want to give it to the infected person, Zhu said. \"It's better than nothing\" for vulnerable people to wear masks when others go without them, she said, but \"you are protecting others and the community as a whole if everybody just does a little extra effort.\" Immunocompromised people expressed alarm about the ruling. Already pushed to the background of many pandemic discussions, many now face an unenviable proposition: either risk traveling where many people won't wear a mask, or cancel much-anticipated plans to visit friends and family. Janet Handal, president and co-founder of the Transplant Recipients and Immunocompromised Patient Advocacy Group, had been planning to fly to see family in Texas she hadn't seen in more than a year. Now, \"I just don't know what I'm going to do,\" said Handal, a kidney transplant recipient who lives in New York City. She is unconvinced that researchers have adequately assessed whether wearing a mask will be enough to protect someone who is immunocompromised if others around them are going maskless. \"As a person who is immunocompromised, I feel that is discriminatory against me because it puts me at very high risk,\" she said of the court decision. \"I don't understand why we should have to live less of a life than anybody else.\" In the aftermath of the judge's ruling, the L.A. County Metropolitan Transportation Authority, Metrolink and the L.A. Department of Transportation's downtown DASH and Commuter Express bus service are no longer requiring riders to wear face coverings. At Los Angeles International Airport, passengers were having to make their own choices about masking up. Terrence Littlefield, 35, traveling with United Airlines on Tuesday said he was happy that the choice of whether to mask was now up to travelers, though he would personally opt to mask during the flight. With the spike right now, I think people should take it into their own hands and be conscientious about how you feel and gauge how comfortable you feel, he said. Yazmin Quirino, 35, who works for special services at LAX, said her husband is diabetic and she will continue wearing a mask regardless of the airports announcement yesterday.  I know there are still variants out there and I dont want to get my family sick, she said. For some, the decision is far more wrenching than a matter of convenience. Handal, of the Transplant Recipients and Immunocompromised Patient Advocacy Group, said that although airlines have touted their filtrat",
+      "snippet": "Welcome to the mask-optional phase of the pandemic.\nIt brings freedoms and risks.",
       "keywords": "",
       "language": "en",
       "isSafe": true,
-      "datePublished": "2022-04-18T19:21:37",
+      "datePublished": "2022-04-20T12:00:25",
       "provider": {
-        "name": "boston",
+        "name": "latimes",
         "favIcon": "",
         "favIconBase64Encoding": ""
       },
       "image": {
-        "url": "https://www.boston.com/wp-content/uploads/2022/04/Twins_Red_Sox_Baseball_49464-625db3a2b2f59.jpg",
-        "height": 1494,
-        "width": 2244,
-        "thumbnail": "https://rapidapi.usearch.com/api/thumbnail/get?value=4072765383415166607",
-        "thumbnailHeight": 186,
-        "thumbnailWidth": 279,
-        "base64Encoding": null,
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/35fffc1/2147483647/strip/true/crop/5587x2933+0+395/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F4b%2Ff3%2F27d45b0e4825b448695c5b9c100f%2F947533-me-airports-mask-mandates-gxc-0173.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
         "name": null,
         "title": null,
         "provider": {
-          "name": "boston",
+          "name": "latimes",
           "favIcon": "",
           "favIconBase64Encoding": ""
         },
         "imageWebSearchUrl": null,
-        "webpageUrl": "https://www.boston.com/sports/sports/2022/04/18/red-sox-fall-to-twins-8-3-in-annual-patriots-day-game-at-fenway/"
+        "webpageUrl": "https://www.latimes.com/california/story/2022-04-20/the-new-mask-optional-phase-of-the-pandemic-fuels-fears-along-with-some-cheers"
+      }
+    },
+    {
+      "id": "3257473295594084039",
+      "title": "NBA playoffs: Heat defeat Hawks for 2-0 lead",
+      "url": "https://www.latimes.com/sports/story/2022-04-19/nba-playoffs-jimmy-butler-heat-hawks-grizzlies-timberwolves-suns-pelicans",
+      "description": "Jimmy Butler scored a playoff career-high 45 points, and the Miami Heat held off the Atlanta Hawks 115-105 in Game 2 of their East first-round series.",
+      "body": "Jimmy Butler scored a playoff career-high 45 points, including a personal 7-0 run in the final moments, and the Miami Heat held off the Atlanta Hawks 115-105 in Game 2 of their Eastern Conference first-round series Tuesday night. Tyler Herro scored 15 for Miami, while Max Strus scored 14 and Gabe Vincent added 11 for top-seeded Miami, which took a 2-0 lead over the eighth-seeded Hawks. Bogdan Bogdanovic scored 19 of his 29 points in the fourth quarter for Atlanta. Trae Young scored 25 for the Hawks, while DeAndre Hunter had 16 and John Collins finished with 13 points and 10 rebounds for the Hawks. Butlers previous playoff best was 40, done twice, both in the bubble when the Heat made the 2020 NBA Finals. The Heat needed all of his heroics then, and they needed them all on Tuesday as well. Bogdanovics 3-pointer with 3:15 left got Atlanta within 104-101. From there, it was all Butler. He had a dunk, a 3-pointer and another dunk  all in the span of 56 seconds  to turn things from in doubt to locked down, putting Miami up 10 with 1:20 remaining and ensuring the Heat would finish off the win. Just staying aggressive, Butler said. Taking what the defense gives me. As would be expected in a playoff series, pleasantries began being exchanged with more regularity. The first half featured 16 fouls by Atlanta and 14 by Miami  a season-high for the Hawks, one off the season-high for the Heat, and those 30 personals didnt even include a double technical that Lowry and Hunter got for getting face-to-face. Young picked up a technical for arguing a foul against him late in the third as well, the capper to a period where the Heat went from barely ahead to holders of a double-digit lead going into the final 12 minutes. He played the entire third quarter, but managed only two shots in that span  making both  and didnt get to the foul line, while committing five turnovers in that period alone. And in time, Miami hit its stride. Kevin Huerters stepback 3-pointer with 8:59 left in the third pulled Atlanta within 64-62. The Hawks went nearly three minutes without scoring again, and the game looked very different after those three minutes. The Heat went 4 for 4 in that stretch  3-pointers by Butler, P.J. Tucker and Strus, with a layup by Butler in there as well  and it added up to an 11-0 run that pushed the lead out to 75-62. The margin remained at least eight points for the next 11 minutes, before Atlanta began clawing back. Young hit Collins with a strike for a layup, and Bogdanovics long jumper got Atlanta within 94-90 midway through the fourth. But the Hawks never got the lead. Butler saw to that.",
+      "snippet": "Jimmy Butler scored a playoff career-high 45 points, and the Miami Heat held off the Atlanta Hawks 115-105 in Game 2 of their East first-round series.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-20T02:21:14.388",
+      "provider": {
+        "name": "latimes",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/a0242d9/2147483647/strip/true/crop/3193x1676+0+226/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffd%2Fe9%2Fc121a0c24625be3be835c5f4c090%2Fhawks-heat-basketball-58416.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "latimes",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.latimes.com/sports/story/2022-04-19/nba-playoffs-jimmy-butler-heat-hawks-grizzlies-timberwolves-suns-pelicans"
+      }
+    },
+    {
+      "id": "2349076779971056660",
+      "title": "UCLA's Jules Bernard to enter NBA draft won't hire agent",
+      "url": "https://www.washingtonpost.com/sports/colleges/uclas-jules-bernard-to-enter-nba-draft-wont-hire-agent/2022/04/19/1dc7e36a-c037-11ec-b5df-1fba61a66c75_story.html",
+      "description": "UCLA guard Jules Bernard has declared for the NBA draft",
+      "body": "Bernard has one year of eligibility remaining after the NCAA allowed an extra year because of the COVID-19 pandemic.\nHe averaged 12.8 points, 4.7 rebounds and 1.7 assists playing in all 35 games last season.\nWe are supporting Jules every way that we can, and we are excited for him to go through his evaluation and workout process over the next month, coach Mick Cronin said. Should Jules decide to play as a super senior, we would be absolutely thrilled to have him back in Westwood.\nBernard is the second Bruins player to enter the draft. Freshman guard Peyton Watson hired an agent, ending his college eligibility.\nThe Bruins also lost reserve guard Jake Kyman, who said he is transferring.\nJaime Jaquez Jr. said he will return for his senior year.\n___\nMore AP college basketball: https://apnews.com/hub/college-basketball and https://apnews.com/hub/ap-top-25-college-basketball-poll and https://twitter.com/AP_Top25\nComment",
+      "snippet": "UCLA guard Jules Bernard has declared for the NBA draft.\nBernard has one year of eligibility remaining after the NCAA allowed an extra year because of the COVID-19 pandemic.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-19T23:19:10",
+      "provider": {
+        "name": "washingtonpost",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DCN7LGGAG4I6ZNO7D65GDJTMOU.jpg&amp;w=1440",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "washingtonpost",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.washingtonpost.com/sports/colleges/uclas-jules-bernard-to-enter-nba-draft-wont-hire-agent/2022/04/19/1dc7e36a-c037-11ec-b5df-1fba61a66c75_story.html"
+      }
+    },
+    {
+      "id": "6792441918050588247",
+      "title": "Ezra Miller arrested again in Hawaii for alleged assault",
+      "url": "https://www.latimes.com/entertainment-arts/movies/story/2022-04-19/ezra-miller-arrested-hawaii-alleged-assault",
+      "description": "Ezra Miller was arrested Tuesday in Hawaii after allegedly throwing a chair that struck a woman on the forehead and left a cut, local police said.",
+      "body": "\"Fantastic Beasts\" and \"The Flash\" star Ezra Miller was arrested again in Hawaii on Tuesday after allegedly throwing a chair at a woman's head. The actor was taken into custody at 1:30 a.m. for second-degree assault following an incident at a home in Phoa on the Big Island of Hawaii, according to a media release from the Hawaii Police Department. Miller, who is nonbinary, was identified as a 29-year-old visitor from Vermont and was arrested after being located during a traffic stop nearby. Patrol officers responded to a report of an assault at 1:10 a.m. that occurred at a get-together at a private residence in the Leilani Estates subdivision in lower Puna, authorities said. \"During the course of their investigation, police determined that the individual, later identified as Ezra Miller, became irate after being asked to leave and reportedly threw a chair, striking a 26-year-old female on the forehead, resulting in an approximate half-inch cut,\" the release said. The victim refused treatment for her injury. \"After conferring with the County Prosecutors Office, at 4:05 a.m. on Tuesday morning Miller was released pending further investigation. This is an active investigation,\" the statement continued. Miller's new mug shot was posted online Tuesday on the police department's website. Millers lawyer, Francis Alcain, did not immediately respond Tuesday to The Times' request for comment. The \"Justice League\" star has had a number of run-ins with the law during their time in Hawaii. Miller is facing charges in a separate case involving a traffic violation in Hilo and another case that allegedly took place at a karaoke bar. Police had been called to a dispute in downtown Hilo on March 19 where Miller was allegedly uncooperative and refused to leave the area and continued to obstruct the sidewalk, Hawaii Police Department Asst. Chief Kenneth Quiocho told the Associated Press. Miller was cited for obstructing a highway. In the karaoke-bar incident on March 28, Miller allegedly became agitated when people at a Margarita Village bar began singing karaoke. Miller allegedly yelled obscenities and at one point grabbed the microphone from a young woman who was singing. Miller later lunged at a man who was playing darts, according to the Hawaii Police Department. Miller was briefly taken into custody and released on $500 bail. Last week, a judge dismissed a temporary restraining order against the actor that was requested by a Hawaii couple at the couple's request, scrubbing one of a handful of criminal proceedings that The Flash star has been involved in as of late. In that case, Miller was accused of harassment and theft after allegedly barging into the couple's bedroom and threatening them at a hostel in Hilo, the same Big Island town where the actor was arrested and charged with disorderly conduct and harassment in one of the March incidents. Their attorney requested last week that a hearing be postponed to April 26 because Miller and prosecutors are in what Alcain described as pre-negotiations for an agreement on the two outstanding cases. Hawaii News Now reported that Miller is scheduled to be in court Tuesday to enter a plea on the harassment and disorderly conduct charges.",
+      "snippet": "Ezra Miller was arrested Tuesday in Hawaii after allegedly throwing a chair that struck a woman on the forehead and left a cut, local police said.\n\"Fantastic Beasts\" and \"The Flash\" star Ezra Miller was arrested again in Hawaii on Tuesday after allegedly throwing a chair at a woman's head.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-19T22:54:18",
+      "provider": {
+        "name": "latimes",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/843459c/2147483647/strip/true/crop/2247x1180+0+76/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F9d%2F45%2Fcc96f1d44a50bcd8732e16626fe3%2Fezra-miler-arrest-69616.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "latimes",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.latimes.com/entertainment-arts/movies/story/2022-04-19/ezra-miller-arrested-hawaii-alleged-assault"
+      }
+    },
+    {
+      "id": "5572247586310460784",
+      "title": "Yes this is the right moment to lift mask mandates",
+      "url": "https://www.washingtonpost.com/opinions/2022/04/19/mask-mandate-flights-federal-judge-cdc-this-is-the-right-moment/",
+      "description": "Public health authorities have already taken many hits to their credibility. They cannot afford many more.",
+      "body": "6:11 p.m. EDT\nLoading...\nSignage requiring Delta Air Lines passengers to wear a face mask to board a plane at Hartsfield-Jackson Atlanta International Airport on April 19. (Alyssa Pointer/Reuters)\nPlaceholder while article actions load\nIt is telling, isnt it, that the Biden administration did not immediately commit to filing an emergency appeal after a federal judge in Florida overturned the Centers for Disease Control and Preventions mask mandate for travel settings?\nArrowRight\nInstead, the administration has said it is in the process of deciding whether it will try to stop the order from U.S. District Judge Kathryn Kimball Mizelle from going into effect.\nThats bureaucratese for we dont feel too strongly about this. I suspect some in the Biden administration have come to the same conclusion that much of the country has reached: It is time for indoor mask mandates to end. They had to end sometime, after all, and if not now, when?\nWhen people stop dying! says a voice from the back. But that ceased to be a workable answer last summer when it became clear that the vaccines were not providing the sterilizing immunity that might have allowed us to eliminate the virus, the way we have done with smallpox and polio. Anything short of that requires us to figure out how to live with a virus that will continue to circulate. And by live, I mean full, normal lives, not the severely restricted public activities of the past couple of  years.\nAdvertisement\nSuch measures were acceptable as temporary delaying tactics to keep hospitals from being overwhelmed. They bought doctors time to figure out how to treat the virus and gave scientists the precious months they needed to develop vaccines and treatments. Before those vaccines and treatments arrived, I was a strong advocate of stringent social distancing, and once the vaccines became available, I supported making them mandatory. Liberty is precious, but it does not include the right to spread deadly viruses to other people.\nThe Post's View: Masks work. The judges ruling does not change that.\nBut now that we have vaccines and treatments, its time to reconsider the trade-offs we made. Policies that were appropriate when the infection fatality rate was 1 in 200 do not necessarily pass a cost-benefit test after vaccines and treatments have reduced those risks 20-fold, especially since further improvements will likely be somewhat slower and less dramatic.\nOne could argue, of course, that masks on planes still pass muster. Isnt the inconvenience small, compared with the catastrophic risks faced by people who cant get vaccinated, or whose immune systems are too compromised to mount a strong response to the vaccine?\nAdvertisement\nFair enough, but then one also has to ask about the other side of that cost-benefit equation: Exactly how many coronavirus cases are being prevented by requiring people to wear masks on planes? Airplanes are extremely well ventilated, which is why there have been so few outbreaks traced to air travel compared with other indoor environments. And while masks do offer some added protection against whatever risk remains, the cloth and surgical masks being worn by most people arent really all that effective  even before you consider how often they are pulled down to eat, or drink, or just gulp a little air.\nFollow\nFollow\nAdd\nThose masks also have costs for the people forced to wear them, as I recently found out when a series of badly timed connecting flights sent me sprinting through airports in my mask. (Or attempting to sprint; I missed my planes.) And while this is a minor consideration, some of the side effects of mask mandates are not; a relative with chronic obstructive pulmonary disease cannot fly because it is too hard for them to breathe in a mask.\nHenry Olsen: The CDCs mask mandate for flights needed to go\nYet the largest cost may be to the already crumbling authority of public health institutions. As we have discovered, public health measures have to bear some relationship to what the public thinks is reasonable. Otherwise, no matter how sound their logic or scientific basis, they will fail because people will not comply. A nation resentfully wearing masks pulled down under its noses isnt doing anyone much good.\nAdvertisement\nMask mandates and the like were sold as temporary measures. Remember flatten the curve? Every time public health experts promised a short-term solution that turned into a long-term lifestyle change, their credibility took a hit. It cannot afford many more.\nPublic health works best when authorities are seen as assisting the public by making the same risk-reward calculations the public would, if only it had the time and expertise to sort through all the data. If authorities instead come to be seen as martinets, forcing the public to hew to their own extremely risk-averse preferences, they will meet fierce resistance the next time they urge us to adopt some costly measure.\nAs the experts keep warning us, there is likely to be another pandemic at some point. Our global economy makes a too-excellent superhighway for pathogens. We need to prepare for that next contagion by recognizing when its time to let go of the extraordinary measures we needed to fight the\nlast.",
+      "snippet": "Public health authorities have already taken many hits to their credibility.\nThey cannot afford many more.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-19T22:11:03.452",
+      "provider": {
+        "name": "washingtonpost",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UBQXQXWADYI6ZNO7D65GDJTMOU.jpg&amp;w=1440",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "washingtonpost",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.washingtonpost.com/opinions/2022/04/19/mask-mandate-flights-federal-judge-cdc-this-is-the-right-moment/"
+      }
+    },
+    {
+      "id": "6176871005104543312",
+      "title": "After publisher pulls book by white professor on 'trap feminism,' founder speaks out",
+      "url": "https://www.latimes.com/california/story/2022-04-19/publisher-pulls-white-professors-book-on-black-feminism-after-swift-online-backlash",
+      "description": "A Christian publishing house pulled a book after an online backlash questioned why a white academic was discussing Black feminism.",
+      "body": "Copied!\nPrint\nLast week, the publisher of Bad and Boujee: Toward a Trap Feminist Theology pulled it  from distribution after critics raised  concerns about the white authors qualifications to write on the books  stated topics of the Black experience, hip-hop music, ethics, and feminism.\nAmong those critics was author Sesali Bowen, who coined the concept of trap feminism years ago. At its core was how people attempt to celebrate Black women without talking about their lived experiences. Things like copying the aesthetics of musicians such as Cardi B and Megan Thee Stallion without giving them attribution or linking it to their lives.\nBowen says she wanted to emphasize these women\nbecause  they are often talked about without ever being talked to.\nSo she was taken aback when earlier this year, white academic Jennifer Buck released a theology book on trap feminism. While Bowen first introduced the concept of trap feminism nearly a decade ago, she said Buck did not approach her while researching Bad and Boujee. The idea of talking about Black women, but not directly engaging with them about their lived experiences, gets to the core of why Bowen first felt the need to label this era and concept of trap feminism.\nBowen coined the term in 2014, taking its name from a hip-hop genre that originated in the South. Trap is slang for a house where drugs are sold and the music  references street life, violence, poverty and many of the experiences Black people  face in the South.\nAdvertisement\nBuck is an associate professor of practical theology at Southern Californias Azusa Pacific University, a  private, evangelical Christian college. Her book features a Black woman on the cover and throughout references the lived experiences of Black women, according to the books online description. She did not respond to The Times requests for comment on the fallout.\nBowens 2021 book Bad Fat Black Girl: Notes from a Trap Feminist summarizes the niche topic\n: Trap feminism says that Black girls who have ever rocked bamboo earrings, dookie braids, Baby Phat, lace fronts, or those who have worked as hoes, scammers, call-center reps, at daycares, in retail, and those who sell waist trainers and mink lashes on Instagram are all worth the same dignity and respect we give Michelle Obama and Beyonc.\nBowen shared a recent exchange she had with Buck  over Instagram.\nAfter a few messages, Bowen wrote to Buck, I think more than anything I would like to know what brought you to this research, why you thought you were the best person to do it, and why its not in conversation with folks who have been doing trap feminist work for years?\nShe says she hasnt heard back.\nI think I was just shocked at the lack of awareness, if you will. I think it was just disheartening, Bowen told The Times about the whole ordeal.\nBowen has a masters degree in gender studies from Georgia State University; she\nunderstands the process of\nShe says if Buck\nhad Googled trap feminism,\nher work would have come up. Instead, Buck cited Bowens work in a footnote in her book.\nI think the fact that Jennifer Buck does not have the lived experience that makes her the person to write about trap feminism or Black feminism is honestly just the salt in the wound, Bowen said. Now were also dealing with issues around cultural appropriation, culture vulturing and just kind of like cultural voyeurism that is just icky, you know. Its just cringe and I hate that we are still doing this in 2022.\nIn a separate Instagram  exchange with Christian writer Jo Luehmann, Buck explained her research process.\nI did this research directly interviewing women running trap with a research team of primarily black women. Everyone was paid well  those who helped me conduct the research and those interviewed, Buck wrote. I will also add: I believe anti-racist work is the work of white people to do, which includes hiring and elevating black voices and all historically marginalized voices in doing theology.\nAuthor Chanequa Walker-Barnes joined a chorus of voices on\ndecrying Bucks approach\nto this topic within Black culture. One of Walker-Barnes first books was published by Wipf and Stock Publishers, a Christian publishing house, which also released Bad and Boujee this February.\nIts not that White scholars cant write about Black women, but it has to be done with extreme care, a whole lot of cultural sensitivity and humility, and in relationships of accountability with Black women, Walker-Barnes wrote on Twitter. And it would probably need a Black woman editor.\nWipf and Stock\nannounced on Friday that it would pull Bad and Boujee from distribution.\nWe humbly acknowledge that we failed Black women in particular, and we take full responsibility for the numerous failures of judgment that led to this moment, the publisher said in a statement. Our critics are right: we should have seen numerous red flags, including but not limited to the inappropriateness of a White theologian writing about the experience of Black women (the issue of cultural appropriation is pervasive, from cover to content), the lack of Black endorsers, and the apparent lack of relationship with Black scholars, especially those who originated the trap feminist discourse.\nBowen said Bucks silence is the least trap feminist approach to\nthis controversy.\nI want to call it kind of a psychological violence, if you will. Professor Buck starts this\nsstorm\nand then\nto just turn away from it, Bowen said. She has refused so far to engage in this conversation that she has started. Thats not what trap feminism is all about. Because a trap feminist can fight her battles, be accountable and hold people accountable.",
+      "snippet": "A Christian publishing house pulled a book after an online backlash questioned why a white academic was discussing Black feminism.\nLast week, the publisher of Bad and Boujee: Toward a Trap Feminist Theology pulled it  from distribution after critics raised  concerns about the white authors qualifications to write on the books  stated topics of the Black experience, hip-hop music, ethics, and feminism.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-19T22:03:35",
+      "provider": {
+        "name": "latimes",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/e73d89d/2147483647/strip/true/crop/2000x1050+0+449/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fab%2F29%2Fdd29ea844dd5ba9d669cb4829fbf%2Fbb.jpg",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "latimes",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.latimes.com/california/story/2022-04-19/publisher-pulls-white-professors-book-on-black-feminism-after-swift-online-backlash"
+      }
+    },
+    {
+      "id": "3943622270404326183",
+      "title": "Delta Air Lines initially called covid-19 an ordinary seasonal virus as mask mandate was lifted",
+      "url": "https://www.washingtonpost.com/transportation/2022/04/19/delta-airlines-masks-covid/",
+      "description": "Delta rewrote the statement after public health experts and others accused the airline of spreading misinformation after the mask mandate was lifted Monday.",
+      "body": "The airline made the comment Monday in an announcement stating that it will no longer require masks  a move several U.S. airlines have made after a federal judge struck down mask mandates in public transportation settings.\nDelta Air Lines\nrewrote the statement\non Tuesday after a number of people  including public health experts  accused the carrier of spreading misinformation. The announcement now reads that the airline is relieved to see the mask mandate lifted as the coronavirus transitions to a more manageable respiratory virus  with better treatments, vaccines and other scientific measures to prevent serious illness.\nAdvertisement\nTSA stops mask enforcement after federal judge voids mandate\nSince the start of the pandemic, covid-19, the disease caused by the coronavirus, has accounted for more than 80 million cases and more than 985,000 deaths in the United States, according to data from the Centers for Disease Control and Prevention. And even though more than 80 percent of Americans have received at least one dose of the coronavirus vaccine and cases across the country have recently been on the decline, 1,400 new hospitalizations and 375 new deaths are still reported per day, the CDC said.\nEnd of federal transportation mask mandate greeted with confusion, relief\nSome public health experts have suggested that covid-19 is moving in the right direction.\nThe CDCs acting principal deputy director, Debra Houry, recently told Politico that the pandemic is moving into endemic stages. But, she added, whats important when we talk about endemic is that doesnt mean that covid is gone. That means weve learned to live with covid, so its not disrupting our daily lives.\nAdvertisement\nCoronavirus cases have been climbing in the Northeast as the highly transmissible omicron subvariant BA. 2 has become dominant in the United States, causing more than 74 percent of infections.\nMISINFO BY DELTA AIRLINESThis statement by @Delta that #COVID19 is now an ordinary seasonal virus is wrong. My source says that Delta did not consult with its senior medical advisor before releasing this misinformation. Hope Delta will correct ASAP!\nScreenshot by @WUTangKids\nApril 19, 2022\nOn Monday, a federal judge in Florida put an end to federal transportation mask mandates. Almost immediately, airlines, including Alaska, American, Delta, Frontier, Hawaiian, JetBlue, Spirit, Southwest and United, updated their policies to make masking optional for customers and staff members, at least for domestic flights. There may be exceptions for international flights, some of the airlines said.\nThis isnt the first time Delta Air Lines has made pandemic news. When the coronaviruss delta variant was surging last year, CEO Ed Bastian said he did not want to use the Greek letter  delta  assigned to the variant, instead calling it everything from the scientific term (B. 1.617.2) to the darn variant.\nTransportation, infrastructure and the pandemic\nMask mandate:",
+      "snippet": "Delta rewrote the statement after public health experts and others accused the airline of spreading misinformation after the mask mandate was lifted Monday.",
+      "keywords": "",
+      "language": "en",
+      "isSafe": true,
+      "datePublished": "2022-04-19T20:07:22.488",
+      "provider": {
+        "name": "washingtonpost",
+        "favIcon": "",
+        "favIconBase64Encoding": ""
+      },
+      "image": {
+        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QXCBQVV3EUI6ZKJNY5R55AMMEE.jpg&amp;w=1440",
+        "height": 0,
+        "width": 0,
+        "thumbnail": "",
+        "thumbnailHeight": 0,
+        "thumbnailWidth": 0,
+        "base64Encoding": "",
+        "name": null,
+        "title": null,
+        "provider": {
+          "name": "washingtonpost",
+          "favIcon": "",
+          "favIconBase64Encoding": ""
+        },
+        "imageWebSearchUrl": null,
+        "webpageUrl": "https://www.washingtonpost.com/transportation/2022/04/19/delta-airlines-masks-covid/"
       }
     }
   ]
-};
+}
 
 // for (let i = 0; i < dummyData.value.length; i++) {
 //   console.log(dummyData.value[i].provider.name)
