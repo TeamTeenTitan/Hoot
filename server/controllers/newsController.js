@@ -13,14 +13,14 @@ const optionsNewsSearch = {
   method: 'GET',
   url: 'https://google-news1.p.rapidapi.com/search',
   params: {
-    q: 'ukraine',
+    q: 'putin',
     country: 'US',
     lang: 'en',
-    limit: '50',
+    limit: '3',
     when: '30d'},
   headers: {
     'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
-    'X-RapidAPI-Key': '28c1914233msh9110de4ee73575cp1dca2cjsnfffcc805fe3d'
+    'X-RapidAPI-Key': 'ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146'
   }
 };
 
@@ -72,37 +72,6 @@ const filterArticle = (article) => {
   // ASSIGN NEWLY CONVERTED TEXT DATE TO ARTICLE AS datePublished PROPERTY
   article.datePublished = convertedDate;
 
-  /** ANTIQUATED: FILTER UNWANTED ASCII, HTML AND UNICODE CHARACTERS IN DESCRIPTION BODIES **/
-  // //replace all unicode, special html, and ascii characters to be the appropriate character in the description. I believe I caught all of them?
-  // article.description = article.description.replaceAll('&#x2018;', '\'');
-  // article.description = article.description.replaceAll('&#x2019;', '\'');
-  // article.description = article.description.replaceAll('&#39;', '\'');
-  // article.description = article.description.replaceAll('&rsquo;', '\'');
-  // article.description = article.description.replaceAll('&amp;quot;', '\"');
-  // article.description = article.description.replaceAll('&quot;', '\"');
-  // article.description = article.description.replaceAll('&amp;#039;', '\'');
-  // article.description = article.description.replaceAll('&#039;', '\'');
-  // article.description = article.description.replaceAll('&#x27;', '\'');
-  // article.description = article.description.replaceAll('&#x22;', '\"');
-  // article.description = article.description.replaceAll('&hellip;', '...');
-  // article.description = article.description.replaceAll('&#8230;', '...');
-  // article.description = article.description.replaceAll('&nbsp;', '');
-  // article.description = article.description.replaceAll('&#x2013;', '-');
-  // article.description = article.description.replaceAll('&amp;', '&');
-  // article.description = article.description.replaceAll('&#8217;', '\'');
-  // article.description = article.description.replaceAll('&#x2026;', '...');
-  // article.description = article.description.replaceAll('&ndash;', '-');
-  // //at first I thought if the description still includes [;] (which is an indication of a special character), I would empty the description, but so far my tests indicate I caught all of them.
-  // //this if statement is used as a test, and can also be used to empty the description if needed
-  // // if(article.description.includes(';')){
-  // //   article.description = '';
-  // //   console.log(article.description)
-  // // }
-  // //regex pattern to give everything before ' - '
-  // const pattern =  /^(.*?)\ - /;
-  // article.title = article.title.match(pattern)[1];
-  // //return article
-
   // RETURN ARTICLE WITH datePublished PROPERTY CONVERTED TO READABLE FORMAT, AS WELL AS BAD THUMBNAILS ELIMINATED
   return article;
 }
@@ -110,105 +79,49 @@ const filterArticle = (article) => {
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
   // POPULATE RES.LOCALS.ARTICLES WITH THE ARRAY OF ARTICLES (OBJECTS)
-  res.locals.articles = dummyArticles; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES
-  return next();
+  // res.locals.articles = dummyArticles; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES
+  // return next();
 
   /** AXIOS REQUEST COMMENTED OUT FOR dummyData USAGE **/
   // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
-  // axios
-  //   .request(optionsNewsSearch)
-  //   .then(response => {
-  //     res.locals.articles = response.data.articles; // <-- THIS IS THE ARRAY OF ARTICLES
-  //     console.log(res.locals.articles)
-  //     return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
-  //   })
-  //   .catch((error) => {
-  //     console.error(
-  //       "Error with GET request to contextAPI on contextApiController.js",
-  //       error
-  //     );
-  //   });
+  axios
+    .request(optionsNewsSearch)
+    .then(response => {
+      res.locals.articles = response.data.articles; // <-- THIS IS THE ARRAY OF ARTICLES
+      return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
+    })
+    .catch((error) => {
+      console.error(
+        "Error with GET request to contextAPI on contextApiController.js",
+        error
+      );
+    });
 };
-
-/** ANTIQUATED: ASYNCHRONOUSLY FETCH DATA WITH INTERCHANGEABLE API REQUEST OPTIONS **/
-//   const runFetch = async (allOptions) => {
-//     try {
-//       const results = await Promise.all(allOptions.map(el => axios.request(el)));
-//       res.locals.articles = results.flatMap(el => el.data.articles);
-//       return next();
-//     }
-//     catch (error) {
-//       console.log(error);
-//       // return next(error)
-//     }
-//   }
-//   runFetch(optionsBreaking);
-// };
-
-/** ANTIQUATED: LEVERAGE GOOGLE API TO MAKE MULTIPLE FETCH REQUESTS FOR TOP HEADLINE U.S. NEWS **/
-// newsController.breakingNews = (req, res, next) => {
-//   let articlesArray = [];
-//   fetch('https://google-news1.p.rapidapi.com/top-headlines?country=US&lang=en&limit=50&media=true', options)
-// 	.then(response => response.json())
-// 	.then(response => {
-//     for(let i = 0; i < response.articles.length; i++){
-//       articlesArray.push(response.articles[i])
-//     }
-//     console.log('fetch call number 1', articlesArray.length)
-//     fetch('https://google-news1.p.rapidapi.com/topic-headlines?topic=NATION&country=WORLD&lang=en&limit=50&media=true', options)
-// 	  .then(response => response.json())
-// 	  .then(response => {
-//     for(let i = 0; i < response.articles.length; i++){
-//       articlesArray.push(response.articles[i])
-//     }
-//     console.log('fetch call number 2', articlesArray.length)
-//     fetch('https://google-news1.p.rapidapi.com/search?q=Democrat&country=US&lang=en&limit=50&when=30d&media=true', options)
-//       .then(response => response.json())
-//       .then(response => {
-//         // console.log(response.articles);
-//         for(let i = 0; i < response.articles.length; i++){
-//           articlesArray.push(response.articles[i])
-//       }
-//       console.log('fetch call number 3', articlesArray.length)
-//       fetch('https://google-news1.p.rapidapi.com/search?q=Republican&country=US&lang=en&limit=50&when=30d&media=true', options)
-//           .then(response => response.json())
-//           .then(response => {
-//           for(let i = 0; i < response.articles.length; i++){
-//             articlesArray.push(response.articles[i])
-//           }
-//           console.log('fetch call number 4', articlesArray.length)
-//           res.locals.articles = articlesArray;
-//           console.log('Line 98 - Number of articles --> ', res.locals.articles.length);
-//           return next();
-//           })
-//       })
-//     }
-//   )
-// 	.catch(err => next(err));
-//   })
-// };
 
 /** USE EXTRACT NEWS API TO GIVE EACH ARTICLE A BODY **/
 newsController.getArticleBody = (req, res, next) => {
-  for (let i = 0; i < res.locals.articles.length; i++) {
-
-    // ENABLED: LEVERAGE THE DUMMY DATA TO FETCH AND ASSIGN THE ARTICLE'S BODY
+  for (let i = 0; i < 1; i++) {
     const article = res.locals.articles[i];
-    article.body = dummyExtraction.article.text;
+    optionsNewsExt.params.url = article.link;
 
-    // DISABLED: LEVERAGE NEWS EXTRACTION API TO FETCH AND ASSIGN THE ARTICLE'S BODY
-    // optionsNewsExt.params.url = article.link;
-    // axios.request(optionsNewsExt)
-    //   .then((response) => {
-    //     article.body = response.data.article.text;
-    //     return next();
-    // })
-    //   .catch((error) => {
-    //   console.error(error);
-    // });
+    axios
+      .request(optionsNewsExt)
+      .then((response) => {
+        const extraction = response.data.article;
+        article.body = extraction.text;
+        article.author = extraction.authors;
+        article.description = extraction.meta_description;
+        article.thumbnail = extraction.meta_image;
+        console.log(article);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   }
+  return next();
 
-    return next();
+  // ENABLED: LEVERAGE THE DUMMY DATA TO FETCH AND ASSIGN THE ARTICLE'S BODY
+  // article.body = dummyExtraction.article.text;
 }
 
 /** CREATE FIVE COLUMNS TO RESPECTIVELY SORT FETCHED ARTICLES BASED ON POLITICAL LEANING (LEVERAGING ALLSIDES) **/
@@ -277,14 +190,13 @@ newsController.searchNews = (req, res, next) => {
       );
     });
 
-  // TODO: ADD LOGIC TO DIFFERENTIATE BETWEEN TRENDING NEWS SEARCH AND GENERAL NEWS
   console.log(req.body.query);
   const searchArray = [0, 1, 2, 3].map((el, i) => {
     const searchOptions = {}
     Object.assign(searchOptions, defaultSearchOptions);
     Object.assign(searchOptions.params, { q: req.body.query, before: retrieveDate(i)})
     return searchOptions;
-  })  
+  })
   console.log(searchArray[0]);
   // const runSearch = async (optionsArray) => {
   //   try {
@@ -322,5 +234,6 @@ newsController.searchNews = (req, res, next) => {
 
   runSearch(searchArray);
 };
+
 
 module.exports = newsController;
