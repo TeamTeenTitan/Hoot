@@ -158,7 +158,7 @@ export default function VirtualizedList(props) {
       <Box
       
         sx={{
-          borderRadius:"borderRadius",
+          // borderRadius:"borderRadius", // THE REDECLARATION WAS CAUSING MY APP TO CRASH
           borderRadius: 5,
           color: "#1769aa",
           boxShadow: 10,

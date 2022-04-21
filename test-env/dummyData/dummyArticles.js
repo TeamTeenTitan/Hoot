@@ -1,4 +1,4 @@
-const arr=[
+const dummyData = [
     {
       published_date: '2022-04-04T08:04:41+00:00',
       title: "Sunburn — The morning read of what's hot in Florida politics — 4.4.22 - Florida Politics",
@@ -11,18 +11,18 @@ const arr=[
       description: 'Here&#039;s your AM rundown of people, politics and policy in the Sunshine State.',
       thumbnail: 'https://floridapolitics.com/wp-content/uploads/2019/01/Sunburn-Orange-Tally-8-1.jpg'
     },
-    {
-      published_date: '2022-04-04T16:49:00+00:00',
-      title: 'Political donations from non-doms should be curtailed - The Guardian',
-      link: 'https://www.theguardian.com/politics/2022/apr/04/political-donations-from-non-doms-should-be-curtailed',
-      source: {
-        title: 'The Guardian',
-        url: 'https://www.theguardian.com',
-        favicon: 'https://static.guim.co.uk/images/favicon-32x32.ico'
-      },
-      description: '&#x3C;strong&#x3E;Letter: &#x3C;/strong&#x3E;The House of Lords has a duty to preserve our democracy as it scrutinises the government&#x2019;s elections bill, says &#x3C;strong&#x3E;Chris Rennard&#x3C;/strong&#x3E;',
-      thumbnail: 'https://i.guim.co.uk/img/media/664aac6da83225ce6b4052381e83f5badea3cce3/0_187_5500_3300/master/5500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7fbd345e17c19b31dc3f44545efe41fd'
-    },
+    // {
+    //   published_date: '2022-04-04T16:49:00+00:00',
+    //   title: 'Political donations from non-doms should be curtailed - The Guardian',
+    //   link: 'https://www.theguardian.com/politics/2022/apr/04/political-donations-from-non-doms-should-be-curtailed',
+    //   source: {
+    //     title: 'The Guardian',
+    //     url: 'https://www.theguardian.com',
+    //     favicon: 'https://static.guim.co.uk/images/favicon-32x32.ico'
+    //   },
+    //   description: '&#x3C;strong&#x3E;Letter: &#x3C;/strong&#x3E;The House of Lords has a duty to preserve our democracy as it scrutinises the government&#x2019;s elections bill, says &#x3C;strong&#x3E;Chris Rennard&#x3C;/strong&#x3E;',
+    //   thumbnail: 'https://i.guim.co.uk/img/media/664aac6da83225ce6b4052381e83f5badea3cce3/0_187_5500_3300/master/5500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7fbd345e17c19b31dc3f44545efe41fd'
+    // },
     {
       published_date: '2022-04-03T23:53:57+00:00',
       title: 'Politics and the Art of Listening – InsideSources - InsideSources',
@@ -984,3 +984,5 @@ const arr=[
       thumbnail: 'https://cdn.hpm.io/wp-content/uploads/2017/07/13101721/RedistrictingRopes_jpg_800x1000_q100.jpg'
     }
 ]
+
+module.exports = dummyData;
