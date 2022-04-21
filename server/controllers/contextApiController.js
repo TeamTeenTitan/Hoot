@@ -26,25 +26,28 @@ const contextApiController = {};
 contextApiController.getTrendingNews = (req, res, next) => {
   // console.log("This is my get request on contextApiController.js");
   // res.send("Test");
-  res.locals = dummyData;
-  console.log('this is res.locals', res.locals)
+  // res.locals = dummyData;
+  // console.log('this is res.locals', res.locals)
 
-  // axios
-  //   .request(options)
-  //   .then((response) => {
-  //     // console.log(response.data.value[0]);
-  //     // res.send(response.data.value)
-  //     // res.locals = JSON.parse(JSON.stringify(res.data.value)); // this line produces an undifned error. 
-  //     res.locals = response.data.value;
-  //   })
-  //   .catch((error) => {
-  //     console.error(
-  //       "Error with GET request to contextAPI on contextApiController.js",
-  //       error
-  //     );
-  //   });
+//   axios
+//     .request(options)
+//     .then((response) => {
+//       // console.log(response.data.value[0]);
+//       // res.send(response.data.value)
+//       // res.locals = JSON.parse(JSON.stringify(res.data.value)); // this line produces an undifned error. 
+//       res.locals = response.data.value;
+//       return next();
+//     })
+//     .catch((error) => {
+//       console.error(
+//         "Error with GET request to contextAPI on contextApiController.js",
+//         error
+//       );
+//     });
 
-  return next();
-};
+//     return next();
+// };
+
+
 
 module.exports = contextApiController;
