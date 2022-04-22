@@ -1,4 +1,4 @@
-const arr=[
+const dummyData = [
     {
       published_date: '2022-04-04T08:04:41+00:00',
       title: "Sunburn — The morning read of what's hot in Florida politics — 4.4.22 - Florida Politics",
@@ -984,3 +984,5 @@ const arr=[
       thumbnail: 'https://cdn.hpm.io/wp-content/uploads/2017/07/13101721/RedistrictingRopes_jpg_800x1000_q100.jpg'
     }
 ]
+
+module.exports = dummyData;
