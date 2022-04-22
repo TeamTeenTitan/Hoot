@@ -82,8 +82,8 @@ newsController.getTrendingNews = (req, res, next) => {
   axios
     .request(optionsNewsSearch)
     .then(response => {
-      res.locals.articles = response.data.articles; // <-- THIS IS THE ARRAY OF ARTICLES
-      return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
+      res.locals.articles = response.data.articles;
+      return next();
     })
     .catch((error) => {
       console.error(
@@ -97,7 +97,7 @@ newsController.getTrendingNews = (req, res, next) => {
 newsController.getArticleContents = async (req, res, next) => {
   const updatedArticles = [];
 
-  for (let i = 0; i < 7; i++) {
+  for (let i = 0; i < 5; i++) {
     const article = res.locals.articles[i];
     optionsNewsExt.params.url = article.link;
     console.log(`getArticleContents for loop iteration: ${article.title}...`)
@@ -154,11 +154,11 @@ newsController.sortNews = (req, res, next) => {
     }
   }
   console.log(`
-    Left Articles: ${returnArray[0].length}\n
-    Left-Center Articles: ${returnArray[1].length}\n
-    Center Articles: ${returnArray[2].length}\n
-    Center-Right Articles: ${returnArray[3].length}\n
-   ) Right Articles: ${returnArray[4].length}\n
+    Left Articles: ${returnArray[0].length}
+    Left-Center Articles: ${returnArray[1].length}
+    Center Articles: ${returnArray[2].length}
+    Center-Right Articles: ${returnArray[3].length}
+   ) Right Articles: ${returnArray[4].length}
   `);
 
   res.locals.articles = returnArray;
@@ -170,12 +170,12 @@ newsController.searchNews = (req, res, next) => {
   // SET SEARCH QUERY BASED ON CLIENT INPUT ON FRONTEND
   optionsNewsSearch.q = req.body.query;
 
-  // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
   axios
     .request(optionsNewsSearch)
     .then(response => {
-      res.locals.articles = response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
-      return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
+      // THIS WILL REPLACE ANY QUERIED/DISPLAYED ARTICLES
+      res.locals.articles = response.data.articles;
+      return next();
     })
     .catch((error) => {
       console.error(
@@ -183,50 +183,6 @@ newsController.searchNews = (req, res, next) => {
         error
       );
     });
-
-  console.log(req.body.query);
-  const searchArray = [0, 1, 2, 3].map((el, i) => {
-    const searchOptions = {}
-    Object.assign(searchOptions, defaultSearchOptions);
-    Object.assign(searchOptions.params, { q: req.body.query, before: retrieveDate(i)})
-    return searchOptions;
-  })
-  console.log(searchArray[0]);
-  // const runSearch = async (optionsArray) => {
-  //   try {
-  //     const results = await Promise.all(optionsArray.map(el => axios.request(el)));
-  //     // const results = await axios.request(optionsArray[0]);
-  //     // console.log(results.data.articles);
-  //     res.locals.articles = results.map(el => el.data.articles).flat();
-  //     // res.locals.articles = results.data.articles;
-  //     console.log(res.locals.articles);
-  //     return next();
-  //   } catch (error) {
-  //     console.log(error);
-  //     return next(error);
-  //   }
-  // };
-  const runSearch = async (optionsArray) => {
-    try {
-      const results = [];
-
-      for (let i = 0; i < optionsArray.length; i++) {
-        let art = await axios.request(optionsArray[i]);
-        // console.log(art.data.articles);
-        results.push(art.data.articles);
-      }
-
-      res.locals.articles = results.flat();
-      // res.locals.articles = results.data.articles;
-      // console.log(res.locals.articles);
-      return next();
-    } catch (error) {
-      console.log(error);
-      return next(error);
-    }
-  };
-
-  runSearch(searchArray);
 };
 
 
