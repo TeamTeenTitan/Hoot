@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const axios = require('axios')
 
 const db = require('../models/newsModel');
-const biasData = require('../allSidesData/allsides');
+const allSidesConverter = require('../../utils/allSidesConverter');
 const dummyArticles = require('../../test-env/dummyData/dummyArticles');
 const dummyExtraction = require('../../test-env/dummyData/dummyArtExtraction');
 
@@ -99,8 +99,10 @@ newsController.getTrendingNews = (req, res, next) => {
 };
 
 /** USE EXTRACT NEWS API TO GIVE EACH ARTICLE A BODY **/
-newsController.getArticleBody = (req, res, next) => {
-  for (let i = 0; i < 1; i++) {
+newsController.getArticleContents = (req, res, next) => {
+  const updatedArticles = [];
+
+  for (let i = 0; i < res.locals.articles.length; i++) {
     const article = res.locals.articles[i];
     optionsNewsExt.params.url = article.link;
 
@@ -109,62 +111,58 @@ newsController.getArticleBody = (req, res, next) => {
       .then((response) => {
         const extraction = response.data.article;
         article.body = extraction.text;
-        article.author = extraction.authors;
+        article.author = extraction.authors[0];
         article.description = extraction.meta_description;
         article.thumbnail = extraction.meta_image;
-        console.log(article);
+        article.bias = allSidesConverter[article.source.title];
+        updatedArticles.push(article);
       })
       .catch((error) => {
         console.error(error);
       });
   }
-  return next();
-
-  // ENABLED: LEVERAGE THE DUMMY DATA TO FETCH AND ASSIGN THE ARTICLE'S BODY
-  // article.body = dummyExtraction.article.text;
+  setTimeout(() => {
+    res.locals.articles = updatedArticles;
+    return next();
+    // console.log(res.locals.articles);
+  }, 10000);
 }
+
 
 /** CREATE FIVE COLUMNS TO RESPECTIVELY SORT FETCHED ARTICLES BASED ON POLITICAL LEANING (LEVERAGING ALLSIDES) **/
 newsController.sortNews = (req, res, next) => {
-  const returnArray = [ [], [], [], [], [] ];
+  const returnArray = [[], [], [], [], []];
 
   for (let i = 0; i < res.locals.articles.length; i++) {
     const article = res.locals.articles[i];
-    const publication = article.source.title;
-
-    for (let i = 0; i < biasData.length; i++) {
-      if (biasData[i].name === publication) {
-        switch (biasData[i].bias) {
-          case 'left':
-            returnArray[0].push((article));
-            break;
-          case 'left-center':
-            returnArray[1].push((article));
-            break;
-          case 'center':
-            returnArray[2].push((article));
-            break;
-          case 'right-center':
-            returnArray[3].push((article));
-            break;
-          case 'right':
-            returnArray[4].push((article));
-            break;
-          default:
-            console.log('Error: Unable to find bias');
-            break;
-        }
+    switch (article.bias) {
+      case 'left':
+        returnArray[0].push((article));
         break;
-      }
+      case 'left-center':
+        returnArray[1].push((article));
+        break;
+      case 'center':
+        returnArray[2].push((article));
+        break;
+      case 'right-center':
+        returnArray[3].push((article));
+        break;
+      case 'right':
+        returnArray[4].push((article));
+        break;
+      default:
+        console.log('Error: Unable to find bias');
+        returnArray[2].push((article));
+        break;
     }
   }
-
   console.log(`
-    Left Articles Length: ${returnArray[0].length},
-    Left-Center Articles Length: ${returnArray[1].length},
-    Center Articles Length: ${returnArray[2].length},
-    Right-Center Articles Length: ${returnArray[3].length},
-    Right Articles Length: ${returnArray[4].length}
+    Left Articles: ${returnArray[0].length}\n
+    Left-Center Articles: ${returnArray[1].length}\n
+    Center Articles: ${returnArray[2].length}\n
+    Center-Right Articles: ${returnArray[3].length}\n
+   ) Right Articles: ${returnArray[4].length}\n
   `);
 
   res.locals.articles = returnArray;
