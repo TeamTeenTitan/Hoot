@@ -97,7 +97,7 @@ newsController.getTrendingNews = (req, res, next) => {
 newsController.getArticleContents = async (req, res, next) => {
   const updatedArticles = [];
 
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < res.locals.articles.length; i++) {
     const article = res.locals.articles[i];
     optionsNewsExt.params.url = article.link;
     console.log(`getArticleContents for loop iteration: ${article.title}...`)
