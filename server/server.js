@@ -8,6 +8,7 @@ const PORT = 8000;
 /** REQUIRE ROUTERS **/
 const apiRouter = require('./routes/apiRouter');
 const authRouter = require('./routes/authRouter');
+const dbRouter = require('./routes/dbRouter');
 
 connectDB()
 
@@ -39,11 +40,16 @@ app.use('/build', express.static(path.join(__dirname, '../build')))
 /** DEFINE ROUTE HANDLERS **/
 app.use('/api', apiRouter);
 app.use('/auth', authRouter);
-// app.use('/hootDB', dbRouter);
+app.use('/hootDB', dbRouter);
+
 
 /** CATCH-ALL ROUTE HANDLER FOR ANY REQUESTS TO AN UNKNOWN ROUTE **/
 app.use((req, res) => {
-  res.status(404).send('This is not the page you\'re looking for...')
+  res.status(404);
+  res.json({
+    message: err.message,
+    stack: process.env.NODE_ENV === 'production' ? null : err.stack
+  })
 });
 
 /** CONFIGURE EXPRESS GLOBAL ERROR HANDLER **/

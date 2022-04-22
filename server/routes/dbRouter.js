@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const { getNewsFromDB } = require('../controllers/goalController')
+const { getNewsFromDB, setNewsToDB } = require('../controllers/newsFromDBController')
 
 
 
-router.route('/').get(getNewsFromDB);
-// .post(setGoal)
-// router.route('/:id').put(updateGoal).delete(deleteGoal)
+router.get('/', getNewsFromDB)
+router.post('/', setNewsToDB);
+
 
 
 module.exports = router;
