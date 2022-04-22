@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
-const axios = require('axios')
+const axios = require('axios');
 
-const db = require('../models/newsModel');
+
 const biasData = require('../allSidesData/allsides');
 const dummyArticles = require('../../test-env/dummyData/dummyArticles');
 const dummyExtraction = require('../../test-env/dummyData/dummyArtExtraction');
@@ -77,6 +77,9 @@ const filterArticle = (article) => {
 }
 
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
+
+
+
 newsController.getTrendingNews = (req, res, next) => {
   // POPULATE RES.LOCALS.ARTICLES WITH THE ARRAY OF ARTICLES (OBJECTS)
   // res.locals.articles = dummyArticles; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES

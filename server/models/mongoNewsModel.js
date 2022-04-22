@@ -8,11 +8,11 @@ const newsSchema = mongoose.Schema({
 // Google 
   
   // This may not be possible, and thats ok. article link is unique  
-  article_id: { type: Number },
+  // article_id: { type: Number },
   
   // if there is no unique id, this will work as a way to filer out articles that have already made it into our database. 
   // res.locals.link = response.data.link
-  link: { type: String },
+  link: {type: String},
 
   // res.locals.sourceName = response.data.source.title
   sourceName: { type: String },

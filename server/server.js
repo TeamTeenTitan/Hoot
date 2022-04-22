@@ -3,11 +3,13 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
+const connectDB = require('./config/db')
 const PORT = 8000;
-
 /** REQUIRE ROUTERS **/
-const apiRouter = require('./routes/api');
-const authRouter = require('./routes/auth');
+const apiRouter = require('./routes/apiRouter');
+const authRouter = require('./routes/authRouter');
+
+connectDB()
 
 /** HANDLE PARSING REQUEST BODY FOR JSON, URL AND COOKIES **/
 app.use(express.json());
@@ -37,6 +39,7 @@ app.use('/build', express.static(path.join(__dirname, '../build')))
 /** DEFINE ROUTE HANDLERS **/
 app.use('/api', apiRouter);
 app.use('/auth', authRouter);
+// app.use('/hootDB', dbRouter);
 
 /** CATCH-ALL ROUTE HANDLER FOR ANY REQUESTS TO AN UNKNOWN ROUTE **/
 app.use((req, res) => {
