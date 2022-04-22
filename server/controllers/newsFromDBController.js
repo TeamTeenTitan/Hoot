@@ -37,9 +37,22 @@ const setNewsToDB = async(req, res) => {
   }
 }
 
-// const deleteNews = async(req, res)
+const deleteNews = async(req, res) => {
+  const news = await NewsData.findById(req.params.id)
+  try {
+    if(!news) {
+      res.status(400)
+      throw new Error('News article not found')
+    }
+    await news.remove()
+    res.status(200).json({ id: req.params.id})
+  } catch (error) {
+    console.log('Error in newsFromDBController - deleteNews', error)
+  }
+}
 
 module.exports = {
   getNewsFromDB,
   setNewsToDB,
+  deleteNews,
 };
