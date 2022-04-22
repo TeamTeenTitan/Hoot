@@ -11,9 +11,7 @@ router.get("/",
   newsController.getArticleContents,
   newsController.sortNews,
   (req, res) => {
-  // console.log(res.locals.articles)
     res.status(200).json(res.locals);
-    console.log(res.locals.articles);
   }
 );
 

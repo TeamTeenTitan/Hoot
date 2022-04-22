@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const axios = require('axios')
+const axios = require('axios');
 
 const db = require('../models/newsModel');
 const allSidesConverter = require('../../utils/allSidesConverter');
@@ -16,7 +16,7 @@ const optionsNewsSearch = {
     q: 'putin',
     country: 'US',
     lang: 'en',
-    limit: '3',
+    limit: '50',
     when: '30d'},
   headers: {
     'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
@@ -78,11 +78,6 @@ const filterArticle = (article) => {
 
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
-  // POPULATE RES.LOCALS.ARTICLES WITH THE ARRAY OF ARTICLES (OBJECTS)
-  // res.locals.articles = dummyArticles; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES
-  // return next();
-
-  /** AXIOS REQUEST COMMENTED OUT FOR dummyData USAGE **/
   // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
   axios
     .request(optionsNewsSearch)
@@ -99,16 +94,18 @@ newsController.getTrendingNews = (req, res, next) => {
 };
 
 /** USE EXTRACT NEWS API TO GIVE EACH ARTICLE A BODY **/
-newsController.getArticleContents = (req, res, next) => {
+newsController.getArticleContents = async (req, res, next) => {
   const updatedArticles = [];
 
-  for (let i = 0; i < res.locals.articles.length; i++) {
+  for (let i = 0; i < 7; i++) {
     const article = res.locals.articles[i];
     optionsNewsExt.params.url = article.link;
+    console.log(`getArticleContents for loop iteration: ${article.title}...`)
 
-    axios
+    // THROTTLE AXIOS REQUESTS TO SEND SYNCHRONOUSLY
+    await axios
       .request(optionsNewsExt)
-      .then((response) => {
+      .then(response => {
         const extraction = response.data.article;
         article.body = extraction.text;
         article.author = extraction.authors[0];
@@ -121,11 +118,10 @@ newsController.getArticleContents = (req, res, next) => {
         console.error(error);
       });
   }
-  setTimeout(() => {
-    res.locals.articles = updatedArticles;
-    return next();
-    // console.log(res.locals.articles);
-  }, 10000);
+
+  // RETURN UPDATED ARTICLES AFTER COMPLETION OF ITERATIONS
+  res.locals.articles = updatedArticles;
+  return next();
 }
 
 
@@ -152,7 +148,7 @@ newsController.sortNews = (req, res, next) => {
         returnArray[4].push((article));
         break;
       default:
-        console.log('Error: Unable to find bias');
+        console.log(`Error: Unable to find bias with ${article.source.title}`);
         returnArray[2].push((article));
         break;
     }
