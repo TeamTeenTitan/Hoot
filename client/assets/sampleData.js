@@ -1,5 +1,6 @@
 export const sampleData = [
-    [{
+    [
+      {
       published_date: '2022-04-04T08:04:41+00:00',
       title: "Sunburn — The morning read of what's hot in Florida politics — 4.4.22 - Florida Politics",
       link: 'https://floridapolitics.com/archives/513300-sunburn-the-morning-read-of-whats-hot-in-florida-politics-4-4-22/',

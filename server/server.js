@@ -1,6 +1,7 @@
 const path = require('path');
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const PORT = 8000;
 
@@ -11,12 +12,14 @@ const authRouter = require('./routes/auth');
 /** HANDLE PARSING REQUEST BODY FOR JSON, URL AND COOKIES **/
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 /** HANDLE REQUESTS FOR STATIC FILES **/
 app.use('/build', express.static(path.join(__dirname, '../build')))
 
-/** SERVE INDEX.HTML TO CLIENT UPON SERVER STARTUP (ANTIQUATED) **/
+/** ANTIQUATED: SERVE INDEX.HTML TO CLIENT UPON SERVER STARTUP (ANTIQUATED) **/
 // app.get('/', (req, res) => {
 //   const fileName = path.resolve(__dirname, '../client/index.html');
 //   res.sendFile(fileName, (err) => {
@@ -25,7 +28,7 @@ app.use('/build', express.static(path.join(__dirname, '../build')))
 //   })
 // })
 
-/** TESTING CONNECTION BETWEEN FRONTEND/BACKEND **/
+/** ANTIQUATED: TESTING CONNECTION BETWEEN FRONTEND/BACKEND **/
 // server.get('/api', (req, res) => {
 //   console.log('This is my get request on server.js')
 //   res.send('Test')

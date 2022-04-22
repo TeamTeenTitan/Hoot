@@ -40,10 +40,10 @@ export default function App() {
 //     setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
 //   .catch(err => {console.log(err)});
 // }, [])
-
-  // useEffect(()=>{
-  //   setColumns(sampleData.map((el,i) => <Home articles={el} bias={headers[i]}/>));
-  // }, [])
+//
+//   useEffect(() => {
+//     setColumns(dummyData.value.map((el,i) => <Home articles={el} bias={headers[i]}/>));
+//   }, [])
 
   /** CALL THE BACKEND FROM THE FRONTEND **/
   useEffect(() => {
@@ -60,27 +60,15 @@ export default function App() {
     }
   }
 
-  console.log('this is my result', test)
-
-
   return (
-
     <ThemeProvider theme={theme}>
-
       <div className="main">
-      <HeaderIcons />
-        <Search setColumns={setColumns}/>
-       
-        <div className="cardWrap">
-          {columns}
-        </div>
-        {/* <div>
-          {test.map((el, i) => {
-            p
-          })}
-        </div> */}
+        <HeaderIcons />
+          <Search setColumns={setColumns}/>
+            <div className="cardWrap">
+              {columns}
+            </div>
       </div>
-
     </ThemeProvider>
   );
 }
