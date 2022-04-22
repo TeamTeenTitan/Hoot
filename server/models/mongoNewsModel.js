@@ -39,7 +39,7 @@ const newsSchema = mongoose.Schema({
   body: { type: String },
   
   // This one will be trickier to figure out because I will have to have to have an editional schema... alternately, we could just post the first author and do some logic that will display 'plus 3 more' which is acceptable in academic writing. I am going to write it in the simpler way
-  // res.locals.authors = response.data.article.authors
+  // res.locals.authors = response.data.article.authors[0]
   authors: { type: String },
   
   //res.locals.metaDescription = response.data.article.meta_description
@@ -52,7 +52,7 @@ const newsSchema = mongoose.Schema({
 
   // this will come from a third source. 
   bias: { type: String },
-}
+},
   // this will record the time it is added to our data base, and will eventually make it so that we can run first in first out logic. 
   {timeStamps: true}
 );
@@ -79,7 +79,7 @@ const setNewsData = async (req, res) =>{
       publishedDate: response.data.article.published,
       title: response.data.article.title,
       body: response.data.article.text,
-      authors: response.data.article.authors, // this will require additional logic
+      authors: response.data.article.authors[0], // this will require additional logic
       metaDescription: response.data.article.meta_description,
       images: response.data.article.images,
       // coming from another source
