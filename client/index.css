@@ -10,7 +10,7 @@ body {
 }
 
 .card{
-  display: gird;
+  display: grid;
   grid-template-columns: repeat(5, 4fr);
 
 }
