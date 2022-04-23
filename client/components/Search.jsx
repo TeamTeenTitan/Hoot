@@ -47,38 +47,45 @@ const handleOnChange = event => {
 
     
 
-   
+<Box sx={{ 
+  mt: 8,         
+  borderRadius: 2,
+  height: 210, 
+  background: 'linear-gradient(to right, #003399 29%, #ff0000 100%)',
+}}>
     <Box
       sx={{
         width: 600,
         maxWidth: '100%',
         m:4,
         borderColor: 'purple',
-        backgroundColor: 'white',
 
-        borderRadius: 100
         
       }}
     >
         <Typography className="headers" sx={{
-        color: "primary.main",
-        fontSize: 100,
+        color: "white",
+        fontSize: 90,
         textAlign: 'center',
         fontFamily: "Palatino, URW Palladio L, serif",
-        mt: 4,
+        mt: "-25px",
+        mb: 3,
+        borderRadius: 4,
+        fontWeight: 300,
+        lettSpacing: "normal"
    
         
         }}
       >
        HOOT
       </Typography>
-      <Box sx={{display: "flex"}}>
+      <Box sx={{mt: "-51px", display: "flex", ml: 7.3, maxWidth: "80%"}}>
 
       {/* <img className="owl" src={"https://c.tenor.com/r5YDafn04RoAAAAi/littlest-friends-owlbert.gif"} alt="hi"/> */}
-      <TextField sx={{ }} onKeyDown={handleOnSearch} onChange={handleOnChange} fullWidth label="search" id="fullWidth" />
+      <TextField sx={{ backgroundColor: "white"}} onKeyDown={handleOnSearch} onChange={handleOnChange} fullWidth label="search" id="fullWidth" />
       </Box>
     </Box>
-
+    </Box>   
   );
 }
 

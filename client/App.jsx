@@ -26,6 +26,7 @@ export default function App() {
   const headers=["Left", "Lean-Left", "Center", "Lean-Right", "Right"]
   const [columns, setColumns] = useState(null);
   console.log(sampleData.length)
+  const colorChart= ["blue",'#00ABD8', 'purple', '#e71111', '#950b0b']
 
   // useEffect(()=>{
   //   axios.get("/api")
@@ -36,7 +37,7 @@ export default function App() {
 
   useEffect(()=>{
    
-    setColumns(sampleData.map((el,i) => <Home articles={el} bias={headers[i]}/>));
+    setColumns(sampleData.map((el,i) => <Home colors={colorChart[i]} articles={el} bias={headers[i]}/>));
    
   }, [])
 

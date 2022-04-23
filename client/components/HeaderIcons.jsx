@@ -40,10 +40,10 @@ const handleClose = () => {
     <Box >
       <AppBar position="fixed" sx={{ boxShadow: 0, color: "white",  backgroundColor: 'white',height: 0,
         '&:hover': {
-          backgroundColor: 'common.main',
+          background: 'linear-gradient(to right, #003399 29%, #ff0000 100%)',
           boxShadow: 10,
           opacity: .9,
-          color: "primary.main",
+          color: "white",
           height: 45} }} >
         <Toolbar sx={{display: "flex", alignItems: "flex-start", justifyContent: 'space-between', }}>
           <IconButton

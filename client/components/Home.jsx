@@ -181,24 +181,27 @@ if (event.key=="ArrowLeft" && newNum>0){
 
   return (
     <div>
+       
+    
       <Typography className="headers" sx={{
       
-        fontSize:30,
+        fontSize:25,
         textAlign: 'center',
         color: 'black',
         fontFamily: "Palatino, URW Palladio L, serif",
-        fontWeight: 50
+        fontWeight: 1
         }}
         variant="h6"
         component="div">
          { props.bias}
       </Typography>
+     
   
       <Box
       
         sx={{
           borderRadius:"borderRadius",
-          borderRadius: 5,
+          borderRadius: 2,
           color: "#1769aa",
           boxShadow: 10,
           mt: 2,
@@ -208,7 +211,7 @@ if (event.key=="ArrowLeft" && newNum>0){
           height: 500,
           maxWidth: 220,
           backgroundColor: "#f1f2f5",
-          borderColor:"white"
+          borderColor: props.colors
         }}
         >
         <FixedSizeList
@@ -221,6 +224,7 @@ if (event.key=="ArrowLeft" && newNum>0){
           {renderRow}
         </FixedSizeList>
       </Box>
+      
     </div>
   );
 }
