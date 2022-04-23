@@ -1,8 +1,8 @@
 const fetch = require('node-fetch');
-const axios = require('axios')
+const axios = require('axios');
 
 const db = require('../models/newsModel');
-const biasData = require('../allSidesData/allsides');
+const allSidesConverter = require('../../utils/allSidesConverter');
 const dummyArticles = require('../../test-env/dummyData/dummyArticles');
 const dummyExtraction = require('../../test-env/dummyData/dummyArtExtraction');
 
@@ -16,7 +16,7 @@ const optionsNewsSearch = {
     q: 'putin',
     country: 'US',
     lang: 'en',
-    limit: '3',
+    limit: '50',
     when: '30d'},
   headers: {
     'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
@@ -78,17 +78,12 @@ const filterArticle = (article) => {
 
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
-  // POPULATE RES.LOCALS.ARTICLES WITH THE ARRAY OF ARTICLES (OBJECTS)
-  // res.locals.articles = dummyArticles; // USING THE API, THIS WOULD BE response.data.value, THE ARRAY OF ARTICLES
-  // return next();
-
-  /** AXIOS REQUEST COMMENTED OUT FOR dummyData USAGE **/
   // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
   axios
     .request(optionsNewsSearch)
     .then(response => {
-      res.locals.articles = response.data.articles; // <-- THIS IS THE ARRAY OF ARTICLES
-      return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
+      res.locals.articles = response.data.articles;
+      return next();
     })
     .catch((error) => {
       console.error(
@@ -99,72 +94,71 @@ newsController.getTrendingNews = (req, res, next) => {
 };
 
 /** USE EXTRACT NEWS API TO GIVE EACH ARTICLE A BODY **/
-newsController.getArticleBody = (req, res, next) => {
-  for (let i = 0; i < 1; i++) {
+newsController.getArticleContents = async (req, res, next) => {
+  const updatedArticles = [];
+
+  for (let i = 0; i < res.locals.articles.length; i++) {
     const article = res.locals.articles[i];
     optionsNewsExt.params.url = article.link;
+    console.log(`getArticleContents for loop iteration: ${article.title}...`)
 
-    axios
+    // THROTTLE AXIOS REQUESTS TO SEND SYNCHRONOUSLY
+    await axios
       .request(optionsNewsExt)
-      .then((response) => {
+      .then(response => {
         const extraction = response.data.article;
         article.body = extraction.text;
-        article.author = extraction.authors;
+        article.author = extraction.authors[0];
         article.description = extraction.meta_description;
         article.thumbnail = extraction.meta_image;
-        console.log(article);
+        article.bias = allSidesConverter[article.source.title];
+        updatedArticles.push(article);
       })
       .catch((error) => {
         console.error(error);
       });
   }
-  return next();
 
-  // ENABLED: LEVERAGE THE DUMMY DATA TO FETCH AND ASSIGN THE ARTICLE'S BODY
-  // article.body = dummyExtraction.article.text;
+  // RETURN UPDATED ARTICLES AFTER COMPLETION OF ITERATIONS
+  res.locals.articles = updatedArticles;
+  return next();
 }
+
 
 /** CREATE FIVE COLUMNS TO RESPECTIVELY SORT FETCHED ARTICLES BASED ON POLITICAL LEANING (LEVERAGING ALLSIDES) **/
 newsController.sortNews = (req, res, next) => {
-  const returnArray = [ [], [], [], [], [] ];
+  const returnArray = [[], [], [], [], []];
 
   for (let i = 0; i < res.locals.articles.length; i++) {
     const article = res.locals.articles[i];
-    const publication = article.source.title;
-
-    for (let i = 0; i < biasData.length; i++) {
-      if (biasData[i].name === publication) {
-        switch (biasData[i].bias) {
-          case 'left':
-            returnArray[0].push((article));
-            break;
-          case 'left-center':
-            returnArray[1].push((article));
-            break;
-          case 'center':
-            returnArray[2].push((article));
-            break;
-          case 'right-center':
-            returnArray[3].push((article));
-            break;
-          case 'right':
-            returnArray[4].push((article));
-            break;
-          default:
-            console.log('Error: Unable to find bias');
-            break;
-        }
+    switch (article.bias) {
+      case 'left':
+        returnArray[0].push((article));
         break;
-      }
+      case 'left-center':
+        returnArray[1].push((article));
+        break;
+      case 'center':
+        returnArray[2].push((article));
+        break;
+      case 'right-center':
+        returnArray[3].push((article));
+        break;
+      case 'right':
+        returnArray[4].push((article));
+        break;
+      default:
+        console.log(`Error: Unable to find bias with ${article.source.title}`);
+        returnArray[2].push((article));
+        break;
     }
   }
-
   console.log(`
-    Left Articles Length: ${returnArray[0].length},
-    Left-Center Articles Length: ${returnArray[1].length},
-    Center Articles Length: ${returnArray[2].length},
-    Right-Center Articles Length: ${returnArray[3].length},
-    Right Articles Length: ${returnArray[4].length}
+    Left Articles: ${returnArray[0].length}
+    Left-Center Articles: ${returnArray[1].length}
+    Center Articles: ${returnArray[2].length}
+    Center-Right Articles: ${returnArray[3].length}
+   ) Right Articles: ${returnArray[4].length}
   `);
 
   res.locals.articles = returnArray;
@@ -176,12 +170,12 @@ newsController.searchNews = (req, res, next) => {
   // SET SEARCH QUERY BASED ON CLIENT INPUT ON FRONTEND
   optionsNewsSearch.q = req.body.query;
 
-  // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
   axios
     .request(optionsNewsSearch)
     .then(response => {
-      res.locals.articles = response.data.value; // <-- THIS IS THE ARRAY OF ARTICLES
-      return next(); // KEEP next() MIDDLEWARE WITHIN ASYNC FUNCTIONALITY
+      // THIS WILL REPLACE ANY QUERIED/DISPLAYED ARTICLES
+      res.locals.articles = response.data.articles;
+      return next();
     })
     .catch((error) => {
       console.error(
@@ -189,50 +183,6 @@ newsController.searchNews = (req, res, next) => {
         error
       );
     });
-
-  console.log(req.body.query);
-  const searchArray = [0, 1, 2, 3].map((el, i) => {
-    const searchOptions = {}
-    Object.assign(searchOptions, defaultSearchOptions);
-    Object.assign(searchOptions.params, { q: req.body.query, before: retrieveDate(i)})
-    return searchOptions;
-  })
-  console.log(searchArray[0]);
-  // const runSearch = async (optionsArray) => {
-  //   try {
-  //     const results = await Promise.all(optionsArray.map(el => axios.request(el)));
-  //     // const results = await axios.request(optionsArray[0]);
-  //     // console.log(results.data.articles);
-  //     res.locals.articles = results.map(el => el.data.articles).flat();
-  //     // res.locals.articles = results.data.articles;
-  //     console.log(res.locals.articles);
-  //     return next();
-  //   } catch (error) {
-  //     console.log(error);
-  //     return next(error);
-  //   }
-  // };
-  const runSearch = async (optionsArray) => {
-    try {
-      const results = [];
-
-      for (let i = 0; i < optionsArray.length; i++) {
-        let art = await axios.request(optionsArray[i]);
-        // console.log(art.data.articles);
-        results.push(art.data.articles);
-      }
-
-      res.locals.articles = results.flat();
-      // res.locals.articles = results.data.articles;
-      // console.log(res.locals.articles);
-      return next();
-    } catch (error) {
-      console.log(error);
-      return next(error);
-    }
-  };
-
-  runSearch(searchArray);
 };
 
 
