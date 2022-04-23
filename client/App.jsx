@@ -12,63 +12,49 @@ import { sampleData } from "./assets/sampleData.js"
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#2B2012",
-      darker: "#053e85",
+      main: "#8f24bd",
     },
     secondary: {
-      main: "#D67747",
-      light: "#462210",
-    },
-    common: {
-      main: '#E8CFC1',
-      light: '#f1e2da'
+      main: "#f1f2f5"
     }
+  
   },
 });
 
 export default function App() {
 
-  const headers=["Left", "Left Leaning", "Center", "Right Leaning", "Right"]
+  const headers=["Left", "Lean-Left", "Center", "Lean-Right", "Right"]
   const [columns, setColumns] = useState(null);
-  const [test, setTest] = useState([])
+  console.log(sampleData.length)
+  const colorChart= ["blue",'#00ABD8', 'purple', '#e71111', '#950b0b']
 
+  // useEffect(()=>{
+  //   axios.get("/api")
+  //   .then((response) => {
+  //     setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
+  //   .catch(err => {console.log(err)});
+  // }, [])
 
-/** CALL TO GOOGLE API FOR NEWS FETCH (ANTIQUATED) **/
-// useEffect(()=>{
-//   axios.get("/api")
-//   .then((response) => {
-//     setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
-//   .catch(err => {console.log(err)});
-// }, [])
-//
-//   useEffect(() => {
-//     setColumns(dummyData.value.map((el,i) => <Home articles={el} bias={headers[i]}/>));
-//   }, [])
-
-  /** CALL THE BACKEND FROM THE FRONTEND **/
-  useEffect(() => {
-    fetchNews();
+  useEffect(()=>{
+   
+    setColumns(sampleData.map((el,i) => <Home colors={colorChart[i]} articles={el} bias={headers[i]}/>));
+   
   }, [])
 
-  const fetchNews = async () => {
-    try {
-      const { data } =  await axios.get('/api', {test});
-      setTest(data);
-      console.log('fetchNews is being invoked...', data);
-    } catch (error) {
-      console.error('error reported by fetchNews on App.jsx', error)
-    }
-  }
 
   return (
     <ThemeProvider theme={theme}>
+      <div>
+<HeaderIcons/>
       <div className="main">
-        <HeaderIcons />
-          <Search setColumns={setColumns}/>
-            <div className="cardWrap">
-              {columns}
-            </div>
+        <Search setColumns={setColumns}/>
+       
+        <div className="cardWrap">
+          {columns}
+        </div>
+
       </div>
+</div>
     </ThemeProvider>
   );
 }
