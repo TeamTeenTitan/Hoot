@@ -5,11 +5,13 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const connectDB = require('./config/db')
 const PORT = 8000;
+
 /** REQUIRE ROUTERS **/
 const apiRouter = require('./routes/apiRouter');
 const authRouter = require('./routes/authRouter');
 const dbRouter = require('./routes/dbRouter');
 
+/** CONNECT MONGO DB **/
 connectDB()
 
 /** HANDLE PARSING REQUEST BODY FOR JSON, URL AND COOKIES **/
@@ -21,21 +23,6 @@ app.use(cookieParser());
 
 /** HANDLE REQUESTS FOR STATIC FILES **/
 app.use('/build', express.static(path.join(__dirname, '../build')))
-
-/** ANTIQUATED: SERVE INDEX.HTML TO CLIENT UPON SERVER STARTUP (ANTIQUATED) **/
-// app.get('/', (req, res) => {
-//   const fileName = path.resolve(__dirname, '../client/index.html');
-//   res.sendFile(fileName, (err) => {
-//     if (err) console.log(err);
-//     console.log('sent');
-//   })
-// })
-
-/** ANTIQUATED: TESTING CONNECTION BETWEEN FRONTEND/BACKEND **/
-// server.get('/api', (req, res) => {
-//   console.log('This is my get request on server.js')
-//   res.send('Test')
-// })
 
 /** DEFINE ROUTE HANDLERS **/
 app.use('/api', apiRouter);

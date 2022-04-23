@@ -121,12 +121,12 @@ if (event.key=="ArrowLeft" && newNum>0){
           April 5th, 2022   
                     </Typography>
                     <Box sx={{display: "flex", justifyContent: "space-between"}} >
-                    <img className="modalCard" src={articles[newNum].image.url} alt=""/>
+                    <img className="modalCard" src={articles[newNum].thumbnail} alt=""/>
 
-                      <Typography sx={{width: 300, mr: 5, textAlign: "center", fontWeight: 600, fontFamily:  "Helvetica Neue,Helvetica,Arial,Utkal,sans-serif"}}>"{articles[newNum].snippet}"</Typography>
+                      <Typography sx={{width: 300, mr: 5, textAlign: "center", fontWeight: 600, fontFamily:  "Helvetica Neue,Helvetica,Arial,Utkal,sans-serif"}}>"{articles[newNum].description}"</Typography>
                     </Box>
                     <Typography sx={{mb:3, fontSize: 15,}} id="modal-modal-title" variant="h6" component="h2">
-          {articles[newNum].provider.name}  
+          {articles[newNum].source.title}  
                     </Typography>
               
           <Typography  id="modal-modal-description" sx={{ mt: 5, fontFamily: "Helvetica Neue,Helvetica,Arial,Utkal,sans-serif", fontWeight: 380 }}>
@@ -141,7 +141,7 @@ if (event.key=="ArrowLeft" && newNum>0){
         component="img"
         alt="no news"
         height="90"
-        image={articles[index].image.thumbnail} 
+        image={articles[index].thumbnail} 
       
       />
       <CardContent>

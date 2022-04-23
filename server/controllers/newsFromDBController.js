@@ -22,12 +22,11 @@ const setNewsToDB = async(req, res) => {
       sourceName: req.body.sourceName,
       sourceURL: req.body.sourceURL,
       favicon: req.body.favicon,
-      description: req.body.description,
       publishedDate: req.body.publishedDate,
       title: req.body.title,
       body: req.body.body,
       authors: req.body.authors,
-      metaDescription: req.body.metaDescription,
+      description: req.body.metaDescription,
       images: req.body.images,
       bias: req.body.bias,
     })
@@ -38,18 +37,14 @@ const setNewsToDB = async(req, res) => {
 }
 
 const deleteNews = async(req, res) => {
-  const news = await NewsData.findById(req.params.id)
-  try {
-    if(!news) {
-      res.status(400)
-      throw new Error('News article not found')
-    }
-    await news.remove()
-    res.status(200).json({ id: req.params.id})
-  } catch (error) {
-    console.log('Error in newsFromDBController - deleteNews', error)
-  }
+  const news = await NewsData.findByIdAndDelete(req.params.id)
+  res.json({ news })
 }
+
+// app.delete('/task/delete/:id', async (req, res) => {
+//   const result = await Task.findByIdAndDelete(req.params.id);
+//   res.json({ result });
+// });
 
 module.exports = {
   getNewsFromDB,

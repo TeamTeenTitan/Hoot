@@ -24,7 +24,7 @@ const newsSchema = mongoose.Schema({
   favicon: { type: String },
 
   // res.locals.description = response.data.description
-  description: { type: String },
+  // description: { type: String },
 
 // Extractor
   
@@ -40,10 +40,10 @@ const newsSchema = mongoose.Schema({
   
   // This one will be trickier to figure out because I will have to have to have an editional schema... alternately, we could just post the first author and do some logic that will display 'plus 3 more' which is acceptable in academic writing. I am going to write it in the simpler way
   // res.locals.authors = response.data.article.authors[0]
-  authors: { type: String },
+  author: { type: String },
   
   //res.locals.metaDescription = response.data.article.meta_description
-  metaDescription: { type: String },
+  description: { type: String },
  
   // We will likely need to create a bit of code that checks the two immages and sees if the source is ok, the first one that returns ok will just go to the database... alternately, the array of images can go to the database and it can be check upon being pulled. -- adding it as an array would mean creating a second schema that would go in this. Therefore I think the first image that works is the best solution.
   // it also gives us the top image and meta image and we can just store both of those. 
