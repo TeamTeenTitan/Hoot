@@ -27,6 +27,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import CardHeader from '@mui/material/CardHeader';
+import PublicIcon from '@mui/icons-material/Public';
+
 
 
 import IconButton from '@mui/material/IconButton';
@@ -156,13 +158,18 @@ if (event.key=="ArrowLeft" && newNum>0){
       
       <Box sx={{maxHeight:2,}}> 
       
-
-        <img
+{articles[index].favicon[0] != "h" ? <img
       
-      src='https://static.guim.co.uk/images/favicon-32x32.ico' alt="Hi"
+      src={"https://c.tenor.com/r5YDafn04RoAAAAi/littlest-friends-owlbert.gif"} alt="hi"
       className="cardImage"
        
-     />
+     /> :
+        <img
+      
+      src={articles[index].favicon} alt="hi"
+      className="cardImage"
+       
+     />}
 
       </Box>
     {/* <Box sx={{marginTop:"-15px"}}>

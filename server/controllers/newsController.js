@@ -115,6 +115,7 @@ newsController.getArticleContents = async (req, res, next) => {
         article.description = extraction.meta_description;
         article.thumbnail = extraction.meta_image;
         article.bias = allSidesConverter[article.source.title];
+        article.favicon = extraction.meta_favicon;
         updatedArticles.push(article);
       })
       .catch((error) => {
