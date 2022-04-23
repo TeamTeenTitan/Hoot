@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Home from "./Home.jsx";
 import axios from "axios";
+import Typography from '@mui/material/Typography';
 
 
 export default function FullWidthTextField(props) {
@@ -46,37 +47,45 @@ const handleOnChange = event => {
 
     
 
-    <Box 
-    sx={{width: 800,
-      
-      height: 100,
-      borderRadius: 10,
-      display: 'flex',
-      alignItems: 'center',
-      marginTop: 8,
-      borderColor: "#FF1616",
-      borderWidth: 10,
-
-      backgroundColor: 'secondary.main'
-       }}>\
-        <img className="tempLogo" src="./images/Owlwithlargerfont.png" alt="temp logo"/>
+<Box sx={{ 
+  mt: 8,         
+  borderRadius: 2,
+  height: 210, 
+  background: 'linear-gradient(to right, #003399 29%, #ff0000 100%)',
+}}>
     <Box
       sx={{
-        width: 1000,
+        width: 600,
         maxWidth: '100%',
         m:4,
-        borderColor: 'white',
-        backgroundColor: 'common.main',
+        borderColor: 'purple',
 
-
-        borderRadis: 5,
-        
         
       }}
     >
-      <TextField onKeyDown={handleOnSearch} onChange={handleOnChange} fullWidth label="search" id="fullWidth" />
+        <Typography className="headers" sx={{
+        color: "white",
+        fontSize: 90,
+        textAlign: 'center',
+        fontFamily: "Palatino, URW Palladio L, serif",
+        mt: "-25px",
+        mb: 3,
+        borderRadius: 4,
+        fontWeight: 300,
+        lettSpacing: "normal"
+   
+        
+        }}
+      >
+       HOOT
+      </Typography>
+      <Box sx={{mt: "-51px", display: "flex", ml: 7.3, maxWidth: "80%"}}>
+
+      {/* <img className="owl" src={"https://c.tenor.com/r5YDafn04RoAAAAi/littlest-friends-owlbert.gif"} alt="hi"/> */}
+      <TextField sx={{ backgroundColor: "white"}} onKeyDown={handleOnSearch} onChange={handleOnChange} fullWidth label="search" id="fullWidth" />
+      </Box>
     </Box>
-    </Box>
+    </Box>   
   );
 }
 
