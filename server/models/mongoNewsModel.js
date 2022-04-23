@@ -8,11 +8,11 @@ const newsSchema = mongoose.Schema({
 // Google 
   
   // This may not be possible, and thats ok. article link is unique  
-  article_id: { type: Number },
+  // article_id: { type: Number },
   
   // if there is no unique id, this will work as a way to filer out articles that have already made it into our database. 
   // res.locals.link = response.data.link
-  link: { type: String },
+  link: {type: String},
 
   // res.locals.sourceName = response.data.source.title
   sourceName: { type: String },
@@ -64,29 +64,29 @@ module.exports = mongoose.model('NewsData', newsSchema);
 // the way this would sort of look like going into the database is something like this:
   // bear in mind that it will need to be reworked a lot for our use case.
 
-const setNewsData = async (req, res) =>{
+// const setNewsData = async (req, res) =>{
 
-  try {
-    const newsData = await NewsData.create({
-      // coming from google
-      article_id: response.data.id, // this is an unknown
-      link: response.data.link,
-      sourceName: response.data.source.title,
-      sourceURL: response.data.source.url,
-      favicon: response.data.source.favicon,
-      description: response.data.description,
-      //coming from extractor, probably will have to add to it somehow... or it is possible we can do all of this after it has been run through both. 
-      publishedDate: response.data.article.published,
-      title: response.data.article.title,
-      body: response.data.article.text,
-      authors: response.data.article.authors[0], // this will require additional logic
-      metaDescription: response.data.article.meta_description,
-      images: response.data.article.images,
-      // coming from another source
-      bias: 'center',
+//   try {
+//     const newsData = await NewsData.create({
+//       // coming from google
+//       article_id: response.data.id, // this is an unknown
+//       link: response.data.link,
+//       sourceName: response.data.source.title,
+//       sourceURL: response.data.source.url,
+//       favicon: response.data.source.favicon,
+//       description: response.data.description,
+//       //coming from extractor, probably will have to add to it somehow... or it is possible we can do all of this after it has been run through both. 
+//       publishedDate: response.data.article.published,
+//       title: response.data.article.title,
+//       body: response.data.article.text,
+//       authors: response.data.article.authors[0], // this will require additional logic
+//       metaDescription: response.data.article.meta_description,
+//       images: response.data.article.images,
+//       // coming from another source
+//       bias: 'center',
 
-    })
-  } catch (error) {
-    console.log(error)
-  }
-};
+//     })
+//   } catch (error) {
+//     console.log(error)
+//   }
+// };

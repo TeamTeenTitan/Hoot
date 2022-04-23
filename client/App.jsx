@@ -52,7 +52,7 @@ export default function App() {
 
   const fetchNews = async () => {
     try {
-      const { data } =  await axios.get('/api', {test});
+      const { data } =  await axios.get('/hootDB', {test});
       setTest(data);
       console.log('fetchNews is being invoked...', data);
     } catch (error) {

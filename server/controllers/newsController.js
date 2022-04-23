@@ -77,6 +77,9 @@ const filterArticle = (article) => {
 }
 
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
+
+
+
 newsController.getTrendingNews = (req, res, next) => {
   // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
   axios
