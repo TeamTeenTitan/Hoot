@@ -203,7 +203,7 @@ if (event.key=="ArrowLeft" && newNum>0){
           borderRadius:"borderRadius",
           borderRadius: 2,
           color: "#1769aa",
-          boxShadow: 10,
+          boxShadow: 20,
           mt: 2,
           mr:2,
           border: 1,
