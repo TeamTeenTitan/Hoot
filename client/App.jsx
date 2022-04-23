@@ -41,9 +41,17 @@ export default function App() {
    
   }, [])
 
+  // const fetchNews = async () => {
+  //   try {
+  //     const { data } =  await axios.get('/hootDB', {test});
+  //     setTest(data);
+  //     console.log('fetchNews is being invoked...', data);
+  //   } catch (error) {
+  //     console.error('error reported by fetchNews on App.jsx', error)
+  //   }
+  // }
 
   return (
-
     <ThemeProvider theme={theme}>
       <div>
 <HeaderIcons/>
