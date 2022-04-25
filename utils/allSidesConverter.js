@@ -1,5 +1,5 @@
 const allSidesConverter = {
-  'ABC News (Online)': 'left-center',
+  'ABC News': 'left-center',
   'Above The Law': 'left-center',
   'Abridge News': 'allsides',
   'AJ+': 'left',

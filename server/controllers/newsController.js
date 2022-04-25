@@ -97,7 +97,7 @@ newsController.getTrendingNews = (req, res, next) => {
 newsController.getArticleContents = async (req, res, next) => {
   const updatedArticles = [];
 
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 10; i++) {
     const article = res.locals.articles[i];
     optionsNewsExt.params.url = article.link;
     console.log(`getArticleContents for loop iteration: ${article.title}...`)
@@ -108,6 +108,7 @@ newsController.getArticleContents = async (req, res, next) => {
       .then(response => {
         const extraction = response.data.article;
         article.body = extraction.text;
+        extraction.authors !== undefined ? article.author = extraction.authors[0] : article.author = 'author unknown';
         article.author = extraction.authors[0] || 'author unknown';
         article.description = extraction.meta_description;
         article.thumbnail = extraction.meta_image;
@@ -165,10 +166,8 @@ newsController.sortNews = (req, res, next) => {
   return next();
 }
 
-/** SEARCH GENERAL NEWS USING THE WEB SEARCH API AND QUERYING USING CLIENT INPUT **/
+/** SEARCH NEWS ARTICLES USING GOOGLE NEWS & WEB SEARCH APIS; QUERY USING CLIENT INPUT **/
 newsController.searchNews = (req, res, next) => {
-  console.log(req.body.query)
-
   // SET SEARCH QUERY BASED ON CLIENT INPUT ON FRONTEND
   optionsNewsSearch.params.q = req.body.query;
 
