@@ -15,18 +15,13 @@ export default function FullWidthTextField(props) {
 
 
 const handleOnChange = event => {
-    console.log('Click');
-    console.log(event.target.value);
-
 
   };
 
   const headers=["Left", "Left Leaning", "Center", "Right Leaning", "Right"]
 
   const handleOnSearch = event => {
-    console.log('Click');
-    console.log(event.target.value);
-    if (event.key==="Enter"){
+    if (event.key==="Enter") {
       axios({
         method: 'post',
         url: '/api/search',

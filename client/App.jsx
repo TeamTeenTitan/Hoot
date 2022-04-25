@@ -27,29 +27,18 @@ export default function App() {
   const headers=["Left", "Lean-Left", "Center", "Lean-Right", "Right"]
   const [columns, setColumns] = useState([[],[],[],[],[]]);
   const [test, setTest]= useState([])
-  console.log(sampleData.length)
   const colorChart= ["blue",'#00ABD8', 'purple', '#e71111', '#950b0b']
 
-  // useEffect(()=>{
-  //   axios.get("/api")
-  //   .then((response) => {
-  //     setColumns(response.data.map((el, i) => <Home articles={el} bias={headers[i]}/>));})
-  //   .catch(err => {console.log(err)});
-  // }, [])
+  /** FETCH NEWS ARTICLES FROM  **/
+  useEffect(async () => {
+    await axios.get('api')
+      .then((response) => {
+        setColumns(response.data.articles.map((el,i) => <Home colors={colorChart[i]} articles={el} bias={headers[i]}/>));
+        // console.log(columns);
+      })
+      .catch(err => console.log(err));
+  }, []);
 
- // dummyData is an array of arrays. I made it not an array of arrays so that i can get patricks sorting down.#00ABD8
-
-//  for (let i=0; i < objs.length; i++){
-//   sampleData[i].bias== 'left' ? columns[0].push(sampleData[i]) :  sampleData[i].bias== 'center-left' ? columns[1].push( sampleData[i].bias) :     sampleData[i].bias== 'center' ? columns[2].push( sampleData[i].bias) :     sampleData[i].bias== 'center-right' ? columns[3].push( sampleData[i].bias) : sampleData[i].bias== 'left' ? columns[4].push( sampleData[i].bias) :null
-// }
- 
-    useEffect(()=>{
-   
-    
-      setColumns(sampleData.map((el,i) => <Home colors={colorChart[i]} articles={el} bias={headers[i]}/>));
-    }, []) 
-
-    console.log(sampleData)
   /** CALL THE BACKEND FROM THE FRONTEND **/
   // useEffect(() => {
   //   fetchNews();

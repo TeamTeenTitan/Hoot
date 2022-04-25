@@ -13,7 +13,7 @@ const optionsNewsSearch = {
   method: 'GET',
   url: 'https://google-news1.p.rapidapi.com/search',
   params: {
-    q: 'putin',
+    q: '',
     country: 'US',
     lang: 'en',
     limit: '50',
@@ -77,9 +77,6 @@ const filterArticle = (article) => {
 }
 
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
-
-
-
 newsController.getTrendingNews = (req, res, next) => {
   // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
   axios
@@ -100,7 +97,7 @@ newsController.getTrendingNews = (req, res, next) => {
 newsController.getArticleContents = async (req, res, next) => {
   const updatedArticles = [];
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 5; i++) {
     const article = res.locals.articles[i];
     optionsNewsExt.params.url = article.link;
     console.log(`getArticleContents for loop iteration: ${article.title}...`)
@@ -111,7 +108,7 @@ newsController.getArticleContents = async (req, res, next) => {
       .then(response => {
         const extraction = response.data.article;
         article.body = extraction.text;
-        article.author = extraction.authors[0];
+        article.author = extraction.authors[0] || 'author unknown';
         article.description = extraction.meta_description;
         article.thumbnail = extraction.meta_image;
         article.bias = allSidesConverter[article.source.title];
@@ -127,7 +124,6 @@ newsController.getArticleContents = async (req, res, next) => {
   res.locals.articles = updatedArticles;
   return next();
 }
-
 
 /** CREATE FIVE COLUMNS TO RESPECTIVELY SORT FETCHED ARTICLES BASED ON POLITICAL LEANING (LEVERAGING ALLSIDES) **/
 newsController.sortNews = (req, res, next) => {
@@ -157,13 +153,13 @@ newsController.sortNews = (req, res, next) => {
         break;
     }
   }
-  console.log(`
-    Left Articles: ${returnArray[0].length}
-    Left-Center Articles: ${returnArray[1].length}
-    Center Articles: ${returnArray[2].length}
-    Center-Right Articles: ${returnArray[3].length}
-   ) Right Articles: ${returnArray[4].length}
-  `);
+  // console.log(`
+  //   Left Articles: ${returnArray[0].length}
+  //   Left-Center Articles: ${returnArray[1].length}
+  //   Center Articles: ${returnArray[2].length}
+  //   Center-Right Articles: ${returnArray[3].length}
+  //  ) Right Articles: ${returnArray[4].length}
+  // `);
 
   res.locals.articles = returnArray;
   return next();
@@ -171,8 +167,10 @@ newsController.sortNews = (req, res, next) => {
 
 /** SEARCH GENERAL NEWS USING THE WEB SEARCH API AND QUERYING USING CLIENT INPUT **/
 newsController.searchNews = (req, res, next) => {
+  console.log(req.body.query)
+
   // SET SEARCH QUERY BASED ON CLIENT INPUT ON FRONTEND
-  optionsNewsSearch.q = req.body.query;
+  optionsNewsSearch.params.q = req.body.query;
 
   axios
     .request(optionsNewsSearch)

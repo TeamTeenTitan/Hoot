@@ -11,8 +11,8 @@ const apiRouter = require('./routes/apiRouter');
 const authRouter = require('./routes/authRouter');
 const dbRouter = require('./routes/dbRouter');
 
-/** CONNECT MONGO DB **/
-connectDB()
+/** REFACTOR: CONNECT MONGO DB **/
+// connectDB()
 
 /** HANDLE PARSING REQUEST BODY FOR JSON, URL AND COOKIES **/
 app.use(express.json());

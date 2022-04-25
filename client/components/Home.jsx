@@ -54,7 +54,6 @@ export default function VirtualizedList(props) {
 
     useEffect(() => {
       window.scrollTo(0, 0);
-      console.log(4)
     }, [newNum])
     const style2 = {
       position: 'absolute',
@@ -207,7 +206,7 @@ if (event.key=="ArrowLeft" && newNum>0){
       <Box
       
         sx={{
-          borderRadius:"borderRadius",
+          // borderRadius:"borderRadius",
           borderRadius: 2,
           color: "#1769aa",
           boxShadow: 20,
