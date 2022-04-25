@@ -12,7 +12,7 @@ const authRouter = require('./routes/authRouter');
 const dbRouter = require('./routes/dbRouter');
 
 /** REFACTOR: CONNECT MONGO DB **/
-// connectDB()
+connectDB()
 
 /** HANDLE PARSING REQUEST BODY FOR JSON, URL AND COOKIES **/
 app.use(express.json());

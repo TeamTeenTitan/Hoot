@@ -3,8 +3,8 @@ const axios = require('axios');
 
 const db = require('../models/newsModel');
 const allSidesConverter = require('../../utils/allSidesConverter');
-const dummyArticles = require('../../test-env/dummyData/dummyArticles');
-const dummyExtraction = require('../../test-env/dummyData/dummyArtExtraction');
+const dummyArticles = require('../../data/dummyData/dummyArticles');
+const dummyExtraction = require('../../data/dummyData/dummyArtExtraction');
 
 const newsController = {};
 
@@ -16,7 +16,7 @@ const optionsNewsSearch = {
     q: '',
     country: 'US',
     lang: 'en',
-    limit: '15',
+    limit: '30',
     when: '30d'},
   headers: {
     'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
@@ -77,24 +77,26 @@ const filterArticle = (article) => {
 
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
+
+  // TODO: RUN ARTICLE THROUGH MIDDLEWARE ONLY WHEN CLICKED, THEN SERVE TO CLIENT
   optionsNewsSearch.url = 'https://google-news1.p.rapidapi.com/top-headlines'
 
-  // res.locals.articles = dummyArticles;
-  // return next();
+  res.locals.articles = dummyArticles.articles;
+  return next();
 
   // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
-  axios
-    .request(optionsNewsSearch)
-    .then(response => {
-      res.locals.articles = response.data.articles;
-      return next();
-    })
-    .catch((error) => {
-      console.error(
-        "Error with GET request to contextAPI on contextApiController.js",
-        error
-      );
-    });
+  // axios
+  //   .request(optionsNewsSearch)
+  //   .then(response => {
+  //     res.locals.articles = response.data.articles;
+  //     return next();
+  //   })
+  //   .catch((error) => {
+  //     console.error(
+  //       "Error with GET request to contextAPI on contextApiController.js",
+  //       error
+  //     );
+  //   });
 };
 
 /** USE EXTRACT NEWS API TO GIVE EACH ARTICLE A BODY **/
@@ -102,7 +104,7 @@ newsController.getArticleContents = async (req, res, next) => {
   // TODO: ADD A LOADING ANIMATION WHILE DATA IS BEING FETCHED
   const updatedArticles = [];
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 30; i++) {
     const article = res.locals.articles[i];
     optionsNewsExt.params.url = article.link;
     console.log(`getArticleContents for loop iteration: ${article.title}...`)
@@ -113,8 +115,8 @@ newsController.getArticleContents = async (req, res, next) => {
       .then(response => {
         const extraction = response.data.article;
         article.body = extraction.text;
-        extraction.authors !== undefined ? article.author = extraction.authors[0] : article.author = 'author unknown';
-        article.author = extraction.authors[0] || 'author unknown';
+        extraction.authors !== [] ? article.author = extraction.authors[0] : article.author = 'author unknown';
+        // article.author = extraction.authors[0] || 'author unknown';
         article.description = extraction.meta_description;
         article.thumbnail = extraction.meta_image;
         article.bias = allSidesConverter[article.source.title];

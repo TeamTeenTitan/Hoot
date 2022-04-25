@@ -1,5 +1,5 @@
 const axios = require("axios");
-// const dummyData = require('../dummy-data-contextApi');
+// const data = require('../dummyData-contextApi');
 
 const options = {
   method: "GET",
@@ -27,7 +27,7 @@ contextApiController.getTrendingNews = (req, res, next) => {
   res.locals.articles = dummyData;
   return next();
 
-  /** AXIOS REQUEST COMMENTED OUT FOR dummyData USAGE **/
+  /** AXIOS REQUEST COMMENTED OUT FOR data USAGE **/
   // axios
   //   .request(options)
   //   .then(response => {
