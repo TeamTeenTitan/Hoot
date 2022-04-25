@@ -5,10 +5,7 @@ import Checkbox from "@mui/material/Checkbox";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import axios from "axios";
 import HeaderIcons from "./components/HeaderIcons.jsx";
-import dummyArticles from '../test-env/dummyData/dummyArticles'
 
-
-import { sampleData } from "./assets/sampleData.js"
 
 const theme = createTheme({
   palette: {
@@ -29,12 +26,11 @@ export default function App() {
   const [test, setTest]= useState([])
   const colorChart= ["blue",'#00ABD8', 'purple', '#e71111', '#950b0b']
 
-  /** FETCH NEWS ARTICLES FROM  **/
+  /** FETCH NEWS ARTICLES FROM BACKEND AND DISPLAY ON FRONTEND **/
   useEffect(async () => {
     await axios.get('api')
       .then((response) => {
         setColumns(response.data.articles.map((el,i) => <Home colors={colorChart[i]} articles={el} bias={headers[i]}/>));
-        // console.log(columns);
       })
       .catch(err => console.log(err));
   }, []);

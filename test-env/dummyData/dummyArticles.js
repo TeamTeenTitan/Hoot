@@ -1,6 +1,5 @@
-const dummyData = {
-    "articles": [
-        [
+const dummyData =
+  [
             {
                 "published_date": "2022-04-23T13:58:52+00:00",
                 "title": "Putin's war on Ukraine divides Russian Orthodox Church - CNN",
@@ -118,9 +117,7 @@ const dummyData = {
                 "thumbnail": "https://cdn.vox-cdn.com/thumbor/gLgphDn0dvB1dBWdnVyPiD3DjC8=/0x0:3201x1676/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23371655/1239295205.jpg",
                 "bias": "left",
                 "favicon": "https://cdn.vox-cdn.com/community_logos/52517/voxv.png"
-            }
-        ],
-        [
+            },
             {
                 "published_date": "2022-04-23T17:45:00+00:00",
                 "title": "In Mariupol, Putin now rules a wasteland pitted with mass graves - The Guardian",
@@ -409,9 +406,7 @@ const dummyData = {
                 "thumbnail": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SV4QTLVWSQI6ZA2YECVBMNK7WQ.jpg&w=1440",
                 "bias": "left-center",
                 "favicon": "https://www.washingtonpost.com/wp-stat/assets/favicons/favicon.svg"
-            }
-        ],
-        [
+            },
             {
                 "published_date": "2022-04-23T11:48:22+00:00",
                 "title": "Russia's Next War: Would Putin Dare Invade Moldova? - 19FortyFive",
@@ -569,9 +564,7 @@ const dummyData = {
                 "thumbnail": "https://www.reuters.com/resizer/sN5TBgKKh4FItliCj4jNvoCZ5hg=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/4YOJD6LGDBIT3KSB5YGSULZLNM.jpg",
                 "bias": "center",
                 "favicon": "/pf/resources/icons/favicon.ico?d=89"
-            }
-        ],
-        [
+            },
             {
                 "published_date": "2022-04-22T14:18:00+00:00",
                 "title": "Bloated Vladimir Putin video heightens theories Russian leader is sick - New York Post",
@@ -674,9 +667,7 @@ const dummyData = {
                 "thumbnail": "https://nypost.com/wp-content/uploads/sites/2/2022/04/putin-daughters.jpg?quality=75&strip=all&w=1024",
                 "bias": "right-center",
                 "favicon": "https://nypost.com/wp-content/themes/nypost-2016/static/images/apple-icons/nypost/apple-icon.png"
-            }
-        ],
-        [
+            },
             {
                 "published_date": "2022-04-23T10:26:41+00:00",
                 "title": "Five people including three-month-old baby are killed as Putin blitzes Odessa - Daily Mail",
@@ -707,6 +698,7 @@ const dummyData = {
                 "bias": "right",
                 "favicon": "/favicon.ico?v=2"
             }
-        ]
-    ]
-}
+    ];
+
+
+module.exports = dummyData;

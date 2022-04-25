@@ -78,19 +78,22 @@ const filterArticle = (article) => {
 
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
+  res.locals.articles = dummyArticles;
+  return next();
+
   // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
-  axios
-    .request(optionsNewsSearch)
-    .then(response => {
-      res.locals.articles = response.data.articles;
-      return next();
-    })
-    .catch((error) => {
-      console.error(
-        "Error with GET request to contextAPI on contextApiController.js",
-        error
-      );
-    });
+  // axios
+  //   .request(optionsNewsSearch)
+  //   .then(response => {
+  //     res.locals.articles = response.data.articles;
+  //     return next();
+  //   })
+  //   .catch((error) => {
+  //     console.error(
+  //       "Error with GET request to contextAPI on contextApiController.js",
+  //       error
+  //     );
+  //   });
 };
 
 /** USE EXTRACT NEWS API TO GIVE EACH ARTICLE A BODY **/
@@ -128,6 +131,7 @@ newsController.getArticleContents = async (req, res, next) => {
 
 /** CREATE FIVE COLUMNS TO RESPECTIVELY SORT FETCHED ARTICLES BASED ON POLITICAL LEANING (LEVERAGING ALLSIDES) **/
 newsController.sortNews = (req, res, next) => {
+  console.log('sortNews invoked...')
   const returnArray = [[], [], [], [], []];
 
   for (let i = 0; i < res.locals.articles.length; i++) {
