@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 
-const MONGO_URL = 'mongodb+srv://titianhoot:titanhoot@clusterhoot.9x4ag.mongodb.net/hoot?retryWrites=true&w=majority'
+const MONGO_URL = 'mongodb+srv://titianhoot:<password>@clusterhoot.9x4ag.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+
+  // 'mongodb+srv://titianhoot:titanhoot@clusterhoot.9x4ag.mongodb.net/hoot?retryWrites=true&w=majority'
 
 const connectDB = async () => {
   try {

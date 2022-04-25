@@ -8,7 +8,7 @@ const router = express.Router();
 /** FETCH TRENDING NEWS, SORT THE ARTICLES, SEND BACK TO CLIENT **/
 router.get("/",
   newsController.getTrendingNews,
-  // newsController.getArticleContents,
+  newsController.getArticleContents,
   newsController.sortNews,
   (req, res) => {
   // console.log(res.locals.articles);

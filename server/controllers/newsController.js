@@ -11,12 +11,12 @@ const newsController = {};
 /** CLIENT REQUEST OPTIONS FOR QUERYING GENERAL NEWS FROM WEB SEARCH API **/
 const optionsNewsSearch = {
   method: 'GET',
-  url: 'https://google-news1.p.rapidapi.com/search',
+  url: '',
   params: {
     q: '',
     country: 'US',
     lang: 'en',
-    limit: '50',
+    limit: '15',
     when: '30d'},
   headers: {
     'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
@@ -36,7 +36,6 @@ const optionsNewsExt = {
     'X-RapidAPI-Key': 'ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146'
   }
 };
-
 
 /** GET CURRENT DATE OF CLIENT REQUEST **/
 const retrieveDate = (i) => {
@@ -78,26 +77,29 @@ const filterArticle = (article) => {
 
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
-  res.locals.articles = dummyArticles;
-  return next();
+  optionsNewsSearch.url = 'https://google-news1.p.rapidapi.com/top-headlines'
+
+  // res.locals.articles = dummyArticles;
+  // return next();
 
   // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
-  // axios
-  //   .request(optionsNewsSearch)
-  //   .then(response => {
-  //     res.locals.articles = response.data.articles;
-  //     return next();
-  //   })
-  //   .catch((error) => {
-  //     console.error(
-  //       "Error with GET request to contextAPI on contextApiController.js",
-  //       error
-  //     );
-  //   });
+  axios
+    .request(optionsNewsSearch)
+    .then(response => {
+      res.locals.articles = response.data.articles;
+      return next();
+    })
+    .catch((error) => {
+      console.error(
+        "Error with GET request to contextAPI on contextApiController.js",
+        error
+      );
+    });
 };
 
 /** USE EXTRACT NEWS API TO GIVE EACH ARTICLE A BODY **/
 newsController.getArticleContents = async (req, res, next) => {
+  // TODO: ADD A LOADING ANIMATION WHILE DATA IS BEING FETCHED
   const updatedArticles = [];
 
   for (let i = 0; i < 10; i++) {
@@ -131,7 +133,6 @@ newsController.getArticleContents = async (req, res, next) => {
 
 /** CREATE FIVE COLUMNS TO RESPECTIVELY SORT FETCHED ARTICLES BASED ON POLITICAL LEANING (LEVERAGING ALLSIDES) **/
 newsController.sortNews = (req, res, next) => {
-  console.log('sortNews invoked...')
   const returnArray = [[], [], [], [], []];
 
   for (let i = 0; i < res.locals.articles.length; i++) {
@@ -158,12 +159,13 @@ newsController.sortNews = (req, res, next) => {
         break;
     }
   }
+  // THIS IS A COUNTER TO LOG THE NUMBERS OF ARTICLES IN EACH ARRAY
   // console.log(`
   //   Left Articles: ${returnArray[0].length}
   //   Left-Center Articles: ${returnArray[1].length}
   //   Center Articles: ${returnArray[2].length}
   //   Center-Right Articles: ${returnArray[3].length}
-  //  ) Right Articles: ${returnArray[4].length}
+  //   Right Articles: ${returnArray[4].length}
   // `);
 
   res.locals.articles = returnArray;
@@ -173,6 +175,7 @@ newsController.sortNews = (req, res, next) => {
 /** SEARCH NEWS ARTICLES USING GOOGLE NEWS & WEB SEARCH APIS; QUERY USING CLIENT INPUT **/
 newsController.searchNews = (req, res, next) => {
   // SET SEARCH QUERY BASED ON CLIENT INPUT ON FRONTEND
+  optionsNewsSearch.url = 'https://google-news1.p.rapidapi.com/search';
   optionsNewsSearch.params.q = req.body.query;
 
   axios
