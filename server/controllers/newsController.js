@@ -77,14 +77,14 @@ const filterArticle = (article) => {
 
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
-
   // TODO: RUN ARTICLE THROUGH MIDDLEWARE ONLY WHEN CLICKED, THEN SERVE TO CLIENT
-  optionsNewsSearch.url = 'https://google-news1.p.rapidapi.com/top-headlines'
+  optionsNewsSearch.url = 'https://google-news1.p.rapidapi.com/top-headlines';
 
+  // USE DUMMY ARTICLES TO SPEED UP TEST RUN TIME
   res.locals.articles = dummyArticles.articles;
   return next();
 
-  // REQUEST GENERAL NEWS FROM THE API VIA AXIOS REQUEST
+  // REQUEST NEWS FROM GOOGLE NEWS API VIA AXIOS REQUEST
   // axios
   //   .request(optionsNewsSearch)
   //   .then(response => {

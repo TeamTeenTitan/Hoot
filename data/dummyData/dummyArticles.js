@@ -1,6 +1,5 @@
 const dummyData = {
-    "articles":
-    [
+    "articles": [
         [
             {
                 "published_date": "2022-04-25T16:58:00+00:00",

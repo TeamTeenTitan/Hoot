@@ -29,7 +29,6 @@ app.use('/api', apiRouter);
 app.use('/auth', authRouter);
 app.use('/hootDB', dbRouter);
 
-
 /** CATCH-ALL ROUTE HANDLER FOR ANY REQUESTS TO AN UNKNOWN ROUTE **/
 app.use((req, res) => {
   res.status(404);
