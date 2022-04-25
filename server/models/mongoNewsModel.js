@@ -12,10 +12,10 @@ const newsSchema = mongoose.Schema({
   
   // if there is no unique id, this will work as a way to filer out articles that have already made it into our database. 
   // res.locals.link = response.data.link
-  link: {type: String},
+  link: { type: String },
 
   // res.locals.sourceName = response.data.source.title
-  sourceName: { type: String },
+  source: { type: String },
 
   // res.locals.url = response.data.source.url
   sourceURL: { type: String },
@@ -29,7 +29,7 @@ const newsSchema = mongoose.Schema({
 // Extractor
   
   // res.locals.publishedDate = response.data.article.published
-  publishedDate: { type: Date },
+  published_date: { type: Date },
 
   // res.locals.title = response.data.article.title
   title: { type: String },
@@ -48,13 +48,13 @@ const newsSchema = mongoose.Schema({
   // We will likely need to create a bit of code that checks the two immages and sees if the source is ok, the first one that returns ok will just go to the database... alternately, the array of images can go to the database and it can be check upon being pulled. -- adding it as an array would mean creating a second schema that would go in this. Therefore I think the first image that works is the best solution.
   // it also gives us the top image and meta image and we can just store both of those. 
   // res.locals.images = response.data.article.images
-  images: { type: String },
+  thumbnail: { type: String },
 
   // this will come from a third source. 
   bias: { type: String },
 },
   // this will record the time it is added to our data base, and will eventually make it so that we can run first in first out logic. 
-  {timeStamps: true}
+  { timeStamps: true }
 );
 
 module.exports = mongoose.model('NewsData', newsSchema);
@@ -64,29 +64,24 @@ module.exports = mongoose.model('NewsData', newsSchema);
 // the way this would sort of look like going into the database is something like this:
   // bear in mind that it will need to be reworked a lot for our use case.
 
-// const setNewsData = async (req, res) =>{
-
-//   try {
-//     const newsData = await NewsData.create({
-//       // coming from google
-//       article_id: response.data.id, // this is an unknown
-//       link: response.data.link,
-//       sourceName: response.data.source.title,
-//       sourceURL: response.data.source.url,
-//       favicon: response.data.source.favicon,
-//       description: response.data.description,
-//       //coming from extractor, probably will have to add to it somehow... or it is possible we can do all of this after it has been run through both. 
-//       publishedDate: response.data.article.published,
-//       title: response.data.article.title,
-//       body: response.data.article.text,
-//       authors: response.data.article.authors[0], // this will require additional logic
-//       metaDescription: response.data.article.meta_description,
-//       images: response.data.article.images,
-//       // coming from another source
-//       bias: 'center',
-
-//     })
-//   } catch (error) {
-//     console.log(error)
-//   }
-// };
+const setNewsData = async (req, res) => {
+  try {
+    const newsData = await NewsData.create({
+      // coming from google
+      article_id: res.data.id, // this is an unknown
+      link: res.data.link,
+      source: res.data.source.title,
+      favicon: res.data.source.favicon,
+      description: res.data.description,
+      //coming from extractor, probably will have to add to it somehow... or it is possible we can do all of this after it has been run through both.
+      published_date: res.data.article.published,
+      title: res.data.article.title,
+      body: res.data.article.text,
+      authors: res.data.article.authors[0], // this will require additional logic
+      // coming from another source
+      bias: res.data.article.bias
+    });
+  } catch (error) {
+    console.log(error)
+  }
+};

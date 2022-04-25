@@ -4,7 +4,6 @@ const axios = require('axios');
 const db = require('../models/newsModel');
 const allSidesConverter = require('../../utils/allSidesConverter');
 const dummyArticles = require('../../data/dummyData/dummyArticles');
-const dummyExtraction = require('../../data/dummyData/dummyArtExtraction');
 
 const newsController = {};
 
@@ -16,7 +15,7 @@ const optionsNewsSearch = {
     q: '',
     country: 'US',
     lang: 'en',
-    limit: '30',
+    limit: '50',
     when: '30d'},
   headers: {
     'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
@@ -104,7 +103,7 @@ newsController.getArticleContents = async (req, res, next) => {
   // TODO: ADD A LOADING ANIMATION WHILE DATA IS BEING FETCHED
   const updatedArticles = [];
 
-  for (let i = 0; i < 30; i++) {
+  for (let i = 0; i < res.locals.articles.length; i++) {
     const article = res.locals.articles[i];
     optionsNewsExt.params.url = article.link;
     console.log(`getArticleContents for loop iteration: ${article.title}...`)
@@ -115,8 +114,7 @@ newsController.getArticleContents = async (req, res, next) => {
       .then(response => {
         const extraction = response.data.article;
         article.body = extraction.text;
-        extraction.authors !== [] ? article.author = extraction.authors[0] : article.author = 'author unknown';
-        // article.author = extraction.authors[0] || 'author unknown';
+        article.author = 'author unknown' || extraction.authors[0];
         article.description = extraction.meta_description;
         article.thumbnail = extraction.meta_image;
         article.bias = allSidesConverter[article.source.title];

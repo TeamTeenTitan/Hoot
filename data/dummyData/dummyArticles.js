@@ -2,6 +2,20 @@ const dummyData = {
     "articles": [
         [
             {
+                "published_date": "2022-04-25T16:46:20+00:00",
+                "title": "Supreme Court to hear case of praying coach who his lost job after kneeling on the field - USA TODAY",
+                "link": "https://www.usatoday.com/story/news/politics/2022/04/24/supreme-court-hears-coach-who-lost-job-praying-field-joseph-kennedy-bremerton-high-football/7352464001/",
+                "source": {
+                    "title": "USA TODAY",
+                    "url": "https://www.usatoday.com"
+                },
+                "body": "Kennedy claims the school violated his First Amendment rights by not re-upping his contract.\n\nA federal appeals court ruled that the coach was acting as a public employee when he prayed after games.\n\nThe Supreme Court is likely to rule in the case early this summer.\n\nWASHINGTON – From coach Joseph Kennedy's perspective, the yearslong fight over his decision to pray on the 50-yard line following his team's football games is clear cut: He made a promise that he would offer his thanks on the field – win or lose.\n\n\"That's where I made my commitment to God before I even took the coaching job,\" Kennedy told USA TODAY in an interview. \"There on the field of battle.\"",
+                "description": "A former football coach wants the Supreme Court to rule his high school violated his rights when he lost his job after praying at the 50-yard line.",
+                "thumbnail": "https://www.gannett-cdn.com/presto/2022/04/21/USAT/4543839b-cc87-4495-9111-f480b87068b8-XXX_sd__Joe_Kennedy_2076_.jpg?crop=2999,1687,x0,y279&width=2999&height=1687&format=pjpg&auto=webp",
+                "bias": "left",
+                "favicon": ""
+            },
+            {
                 "published_date": "2022-04-25T16:58:00+00:00",
                 "title": "Judge holds former President Trump in civil contempt for failing to comply with document subpoenas from New York attorney general - CNN",
                 "link": "https://www.cnn.com/2022/04/25/politics/trump-contempt-hearing/index.html",
@@ -33,20 +47,6 @@ const dummyData = {
                 "favicon": "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon.svg?v=78ff7f17c6b7320c02f8f291798b819a"
             },
             {
-                "published_date": "2022-04-25T16:46:20+00:00",
-                "title": "Supreme Court to hear case of praying coach who his lost job after kneeling on the field - USA TODAY",
-                "link": "https://www.usatoday.com/story/news/politics/2022/04/24/supreme-court-hears-coach-who-lost-job-praying-field-joseph-kennedy-bremerton-high-football/7352464001/",
-                "source": {
-                    "title": "USA TODAY",
-                    "url": "https://www.usatoday.com"
-                },
-                "body": "Kennedy claims the school violated his First Amendment rights by not re-upping his contract.\n\nA federal appeals court ruled that the coach was acting as a public employee when he prayed after games.\n\nThe Supreme Court is likely to rule in the case early this summer.\n\nWASHINGTON – From coach Joseph Kennedy's perspective, the yearslong fight over his decision to pray on the 50-yard line following his team's football games is clear cut: He made a promise that he would offer his thanks on the field – win or lose.\n\n\"That's where I made my commitment to God before I even took the coaching job,\" Kennedy told USA TODAY in an interview. \"There on the field of battle.\"",
-                "description": "A former football coach wants the Supreme Court to rule his high school violated his rights when he lost his job after praying at the 50-yard line.",
-                "thumbnail": "https://www.gannett-cdn.com/presto/2022/04/21/USAT/4543839b-cc87-4495-9111-f480b87068b8-XXX_sd__Joe_Kennedy_2076_.jpg?crop=2999,1687,x0,y279&width=2999&height=1687&format=pjpg&auto=webp",
-                "bias": "left-center",
-                "favicon": ""
-            },
-            {
                 "published_date": "2022-04-25T16:58:33+00:00",
                 "title": "Latest Ukraine-Russia War News: Live Updates - The New York Times",
                 "link": "https://www.nytimes.com/2022/04/25/world/europe/ukraine-zelenksy-government.html",
@@ -58,7 +58,7 @@ const dummyData = {
                 "author": "Andrew E. Kramer",
                 "description": "Ukrainian politics were known for sharp-elbowed infighting. But as he defends his country against the Russian invasion, President Volodymyr Zelensky has his government presenting a unified front.",
                 "thumbnail": "https://static01.nyt.com/images/2022/04/23/world/23ukraine-zelensky-promo/23ukraine-zelensky1-facebookJumbo.jpg",
-                "bias": "left-center",
+                "bias": "left",
                 "favicon": "/vi-assets/static-assets/favicon-d2483f10ef688e6f89e23806b9700298.ico"
             },
             {
@@ -361,21 +361,6 @@ const dummyData = {
         ],
         [
             {
-                "published_date": "2022-04-25T14:08:00+00:00",
-                "title": "Dow Jones Sells Off; Twitter, Elon Musk Set To Strike Deal - Investor's Business Daily",
-                "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-extend-losses-twitter-elon-musk-in-talks-for-deal/",
-                "source": {
-                    "title": "Investor's Business Daily",
-                    "url": "https://www.investors.com"
-                },
-                "body": "The Dow Jones Industrial Average sold off 360 points Monday morning, extending Friday's sharp stock market losses. Twitter stock climbed after news reports said the company and Tesla Chief Executive Elon Musk are close to striking a deal. And Dow Jones stock Coca-Cola was a key earnings mover Monday morning.\n\nX\n\nTwitter (TWTR) jumped 4% after Friday's 3.9% gain. Bloomberg reported that an agreement could be finalized as early as Monday. Electric-vehicle giant Tesla (TSLA) skidded 3% Monday morning.\n\nAmong the Dow Jones leaders, Apple (AAPL) and Microsoft (MSFT) were both down around 1% in today's stock market.\n\nAmid a new stock market correction, Dow Jones leader American Express (AXP) — along with IBD Leaderboard stock LPL Financial (LPLA), Expedia (EXPE), Raytheon Technologies (RTX) and Shell (SHEL) — are among Monday's top stocks to watch.\n\nMicrosoft and Tesla are IBD Leaderboard stocks. Caterpillar and Edwards Lifesciences were featured in this week's Stocks Near A Buy Zone column. And Expedia was Thursday's IBD Stock Of The Day.\n\nDow Jones Today: Treasury Yields, Oil Prices\n\nAfter Monday's open, the Dow Jones Industrial Average declined 1%, while the S&P 500 dropped 1.1%. The Nasdaq pared losses to 0.5% in morning trade.\n\nAmong exchange-traded funds, the Nasdaq 100 tracker Invesco QQQ Trust (QQQ) lost 0.7%. The SPDR S&P 500 ETF (SPY) moved down 0.75%.\n\nThe 10-year Treasury yield tumbled to 2.81% Monday after closing Friday at 2.91%. Last week, the 10-year Treasury yield hit its highest level since December 2018. Meanwhile, U.S. oil prices were down nearly 5%, as Texas Intermediate crude traded just above $97 a barrel.\n\nNew Stock Market Correction\n\nOn Friday, the stock market finished sharply lower, as the major stock indexes sold off with heavy losses.\n\nFriday's The Big Picture column commented, \"After getting turned away at its 200-day moving average Thursday, the S&P 500 plunged 2.8%, taking out Monday's low. The index is still holding above the March 16 follow-through day's low, but the weak action was enough to change IBD's market outlook to a market correction.\"\n\nIf you're new to IBD, consider taking a look at its stock trading system and CAN SLIM basics. Recognizing chart patterns is one key to the investment guidelines. IBD offers a broad range of growth stock lists, such as Leaderboard and SwingTrader.\n\nInvestors also can create watchlists, find companies nearing buy points, or develop custom screens at IBD MarketSmith.\n\nFive Dow Jones Stocks To Watch Now\n\nDow Jones Earnings: Coca-Cola\n\nDow Jones stock Coca-Cola (KO) reported better-than-expected first-quarter earnings results Monday morning, Shares climbed 2.6% in early morning trade.\n\nKO shares ended Friday about 13% above a 57.66 buy point in a flat base.\n\nDow Jones Stocks To Buy And Watch: American Express\n\nDow Jones financial stock American Express finished Friday about 7% away from a cup with handle's 194.45 buy point after the company's first-quarter earnings results. AXP shares were down 0.8% Monday morning.\n\nFour Top Growth Stocks To Watch In The Current Stock Market Correction\n\nStocks To Watch: LPL, Expedia, Raytheon, Shell\n\nIBD Leaderboard stock LPL Financial remains above a 191.08 buy point in a cup with handle, but double-digit gains faded during a three-day losing streak. On April 21, shares climbed as much as 15.5% above the entry, which means that the stock is close to triggering the round-trip sell rule, according to IBD MarketSmith chart analysis. LPLA shares were down 1% Monday morning.\n\nThursday's IBD Stock Of The Day, Expedia, is building a cup with handle with a 204.08 buy point. Shares are trying to regain their 50-day line, but are having some trouble at that key resistance level. EXPE stock shows a 90 out of a perfect 99 IBD Composite Rating, per the IBD Stock Checkup. Expedia shares were down 0.4% early Monday.\n\nDefense contractor Raytheon Technologies gave up a flat base's 104.44 buy point after sharp losses last week. RTX shares dropped more than 1% Monday morning. Raytheon reports earnings on April 26.\n\nOil-and-gas producer Shell dropped below a flat base's 56.23 buy point after Friday's 2.15% drop. SHEL shares slid more than 3% Monday morning.\n\nJoin IBD experts as they analyze leading stocks in the current stock market correction on IBD Live\n\nTesla Stock\n\nTesla stock skidded 3% Monday morning, threatening to add to Friday's 0.4% decline.\n\nShares of the EV giant finished Friday about 13% away from a cup-with-handle's 1,152.97 buy point. The stock traded as high as 1,243.49 on Nov. 4 and is about 19% away from that all-time high.\n\nDow Jones Leaders: Apple, Microsoft\n\nAmong Dow Jones stocks, Apple shares triggered the 7%-8% loss-cutting rule from a 176.75 buy point in a double-bottom base in recent weeks. Apple stock fell further below its 50-day line Friday and may be setting up for a test of the long-term 200-day line. The stock dropped 1% Monday morning.\n\nSoftware leader Microsoft sold off 2.4% Friday, further below its 50- and 200-day lines. The stock is more than 20% off its 52-week high. MSFT shares were down 0.8% early Monday.\n\nApple and Microsoft report earnings this week.\n\nBe sure to follow Scott Lehtonen on Twitter at @IBD_SLehtonen for more on growth stocks and the Dow Jones Industrial Average.\n\nYOU MAY ALSO LIKE:\n\nTop Growth Stocks To Buy And Watch\n\nLearn How To Time The Market With IBD's ETF Market Strategy\n\nFind The Best Long-Term Investments With IBD Long-Term Leaders\n\nMarketSmith: Research, Charts, Data And Coaching All In One Place\n\nHow To Research Growth Stocks: Why This IBD Tool Simplifies The Search For Top Stocks%",
-                "author": "Investor'S Business Daily",
-                "description": "The Dow Jones Industrial Average sold off 360 points Monday, adding to Friday's losses. Twitter and Elon Musk are in talks to strike a deal.",
-                "thumbnail": "https://www.investors.com/wp-content/uploads/2020/06/Stock-musktesla-03-shutt.jpg",
-                "bias": "right-center",
-                "favicon": "https://www.investors.com/wp-content/uploads/2018/03/cropped-ibd-icon-32x32.png"
-            },
-            {
                 "published_date": "2022-04-25T14:23:00+00:00",
                 "title": "NFL Draft 2022: Travon Walker is new favorite for Jaguars - New York Post",
                 "link": "https://nypost.com/2022/04/25/nfl-draft-2022-travon-walker-is-new-favorite-for-jaguars/",
@@ -391,7 +376,23 @@ const dummyData = {
                 "favicon": "https://nypost.com/wp-content/themes/nypost-2016/static/images/apple-icons/nypost/apple-icon.png"
             }
         ],
-        []
+        [
+            {
+                "published_date": "2022-04-25T14:08:00+00:00",
+                "title": "Dow Jones Sells Off; Twitter, Elon Musk Set To Strike Deal - Investor's Business Daily",
+                "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-extend-losses-twitter-elon-musk-in-talks-for-deal/",
+                "source": {
+                    "title": "Investor's Business Daily",
+                    "url": "https://www.investors.com"
+                },
+                "body": "The Dow Jones Industrial Average sold off 360 points Monday morning, extending Friday's sharp stock market losses. Twitter stock climbed after news reports said the company and Tesla Chief Executive Elon Musk are close to striking a deal. And Dow Jones stock Coca-Cola was a key earnings mover Monday morning.\n\nX\n\nTwitter (TWTR) jumped 4% after Friday's 3.9% gain. Bloomberg reported that an agreement could be finalized as early as Monday. Electric-vehicle giant Tesla (TSLA) skidded 3% Monday morning.\n\nAmong the Dow Jones leaders, Apple (AAPL) and Microsoft (MSFT) were both down around 1% in today's stock market.\n\nAmid a new stock market correction, Dow Jones leader American Express (AXP) — along with IBD Leaderboard stock LPL Financial (LPLA), Expedia (EXPE), Raytheon Technologies (RTX) and Shell (SHEL) — are among Monday's top stocks to watch.\n\nMicrosoft and Tesla are IBD Leaderboard stocks. Caterpillar and Edwards Lifesciences were featured in this week's Stocks Near A Buy Zone column. And Expedia was Thursday's IBD Stock Of The Day.\n\nDow Jones Today: Treasury Yields, Oil Prices\n\nAfter Monday's open, the Dow Jones Industrial Average declined 1%, while the S&P 500 dropped 1.1%. The Nasdaq pared losses to 0.5% in morning trade.\n\nAmong exchange-traded funds, the Nasdaq 100 tracker Invesco QQQ Trust (QQQ) lost 0.7%. The SPDR S&P 500 ETF (SPY) moved down 0.75%.\n\nThe 10-year Treasury yield tumbled to 2.81% Monday after closing Friday at 2.91%. Last week, the 10-year Treasury yield hit its highest level since December 2018. Meanwhile, U.S. oil prices were down nearly 5%, as Texas Intermediate crude traded just above $97 a barrel.\n\nNew Stock Market Correction\n\nOn Friday, the stock market finished sharply lower, as the major stock indexes sold off with heavy losses.\n\nFriday's The Big Picture column commented, \"After getting turned away at its 200-day moving average Thursday, the S&P 500 plunged 2.8%, taking out Monday's low. The index is still holding above the March 16 follow-through day's low, but the weak action was enough to change IBD's market outlook to a market correction.\"\n\nIf you're new to IBD, consider taking a look at its stock trading system and CAN SLIM basics. Recognizing chart patterns is one key to the investment guidelines. IBD offers a broad range of growth stock lists, such as Leaderboard and SwingTrader.\n\nInvestors also can create watchlists, find companies nearing buy points, or develop custom screens at IBD MarketSmith.\n\nFive Dow Jones Stocks To Watch Now\n\nDow Jones Earnings: Coca-Cola\n\nDow Jones stock Coca-Cola (KO) reported better-than-expected first-quarter earnings results Monday morning, Shares climbed 2.6% in early morning trade.\n\nKO shares ended Friday about 13% above a 57.66 buy point in a flat base.\n\nDow Jones Stocks To Buy And Watch: American Express\n\nDow Jones financial stock American Express finished Friday about 7% away from a cup with handle's 194.45 buy point after the company's first-quarter earnings results. AXP shares were down 0.8% Monday morning.\n\nFour Top Growth Stocks To Watch In The Current Stock Market Correction\n\nStocks To Watch: LPL, Expedia, Raytheon, Shell\n\nIBD Leaderboard stock LPL Financial remains above a 191.08 buy point in a cup with handle, but double-digit gains faded during a three-day losing streak. On April 21, shares climbed as much as 15.5% above the entry, which means that the stock is close to triggering the round-trip sell rule, according to IBD MarketSmith chart analysis. LPLA shares were down 1% Monday morning.\n\nThursday's IBD Stock Of The Day, Expedia, is building a cup with handle with a 204.08 buy point. Shares are trying to regain their 50-day line, but are having some trouble at that key resistance level. EXPE stock shows a 90 out of a perfect 99 IBD Composite Rating, per the IBD Stock Checkup. Expedia shares were down 0.4% early Monday.\n\nDefense contractor Raytheon Technologies gave up a flat base's 104.44 buy point after sharp losses last week. RTX shares dropped more than 1% Monday morning. Raytheon reports earnings on April 26.\n\nOil-and-gas producer Shell dropped below a flat base's 56.23 buy point after Friday's 2.15% drop. SHEL shares slid more than 3% Monday morning.\n\nJoin IBD experts as they analyze leading stocks in the current stock market correction on IBD Live\n\nTesla Stock\n\nTesla stock skidded 3% Monday morning, threatening to add to Friday's 0.4% decline.\n\nShares of the EV giant finished Friday about 13% away from a cup-with-handle's 1,152.97 buy point. The stock traded as high as 1,243.49 on Nov. 4 and is about 19% away from that all-time high.\n\nDow Jones Leaders: Apple, Microsoft\n\nAmong Dow Jones stocks, Apple shares triggered the 7%-8% loss-cutting rule from a 176.75 buy point in a double-bottom base in recent weeks. Apple stock fell further below its 50-day line Friday and may be setting up for a test of the long-term 200-day line. The stock dropped 1% Monday morning.\n\nSoftware leader Microsoft sold off 2.4% Friday, further below its 50- and 200-day lines. The stock is more than 20% off its 52-week high. MSFT shares were down 0.8% early Monday.\n\nApple and Microsoft report earnings this week.\n\nBe sure to follow Scott Lehtonen on Twitter at @IBD_SLehtonen for more on growth stocks and the Dow Jones Industrial Average.\n\nYOU MAY ALSO LIKE:\n\nTop Growth Stocks To Buy And Watch\n\nLearn How To Time The Market With IBD's ETF Market Strategy\n\nFind The Best Long-Term Investments With IBD Long-Term Leaders\n\nMarketSmith: Research, Charts, Data And Coaching All In One Place\n\nHow To Research Growth Stocks: Why This IBD Tool Simplifies The Search For Top Stocks%",
+                "author": "Investor'S Business Daily",
+                "description": "The Dow Jones Industrial Average sold off 360 points Monday, adding to Friday's losses. Twitter and Elon Musk are in talks to strike a deal.",
+                "thumbnail": "https://www.investors.com/wp-content/uploads/2020/06/Stock-musktesla-03-shutt.jpg",
+                "bias": "right",
+                "favicon": "https://www.investors.com/wp-content/uploads/2018/03/cropped-ibd-icon-32x32.png"
+            },
+        ]
     ]
 }
 

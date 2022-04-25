@@ -300,6 +300,7 @@ const allSidesConverter = {
   'Socialist Alternative': 'left',
   'Socialist Project/The Bullet': 'left',
   'South China Morning Post': 'center',
+  'Sports Illustrated': 'center',
   'The Spectator': 'right',
   'Spiked': 'right-center',
   'Splinter': 'left',
@@ -342,6 +343,7 @@ const allSidesConverter = {
   'The Daily Caller': 'right',
   'The Daily Dot': 'left-center',
   'The Daily Signal': 'right',
+  'The Daily Star': 'right-center',
   'The Daily Wire': 'right',
   'The Dallas Morning News': 'center',
   'The Delaware County Daily Times': 'left-center',
@@ -440,6 +442,7 @@ const allSidesConverter = {
   'Wisconsin Gazette': 'left-center',
   'WND.com': 'right',
   'Yahoo News': 'left-center',
+  'Yahoo Sports': 'left-center',
   'Yahoo! The 360': 'allsides',
   'Yes! Magazine': 'left',
   'ZeroHedge': 'right-center'
