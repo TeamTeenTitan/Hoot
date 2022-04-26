@@ -6,6 +6,7 @@ const allSidesConverter = require('../../utils/allSidesConverter');
 const dummyArticles = require('../../data/dummyData/dummyArticles');
 
 const newsController = {};
+let id = 0;
 
 /** CLIENT REQUEST OPTIONS FOR QUERYING GENERAL NEWS FROM WEB SEARCH API **/
 const optionsNewsSearch = {
@@ -21,19 +22,6 @@ const optionsNewsSearch = {
   },
   headers: {
     'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
-    'X-RapidAPI-Key': 'ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146'
-  }
-};
-
-/** CLIENT REQUEST OPTIONS FOR EXTRACTING NEWS PAGES USING EXTRACT NEWS API **/
-const optionsNewsExt = {
-  method: 'GET',
-  url: 'https://extract-news.p.rapidapi.com/v0/article',
-  params: {
-    url: '' // MAKE SEPARATE API CALLS FOR EACH ARTICLE FETCHED WITH GOOGLE NEWS API
-  },
-  headers: {
-    'X-RapidAPI-Host': 'extract-news.p.rapidapi.com',
     'X-RapidAPI-Key': 'ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146'
   }
 };
@@ -76,32 +64,8 @@ const filterArticle = (article) => {
   return article;
 }
 
-/** USE EXTRACT NEWS API TO GIVE REQUESTED ARTICLE ADDITIONAL PROPERTIES **/
-const getArticleContents = async (article) => {
-  // TODO: ADD A LOADING ANIMATION WHILE DATA IS BEING FETCHED
-    optionsNewsExt.params.url = article.link;
-    console.log(`getArticleContents fetching info for: ${article.title}...`)
-
-    // THROTTLE AXIOS REQUESTS TO SEND SYNCHRONOUSLY (ASYNC ANTIQUATED?)
-    await axios
-      .request(optionsNewsExt)
-      .then(response => {
-        const extraction = response.data.article;
-        article.body = extraction.text;
-        article.author = 'author unknown' || extraction.authors[0];
-        article.description = extraction.meta_description;
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-
-  // RETURN UPDATED ARTICLE TO CLIENT
-  return article;
-}
-
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
-  // TODO: RUN ARTICLE THROUGH MIDDLEWARE ONLY WHEN CLICKED, THEN SERVE TO CLIENT
   optionsNewsSearch.url = 'https://google-news1.p.rapidapi.com/top-headlines';
 
   // USE DUMMY ARTICLES TO SPEED UP TEST RUN TIME
@@ -152,14 +116,6 @@ newsController.sortNews = (req, res, next) => {
         break;
     }
   }
-  // THIS IS A COUNTER TO LOG THE NUMBERS OF ARTICLES IN EACH ARRAY
-  // console.log(`
-  //   Left Articles: ${returnArray[0].length}
-  //   Left-Center Articles: ${returnArray[1].length}
-  //   Center Articles: ${returnArray[2].length}
-  //   Center-Right Articles: ${returnArray[3].length}
-  //   Right Articles: ${returnArray[4].length}
-  // `);
 
   res.locals.articles = returnArray;
   return next();
@@ -176,9 +132,10 @@ newsController.searchNews = (req, res, next) => {
     .then(response => {
       // THIS WILL REPLACE ANY QUERIED/DISPLAYED ARTICLES
       res.locals.articles = response.data.articles;
-      console.log(res.locals.articles)
+
       for (let i = 0; i < res.locals.articles.length; i++) {
         const article = res.locals.articles[i];
+        article.id = id++;
         article.favicon = article.source.favicon;
         article.bias = allSidesConverter[article.source.title];
       }
