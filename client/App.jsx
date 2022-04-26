@@ -35,23 +35,6 @@ export default function App() {
       .catch(err => console.log(err));
   }, []);
 
-  /** CALL THE BACKEND FROM THE FRONTEND **/
-  // useEffect(() => {
-  //   fetchNews();
-  // }, [])
-
-  // const fetchNews = async () => {
-  //   try {
-  //     const { data } =  await axios.get('/hootDB', {test});
-  //     setTest(data);
-  //     console.log('fetchNews is being invoked...', data);
-  //   } catch (error) {
-  //     console.error('error reported by fetchNews on App.jsx', error)
-  //   }
-  // }
-
-  // console.log(state)
-
   return (
     <ThemeProvider theme={theme}>
       <div>
@@ -61,7 +44,7 @@ export default function App() {
               <div className="cardWrap">
                 {columns}
               </div>
-          </div>    
+          </div>
       </div>
     </ThemeProvider>
   );

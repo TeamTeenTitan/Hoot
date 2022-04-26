@@ -16,7 +16,9 @@ const optionsNewsSearch = {
     country: 'US',
     lang: 'en',
     limit: '50',
-    when: '30d'},
+    when: '30d',
+    media: 'true',
+  },
   headers: {
     'X-RapidAPI-Host': 'google-news1.p.rapidapi.com',
     'X-RapidAPI-Key': 'ecf66d69d6mshe72310107b57165p10bd22jsn5245b15bf146'
@@ -74,6 +76,29 @@ const filterArticle = (article) => {
   return article;
 }
 
+/** USE EXTRACT NEWS API TO GIVE REQUESTED ARTICLE ADDITIONAL PROPERTIES **/
+const getArticleContents = async (article) => {
+  // TODO: ADD A LOADING ANIMATION WHILE DATA IS BEING FETCHED
+    optionsNewsExt.params.url = article.link;
+    console.log(`getArticleContents fetching info for: ${article.title}...`)
+
+    // THROTTLE AXIOS REQUESTS TO SEND SYNCHRONOUSLY (ASYNC ANTIQUATED?)
+    await axios
+      .request(optionsNewsExt)
+      .then(response => {
+        const extraction = response.data.article;
+        article.body = extraction.text;
+        article.author = 'author unknown' || extraction.authors[0];
+        article.description = extraction.meta_description;
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+
+  // RETURN UPDATED ARTICLE TO CLIENT
+  return article;
+}
+
 /** FETCH TRENDING NEWS USING WEB SEARCH API WITH PREDEFINED REQUEST OPTIONS **/
 newsController.getTrendingNews = (req, res, next) => {
   // TODO: RUN ARTICLE THROUGH MIDDLEWARE ONLY WHEN CLICKED, THEN SERVE TO CLIENT
@@ -98,38 +123,6 @@ newsController.getTrendingNews = (req, res, next) => {
   //   });
 };
 
-/** USE EXTRACT NEWS API TO GIVE EACH ARTICLE A BODY **/
-newsController.getArticleContents = async (req, res, next) => {
-  // TODO: ADD A LOADING ANIMATION WHILE DATA IS BEING FETCHED
-  const updatedArticles = [];
-
-  for (let i = 0; i < res.locals.articles.length; i++) {
-    const article = res.locals.articles[i];
-    optionsNewsExt.params.url = article.link;
-    console.log(`getArticleContents for loop iteration: ${article.title}...`)
-
-    // THROTTLE AXIOS REQUESTS TO SEND SYNCHRONOUSLY
-    await axios
-      .request(optionsNewsExt)
-      .then(response => {
-        const extraction = response.data.article;
-        article.body = extraction.text;
-        article.author = 'author unknown' || extraction.authors[0];
-        article.description = extraction.meta_description;
-        article.thumbnail = extraction.meta_image;
-        article.bias = allSidesConverter[article.source.title];
-        article.favicon = extraction.meta_favicon;
-        updatedArticles.push(article);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  }
-
-  // RETURN UPDATED ARTICLES AFTER COMPLETION OF ITERATIONS
-  res.locals.articles = updatedArticles;
-  return next();
-}
 
 /** CREATE FIVE COLUMNS TO RESPECTIVELY SORT FETCHED ARTICLES BASED ON POLITICAL LEANING (LEVERAGING ALLSIDES) **/
 newsController.sortNews = (req, res, next) => {
@@ -183,6 +176,12 @@ newsController.searchNews = (req, res, next) => {
     .then(response => {
       // THIS WILL REPLACE ANY QUERIED/DISPLAYED ARTICLES
       res.locals.articles = response.data.articles;
+      console.log(res.locals.articles)
+      for (let i = 0; i < res.locals.articles.length; i++) {
+        const article = res.locals.articles[i];
+        article.favicon = article.source.favicon;
+        article.bias = allSidesConverter[article.source.title];
+      }
       return next();
     })
     .catch((error) => {
