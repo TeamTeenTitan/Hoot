@@ -100,13 +100,14 @@ newsController.getTrendingNews = (req, res, next) => {
 
 /** USE EXTRACT NEWS API TO GIVE EACH ARTICLE A BODY **/
 newsController.getArticleContents = async (req, res, next) => {
+  // MAY BECOME AN INDEPENDENT FUNCTION RATHER THAN MIDDLEWARE
   // TODO: ADD A LOADING ANIMATION WHILE DATA IS BEING FETCHED
   const updatedArticles = [];
 
   for (let i = 0; i < res.locals.articles.length; i++) {
     const article = res.locals.articles[i];
     optionsNewsExt.params.url = article.link;
-    console.log(`getArticleContents for loop iteration: ${article.title}...`)
+    console.log(`getArticleContents for loop iteration: ${article.title}...`);
 
     // THROTTLE AXIOS REQUESTS TO SEND SYNCHRONOUSLY
     await axios
@@ -116,9 +117,9 @@ newsController.getArticleContents = async (req, res, next) => {
         article.body = extraction.text;
         article.author = 'author unknown' || extraction.authors[0];
         article.description = extraction.meta_description;
-        article.thumbnail = extraction.meta_image;
+        article.thumbnail = extraction.meta_image; // WILL BE PRE-FETCHED BY GOOGLE NEWS API
         article.bias = allSidesConverter[article.source.title];
-        article.favicon = extraction.meta_favicon;
+        article.favicon = extraction.meta_favicon; // WILL BE PRE-FETCHED BY GOOGLE NEWS API
         updatedArticles.push(article);
       })
       .catch((error) => {

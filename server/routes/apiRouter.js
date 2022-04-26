@@ -18,7 +18,7 @@ router.get("/",
 /** FETCH NEWS BASED ON CLIENT SEARCH CRITERIA, THEN SORT AND SEND TO CLIENT **/
 router.post('/search',
   newsController.searchNews,
-  newsController.getArticleContents,
+  newsController.getArticleContents, // WILL RUN ONLY WHEN ARTICLE IS CLICKED
   newsController.sortNews,
   (req, res) => {
     res.status(200).json(res.locals.articles);
